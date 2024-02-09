@@ -1,0 +1,23 @@
+{
+  "name": "lerna-repo-template",
+  "version": "0.0.0",
+  "description": "Template for creating lerna projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exile-watch/init-repo-template.git"
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "typecheck": "lerna run typecheck"
+  },
+  "author": "Sebastian Krzyzanowski",
+  "license": "ISC",
+  "homepage": "https://github.com/exile-watch/lerna-repo-template#readme",
+  "devDependencies": {
+    "@exile-watch/conventional-changelog-config": "^0.1.0",
+    "lerna": "^8.0.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
