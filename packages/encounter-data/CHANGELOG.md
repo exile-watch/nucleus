@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/exile-watch/splinters/compare/@exile-watch/encounter-data@0.1.1...@exile-watch/encounter-data@0.1.2) (2024-02-12)
+
+
+### 🐞 Bug Fixes
+
+* **data:** add missing indexed-search.json and paths.json ([a6e022d](https://github.com/exile-watch/splinters/commit/a6e022d3ec172784d91b2cc7f703d07adb705f83))
+
+
+
 ## [0.1.1](https://github.com/exile-watch/splinters/compare/@exile-watch/encounter-data@0.1.0...@exile-watch/encounter-data@0.1.1) (2024-02-12)
 
 
