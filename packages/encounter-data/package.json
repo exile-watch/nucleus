@@ -8,20 +8,23 @@
     "url": "git+https://github.com/exile-watch/splinters.git",
     "directory": "packages/encounter-data"
   },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "extracted-data"
+    "dist"
   ],
   "scripts": {
+    "_clean": "del-cli dist",
+    "_build": "rollup -c",
+    "build": "npm run _build",
     "clean-invalid-data-files": "node scripts/clean-invalid-data-files.js",
-
     "extract:encounter-skills": "node scripts/extract-skill-tokens.js",
     "extract:encounters": "node scripts/extract-tokens.js",
     "extract:all": "npm run extract:encounters && npm run extract:encounter-skills",
-
     "generate:indexed-search": "node scripts/build-indexed-search.js",
     "generate:paths": "node scripts/build-paths.js",
     "generate": "npm run generate:indexed-search && npm run generate:paths",
-
     "update-content": "npm run extract:all && npm run generate"
   },
   "publishConfig": {
@@ -29,5 +32,10 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "@exile-watch/rollup-config": "^0.1.10",
+    "@exile-watch/typescript-config": "^0.2.0",
+    "lodash": "^4.17.21"
+  }
 }

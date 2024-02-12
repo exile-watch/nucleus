@@ -1,10 +1,10 @@
 const fs = require('fs');
-const { toLower, kebabCase } = require('lodash');
+const { toLower, kebabCase, camelCase } = require('lodash');
 const yaml = require('js-yaml');
 
 const {colorifyConsole, getDirectories} = require("./utils");
 const {tokensPath, extractedDataPath} = require("./paths");
-const skills = require(`../extracted-data/skills.json`);
+const skills = require(`../src/extracted-data/skills.json`);
 
 /**
  * Replaces `/SKILL/` value to matched key/value in `tokens/skills.yml`
@@ -72,6 +72,7 @@ const getExtractedData = async () => {
   await getDirectories(tokensPath).forEach((dir) => {
     try {
       fs.readdirSync(`${tokensPath}/${dir}`).forEach((file) => {
+
         try {
           const convertedDataToJson = yaml.load(
             fs.readFileSync(`${tokensPath}/${dir}/${file}`, 'utf8')
@@ -92,13 +93,38 @@ const getExtractedData = async () => {
 };
 
 getExtractedData().then(async (extractedData) => {
+  // clear index.ts so the forEach won't append to the existing content
+  await fs.truncateSync('./src/index.ts', 0);
+
   await extractedData.forEach((data) => {
     const [bossName] = Object.keys(data.bosses[0]);
     const fileName = data.map
       ? `${toLower(kebabCase(data.map))}.json`
       : `${toLower(kebabCase(bossName))}.json`;
+    const importName = data.map
+      ? camelCase(data.map)
+      : camelCase(bossName);
 
+    // create json files
     fs.writeFileSync(`${extractedDataPath}/${data.category}/${fileName}`, JSON.stringify(data));
+    // create json imports in index.ts
+    fs.appendFileSync(`./src/index.ts`, `import ${importName} from './extracted-data/${data.category}/${fileName}'\n`);
   });
+
+  // append "export {"
+  await fs.appendFileSync(`./src/index.ts`, `\nexport {\n`);
+  // export each file inside `export {...}`
+  await extractedData.forEach((data) => {
+    const [bossName] = Object.keys(data.bosses[0]);
+    const importName = data.map
+      ? camelCase(data.map)
+      : camelCase(bossName);
+
+    // create json imports in index.ts
+    fs.appendFileSync(`./src/index.ts`, `  ${importName},\n`);
+  });
+  // append "}"
+  await fs.appendFileSync(`./src/index.ts`, `}`);
+
   await console.timeEnd(colorifyConsole({ label: 'time', text: 'Extract Encounters' }));
 });

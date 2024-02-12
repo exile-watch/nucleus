@@ -15,8 +15,8 @@
   "homepage": "https://github.com/exile-watch/splinters#readme",
   "devDependencies": {
     "@exile-watch/conventional-changelog-config": "^0.1.0",
-    "lerna": "^8.0.2",
-    "lodash": "^4.17.21"
+    "@exile-watch/typescript-config": "^0.2.0",
+    "lerna": "^8.0.2"
   },
   "workspaces": [
     "packages/*"

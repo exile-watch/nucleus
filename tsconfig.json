@@ -1,0 +1,11 @@
+{
+  "extends": "@exile-watch/typescript-config/tsconfig.rollup.json",
+  "compilerOptions": {
+    "checkJs": false,
+    // Required for Typescript resolution to work within the NPM Workspace
+    // This `paths` info is inherited by all per-package tsconfigs
+    "paths": {
+      "@exile-watch/": ["./packages/*/"],
+    },
+  },
+}

@@ -1,5 +1,5 @@
 const tokensPath = `./tokens`;
-const extractedDataPath = `./extracted-data`;
+const extractedDataPath = `./src/extracted-data`;
 
 module.exports = {
   tokensPath,
