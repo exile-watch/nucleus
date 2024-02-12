@@ -1,6 +1,6 @@
 {
   "name": "@exile-watch/encounter-data",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Encounter data",
   "homepage": "https://github.com/exile-watch/splinters/pkgs/npm/encounter-data",
   "repository": {
@@ -13,15 +13,12 @@
   ],
   "scripts": {
     "clean-invalid-data-files": "node scripts/clean-invalid-data-files.js",
-
     "extract:encounter-skills": "node scripts/extract-skill-tokens.js",
     "extract:encounters": "node scripts/extract-tokens.js",
     "extract:all": "npm run extract:encounters && npm run extract:encounter-skills",
-
     "generate:indexed-search": "node scripts/build-indexed-search.js",
     "generate:paths": "node scripts/build-paths.js",
     "generate": "npm run generate:indexed-search && npm run generate:paths",
-
     "update-content": "npm run extract:all && npm run generate"
   },
   "publishConfig": {
