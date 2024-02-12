@@ -108,8 +108,12 @@ getExtractedData().then(async (extractedData) => {
     // create json files
     fs.writeFileSync(`${extractedDataPath}/${data.category}/${fileName}`, JSON.stringify(data));
     // create json imports in index.ts
-    fs.appendFileSync(`./src/index.ts`, `import ${importName} from './extracted-data/${data.category}/${fileName}'\n`);
+    fs.appendFileSync(`./src/index.ts`, `import { default as ${importName} } from './extracted-data/${data.category}/${fileName}'\n`);
   });
+
+  // append files out of dirs
+  await fs.appendFileSync(`./src/index.ts`, `import { default as indexedSearch } from './extracted-data/indexed-search.json'\n`);
+  await fs.appendFileSync(`./src/index.ts`, `import { default as paths } from './extracted-data/paths.json'\n`);
 
   // append "export {"
   await fs.appendFileSync(`./src/index.ts`, `\nexport {\n`);
@@ -123,6 +127,9 @@ getExtractedData().then(async (extractedData) => {
     // create json imports in index.ts
     fs.appendFileSync(`./src/index.ts`, `  ${importName},\n`);
   });
+  // append exports for files out of dirs
+  fs.appendFileSync(`./src/index.ts`, `  indexedSearch,\n`);
+  fs.appendFileSync(`./src/index.ts`, `  paths\n`);
   // append "}"
   await fs.appendFileSync(`./src/index.ts`, `}`);
 
