@@ -1,10 +1,10 @@
 {
-  "name": "lerna-repo-template",
+  "name": "splinters",
   "version": "0.0.0",
-  "description": "Template for creating lerna projects",
+  "description": "Encounter data, sitemap",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/exile-watch/init-repo-template.git"
+    "url": "git+https://github.com/exile-watch/splinters.git"
   },
   "scripts": {
     "build": "lerna run build",
@@ -12,10 +12,11 @@
   },
   "author": "Sebastian Krzyzanowski",
   "license": "ISC",
-  "homepage": "https://github.com/exile-watch/lerna-repo-template#readme",
+  "homepage": "https://github.com/exile-watch/splinters#readme",
   "devDependencies": {
     "@exile-watch/conventional-changelog-config": "^0.1.0",
-    "lerna": "^8.0.2"
+    "lerna": "^8.0.2",
+    "lodash": "^4.17.21"
   },
   "workspaces": [
     "packages/*"
