@@ -32,33 +32,33 @@ const prepareIndexedSearchData = () =>
      */
     if (map.bosses) {
       map.bosses.map((boss) => {
-        const [bossName, bossValues] = Object.entries(boss)[0];
-        const bossPath = map.map
-          ? `${mapPath}/${kebabCase(bossName)}`
-          : `/encounters/${map.category}/${kebabCase(bossName)}`;
-        const newBossIndexedSearch = {
+        const [encounterName, encounterValues] = Object.entries(boss)[0];
+        const encounterPath = map.map
+          ? `${mapPath}/${kebabCase(encounterName)}`
+          : `/encounters/${map.category}/${kebabCase(encounterName)}`;
+        const newEncounterIndexedSearch = {
           ...(map.map && {
             mapPath,
             mapName: map.map,
           }),
-          bossPath,
-          bossName,
+          encounterPath,
+          encounterName,
         };
-        searchObj.push(newBossIndexedSearch);
+        searchObj.push(newEncounterIndexedSearch);
 
         /**
          * Add every boss ability as a separate entity and path to redirect for indexed search
          */
-        if (bossValues.abilities) {
-          bossValues.abilities.map((ability) => {
-            const [abilityName] = Object.entries(ability)[0];
-            const newAbilityIndexedSearch = {
-              ...newBossIndexedSearch,
-              abilityPath: `${bossPath}?ability=${kebabCase(abilityName)}`,
-              abilityName,
+        if (encounterValues.abilities) {
+          encounterValues.abilities.map((ability) => {
+            const [encounterAbilityName] = Object.entries(ability)[0];
+            const newEncounterAbilityIndexedSearch = {
+              ...newEncounterIndexedSearch,
+              encounterAbilityPath: `${encounterPath}?ability=${kebabCase(encounterAbilityName)}`,
+              encounterAbilityName,
             };
 
-            searchObj.push(newAbilityIndexedSearch);
+            searchObj.push(newEncounterAbilityIndexedSearch);
           });
         }
       });
@@ -66,11 +66,43 @@ const prepareIndexedSearchData = () =>
     return acc.concat(searchObj);
   }, []);
 
+const categorizeIndexedSearch = async () => {
+  const preparedIndexedSearchData = await prepareIndexedSearchData();
+  return preparedIndexedSearchData.reduce((acc, data) => {
+    const isMap = !data.encounterPath && !data.encounterAbilityPath;
+    const isEncounter = data.encounterPath && !data.encounterAbilityPath;
+    const isAbility = data.encounterAbilityName;
+
+    if(isMap){
+      return {
+        ...acc,
+        maps: [...acc.maps, data]
+      }
+    }
+
+    if(isEncounter){
+      return {
+        ...acc,
+        encounters: [...acc.encounters, data]
+      }
+    }
+
+    if(isAbility){
+      return {
+        ...acc,
+        encounterAbilities: [...acc.encounterAbilities, data]
+      }
+    }
+
+    return acc
+  }, {maps: [], encounters: [], encounterAbilities: []})
+}
+
 const buildIndexedSearch = async () => {
   await console.time(
     colorifyConsole({ label: 'time', text: 'Generate Encounters Indexed Search' })
   );
-  const preparedIndexedSearchData = await prepareIndexedSearchData();
+  const preparedIndexedSearchData = await categorizeIndexedSearch();
   return JSON.stringify(preparedIndexedSearchData);
 };
 
