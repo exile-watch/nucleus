@@ -139,6 +139,10 @@ import { default as guardianOfThePhoenix } from './extracted-data/shaper-guardia
 import { default as indexedSearch } from './extracted-data/indexed-search.json'
 import { default as paths } from './extracted-data/paths.json'
 
+import { encountersMapsBossesAndAbilitiesSitemapUrls, encounterCategoriesSitemapUrls } from '../scripts/build-encounters-sitemap'
+
+export { encountersMapsBossesAndAbilitiesSitemapUrls, encounterCategoriesSitemapUrls }
+
 export {
   stygianSpire,
   eshForkedThought,

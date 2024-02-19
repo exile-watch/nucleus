@@ -1,5 +1,6 @@
 const {readdirSync} = require("fs");
-
+const { format } = require('date-fns');
+const lastmod = format(new Date(), `yyyy-MM-dd'T'HH:mmxxx`);
 const getDirectories = (source) =>
   readdirSync(source, { withFileTypes: true })
     .filter((dirent) => dirent.isDirectory())
@@ -16,7 +17,17 @@ const colorifyConsole = ({ label, text }) => {
   }
 };
 
+const generateXmlUrl = ({ loc, priority }) => `
+  <url>
+    <loc>${loc}</loc>
+    <priority>${priority}</priority>
+    <lastmod>${lastmod}</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  `;
+
 module.exports = {
   colorifyConsole,
-  getDirectories
+  getDirectories,
+  generateXmlUrl
 }
