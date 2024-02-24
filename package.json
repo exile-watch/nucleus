@@ -4,7 +4,7 @@
   "description": "Encounter data, sitemap",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/exile-watch/splinters.git"
+    "url": "git+https://github.com/exile-watch/nucleus.git"
   },
   "scripts": {
     "build": "lerna run build",
@@ -12,7 +12,7 @@
   },
   "author": "Sebastian Krzyzanowski",
   "license": "ISC",
-  "homepage": "https://github.com/exile-watch/splinters#readme",
+  "homepage": "https://github.com/exile-watch/nucleus#readme",
   "devDependencies": {
     "@exile-watch/conventional-changelog-config": "^0.1.0",
     "@exile-watch/encounter-data": "^0.1.2",

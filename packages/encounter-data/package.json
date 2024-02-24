@@ -2,10 +2,10 @@
   "name": "@exile-watch/encounter-data",
   "version": "0.2.1",
   "description": "Encounter data",
-  "homepage": "https://github.com/exile-watch/splinters/pkgs/npm/encounter-data",
+  "homepage": "https://github.com/exile-watch/nucleus/pkgs/npm/encounter-data",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/exile-watch/splinters.git",
+    "url": "git+https://github.com/exile-watch/nucleus.git",
     "directory": "packages/encounter-data"
   },
   "main": "dist/index.js",
