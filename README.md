@@ -4,20 +4,15 @@
   </a>
 </p>
 <h1 align="center">
-  {project name}
+  nucleus
 </h1>
 <p align="center">
-  {(optional) description of the name}
+  data that powers <a href="https://exile.watch">exile.watch</a>
 </p>
 
-## Description
+### Contributing
+Encountered a [bug](https://github.com/exile-watch/hideout/issues) or have a [question](https://github.com/exile-watch/hideout/discussions)? 
 
-{content}
+Have an idea for a new [feature](https://github.com/exile-watch/hideout/discussions/categories/ideas)?
 
-### Getting started
-
-### (optional) Packages
-
-### Got a Question or Problem?
-
-tbd
+Head over to exile.watch's [hideout](https://github.com/exile-watch/hideout)
