@@ -6,4 +6,4 @@ remotes:
 commit-msg:
   scripts:
     commitlint:
-      runnner: bash
+      runner: bash
