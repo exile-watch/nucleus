@@ -1,6 +1,6 @@
 {
   "name": "splinters",
-  "version": "0.0.0",
+  "private": true,
   "description": "Encounter data, sitemap",
   "repository": {
     "type": "git",
@@ -8,18 +8,26 @@
   },
   "scripts": {
     "build": "lerna run build",
-    "typecheck": "lerna run typecheck"
+    "typecheck": "lerna run typecheck",
+    "lint": "exit 0",
+    "lint:apply": "exit 0",
+    "format": "exit 0"
   },
   "author": "Sebastian Krzyzanowski",
   "license": "ISC",
   "homepage": "https://github.com/exile-watch/nucleus#readme",
   "devDependencies": {
     "@exile-watch/conventional-changelog-config": "^0.1.0",
-    "@exile-watch/encounter-data": "^0.1.2",
+    "@exile-watch/lefthook-config": "^0.3.2",
     "@exile-watch/typescript-config": "^0.2.0",
     "lerna": "^8.0.2"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
