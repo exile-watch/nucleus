@@ -8,7 +8,7 @@
 </h1>
 <p align="center">
   data that powers <a href="https://exile.watch">exile.watch</a>
-</p>
+</p> 
 
 ### Contributing
 Encountered a [bug](https://github.com/exile-watch/hideout/issues) or have a [question](https://github.com/exile-watch/hideout/discussions)? 
