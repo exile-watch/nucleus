@@ -2,8 +2,3 @@ remotes:
   - git_url: https://github.com/exile-watch/splinters
     configs:
       - packages/lefthook-config/lefthook.yml
-
-commit-msg:
-  scripts:
-    commitlint:
-      runnner: bash
