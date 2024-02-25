@@ -18,7 +18,7 @@
   "homepage": "https://github.com/exile-watch/nucleus#readme",
   "devDependencies": {
     "@exile-watch/conventional-changelog-config": "^0.1.0",
-    "@exile-watch/lefthook-config": "^0.3.2",
+    "@exile-watch/lefthook-config": "^0.3.3",
     "@exile-watch/typescript-config": "^0.2.0",
     "lerna": "^8.0.2"
   },
