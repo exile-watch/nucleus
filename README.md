@@ -7,7 +7,7 @@
   nucleus
 </h1>
 <p align="center">
-  data that powers <a href="https://exile.watch">exile.watch</a>
+  Data that powers <a href="https://exile.watch">exile.watch</a>
 </p> 
 
 ### Contributing
