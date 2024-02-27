@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.2.2...@exile-watch/encounter-data@0.3.0) (2024-02-27)
+
+
+### ✨ Features
+
+* add experimental generated homepage json ([ac8051b](https://github.com/exile-watch/nucleus/commit/ac8051b6586e8b283549e05573298b5c3378b2e6))
+
+
+
 ## [0.2.2](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.2.1...@exile-watch/encounter-data@0.2.2) (2024-02-24)
 
 
