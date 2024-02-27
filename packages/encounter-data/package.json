@@ -24,7 +24,8 @@
     "extract:all": "npm run extract:encounters && npm run extract:encounter-skills",
     "generate:indexed-search": "node scripts/build-indexed-search.js",
     "generate:paths": "node scripts/build-paths.js",
-    "generate": "npm run generate:indexed-search && npm run generate:paths",
+    "generate:homepage": "node scripts/build-homepage.js",
+    "generate": "npm run generate:indexed-search && npm run generate:paths && npm run generate:homepage",
     "update-content": "npm run extract:all && npm run generate"
   },
   "publishConfig": {

@@ -138,6 +138,7 @@ import { default as guardianOfTheMinotaur } from './extracted-data/shaper-guardi
 import { default as guardianOfThePhoenix } from './extracted-data/shaper-guardians/guardian-of-the-phoenix.json'
 import { default as indexedSearch } from './extracted-data/indexed-search.json'
 import { default as paths } from './extracted-data/paths.json'
+import { default as homepage } from './extracted-data/homepage.json'
 
 export {
   stygianSpire,
@@ -279,5 +280,6 @@ export {
   guardianOfTheMinotaur,
   guardianOfThePhoenix,
   indexedSearch,
-  paths
+  paths,
+  homepage
 }
