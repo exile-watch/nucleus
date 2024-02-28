@@ -1,4 +1,4 @@
-const { kebabCase } = require('lodash');
+const { kebabCase, startCase } = require('lodash');
 const _ = require('lodash');
 const fs = require('fs');
 
@@ -57,6 +57,7 @@ const prepareHomepageData = () =>
           ...acc,
           [map.category]: {
             ...acc[map.category],
+            name: startCase(map.category),
             path: `/encounters/${map.category}`,
             gif: !acc[map.category]?.gif ? [extractedGif].filter(Boolean) : acc[map.category]?.gif.concat(extractedGif).filter(Boolean).slice(0, 4)
           }
