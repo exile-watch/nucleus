@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.3.0...@exile-watch/encounter-data@0.4.0) (2024-02-28)
+
+
+### ✨ Features
+
+* add categories to homepage json ([db39816](https://github.com/exile-watch/nucleus/commit/db39816322c284f6a28f1423aa837067adc36271))
+
+
+
 ## [0.3.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.2.2...@exile-watch/encounter-data@0.3.0) (2024-02-27)
 
 
