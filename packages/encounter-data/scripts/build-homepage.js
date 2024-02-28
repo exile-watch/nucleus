@@ -5,7 +5,21 @@ const fs = require('fs');
 const {tokensPath, extractedDataPath} = require("./paths");
 const {getDirectories, colorifyConsole} = require("./utils");
 
-const HOMEPAGE_ENCOUNTERS = ['']
+const BREACHLORDS_SHOWCASE_ABILITIES = ['Pullback', 'Barrage', 'Spike Eruption', 'Upheaval']
+const COMMON_MAPS_SHOWCASE_ABILITIES = ['Summon Shadow Councillor', 'Spiral Ball Lightning Beam', 'Fire Bombs', 'Horizontal Ice Rain']
+const CONQUERORS_SHOWCASE_ABILITIES = ['Spiral Attack', 'Rune Detonation', 'Hand of Justice', 'Death Whirl']
+const ENDGAME_ENCOUNTERS_SHOWCASE_ABILITIES = ['Carpet Mortar', 'Beam Gun', 'Cold Delayed Explosions', 'Spinning Beams', 'Empowered Storm Call', 'Expanding Nova / Ring of Death', 'Bullet Hell']
+const ELDER_GUARDIANS_SHOWCASE_ABILITIES = ['Combo Rush', 'Knife Barrage', 'Super Lightning Tendrils', 'Ion Cannon']
+const SHAPER_GUARDIANS_SHOWCASE_ABILITIES = ['Smoke', 'Doom Arrow', 'Burrow', 'Phoenix Firebomb']
+
+const SHOWCASE_ABILITIES = [
+  ...BREACHLORDS_SHOWCASE_ABILITIES,
+  ...COMMON_MAPS_SHOWCASE_ABILITIES,
+  ...CONQUERORS_SHOWCASE_ABILITIES,
+  ...ENDGAME_ENCOUNTERS_SHOWCASE_ABILITIES,
+  ...ELDER_GUARDIANS_SHOWCASE_ABILITIES,
+  ...SHAPER_GUARDIANS_SHOWCASE_ABILITIES
+]
 const data = [];
 
 getDirectories(tokensPath).forEach((dir) => {
@@ -16,43 +30,55 @@ getDirectories(tokensPath).forEach((dir) => {
 
 const prepareHomepageData = () =>
   data.reduce((acc, map) => {
-    if(map.category !== 'endgame-bosses') return acc;
-    // console.log(map.bosses[0]);
     const [[encounterName, {abilities}]] = Object.entries(map.bosses[0]);
-    const extractedGifs = abilities.map(ability => {
-      const [{gif}] = Object.values(ability)
-      if (gif.length > 0) return gif;
+
+    const [extractedGif] = abilities.map(ability => {
+      const [abilityName] = Object.keys(ability)
+
+      if(SHOWCASE_ABILITIES.includes(abilityName)) {
+        const [{gif}] = Object.values(ability)
+        if (gif.length > 0) return gif;
+        return null
+      }
       return null;
-    }).filter(Boolean).slice(0, 3)
+    }).filter(Boolean)
+
     const path = map.map
       ? `/encounters/${map.category}/${kebabCase(map.map)}/${kebabCase(encounterName)}`
       : `/encounters/${map.category}/${kebabCase(encounterName)}`;
 
-    return acc.concat({
-      name: encounterName,
-      path,
-      extractedGifs
-    });
+    switch(map.category){
+      case 'breachlords':
+      case 'common-maps':
+      case 'conquerors':
+      case 'elder-guardians':
+      case 'shaper-guardians': {
+        return {
+          ...acc,
+          [map.category]: {
+            ...acc[map.category],
+            path: `/encounters/${map.category}`,
+            gif: !acc[map.category]?.gif ? [extractedGif].filter(Boolean) : acc[map.category]?.gif.concat(extractedGif).filter(Boolean).slice(0, 4)
+          }
+        }
+      }
 
-    // In case we will want boss names instead of map names in sidebar
-    // if(map.bosses) {
-    //   map.bosses.map(boss => {
-    //     const [bossName] = Object.entries(boss)[0];
-    //     const path = map.map
-    //       ? `/encounters/${map.category}/${kebabCase(map.map)}`
-    //       : `/encounters/${map.category}/${kebabCase(map.category)}/${kebabCase(bossName)}`
-    //     paths.push({
-    //       [kebabCase(map.category)]: [
-    //         {
-    //           label: map.category === 'common-maps' ? map.map : bossName,
-    //           path
-    //         }
-    //       ]
-    //     })
-    //   })
-    // }
-    // return acc.concat(paths)
-  }, []);
+      case 'endgame-bosses': {
+        const OMITTED_ENDGAME_ENCOUNTERS = ['The Apex of Sacrifice', 'Simulacrum']
+        if(OMITTED_ENDGAME_ENCOUNTERS.includes(map?.map)) return acc;
+
+        return {
+          ...acc,
+          main: acc.main?.concat({
+            name: encounterName === "Fractal Gargantuan" ? "Cortex" : encounterName,
+            path,
+            gif: extractedGif
+          })
+        }
+      }
+      default: return acc;
+    }
+  }, {main: []});
 
 const buildHomepage = async () => {
   await console.time(colorifyConsole({ label: 'time', text: 'Generate Homepage tiles' }));
