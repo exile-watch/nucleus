@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.5.0...@exile-watch/encounter-data@0.6.0) (2024-02-28)
+
+
+### ✨ Features
+
+* add encounters dir page data ([98b39cb](https://github.com/exile-watch/nucleus/commit/98b39cb95657dffe7e6e1d873f8db55eb45c1a90))
+
+
+
 ## [0.5.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.4.1...@exile-watch/encounter-data@0.5.0) (2024-02-28)
 
 
