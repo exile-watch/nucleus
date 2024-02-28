@@ -121,6 +121,7 @@ getExtractedData().then(async (extractedData) => {
   await fs.appendFileSync(`./src/index.ts`, `import { default as indexedSearch } from './extracted-data/indexed-search.json'\n`);
   await fs.appendFileSync(`./src/index.ts`, `import { default as paths } from './extracted-data/paths.json'\n`);
   await fs.appendFileSync(`./src/index.ts`, `import { default as homepage } from './extracted-data/homepage.json'\n`);
+  await fs.appendFileSync(`./src/index.ts`, `import { default as encounters } from './extracted-data/encounters.json'\n`);
 
   // start exporting by append "export {"
   await fs.appendFileSync(`./src/index.ts`, `\nexport {\n`);
@@ -143,7 +144,8 @@ getExtractedData().then(async (extractedData) => {
   // append exports for files out of dirs
   fs.appendFileSync(`./src/index.ts`, `  indexedSearch,\n`);
   fs.appendFileSync(`./src/index.ts`, `  paths,\n`);
-  fs.appendFileSync(`./src/index.ts`, `  homepage\n`);
+  fs.appendFileSync(`./src/index.ts`, `  homepage,\n`);
+  fs.appendFileSync(`./src/index.ts`, `  encounters\n`);
   // close exporting by appending "}"
   await fs.appendFileSync(`./src/index.ts`, `}`);
 

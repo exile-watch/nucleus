@@ -146,6 +146,7 @@ import { default as guardianOfThePhoenix } from './extracted-data/shaper-guardia
 import { default as indexedSearch } from './extracted-data/indexed-search.json'
 import { default as paths } from './extracted-data/paths.json'
 import { default as homepage } from './extracted-data/homepage.json'
+import { default as encounters } from './extracted-data/encounters.json'
 
 export {
   abyssalLiches,
@@ -295,5 +296,6 @@ export {
   guardianOfThePhoenix,
   indexedSearch,
   paths,
-  homepage
+  homepage,
+  encounters
 }
