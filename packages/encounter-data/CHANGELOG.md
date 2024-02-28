@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.1](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.6.0...@exile-watch/encounter-data@0.6.1) (2024-02-28)
+
+
+### ⚙️ Code Quality
+
+* beautify json outputs ([2a2e27a](https://github.com/exile-watch/nucleus/commit/2a2e27aebab8f7293a1d0c52259be82f9f2b32ad))
+
+
+
 ## [0.6.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.5.0...@exile-watch/encounter-data@0.6.0) (2024-02-28)
 
 
