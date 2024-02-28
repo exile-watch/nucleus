@@ -27,7 +27,7 @@
     "generate:homepage": "node scripts/build-homepage.js",
     "generate:category-pages": "node scripts/build-category-pages.js",
     "generate:encounters-page": "node scripts/build-encounters-page.js",
-    "generate": "npm run generate:indexed-search && npm run generate:paths && npm run generate:homepage && npm run generate:category-pages",
+    "generate": "npm run generate:indexed-search && npm run generate:paths && npm run generate:homepage && npm run generate:category-pages && npm run generate:encounters-page",
     "update-content": "npm run extract:all && npm run generate"
   },
   "publishConfig": {

@@ -84,7 +84,7 @@ const prepareHomepageData = () =>
 const buildHomepage = async () => {
   await console.time(colorifyConsole({ label: 'time', text: 'Generate Homepage tiles' }));
   const preparedHomepage = await prepareHomepageData();
-  return JSON.stringify(preparedHomepage);
+  return JSON.stringify(preparedHomepage, null, 2);
 };
 
 buildHomepage()

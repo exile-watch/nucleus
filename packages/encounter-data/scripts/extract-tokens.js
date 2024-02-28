@@ -112,7 +112,7 @@ getExtractedData().then(async (extractedData) => {
       : camelCase(bossName);
 
     // create json files
-    fs.writeFileSync(`${extractedDataPath}/${data.category}/${fileName}`, JSON.stringify(data));
+    fs.writeFileSync(`${extractedDataPath}/${data.category}/${fileName}`, JSON.stringify(data, null, 2));
     // create json imports in index.ts
     fs.appendFileSync(`./src/index.ts`, `import { default as ${importName} } from './extracted-data/${data.category}/${fileName}'\n`);
   });

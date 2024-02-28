@@ -103,7 +103,7 @@ const buildIndexedSearch = async () => {
     colorifyConsole({ label: 'time', text: 'Generate Encounters Indexed Search' })
   );
   const preparedIndexedSearchData = await categorizeIndexedSearch();
-  return JSON.stringify(preparedIndexedSearchData);
+  return JSON.stringify(preparedIndexedSearchData, null, 2);
 };
 
 buildIndexedSearch()

@@ -60,7 +60,7 @@ const buildPaths = async () => {
   const preparedPaths = await preparePathsData();
   const [paths] = await mergeSameKeysInArr(preparedPaths);
 
-  return JSON.stringify(paths);
+  return JSON.stringify(paths, null, 2);
 };
 
 buildPaths()

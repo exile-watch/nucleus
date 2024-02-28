@@ -56,15 +56,15 @@ const prepareEncountersPageData = () =>
 const buildEncountersPage = async () => {
   await console.time(colorifyConsole({ label: 'time', text: 'Generate Encounters Page' }));
   const preparedHomepage = await prepareEncountersPageData();
-  return JSON.stringify(preparedHomepage);
+  return JSON.stringify(preparedHomepage, null, 2);
 };
 
 buildEncountersPage()
   .then(async (data) => {
     await fs.writeFileSync(`${extractedDataPath}/encounters.json`, data);
-    await console.timeEnd(colorifyConsole({ label: 'time', text: 'Generate  Encounters Page' }));
+    await console.timeEnd(colorifyConsole({ label: 'time', text: 'Generate Encounters Page' }));
   })
   .catch(async (err) => {
     await console.log(err);
-    await console.timeEnd(colorifyConsole({ label: 'time', text: 'Generate  Encounters Page' }));
+    await console.timeEnd(colorifyConsole({ label: 'time', text: 'Generate Encounters Page' }));
   });

@@ -10,7 +10,7 @@ const getExtractedData = async () => {
 
 getExtractedData()
   .then(async (extractedData) => {
-    await fs.writeFileSync(`${extractedDataPath}/skills.json`, JSON.stringify(extractedData));
+    await fs.writeFileSync(`${extractedDataPath}/skills.json`, JSON.stringify(extractedData, null, 2));
     await console.timeEnd(colorifyConsole({ label: 'time', text: 'Extract Encounters Spells' }));
   })
   .catch(async (err) => {

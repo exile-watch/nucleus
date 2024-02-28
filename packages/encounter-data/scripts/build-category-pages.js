@@ -43,7 +43,7 @@ buildHomepage()
     const categories = Object.keys(data);
     for (const category of categories) {
       const categoryEncounters = Object.values(data[category])
-      await fs.writeFileSync(`${extractedDataPath}/${category}.json`, JSON.stringify(categoryEncounters));
+      await fs.writeFileSync(`${extractedDataPath}/${category}.json`, JSON.stringify(categoryEncounters, null, 2));
     }
     await console.timeEnd(colorifyConsole({ label: 'time', text: 'Generate Homepage tiles' }));
   })
