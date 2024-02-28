@@ -67,7 +67,6 @@ const injectAllAbilityDamageTypesToBoss = (data) => {
 };
 
 const getExtractedData = async () => {
-  await console.time(colorifyConsole({ label: 'time', text: 'Extract Encounters' }));
   let data = [];
   await getDirectories(tokensPath).forEach((dir) => {
     try {
@@ -93,8 +92,15 @@ const getExtractedData = async () => {
 };
 
 getExtractedData().then(async (extractedData) => {
+  await console.time(colorifyConsole({ label: 'time', text: 'Extract Encounters' }));
+
   // clear index.ts so the forEach won't append to the existing content
   await fs.truncateSync('./src/index.ts', 0);
+
+  // start creating imports
+  await getDirectories(tokensPath).forEach((dir) => {
+    fs.appendFileSync(`./src/index.ts`, `import { default as ${camelCase(dir)} } from './extracted-data/${dir}.json'\n`);
+  })
 
   await extractedData.forEach((data) => {
     const [bossName] = Object.keys(data.bosses[0]);
@@ -116,23 +122,29 @@ getExtractedData().then(async (extractedData) => {
   await fs.appendFileSync(`./src/index.ts`, `import { default as paths } from './extracted-data/paths.json'\n`);
   await fs.appendFileSync(`./src/index.ts`, `import { default as homepage } from './extracted-data/homepage.json'\n`);
 
-  // append "export {"
+  // start exporting by append "export {"
   await fs.appendFileSync(`./src/index.ts`, `\nexport {\n`);
-  // export each file inside `export {...}`
+
+  // append exports for categories inside `export {...}`
+  await getDirectories(tokensPath).forEach((dir) => {
+    fs.appendFileSync(`./src/index.ts`, `  ${camelCase(dir)},\n`);
+  })
+
+  // append exports for each category file inside `export {...}`
   await extractedData.forEach((data) => {
     const [bossName] = Object.keys(data.bosses[0]);
     const importName = data.map
       ? camelCase(data.map)
       : camelCase(bossName);
 
-    // create json imports in index.ts
     fs.appendFileSync(`./src/index.ts`, `  ${importName},\n`);
   });
+
   // append exports for files out of dirs
   fs.appendFileSync(`./src/index.ts`, `  indexedSearch,\n`);
   fs.appendFileSync(`./src/index.ts`, `  paths,\n`);
   fs.appendFileSync(`./src/index.ts`, `  homepage\n`);
-  // append "}"
+  // close exporting by appending "}"
   await fs.appendFileSync(`./src/index.ts`, `}`);
 
   await console.timeEnd(colorifyConsole({ label: 'time', text: 'Extract Encounters' }));

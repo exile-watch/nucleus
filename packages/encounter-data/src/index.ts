@@ -1,3 +1,10 @@
+import { default as abyssalLiches } from './extracted-data/abyssal-liches.json'
+import { default as breachlords } from './extracted-data/breachlords.json'
+import { default as commonMaps } from './extracted-data/common-maps.json'
+import { default as conquerors } from './extracted-data/conquerors.json'
+import { default as elderGuardians } from './extracted-data/elder-guardians.json'
+import { default as endgameBosses } from './extracted-data/endgame-bosses.json'
+import { default as shaperGuardians } from './extracted-data/shaper-guardians.json'
 import { default as stygianSpire } from './extracted-data/abyssal-liches/stygian-spire.json'
 import { default as eshForkedThought } from './extracted-data/breachlords/esh-forked-thought.json'
 import { default as tulCreepingAvalanche } from './extracted-data/breachlords/tul-creeping-avalanche.json'
@@ -141,6 +148,13 @@ import { default as paths } from './extracted-data/paths.json'
 import { default as homepage } from './extracted-data/homepage.json'
 
 export {
+  abyssalLiches,
+  breachlords,
+  commonMaps,
+  conquerors,
+  elderGuardians,
+  endgameBosses,
+  shaperGuardians,
   stygianSpire,
   eshForkedThought,
   tulCreepingAvalanche,

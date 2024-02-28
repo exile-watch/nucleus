@@ -25,7 +25,8 @@
     "generate:indexed-search": "node scripts/build-indexed-search.js",
     "generate:paths": "node scripts/build-paths.js",
     "generate:homepage": "node scripts/build-homepage.js",
-    "generate": "npm run generate:indexed-search && npm run generate:paths && npm run generate:homepage",
+    "generate:category-pages": "node scripts/build-category-pages.js",
+    "generate": "npm run generate:indexed-search && npm run generate:paths && npm run generate:homepage && npm run generate:category-pages",
     "update-content": "npm run extract:all && npm run generate"
   },
   "publishConfig": {
