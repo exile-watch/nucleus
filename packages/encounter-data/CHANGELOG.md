@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.4.1...@exile-watch/encounter-data@0.5.0) (2024-02-28)
+
+
+### ✨ Features
+
+* add category data ([fa08363](https://github.com/exile-watch/nucleus/commit/fa08363235f4a665f5c48da21c36788356057032))
+
+
+
 ## [0.4.1](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.4.0...@exile-watch/encounter-data@0.4.1) (2024-02-28)
 
 
