@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.6.1...@exile-watch/encounter-data@0.7.0) (2024-03-01)
+
+
+### ✨ Features
+
+* add first set of experimental thumbnails to showcased encounters ([96db4b3](https://github.com/exile-watch/nucleus/commit/96db4b3a6f61cf2c7f2891b13faa7d5535157f13))
+
+
+
 ## [0.6.1](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.6.0...@exile-watch/encounter-data@0.6.1) (2024-02-28)
 
 
