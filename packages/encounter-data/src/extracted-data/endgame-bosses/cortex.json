@@ -1,6 +1,7 @@
 {
   "category": "endgame-bosses",
   "map": "Cortex",
+  "thumbnail": "cortex",
   "bosses": [
     {
       "Fractal Gargantuan": {
