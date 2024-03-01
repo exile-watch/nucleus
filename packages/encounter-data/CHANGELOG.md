@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.8.0...@exile-watch/encounter-data@0.9.0) (2024-03-01)
+
+
+### ✨ Features
+
+* add conqueror, elder and shaper guardian and common maps thumbnails ([b444521](https://github.com/exile-watch/nucleus/commit/b444521862fdde821da7d3766519fda41655beed))
+
+
+
 ## [0.8.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.7.0...@exile-watch/encounter-data@0.8.0) (2024-03-01)
 
 
