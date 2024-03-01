@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.7.0...@exile-watch/encounter-data@0.8.0) (2024-03-01)
+
+
+### ✨ Features
+
+* add common maps thumbnails ([e890e91](https://github.com/exile-watch/nucleus/commit/e890e91da9d303fc11fd5d3927037c02691c4f53))
+
+
+### 🐞 Bug Fixes
+
+* add missing thumbnail references in data ([1e24881](https://github.com/exile-watch/nucleus/commit/1e24881fc938479a076a655d1a2573ab4e3fc61d))
+* add missing thumbnail references in extracted data ([d19abe4](https://github.com/exile-watch/nucleus/commit/d19abe496ad455c14811605b59e601a9e936a2dc))
+
+
+
 ## [0.7.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.6.1...@exile-watch/encounter-data@0.7.0) (2024-03-01)
 
 
