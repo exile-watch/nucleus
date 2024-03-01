@@ -39,6 +39,7 @@
   "breachlords": {
     "name": "Breachlords",
     "path": "/encounters/breachlords",
+    "thumbnail": [],
     "gif": [
       "https://i.gyazo.com/a4aab6d6cac2ba79e9d060862d2a017c.mp4",
       "https://i.gyazo.com/aaad4e592dabc1b217db69a868ea6ec8.mp4",
@@ -49,6 +50,7 @@
   "common-maps": {
     "name": "Common Maps",
     "path": "/encounters/common-maps",
+    "thumbnail": [],
     "gif": [
       "https://i.gyazo.com/3450226f72793b7fe2cea7f40b24c212.mp4",
       "https://i.gyazo.com/b2f428691b43422dce9252afd40bc2ae.mp4",
@@ -59,6 +61,7 @@
   "conquerors": {
     "name": "Conquerors",
     "path": "/encounters/conquerors",
+    "thumbnail": [],
     "gif": [
       "https://i.gyazo.com/2faf737c9dd1fe2c263fae5450941363.mp4",
       "https://i.gyazo.com/247cf944640e85671913034b4242c5ba.mp4",
@@ -69,6 +72,7 @@
   "elder-guardians": {
     "name": "Elder Guardians",
     "path": "/encounters/elder-guardians",
+    "thumbnail": [],
     "gif": [
       "https://i.gyazo.com/c0a09d7796e87eba93f5d7a6a90cb79d.mp4",
       "https://i.gyazo.com/b4203ea5713c721179a00ec99d74daee.mp4",
@@ -79,6 +83,7 @@
   "shaper-guardians": {
     "name": "Shaper Guardians",
     "path": "/encounters/shaper-guardians",
+    "thumbnail": [],
     "gif": [
       "https://i.gyazo.com/102a0a68778550809d40da99a5933a25.mp4",
       "https://i.gyazo.com/c5c9dfbbd008153f68f5aa22424f9010.mp4",

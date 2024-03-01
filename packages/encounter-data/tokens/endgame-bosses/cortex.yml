@@ -1,4 +1,5 @@
 map: Cortex
+thumbnail: 'cortex'
 bosses:
   - Fractal Gargantuan:
       abilities:

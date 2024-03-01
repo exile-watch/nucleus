@@ -37,7 +37,7 @@ const replaceTokenWithValue = (arr) =>
     return about;
   });
 
-const injectAllAbilityDamageTypesToBoss = (data) => {
+const injectAllAbilityDamageTypesToBoss = ({thumbnail, ...data}) => {
   const bosses = data.bosses.map((d) => {
     let damageTypes = [];
     const [bossName, { abilities }] = Object.entries(d)[0];

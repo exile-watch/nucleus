@@ -59,6 +59,7 @@ const prepareHomepageData = () =>
             ...acc[map.category],
             name: startCase(map.category),
             path: `/encounters/${map.category}`,
+            thumbnail:!acc[map.category]?.thumbnail ? [map.thumbnail].filter(Boolean) : acc[map.category]?.thumbnail.concat(map.thumbnail).filter(Boolean).slice(0, 4),
             gif: !acc[map.category]?.gif ? [extractedGif].filter(Boolean) : acc[map.category]?.gif.concat(extractedGif).filter(Boolean).slice(0, 4)
           }
         }
@@ -73,6 +74,7 @@ const prepareHomepageData = () =>
           main: acc.main?.concat({
             name: encounterName === "Fractal Gargantuan" ? "Cortex" : encounterName,
             path,
+            thumbnail: map.thumbnail,
             gif: extractedGif
           })
         }

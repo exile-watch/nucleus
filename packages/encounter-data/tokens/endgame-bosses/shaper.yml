@@ -1,4 +1,5 @@
 map: The Shaper's Realm
+thumbnail: 'shaper'
 bosses:
   - The Shaper:
       abilities:
