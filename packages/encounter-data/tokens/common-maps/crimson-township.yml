@@ -1,4 +1,5 @@
 map: Crimson Township
+thumbnail: "crimson-township"
 bosses:
   - Kadaris, Crimson Mayor:
       abilities:

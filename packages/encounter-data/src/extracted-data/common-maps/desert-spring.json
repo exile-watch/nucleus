@@ -1,6 +1,7 @@
 {
   "category": "common-maps",
   "map": "Desert Spring",
+  "thumbnail": "desert-spring",
   "bosses": [
     {
       "Terror of the Infinite Drifts": {

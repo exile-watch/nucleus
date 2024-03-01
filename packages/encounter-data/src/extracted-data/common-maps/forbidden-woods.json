@@ -1,6 +1,7 @@
 {
   "category": "common-maps",
   "map": "Forbidden Woods",
+  "thumbnail": "forbidden-woods",
   "bosses": [
     {
       "Corruptor Eedaiak": {

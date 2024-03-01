@@ -1,4 +1,5 @@
 map: Forbidden Woods
+thumbnail: "forbidden-woods"
 bosses:
   - Corruptor Eedaiak:
       abilities:

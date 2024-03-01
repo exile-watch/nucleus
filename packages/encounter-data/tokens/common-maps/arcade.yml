@@ -1,4 +1,5 @@
 map: Arcade
+thumbnail: "arcade"
 bosses:
   - Herald of Ashes:
       abilities:
