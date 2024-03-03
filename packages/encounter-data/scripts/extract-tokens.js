@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { toLower, kebabCase, camelCase } = require('lodash');
+const { toLower, kebabCase } = require('lodash');
 const yaml = require('js-yaml');
 
 const {colorifyConsole, getDirectories} = require("./utils");
@@ -92,63 +92,17 @@ const getExtractedData = async () => {
 getExtractedData().then(async (extractedData) => {
   await console.time(colorifyConsole({ label: 'time', text: 'Extract Encounters' }));
 
-  // clear index.ts so the forEach won't append to the existing content
-  await fs.truncateSync('./src/index.ts', 0);
-
-  // start creating imports
-  await getDirectories(tokensPath).forEach((dir) => {
-    fs.appendFileSync(`./src/index.ts`, `import { default as ${camelCase(dir)} } from './extracted-data/${dir}.json'\n`);
-  })
-
   await extractedData.forEach((data) => {
     const {name} = data.bosses[0];
     const fileName = data.map
       ? `${toLower(kebabCase(data.map))}.json`
       : `${toLower(kebabCase(name))}.json`;
-    const importName = data.map
-      ? camelCase(data.map)
-      : camelCase(name);
 
     // create category if it doesn't exist yet
     fs.mkdirSync(`${extractedDataPath}/${data.category}`, { recursive: true });
     // create json files
     fs.writeFileSync(`${extractedDataPath}/${data.category}/${fileName}`, JSON.stringify(data, null, 2));
-    // create json imports in index.ts
-    fs.appendFileSync(`./src/index.ts`, `import { default as ${importName} } from './extracted-data/${data.category}/${fileName}'\n`);
   });
-
-  // append files out of dirs
-  await fs.appendFileSync(`./src/index.ts`, `import { default as indexedSearch } from './extracted-data/indexed-search.json'\n`);
-  await fs.appendFileSync(`./src/index.ts`, `import { default as paths } from './extracted-data/paths.json'\n`);
-  await fs.appendFileSync(`./src/index.ts`, `import { default as homepage } from './extracted-data/homepage.json'\n`);
-  await fs.appendFileSync(`./src/index.ts`, `import { default as encounters } from './extracted-data/encounters.json'\n`);
-
-  // start exporting by append "export {"
-  await fs.appendFileSync(`./src/index.ts`, `\nexport {\n`);
-
-  // append exports for categories inside `export {...}`
-  await getDirectories(tokensPath).forEach((dir) => {
-    fs.appendFileSync(`./src/index.ts`, `  ${camelCase(dir)},\n`);
-  })
-
-  // append exports for each category file inside `export {...}`
-  await extractedData.forEach((data) => {
-    const {name: encounterName} = data.bosses[0];
-    const importName = data.map
-      ? camelCase(data.map)
-      : camelCase(encounterName);
-
-    fs.appendFileSync(`./src/index.ts`, `  ${importName},\n`);
-  });
-
-  // append exports for files out of dirs
-  fs.appendFileSync(`./src/index.ts`, `  indexedSearch,\n`);
-  fs.appendFileSync(`./src/index.ts`, `  paths,\n`);
-  fs.appendFileSync(`./src/index.ts`, `  homepage,\n`);
-  fs.appendFileSync(`./src/index.ts`, `  encounters\n`);
-  // close exporting by appending "}"
-  await fs.appendFileSync(`./src/index.ts`, `}\n`);
-  await fs.appendFileSync(`./src/index.ts`, `export type * from './types'`);
 
   await console.timeEnd(colorifyConsole({ label: 'time', text: 'Extract Encounters' }));
 });
