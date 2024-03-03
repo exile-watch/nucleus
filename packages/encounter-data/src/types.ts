@@ -69,10 +69,14 @@ type SidebarNavigationPathsObjType = {
 type SidebarNavigationPathsType = Record<Categories, SidebarNavigationPathsObjType[]>
 
 export type {
+  BossType,
   MapType,
   CategoryPageType,
+  HomepageObjType,
   HomepageType,
   IndexedSearchType,
+  EncounersIndexPageObjType,
   EncounersIndexPageType,
+  SidebarNavigationPathsObjType,
   SidebarNavigationPathsType
 }
