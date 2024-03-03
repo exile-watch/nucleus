@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.5](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.4...@exile-watch/encounter-data@0.9.5) (2024-03-03)
+
+
+### ⚙️ Code Quality
+
+* remove separate json imports in index file ([65ab2fb](https://github.com/exile-watch/nucleus/commit/65ab2fbfd1dba93a533224c4b0414e17ee4f855a))
+
+
+
 ## [0.9.4](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.3...@exile-watch/encounter-data@0.9.4) (2024-03-03)
 
 
