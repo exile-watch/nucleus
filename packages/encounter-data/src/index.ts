@@ -32,7 +32,9 @@ type HomepageObjType = {
   gif: string | string[]
 }
 
-type HomepageType = Record<'main' | Categories, HomepageObjType[]>
+type HomepageType = {
+  main: HomepageObjType[]
+} & Record<Categories, HomepageObjType>
 
 type IndexedSearchType = {
   main: {
