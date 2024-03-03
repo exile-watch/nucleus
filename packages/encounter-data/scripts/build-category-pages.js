@@ -15,8 +15,8 @@ getDirectories(tokensPath).forEach((dir) => {
 
 const prepareCategoriesData = () =>
   data.reduce((acc, map) => {
-    const [[encounterName, {abilities}]] = Object.entries(map.bosses[0]);
-    const [{gif}] = Object.values(abilities.pop())
+    const {name: encounterName, abilities} = map.bosses[0];
+    const {gif} = abilities.pop()
 
     const path = map.map
       ? `/encounters/${map.category}/${kebabCase(map.map)}/${kebabCase(encounterName)}`
@@ -32,13 +32,13 @@ const prepareCategoriesData = () =>
     }
   }, {});
 
-const buildHomepage = async () => {
+const buildCategoryPage = async () => {
   await console.time(colorifyConsole({ label: 'time', text: 'Generate Homepage tiles' }));
   return await prepareCategoriesData();
 };
 
 
-buildHomepage()
+buildCategoryPage()
   .then(async (data) => {
     const categories = Object.keys(data);
     for (const category of categories) {

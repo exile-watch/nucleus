@@ -21,12 +21,13 @@
     "clean-invalid-data-files": "node scripts/clean-invalid-data-files.js",
     "extract:encounter-skills": "node scripts/extract-skill-tokens.js",
     "extract:encounter-tokens": "node scripts/extract-tokens.js",
-    "extract:all": "npm run extract:encounter-tokens && npm run extract:encounter-skills",
+    "extract:all": "npm run extract:encounter-skills && npm run extract:encounter-tokens",
     "generate:indexed-search": "node scripts/build-indexed-search.js",
     "generate:paths": "node scripts/build-paths.js",
     "generate:homepage": "node scripts/build-homepage.js",
     "generate:category-pages": "node scripts/build-category-pages.js",
-    "generate:encounters-page": "node scripts/build-encounters-page.js",
+    "generate:encounters-page": "node scripts/build-encounters-page.js foo",
+    "generate:detailed-types": "node scripts/convertJsonToTypeScriptTypes.js -i src/extracted-data -o src/types",
     "generate": "npm run generate:indexed-search && npm run generate:paths && npm run generate:homepage && npm run generate:category-pages && npm run generate:encounters-page",
     "update-content": "npm run extract:all && npm run generate"
   },
@@ -40,6 +41,7 @@
   "devDependencies": {
     "@exile-watch/rollup-config": "^0.2.0",
     "@exile-watch/typescript-config": "^0.3.0",
+    "commander": "^12.0.0",
     "date-fns": "^3.3.1",
     "lodash": "^4.17.21"
   }

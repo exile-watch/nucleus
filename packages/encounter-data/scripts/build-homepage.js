@@ -30,13 +30,11 @@ getDirectories(tokensPath).forEach((dir) => {
 
 const prepareHomepageData = () =>
   data.reduce((acc, map) => {
-    const [[encounterName, {abilities}]] = Object.entries(map.bosses[0]);
+    const {name: encounterName, abilities} = map.bosses[0];
 
-    const [extractedGif] = abilities.map(ability => {
-      const [abilityName] = Object.keys(ability)
+    const [extractedGif] = abilities.map(({name: abilityName, gif}) => {
 
       if(SHOWCASE_ABILITIES.includes(abilityName)) {
-        const [{gif}] = Object.values(ability)
         if (gif.length > 0) return gif;
         return null
       }

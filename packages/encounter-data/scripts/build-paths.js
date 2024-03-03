@@ -15,15 +15,15 @@ getDirectories(tokensPath).forEach((dir) => {
 
 const preparePathsData = () =>
   data.reduce((acc, map) => {
-    const [bossName] = Object.keys(map.bosses[0]);
+    const {name: encounterName} = map.bosses[0];
     const path = map.map
-      ? `/encounters/${map.category}/${kebabCase(map.map)}/${kebabCase(bossName)}`
-      : `/encounters/${map.category}/${kebabCase(bossName)}`;
+      ? `/encounters/${map.category}/${kebabCase(map.map)}/${kebabCase(encounterName)}`
+      : `/encounters/${map.category}/${kebabCase(encounterName)}`;
 
     return acc.concat({
       [map.category]: [
         {
-          label: map.map ? map.map : bossName,
+          label: map.map ? map.map : encounterName,
           path,
         },
       ],

@@ -31,8 +31,7 @@ const prepareIndexedSearchData = () =>
      * Add boss name as a separate entity and path to redirect for indexed search
      */
     if (map.bosses) {
-      map.bosses.map((boss) => {
-        const [encounterName, encounterValues] = Object.entries(boss)[0];
+      map.bosses.map(({name: encounterName, abilities}) => {
         const encounterPath = map.map
           ? `${mapPath}/${kebabCase(encounterName)}`
           : `/encounters/${map.category}/${kebabCase(encounterName)}`;
@@ -49,9 +48,8 @@ const prepareIndexedSearchData = () =>
         /**
          * Add every boss ability as a separate entity and path to redirect for indexed search
          */
-        if (encounterValues.abilities) {
-          encounterValues.abilities.map((ability) => {
-            const [encounterAbilityName] = Object.entries(ability)[0];
+        if (abilities) {
+          abilities.map(({name: encounterAbilityName}) => {
             const newEncounterAbilityIndexedSearch = {
               ...newEncounterIndexedSearch,
               encounterAbilityPath: `${encounterPath}?ability=${kebabCase(encounterAbilityName)}`,

@@ -38,9 +38,8 @@ const replaceTokenWithValue = (arr) =>
   });
 
 const injectAllAbilityDamageTypesToBoss = (data) => {
-  const bosses = data.bosses.map((d) => {
+  const bosses = data.bosses.map(({name, abilities}) => {
     let damageTypes = [];
-    const [bossName, { abilities }] = Object.entries(d)[0];
     abilities.map((ability) => {
       const [a] = Object.values(ability);
       if (a.type) {
@@ -53,10 +52,9 @@ const injectAllAbilityDamageTypesToBoss = (data) => {
     });
 
     return {
-      [bossName]: {
-        damageTypes: [...new Set(damageTypes.flat())],
-        abilities,
-      },
+      name,
+      damageTypes: [...new Set(damageTypes.flat())],
+      abilities,
     };
   });
 
@@ -103,14 +101,16 @@ getExtractedData().then(async (extractedData) => {
   })
 
   await extractedData.forEach((data) => {
-    const [bossName] = Object.keys(data.bosses[0]);
+    const {name} = data.bosses[0];
     const fileName = data.map
       ? `${toLower(kebabCase(data.map))}.json`
-      : `${toLower(kebabCase(bossName))}.json`;
+      : `${toLower(kebabCase(name))}.json`;
     const importName = data.map
       ? camelCase(data.map)
-      : camelCase(bossName);
+      : camelCase(name);
 
+    // create category if it doesn't exist yet
+    fs.mkdirSync(`${extractedDataPath}/${data.category}`, { recursive: true });
     // create json files
     fs.writeFileSync(`${extractedDataPath}/${data.category}/${fileName}`, JSON.stringify(data, null, 2));
     // create json imports in index.ts
@@ -133,10 +133,10 @@ getExtractedData().then(async (extractedData) => {
 
   // append exports for each category file inside `export {...}`
   await extractedData.forEach((data) => {
-    const [bossName] = Object.keys(data.bosses[0]);
+    const {name: encounterName} = data.bosses[0];
     const importName = data.map
       ? camelCase(data.map)
-      : camelCase(bossName);
+      : camelCase(encounterName);
 
     fs.appendFileSync(`./src/index.ts`, `  ${importName},\n`);
   });
