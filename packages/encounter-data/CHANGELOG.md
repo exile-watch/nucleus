@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.9](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.8...@exile-watch/encounter-data@0.9.9) (2024-03-03)
+
+
+### 🐞 Bug Fixes
+
+* **types:** fix indexed search type ([718f336](https://github.com/exile-watch/nucleus/commit/718f336285dba8367ccf2554cc3552b1d024c445))
+
+
+
 ## [0.9.8](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.7...@exile-watch/encounter-data@0.9.8) (2024-03-03)
 
 
