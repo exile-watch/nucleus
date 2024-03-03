@@ -30,19 +30,19 @@ type HomepageObjType = {
   gif: string | string[]
 }
 
-type HomepageType = Record<'main' | Categories, HomepageObjType>
+type HomepageType = Record<'main' | Categories, HomepageObjType[]>
 
 type IndexedSearchType = {
   main: {
     mapPath: string;
     mapName: string;
-  },
+  }[],
   encounters: {
     mapPath?: string;
     mapName?: string;
     encounterPath: string;
     encounterName: string;
-  }
+  }[]
   encounterAbilities: {
     mapPath?: string;
     mapName?: string;
@@ -50,7 +50,7 @@ type IndexedSearchType = {
     encounterName: string;
     encounterAbilityPath: string;
     encounterAbilityName: string;
-  }
+  }[]
 }
 
 type EncounersIndexPageObjType = {
@@ -59,14 +59,14 @@ type EncounersIndexPageObjType = {
   gif: string[]
 }
 
-type EncounersIndexPageType = Record<Categories, EncounersIndexPageObjType>
+type EncounersIndexPageType = Record<Categories, EncounersIndexPageObjType[]>
 
 type SidebarNavigationPathsObjType = {
   label: string;
   path: string;
 }
 
-type SidebarNavigationPathsType = Record<Categories, SidebarNavigationPathsObjType>
+type SidebarNavigationPathsType = Record<Categories, SidebarNavigationPathsObjType[]>
 
 export type {
   MapType,
