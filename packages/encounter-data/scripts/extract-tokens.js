@@ -147,7 +147,8 @@ getExtractedData().then(async (extractedData) => {
   fs.appendFileSync(`./src/index.ts`, `  homepage,\n`);
   fs.appendFileSync(`./src/index.ts`, `  encounters\n`);
   // close exporting by appending "}"
-  await fs.appendFileSync(`./src/index.ts`, `}`);
+  await fs.appendFileSync(`./src/index.ts`, `}\n`);
+  await fs.appendFileSync(`./src/index.ts`, `export type * from './types'`);
 
   await console.timeEnd(colorifyConsole({ label: 'time', text: 'Extract Encounters' }));
 });
