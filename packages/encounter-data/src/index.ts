@@ -57,7 +57,7 @@ type EncounersIndexPageObjType = {
   gif: string[]
 }
 
-type EncounersIndexPageType = Record<Categories, EncounersIndexPageObjType[]>
+type EncounersIndexPageType = Record<Categories, EncounersIndexPageObjType>
 
 type SidebarNavigationPathsObjType = {
   label: string;
