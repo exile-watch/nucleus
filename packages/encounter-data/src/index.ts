@@ -83,3 +83,5 @@ export type {
   SidebarNavigationPathsObjType,
   SidebarNavigationPathsType
 }
+
+export * from './extracted-data'
