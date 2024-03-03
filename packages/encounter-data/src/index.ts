@@ -1,14 +1,16 @@
 type Categories = 'abyssal-liches' | 'breachlords' | 'common-maps' | 'conquerors' | 'elder-guardians' | 'shaper-guardians'
 
+type BossAbilityType = {
+  name: string;
+  type: string[]
+  tip: string[]
+  gif: string
+  about: string[]
+}
+
 type BossType = {
   name: string;
-  abilities: {
-    name: string;
-    type: string[]
-    tip: string[]
-    gif: string
-    about: string[]
-  }[]
+  abilities: BossAbilityType[]
 }
 
 type MapType = {
@@ -69,6 +71,7 @@ type SidebarNavigationPathsObjType = {
 type SidebarNavigationPathsType = Record<Categories, SidebarNavigationPathsObjType[]>
 
 export type {
+  BossAbilityType,
   BossType,
   MapType,
   CategoryPageType,
