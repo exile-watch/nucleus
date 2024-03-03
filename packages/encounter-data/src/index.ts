@@ -36,25 +36,19 @@ type HomepageType = {
   main: HomepageObjType[]
 } & Record<Categories, HomepageObjType>
 
+type IndexedSearchTypeItem = {
+  mapPath?: string;
+  mapName?: string;
+  encounterPath: string;
+  encounterName?: string;
+  encounterAbilityPath?: string;
+  encounterAbilityName?: string;
+}
+
 type IndexedSearchType = {
-  main: {
-    mapPath: string;
-    mapName: string;
-  }[],
-  encounters: {
-    mapPath?: string;
-    mapName?: string;
-    encounterPath: string;
-    encounterName: string;
-  }[]
-  encounterAbilities: {
-    mapPath?: string;
-    mapName?: string;
-    encounterPath: string;
-    encounterName: string;
-    encounterAbilityPath: string;
-    encounterAbilityName: string;
-  }[]
+  maps: IndexedSearchTypeItem[];
+  encounters: IndexedSearchTypeItem[]
+  encounterAbilities: IndexedSearchTypeItem[];
 }
 
 type EncounersIndexPageObjType = {
@@ -80,6 +74,7 @@ export type {
   HomepageObjType,
   HomepageType,
   IndexedSearchType,
+  IndexedSearchTypeItem,
   EncounersIndexPageObjType,
   EncounersIndexPageType,
   SidebarNavigationPathsObjType,
