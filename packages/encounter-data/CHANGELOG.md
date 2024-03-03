@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.6](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.5...@exile-watch/encounter-data@0.9.6) (2024-03-03)
+
+
+### 🐞 Bug Fixes
+
+* add BossAbilityType ([8443c26](https://github.com/exile-watch/nucleus/commit/8443c2617624926e98cd4d597a0ff48df680927e))
+
+
+
 ## [0.9.5](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.4...@exile-watch/encounter-data@0.9.5) (2024-03-03)
 
 
