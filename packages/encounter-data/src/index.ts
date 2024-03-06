@@ -51,13 +51,13 @@ type IndexedSearchType = {
   encounterAbilities: IndexedSearchTypeItem[];
 }
 
-type EncounersIndexPageObjType = {
+type EncountersIndexPageObjType = {
   name: string;
   path: string;
   gif: string[]
 }
 
-type EncounersIndexPageType = Record<Categories, EncounersIndexPageObjType>
+type EncountersIndexPageType = Record<Categories, EncountersIndexPageObjType>
 
 type SidebarNavigationPathsObjType = {
   label: string;
@@ -75,8 +75,8 @@ export type {
   HomepageType,
   IndexedSearchType,
   IndexedSearchTypeItem,
-  EncounersIndexPageObjType,
-  EncounersIndexPageType,
+  EncountersIndexPageObjType,
+  EncountersIndexPageType,
   SidebarNavigationPathsObjType,
   SidebarNavigationPathsType
 }
