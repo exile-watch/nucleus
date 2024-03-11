@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Piety the Empyrean",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Lightning Storm",

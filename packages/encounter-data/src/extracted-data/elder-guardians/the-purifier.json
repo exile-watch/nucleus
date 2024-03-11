@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "The Purifier",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Double Slam",

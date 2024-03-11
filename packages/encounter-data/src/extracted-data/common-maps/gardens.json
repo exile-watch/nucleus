@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Sallazzang",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Bladefall",

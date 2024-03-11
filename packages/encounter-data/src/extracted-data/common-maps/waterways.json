@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Fragment of Winter",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Summon Elementals",

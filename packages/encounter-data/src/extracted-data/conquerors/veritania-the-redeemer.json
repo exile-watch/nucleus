@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Veritania, the Redeemer",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "chaos"
+      ],
       "abilities": [
         {
           "name": "Cleave",

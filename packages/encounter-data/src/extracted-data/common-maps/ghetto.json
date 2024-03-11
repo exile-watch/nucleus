@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Lady Stormflay",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Ground Lightning",

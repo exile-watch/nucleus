@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Armala, the Widow",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Lightning Tendrils",

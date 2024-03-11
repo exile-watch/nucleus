@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Master of the Blade",
-      "damageTypes": [],
+      "damageTypes": [
+        "chaos"
+      ],
       "abilities": [
         {
           "name": "Charged Attack",
@@ -23,7 +25,9 @@
     },
     {
       "name": "Massier",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Heavy Strike",

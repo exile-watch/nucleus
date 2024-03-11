@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Uul-Netol, Unburdened Flesh",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "chaos"
+      ],
       "abilities": [
         {
           "name": "Spike Eruption",

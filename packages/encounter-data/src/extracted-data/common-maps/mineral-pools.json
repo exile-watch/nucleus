@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Shock and Horror",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Lightning Beam",

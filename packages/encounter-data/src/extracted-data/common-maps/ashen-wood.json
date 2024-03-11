@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Lord of the Ashen Arrow",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Vaal Burning Arrow",
@@ -21,7 +24,7 @@
           ],
           "gif": "https://i.gyazo.com/cbffbf51cb5eb665f84b3256d0e58f60.mp4",
           "about": [
-            "/VAAL_BURNING_ARROW/"
+            "Fires an arrow that explodes, dealing fire damage to its target and other nearby enemies, with an increased chance of igniting them"
           ]
         },
         {
@@ -34,7 +37,7 @@
           ],
           "gif": "https://i.gyazo.com/c36ece214b634ff94ad5e83897257e62.mp4",
           "about": [
-            "/FLAME_SURGE/"
+            "Strikes enemies in front of encounter with a surge of flame. Deals more damage to Burning enemies"
           ]
         },
         {

@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Barthol, the Pure",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Holy Cannon",
@@ -29,7 +32,7 @@
           ],
           "gif": "https://i.gyazo.com/e5203128ea94528bf6d5f736d6b4c2ee.mp4",
           "about": [
-            "/FIREBALL/"
+            "Unleashes a ball of fire towards a target which explodes, damaging nearby foes"
           ]
         },
         {
@@ -49,7 +52,10 @@
     },
     {
       "name": "Barthol, the Corruptor",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Corrupt Cannon",

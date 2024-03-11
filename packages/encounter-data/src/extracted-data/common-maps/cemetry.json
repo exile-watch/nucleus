@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Erebix, Light's Bane",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Roar",

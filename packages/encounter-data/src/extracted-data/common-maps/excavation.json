@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Shrieker Eihal",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Slash",
@@ -59,7 +61,9 @@
     },
     {
       "name": "Breaker Toruul",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Spectral Throw",

@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Messenger of the Hollows",
-      "damageTypes": [],
+      "damageTypes": [
+        "cold",
+        "physical",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Righteous Fire",
@@ -62,7 +66,10 @@
     },
     {
       "name": "Lord of the Hollows",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Beacon",
@@ -94,7 +101,10 @@
     },
     {
       "name": "Champion of the Hollows",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Ground Slam",

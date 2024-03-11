@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Stone of the Currents",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Lightning Bolt",

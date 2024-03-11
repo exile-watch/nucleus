@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Captain Tanner Lightfoot",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Glacial Cascade",

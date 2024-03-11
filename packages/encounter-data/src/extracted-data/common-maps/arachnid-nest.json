@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Spinner of False Hope",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Ethereal Knives",
@@ -16,7 +18,7 @@
           ],
           "gif": "https://i.gyazo.com/341e4c2e3705b4e495bf7c00169e9dae.mp4",
           "about": [
-            "/ETHEREAL_KNIVES/"
+            "Fires an arc of knives in front of the encounter which deals physical damage"
           ]
         },
         {
@@ -30,8 +32,8 @@
           ],
           "gif": "https://i.gyazo.com/f488ef4d6e80e6f9bdd2c098527c2c6f.mp4",
           "about": [
-            "/WEB_MORTAR/",
-            "/WEB_MORTAR_GROUND_EFFECT/"
+            "Mortar projectile that leaves ground effect",
+            "While standing in web your speed is reduced"
           ]
         }
       ]

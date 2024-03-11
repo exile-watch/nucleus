@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Captain Clayborne, The Accursed",
-      "damageTypes": [],
+      "damageTypes": [
+        "chaos",
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Whirling Blades",

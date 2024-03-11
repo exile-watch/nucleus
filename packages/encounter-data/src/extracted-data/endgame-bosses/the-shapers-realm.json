@@ -5,7 +5,9 @@
   "bosses": [
     {
       "name": "The Shaper",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Default Attack",
@@ -102,7 +104,10 @@
     },
     {
       "name": "The Uncreated",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Spectral Throw",
@@ -147,7 +152,10 @@
     },
     {
       "name": "The Unshaped",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Spectral Throw",

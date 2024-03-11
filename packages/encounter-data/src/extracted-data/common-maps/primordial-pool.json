@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Nightmare's Omen",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Tentacles",

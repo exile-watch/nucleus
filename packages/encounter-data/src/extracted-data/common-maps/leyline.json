@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Mirage of Bones",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Snipe",

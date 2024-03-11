@@ -41,13 +41,13 @@ const injectAllAbilityDamageTypesToBoss = (data) => {
   const bosses = data.bosses.map(({name, abilities}) => {
     let damageTypes = [];
     abilities.map((ability) => {
-      const [a] = Object.values(ability);
-      if (a.type) {
-        damageTypes.push(a.type);
+      if (ability.type) {
+        damageTypes.push(ability.type);
       }
+      console.log(ability);
 
-      if (a.about) {
-        a.about = replaceTokenWithValue(a.about);
+      if (ability.about) {
+        ability.about = replaceTokenWithValue(ability.about);
       }
     });
 

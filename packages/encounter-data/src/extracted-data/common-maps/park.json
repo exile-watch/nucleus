@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Suncaller Asha",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Holy Cannons",

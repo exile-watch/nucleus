@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Guardian of the Phoenix",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Whirling Charge",

@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Melur Thornmaul",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Slam",
@@ -29,7 +31,7 @@
           ],
           "gif": "https://i.gyazo.com/5538266cdce76762e92831cadc129e3a.mp4",
           "about": [
-            "/EXPLODING_POD/"
+            "Spawns multiple pods. When ran through pods explode after a short delay"
           ]
         },
         {
@@ -42,7 +44,7 @@
           ],
           "gif": "https://i.gyazo.com/2f7e921637a25f4b3f83f8921a14f5c1.mp4",
           "about": [
-            "/CLEAVE/"
+            "Swings weapon (or both weapons if dual wielding) in an arc, damaging enemies in an area in front of them"
           ]
         },
         {
@@ -52,8 +54,8 @@
           ],
           "gif": "https://i.gyazo.com/0edbe136b144febadf769235b221b6f2.mp4",
           "about": [
-            "/INVULNERABILITY_AT_30/",
-            "/INVULNERABILITY_END_ALL_BOSS_PRESENT/",
+            "Becomes untargettable when encounter reaches 30% hp",
+            "Becomes targetable once all 3 bosses are present",
             "Spawns Orvi Acidbeak"
           ]
         }
@@ -61,7 +63,10 @@
     },
     {
       "name": "Orvi Acidbeak",
-      "damageTypes": [],
+      "damageTypes": [
+        "lightning",
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Beam",
@@ -99,14 +104,16 @@
           ],
           "gif": "https://i.gyazo.com/954cf2b6b74917e9a7fb225c442118f7.mp4",
           "about": [
-            "/INVULNERABILITY_AT_30/ - /INVULNERABILITY_END_ALL_BOSS_PRESENT/ - Spawns Elida Blisterclaw"
+            "Becomes untargettable when encounter reaches 30% hp"
           ]
         }
       ]
     },
     {
       "name": "Elida Blisterclaw",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Vine Trap",

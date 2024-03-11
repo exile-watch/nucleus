@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Guardian of the Vault",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Leap Slam",

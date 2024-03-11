@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "He of Many Pieces",
-      "damageTypes": [],
+      "damageTypes": [
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Detonate Dead",

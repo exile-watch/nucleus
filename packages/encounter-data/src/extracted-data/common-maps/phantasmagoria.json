@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Erythrophagia",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Blood Projectile",

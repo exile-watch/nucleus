@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Pesquin, the Mad Baron",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Earthquake",

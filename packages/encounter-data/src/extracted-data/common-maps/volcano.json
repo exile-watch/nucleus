@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Forest of Flames",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Summon Totems",

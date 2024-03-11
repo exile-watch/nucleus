@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Merveil, the Reflection",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Summon Resplendent Constructs",
@@ -46,7 +50,11 @@
     },
     {
       "name": "Merveil, the Returned",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Multi Geyser",

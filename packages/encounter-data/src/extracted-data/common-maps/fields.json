@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Drek, Apex Hunter",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire",
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Charge",

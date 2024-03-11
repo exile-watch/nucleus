@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Xixic, High Necromancer",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire",
+        "chaos",
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Ghost Orb",
@@ -16,7 +20,7 @@
           ],
           "gif": "https://i.gyazo.com/7b20410b4e8fc477a342eb18023d3fd4.mp4",
           "about": [
-            "/GHOST_ORB/"
+            "Spawns orbs around the area that move in a stright line in random direction"
           ]
         },
         {
@@ -29,7 +33,7 @@
           ],
           "gif": "https://i.gyazo.com/97602258c0a808dd71c2c58f77267196.mp4",
           "about": [
-            "/DESECRATE/"
+            "Desecrates the ground, summoning corpses and dealing chaos damage to all enemies in the area"
           ]
         },
         {
@@ -42,7 +46,7 @@
           ],
           "gif": "https://i.gyazo.com/88692d4e56b858a6a3f0b5e501629e6a.mp4",
           "about": [
-            "/VAAL_SUMMON_SKELETONS/"
+            "Summons an army of skeletal warriors, archers and mages, led by a powerful general"
           ]
         },
         {
@@ -52,7 +56,7 @@
           ],
           "gif": "https://i.gyazo.com/5a9611675ead61a813c8c995c22c9d29.mp4",
           "about": [
-            "/REVIVE_MINIONS/"
+            "Revives minions"
           ]
         }
       ]

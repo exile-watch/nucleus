@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Leif, the Swift-Handed",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Flicker Strike",
@@ -16,7 +18,7 @@
           ],
           "gif": "https://i.gyazo.com/083c96ebfdc5aa6eb9f7f8569b573089.mp4",
           "about": [
-            "/FLICKER_STRIKE/"
+            "Teleports the character to a nearby monster and attacks with a melee weapon"
           ]
         },
         {
@@ -29,7 +31,7 @@
           ],
           "gif": "https://i.gyazo.com/343be403c67f62eec06d6077a00e9c32.mp4",
           "about": [
-            "/BLADE_FLURRY/"
+            "Repeatedly hit enemies in a circle in front of encounter while channelling, dealing damage to and around the enemy. The damage is continually boosted while channelling. Encounter unleashes an additional hit for each stage reached once the channelling ends"
           ]
         },
         {
@@ -39,7 +41,7 @@
           ],
           "gif": "https://i.gyazo.com/ea38b65a6bc3cf02b798af8606be0515.mp4",
           "about": [
-            "/SMOKE_BOMB/"
+            "Throws a trap that creates cloud of smoke that blinds everyone standing in it"
           ]
         }
       ]

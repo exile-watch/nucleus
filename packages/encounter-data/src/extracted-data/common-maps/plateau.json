@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Poporo, the Highest Spire",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire",
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Pulse Lightning",

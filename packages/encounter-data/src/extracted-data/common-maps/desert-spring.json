@@ -5,7 +5,11 @@
   "bosses": [
     {
       "name": "Terror of the Infinite Drifts",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Slam",

@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Fire and Fury",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Lava Cascade",

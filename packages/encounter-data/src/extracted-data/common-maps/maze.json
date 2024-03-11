@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Shadow of the Vaal",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Cold Snap",

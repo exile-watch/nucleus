@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Tahsin, Warmaker",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Beam Totem",

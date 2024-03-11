@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Ormud, Fiend of the Flood",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Water Sprout",

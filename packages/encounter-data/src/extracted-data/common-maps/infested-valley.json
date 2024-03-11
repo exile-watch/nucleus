@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Gorulis, Will-Thief",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Acid Mortar",

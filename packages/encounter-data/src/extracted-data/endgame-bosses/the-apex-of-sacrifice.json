@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Atziri, Queen of the Vaal",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Spear Throw",
@@ -114,7 +116,10 @@
     },
     {
       "name": "Vessel of the Vaal",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Icestorm",
@@ -182,7 +187,9 @@
     },
     {
       "name": "Vaal Temple Bosses",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Charge",

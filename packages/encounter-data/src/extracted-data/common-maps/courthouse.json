@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Bolt Brownfur, Earth Churner",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Sunder",
@@ -49,7 +52,10 @@
     },
     {
       "name": "Ion Darkshroud, the Hungering Blade",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Flicker Strike",
@@ -81,7 +87,9 @@
     },
     {
       "name": "Thena Moga, the Crimson Storm",
-      "damageTypes": [],
+      "damageTypes": [
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Shield Charge",

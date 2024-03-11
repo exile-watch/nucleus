@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Bazur",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Slam",
@@ -75,7 +77,10 @@
     },
     {
       "name": "Liantra",
-      "damageTypes": [],
+      "damageTypes": [
+        "lightning",
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Barrage",

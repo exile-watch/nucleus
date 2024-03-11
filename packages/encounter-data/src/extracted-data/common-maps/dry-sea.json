@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Gazuul, Droughtspawn",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Charge",

@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Omniphobia, Fear Manifest",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Cleave",

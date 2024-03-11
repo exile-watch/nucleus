@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Skullbeak",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Charge",
@@ -16,7 +18,7 @@
           ],
           "gif": "https://i.gyazo.com/ebe864c7defd093da36e9a172cce828a.mp4",
           "about": [
-            "/CHARGE/"
+            "Charges at player's location. This knocks the encounter back and stuns it. Enemies in the way are pushed to the side. Damage and stun are proportional to distance travelled"
           ]
         }
       ]

@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "The Restless Shade",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Frontal Blast",

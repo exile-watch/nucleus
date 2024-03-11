@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Tul, Creeping Avalanche",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "chaos"
+      ],
       "abilities": [
         {
           "name": "Frost Blades",

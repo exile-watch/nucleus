@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Sirus, Awakener of Worlds",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Default Attack",

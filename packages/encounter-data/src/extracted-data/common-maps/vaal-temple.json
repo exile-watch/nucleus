@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "K'aj Q'ura",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Cyclone",
@@ -50,7 +52,9 @@
     },
     {
       "name": "K'aj Y'ara'az",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Dual Strike",

@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Maligaro the Mutilator",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire",
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Telepor Slam",

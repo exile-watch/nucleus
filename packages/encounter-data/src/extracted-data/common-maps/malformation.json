@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Nightmare Manifest",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Lightning Beam",

@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Pileah, Burning Corpse",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Mortar",

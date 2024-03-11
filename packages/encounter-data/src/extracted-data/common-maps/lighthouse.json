@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Bin'aia, Crimson Rain",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Guard Firestorm",
@@ -101,7 +105,11 @@
     },
     {
       "name": "Uruk Baleh",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Fire Bombs",

@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Stalker of the Endless Dunes",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Charged Dash",

@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Jorus, Sky's Edge",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Bladefall",

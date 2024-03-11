@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Baran, the Crusader",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "chaos"
+      ],
       "abilities": [
         {
           "name": "Default Attack",

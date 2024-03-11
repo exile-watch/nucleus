@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Oriath's Vengeance",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Dragon Fireball Strike",
@@ -36,7 +39,10 @@
     },
     {
       "name": "Oriath's Virtue",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Totem Spark",
@@ -68,7 +74,9 @@
     },
     {
       "name": "Oriath's Vigil",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Cyclone",

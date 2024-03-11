@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Yorishi, Aurora-sage",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Ice Crash",

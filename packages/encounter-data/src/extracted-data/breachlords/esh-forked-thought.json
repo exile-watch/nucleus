@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Esh, Forked Thought",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "chaos"
+      ],
       "abilities": [
         {
           "name": "Lightning Orb",

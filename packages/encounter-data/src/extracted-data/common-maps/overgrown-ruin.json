@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Visceris",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Teleport Cleave",
@@ -62,7 +65,10 @@
     },
     {
       "name": "M'uneh",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Proximity Shield",
@@ -107,7 +113,9 @@
     },
     {
       "name": "Akaveesh",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Chaos Ball",

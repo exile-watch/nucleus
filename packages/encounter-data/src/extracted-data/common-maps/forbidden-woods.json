@@ -5,7 +5,9 @@
   "bosses": [
     {
       "name": "Corruptor Eedaiak",
-      "damageTypes": [],
+      "damageTypes": [
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Rune Explosion",
@@ -63,7 +65,9 @@
     },
     {
       "name": "Skictis, Frostkeeper",
-      "damageTypes": [],
+      "damageTypes": [
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Mortar",
@@ -108,7 +112,9 @@
     },
     {
       "name": "Takatax Brittlethorn",
-      "damageTypes": [],
+      "damageTypes": [
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Ice Prison Spike",

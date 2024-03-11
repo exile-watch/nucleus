@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Riftwalker",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Spectral Throw",

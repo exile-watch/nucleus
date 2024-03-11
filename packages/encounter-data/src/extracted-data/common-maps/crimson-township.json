@@ -5,7 +5,10 @@
   "bosses": [
     {
       "name": "Kadaris, Crimson Mayor",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Single Rune Blast",

@@ -3,7 +3,9 @@
   "bosses": [
     {
       "name": "Stygian Spire",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Meteor",

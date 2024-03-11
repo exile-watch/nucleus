@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Pagan Bishop of Agony",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Slam",

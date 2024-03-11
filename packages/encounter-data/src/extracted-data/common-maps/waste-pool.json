@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Portentia, the Foul",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Warp",

@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Gisale, Thought Thief",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Book Discharge",

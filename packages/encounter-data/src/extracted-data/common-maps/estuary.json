@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Sumter the Twisted",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Icefire",
@@ -46,7 +48,9 @@
     },
     {
       "name": "Flarus",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Storm Call",
@@ -75,7 +79,9 @@
     },
     {
       "name": "Frosis",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Storm Call",

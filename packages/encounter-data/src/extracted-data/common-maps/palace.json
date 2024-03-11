@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "God's Chosen",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire",
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Lightning Souls",
@@ -75,7 +78,10 @@
     },
     {
       "name": "The Hallowed Husk",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire",
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Demon Projectile",

@@ -5,7 +5,9 @@
   "bosses": [
     {
       "name": "Fractal Gargantuan",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Slam",
@@ -102,7 +104,10 @@
     },
     {
       "name": "Synthete Masterpiece",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Wormhole Slam",
@@ -199,7 +204,9 @@
     },
     {
       "name": "Add Phase",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Beginning",
@@ -231,7 +238,9 @@
     },
     {
       "name": "Fractal Titan",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "V Slam",
@@ -341,7 +350,10 @@
     },
     {
       "name": "Synthete Nightmare",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Wormhole Slam",

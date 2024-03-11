@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Al'Hezmin, the Hunter",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "chaos"
+      ],
       "abilities": [
         {
           "name": "Strike Combo",

@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Unravelling Horror",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Tornado Shot",

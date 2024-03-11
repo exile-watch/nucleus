@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Renkarr, The Kiln Keeper",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire",
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Mortar",

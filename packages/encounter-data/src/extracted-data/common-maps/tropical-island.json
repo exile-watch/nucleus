@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Blood Progenitor",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Mass Frenzy",

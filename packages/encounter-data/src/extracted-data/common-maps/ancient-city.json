@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Legius Garhall",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Cleave",
@@ -16,7 +19,7 @@
           ],
           "gif": "https://i.gyazo.com/372baac7a552fbcd16273eefabc49715.mp4",
           "about": [
-            "/CLEAVE/"
+            "Swings weapon (or both weapons if dual wielding) in an arc, damaging enemies in an area in front of them"
           ]
         },
         {
@@ -30,8 +33,8 @@
           ],
           "gif": "https://i.gyazo.com/73962c858cf31b4c5278f4741dd403ca.mp4",
           "about": [
-            "/LEAP_SLAM/",
-            "/LEAP_SLAM_FIRE_GROUND_EFFECT/"
+            "Jumps into the air, damaging and knocking back enemies with their weapon where they land. Enemies they would land on are pushed out of the way",
+            "Upon landing creates burning ground"
           ]
         }
       ]

@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Lycius, Midnight's Howl",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Wolf Barrage",

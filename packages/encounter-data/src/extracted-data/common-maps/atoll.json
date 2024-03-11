@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Puruna, The Challenger",
-      "damageTypes": [],
+      "damageTypes": [
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Water Cascade",
@@ -29,7 +31,7 @@
           ],
           "gif": "https://i.gyazo.com/9847c268b777f11082455e67afc38801.mp4",
           "about": [
-            "/SPAWN_TOTEM/"
+            "Spawns totem(s)"
           ]
         },
         {
@@ -42,7 +44,7 @@
           ],
           "gif": "https://i.gyazo.com/051b275bcf785170d209531838a7b406.mp4",
           "about": [
-            "/FROSTBALL/"
+            "Fires a slow-moving projectile that pierces through enemies, dealing cold damage"
           ]
         },
         {
@@ -55,7 +57,7 @@
           ],
           "gif": "https://i.gyazo.com/8176d7017de8eddb51f4182805137729.mp4",
           "about": [
-            "/ICE_NOVA/"
+            "A chilling circle of ice expands from the caster. If the caster targets near their Frostbolt projectiles, it will expand from a number of those projectiles instead"
           ]
         },
         {
@@ -69,7 +71,7 @@
           ],
           "gif": "https://i.gyazo.com/385e3e2c225f29b2653ce9b76fab1896.mp4",
           "about": [
-            "/CHILLED_GROUND/"
+            "Slows player's cast speed, attack speed and movement speed"
           ]
         }
       ]

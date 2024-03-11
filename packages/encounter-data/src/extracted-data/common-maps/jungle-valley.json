@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Queen of the Great Tangle",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Ethereal Knives",

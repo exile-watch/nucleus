@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Rek'tar, the Breaker",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Leap Slam",

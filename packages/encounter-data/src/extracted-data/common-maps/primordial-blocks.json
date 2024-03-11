@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "High Lithomancer",
-      "damageTypes": [],
+      "damageTypes": [
+        "lightning",
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Cube Explosion",

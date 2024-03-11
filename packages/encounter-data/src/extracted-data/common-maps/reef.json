@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Nassar, Lion of the Seas",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Slam",

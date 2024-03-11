@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Vision of Justice",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Beam",

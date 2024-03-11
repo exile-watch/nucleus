@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Augustina Solaria",
-      "damageTypes": [],
+      "damageTypes": [
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Spectral Throw",
@@ -88,7 +90,9 @@
     },
     {
       "name": "Damoi Tui",
-      "damageTypes": [],
+      "damageTypes": [
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Cyclone",
@@ -146,7 +150,9 @@
     },
     {
       "name": "Eoin Greyfur",
-      "damageTypes": [],
+      "damageTypes": [
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Cyclone",
@@ -204,7 +210,9 @@
     },
     {
       "name": "Igna Phoenix",
-      "damageTypes": [],
+      "damageTypes": [
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Firestorm",
@@ -249,7 +257,9 @@
     },
     {
       "name": "Torr Olgosso",
-      "damageTypes": [],
+      "damageTypes": [
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Arctic Armour",
@@ -281,7 +291,9 @@
     },
     {
       "name": "Wilorin Demontamer",
-      "damageTypes": [],
+      "damageTypes": [
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Ball Lightning",

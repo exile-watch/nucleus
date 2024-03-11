@@ -4,7 +4,9 @@
   "bosses": [
     {
       "name": "Blackguard Avenger",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Cleave",
@@ -23,7 +25,10 @@
     },
     {
       "name": "Blackguard Tempest",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire",
+        "physical"
+      ],
       "abilities": [
         {
           "name": "Spark",

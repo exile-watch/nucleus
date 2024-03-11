@@ -5,7 +5,9 @@
   "bosses": [
     {
       "name": "Herald of Ashes",
-      "damageTypes": [],
+      "damageTypes": [
+        "fire"
+      ],
       "abilities": [
         {
           "name": "Flammability",
@@ -17,7 +19,7 @@
           ],
           "gif": "https://i.gyazo.com/18d574d6a4e2f60bcec9fd2bd10bcad0.mp4",
           "about": [
-            "/FLAMMABILITY/"
+            "Curses all targets in an area, making them less resistant to fire damage and gives damage hit more chance to ignite"
           ]
         },
         {
@@ -30,7 +32,7 @@
           ],
           "gif": "https://i.gyazo.com/9e25634b450ac4f99a71483d61718c2f.mp4",
           "about": [
-            "/FIRESTORM/"
+            "Rains numerous fiery bolts in an area"
           ]
         },
         {
@@ -43,7 +45,7 @@
           ],
           "gif": "https://i.gyazo.com/3450226f72793b7fe2cea7f40b24c212.mp4",
           "about": [
-            "/FIRE_BOMBS/",
+            "Spawns multiple Fire Bombs around the arena that explode after a delay",
             "Visible only after killing Herald of Thunder"
           ]
         }
@@ -51,7 +53,9 @@
     },
     {
       "name": "Herald of Thunder",
-      "damageTypes": [],
+      "damageTypes": [
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Conductivity",
@@ -60,7 +64,7 @@
           ],
           "gif": "https://i.gyazo.com/1ca2be0d542038aedc128c1c62eacf53.mp4",
           "about": [
-            "/CONDUCTIVITY/"
+            "Curses all targets in an area, making them less resistant to lightning damage and gives damage hit more chance to shock"
           ]
         },
         {
@@ -77,8 +81,8 @@
           ],
           "gif": "https://i.gyazo.com/78ee7167607bbc2c1e32b5a913219210.mp4",
           "about": [
-            "/SHOCK_NOVA/",
-            "/SHOCK_NOVA_SHOCK/",
+            "Deals lightning damage in an area around the caster, conjuring an initial ring followed by a larger circular area.",
+            "Has a high chance to shock",
             "Both effects can overlap to deal significantly more damage"
           ]
         },
@@ -92,7 +96,7 @@
           ],
           "gif": "https://i.gyazo.com/87c62c53ed27bc6dc969fd29994b0017.mp4",
           "about": [
-            "/LIGHTNING_BOLT/"
+            "Fires few Lightning Bolts at you"
           ]
         },
         {
@@ -105,7 +109,7 @@
           ],
           "gif": "https://i.gyazo.com/8a12d9e7a5fe60a2f8dfaa767a4cf8f6.mp4",
           "about": [
-            "/LIGHTNING_BOMBS/",
+            "Spawns multiple Lightning Bombs around the arena that explode after a delay",
             "Visible only after killing Herald of Ashes"
           ]
         }

@@ -4,7 +4,11 @@
   "bosses": [
     {
       "name": "Woad, Mockery of Man",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold",
+        "lightning"
+      ],
       "abilities": [
         {
           "name": "Rapid Projectile",

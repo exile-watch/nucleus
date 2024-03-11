@@ -4,7 +4,10 @@
   "bosses": [
     {
       "name": "Titan of the Grove",
-      "damageTypes": [],
+      "damageTypes": [
+        "physical",
+        "cold"
+      ],
       "abilities": [
         {
           "name": "Golem Slam",
