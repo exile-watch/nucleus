@@ -1,5 +1,7 @@
 const {readdirSync} = require("fs");
 const { format } = require('date-fns');
+const {tokensPath, extractedDataPath} = require("./paths");
+const fs = require("fs");
 const lastmod = format(new Date(), `yyyy-MM-dd'T'HH:mmxxx`);
 const getDirectories = (source) =>
   readdirSync(source, { withFileTypes: true })
@@ -17,6 +19,25 @@ const colorifyConsole = ({ label, text }) => {
   }
 };
 
+async function writeFiles(cb) {
+  const directories = getDirectories(tokensPath);
+
+  for (const dir of directories) {
+    const data = []
+    const subDirectories = getDirectories(`${tokensPath}/${dir}`);
+
+    for (const subDir of subDirectories) {
+      const files = fs.readdirSync(`${extractedDataPath}/${dir}/${subDir}`);
+
+      for (const file of files) {
+        data.push({dir, ...JSON.parse(fs.readFileSync(`${extractedDataPath}/${dir}/${subDir}/${file}`))});
+      }
+    }
+
+    cb({data, dir, subDirectories})
+  }
+}
+
 const generateXmlUrl = ({ loc, priority }) => `
   <url>
     <loc>${loc}</loc>
@@ -29,5 +50,6 @@ const generateXmlUrl = ({ loc, priority }) => `
 module.exports = {
   colorifyConsole,
   getDirectories,
+  writeFiles,
   generateXmlUrl
 }
