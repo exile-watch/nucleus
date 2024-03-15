@@ -1,0 +1,25 @@
+name: "@exile-watch / doryani"
+
+on:
+  pull_request_target:
+    types:
+      - labeled
+
+jobs:
+  preview-publish-package:
+    runs-on: ubuntu-latest
+    if: contains(github.event.pull_request.labels.*.name, 'preview-publish')
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - name: Preview publish package
+        uses: exile-watch/doryani/preview-publish-package@main
+        with:
+          GH_ACTOR: ${{ github.actor }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          prRef: ${{ github.event.pull_request.head.ref }}
