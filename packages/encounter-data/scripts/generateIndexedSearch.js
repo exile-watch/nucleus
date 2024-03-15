@@ -1,28 +1,20 @@
 const fs = require('fs');
-const { kebabCase } = require('lodash');
-const {getDirectories, colorifyConsole} = require("./utils");
-const {tokensPath, extractedDataPath} = require("./paths");
+const { kebabCase, camelCase} = require('lodash');
+const {getDirectories, colorifyConsole, writeFiles} = require("./utils");
+const {tokensPath, extractedDataPath, typesOutputFile} = require("./paths");
 
-const data = [];
-
-getDirectories(tokensPath).forEach((dir) => {
-  fs.readdirSync(`${extractedDataPath}/${dir}`).forEach((file) => {
-    data.push(JSON.parse(fs.readFileSync(`${extractedDataPath}/${dir}/${file}`)));
-  });
-});
-
-const prepareIndexedSearchData = () =>
-  data.reduce((acc, map) => {
-    const mapPath = map.map && `/encounters/${map.category}/${kebabCase(map.map)}`;
+const prepareIndexedSearchData = (data) =>
+  data.reduce((acc, d) => {
+    const mapPath = d.map && `${d.dir}/encounters/${d.category}/${kebabCase(d.map)}`;
     let searchObj = [];
 
     /**
      * Add map name as a separate entity and path to redirect for indexed search
      */
-    if (map.map) {
+    if (d.map) {
       const newMapIndexedSearch = {
         mapPath,
-        mapName: map.map,
+        mapName: d.map,
       };
       searchObj.push(newMapIndexedSearch);
     }
@@ -30,15 +22,15 @@ const prepareIndexedSearchData = () =>
     /**
      * Add boss name as a separate entity and path to redirect for indexed search
      */
-    if (map.bosses) {
-      map.bosses.map(({name: encounterName, abilities}) => {
-        const encounterPath = map.map
+    if (d.bosses) {
+      d.bosses.map(({name: encounterName, abilities}) => {
+        const encounterPath = d.map
           ? `${mapPath}/${kebabCase(encounterName)}`
-          : `/encounters/${map.category}/${kebabCase(encounterName)}`;
+          : `${d.dir}/encounters/${d.category}/${kebabCase(encounterName)}`;
         const newEncounterIndexedSearch = {
-          ...(map.map && {
+          ...(d.map && {
             mapPath,
-            mapName: map.map,
+            mapName: d.map,
           }),
           encounterPath,
           encounterName,
@@ -64,8 +56,8 @@ const prepareIndexedSearchData = () =>
     return acc.concat(searchObj);
   }, []);
 
-const categorizeIndexedSearch = async () => {
-  const preparedIndexedSearchData = await prepareIndexedSearchData();
+const categorizeIndexedSearch = async (data) => {
+  const preparedIndexedSearchData = await prepareIndexedSearchData(data);
   return preparedIndexedSearchData.reduce((acc, data) => {
     const isMap = !data.encounterPath && !data.encounterAbilityPath;
     const isEncounter = data.encounterPath && !data.encounterAbilityPath;
@@ -96,24 +88,16 @@ const categorizeIndexedSearch = async () => {
   }, {maps: [], encounters: [], encounterAbilities: []})
 }
 
-const buildIndexedSearch = async () => {
-  await console.time(
-    colorifyConsole({ label: 'time', text: 'Generate Encounters Indexed Search' })
-  );
-  const preparedIndexedSearchData = await categorizeIndexedSearch();
-  return JSON.stringify(preparedIndexedSearchData, null, 2);
-};
+const generateIndexedSearch = async () => {
+  await console.time(colorifyConsole({label: 'time', text: 'Generate encounters indexed-search'}));
 
-buildIndexedSearch()
-  .then(async (data) => {
-    await fs.writeFileSync(`${extractedDataPath}/indexed-search.json`, data);
-    await console.timeEnd(
-      colorifyConsole({ label: 'time', text: 'Generate Encounters Indexed Search' })
-    );
+  await writeFiles(async ({data, dir}) => {
+    const preparedIndexedSearchData = await categorizeIndexedSearch(data);
+    const indexedSearch = JSON.stringify(preparedIndexedSearchData, null, 2);
+    await fs.writeFileSync(`${extractedDataPath}/${dir}/indexed-search.json`, indexedSearch);
   })
-  .catch(async (err) => {
-    await console.log(err);
-    await console.timeEnd(
-      colorifyConsole({ label: 'time', text: 'Generate Encounters Indexed Search' })
-    );
-  });
+
+  await console.timeEnd(colorifyConsole({label: 'time', text: 'Generate encounters indexed-search'}));
+}
+
+generateIndexedSearch()

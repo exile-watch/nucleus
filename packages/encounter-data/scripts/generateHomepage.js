@@ -1,9 +1,8 @@
 const { kebabCase, startCase } = require('lodash');
-const _ = require('lodash');
 const fs = require('fs');
 
-const {tokensPath, extractedDataPath} = require("./paths");
-const {getDirectories, colorifyConsole} = require("./utils");
+const {extractedDataPath} = require("./paths");
+const {colorifyConsole, writeFiles} = require("./utils");
 
 const BREACHLORDS_SHOWCASE_ABILITIES = ['Pullback', 'Barrage', 'Spike Eruption', 'Upheaval']
 const COMMON_MAPS_SHOWCASE_ABILITIES = ['Summon Shadow Councillor', 'Spiral Ball Lightning Beam', 'Fire Bombs', 'Horizontal Ice Rain']
@@ -20,17 +19,10 @@ const SHOWCASE_ABILITIES = [
   ...ELDER_GUARDIANS_SHOWCASE_ABILITIES,
   ...SHAPER_GUARDIANS_SHOWCASE_ABILITIES
 ]
-const data = [];
 
-getDirectories(tokensPath).forEach((dir) => {
-  fs.readdirSync(`${extractedDataPath}/${dir}`).forEach((file) => {
-    data.push(JSON.parse(fs.readFileSync(`${extractedDataPath}/${dir}/${file}`)));
-  });
-});
-
-const prepareHomepageData = () =>
-  data.reduce((acc, map) => {
-    const {name: encounterName, abilities} = map.bosses[0];
+const prepareHomepageData = (data) =>
+  data.reduce((acc, d) => {
+    const {name: encounterName, abilities} = d.bosses[0];
 
     const [extractedGif] = abilities.map(({name: abilityName, gif}) => {
 
@@ -41,11 +33,11 @@ const prepareHomepageData = () =>
       return null;
     }).filter(Boolean)
 
-    const path = map.map
-      ? `/encounters/${map.category}/${kebabCase(map.map)}/${kebabCase(encounterName)}`
-      : `/encounters/${map.category}/${kebabCase(encounterName)}`;
+    const path = d.map
+      ? `${d.dir}/encounters/${d.category}/${kebabCase(d.map)}/${kebabCase(encounterName)}`
+      : `${d.dir}/encounters/${d.category}/${kebabCase(encounterName)}`;
 
-    switch(map.category){
+    switch(d.category){
       case 'breachlords':
       case 'common-maps':
       case 'conquerors':
@@ -53,26 +45,26 @@ const prepareHomepageData = () =>
       case 'shaper-guardians': {
         return {
           ...acc,
-          [map.category]: {
-            ...acc[map.category],
-            name: startCase(map.category),
-            path: `/encounters/${map.category}`,
-            thumbnail:!acc[map.category]?.thumbnail ? [map.thumbnail].filter(Boolean) : acc[map.category]?.thumbnail.concat(map.thumbnail).filter(Boolean).slice(0, 4),
-            gif: !acc[map.category]?.gif ? [extractedGif].filter(Boolean) : acc[map.category]?.gif.concat(extractedGif).filter(Boolean).slice(0, 4)
+          [d.category]: {
+            ...acc[d.category],
+            name: startCase(d.category),
+            path: `${d.dir}/encounters/${d.category}`,
+            thumbnail:!acc[d.category]?.thumbnail ? [d.thumbnail].filter(Boolean) : acc[d.category]?.thumbnail.concat(d.thumbnail).filter(Boolean).slice(0, 4),
+            gif: !acc[d.category]?.gif ? [extractedGif].filter(Boolean) : acc[d.category]?.gif.concat(extractedGif).filter(Boolean).slice(0, 4)
           }
         }
       }
 
       case 'endgame-bosses': {
         const OMITTED_ENDGAME_ENCOUNTERS = ['The Apex of Sacrifice', 'Simulacrum']
-        if(OMITTED_ENDGAME_ENCOUNTERS.includes(map?.map)) return acc;
+        if(OMITTED_ENDGAME_ENCOUNTERS.includes(d?.map)) return acc;
 
         return {
           ...acc,
           main: acc.main?.concat({
             name: encounterName === "Fractal Gargantuan" ? "Cortex" : encounterName,
             path,
-            thumbnail: map.thumbnail,
+            thumbnail: d.thumbnail,
             gif: extractedGif
           })
         }
@@ -81,18 +73,17 @@ const prepareHomepageData = () =>
     }
   }, {main: []});
 
-const buildHomepage = async () => {
-  await console.time(colorifyConsole({ label: 'time', text: 'Generate Homepage tiles' }));
-  const preparedHomepage = await prepareHomepageData();
-  return JSON.stringify(preparedHomepage, null, 2);
-};
+const generateHomepage = async () => {
+  await console.time(colorifyConsole({label: 'time', text: 'Generate Homepage tiles'}));
 
-buildHomepage()
-  .then(async (data) => {
-    await fs.writeFileSync(`${extractedDataPath}/homepage.json`, data);
-    await console.timeEnd(colorifyConsole({ label: 'time', text: 'Generate Homepage tiles' }));
+  await writeFiles(async ({data, dir}) => {
+    const preparedHomepage = await prepareHomepageData(data);
+    const homepage = JSON.stringify(preparedHomepage, null, 2);
+
+    await fs.writeFileSync(`${extractedDataPath}/${dir}/homepage.json`, homepage);
   })
-  .catch(async (err) => {
-    await console.log(err);
-    await console.timeEnd(colorifyConsole({ label: 'time', text: 'Generate Homepage tiles' }));
-  });
+
+  await console.timeEnd(colorifyConsole({ label: 'time', text: 'Generate Homepage tiles' }));
+}
+
+generateHomepage()

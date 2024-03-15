@@ -1,0 +1,568 @@
+{
+  "abyssal-liches": [
+    {
+      "label": "Stygian Spire",
+      "path": "path-of-exile-1/encounters/abyssal-liches/stygian-spire"
+    }
+  ],
+  "breachlords": [
+    {
+      "label": "Esh, Forked Thought",
+      "path": "path-of-exile-1/encounters/breachlords/esh-forked-thought"
+    },
+    {
+      "label": "Tul, Creeping Avalanche",
+      "path": "path-of-exile-1/encounters/breachlords/tul-creeping-avalanche"
+    },
+    {
+      "label": "Uul-Netol, Unburdened Flesh",
+      "path": "path-of-exile-1/encounters/breachlords/uul-netol-unburdened-flesh"
+    },
+    {
+      "label": "Xoph, Dark Embers",
+      "path": "path-of-exile-1/encounters/breachlords/xoph-dark-embers"
+    }
+  ],
+  "common-maps": [
+    {
+      "label": "Ancient City",
+      "path": "path-of-exile-1/encounters/common-maps/ancient-city/legius-garhall"
+    },
+    {
+      "label": "Arachnid Nest",
+      "path": "path-of-exile-1/encounters/common-maps/arachnid-nest/spinner-of-false-hope"
+    },
+    {
+      "label": "Arachnid Tomb",
+      "path": "path-of-exile-1/encounters/common-maps/arachnid-tomb/hybrid-widow"
+    },
+    {
+      "label": "Arcade",
+      "path": "path-of-exile-1/encounters/common-maps/arcade/herald-of-ashes"
+    },
+    {
+      "label": "Arsenal",
+      "path": "path-of-exile-1/encounters/common-maps/arsenal/the-steel-soul"
+    },
+    {
+      "label": "Ashen Wood",
+      "path": "path-of-exile-1/encounters/common-maps/ashen-wood/lord-of-the-ashen-arrow"
+    },
+    {
+      "label": "Atoll",
+      "path": "path-of-exile-1/encounters/common-maps/atoll/puruna-the-challenger"
+    },
+    {
+      "label": "Bog",
+      "path": "path-of-exile-1/encounters/common-maps/bog/skullbeak"
+    },
+    {
+      "label": "Bone Crypt",
+      "path": "path-of-exile-1/encounters/common-maps/bone-crypt/xixic-high-necromancer"
+    },
+    {
+      "label": "Bramble Valley",
+      "path": "path-of-exile-1/encounters/common-maps/bramble-valley/melur-thornmaul"
+    },
+    {
+      "label": "Burial Chambers",
+      "path": "path-of-exile-1/encounters/common-maps/burial-chambers/witch-of-the-cauldron"
+    },
+    {
+      "label": "Cage",
+      "path": "path-of-exile-1/encounters/common-maps/cage/executioner-bloodwing"
+    },
+    {
+      "label": "Canyon",
+      "path": "path-of-exile-1/encounters/common-maps/canyon/stonebeak-battle-fowl"
+    },
+    {
+      "label": "Carcass",
+      "path": "path-of-exile-1/encounters/common-maps/carcass/amalgam-of-nightmares"
+    },
+    {
+      "label": "Castle Ruins",
+      "path": "path-of-exile-1/encounters/common-maps/castle-ruins/leif-the-swift-handed"
+    },
+    {
+      "label": "Cells",
+      "path": "path-of-exile-1/encounters/common-maps/cells/shavronne-the-sickening"
+    },
+    {
+      "label": "Cemetry",
+      "path": "path-of-exile-1/encounters/common-maps/cemetry/erebix-lights-bane"
+    },
+    {
+      "label": "Channel",
+      "path": "path-of-exile-1/encounters/common-maps/channel/the-winged-death"
+    },
+    {
+      "label": "Chateau",
+      "path": "path-of-exile-1/encounters/common-maps/chateau/hephaeus-the-hammer"
+    },
+    {
+      "label": "City Square",
+      "path": "path-of-exile-1/encounters/common-maps/city-square/pileah-burning-corpse"
+    },
+    {
+      "label": "Colonnade",
+      "path": "path-of-exile-1/encounters/common-maps/colonnade/tyrant"
+    },
+    {
+      "label": "Colosseum",
+      "path": "path-of-exile-1/encounters/common-maps/colosseum/ambrius-legion-slayer"
+    },
+    {
+      "label": "Conservatory",
+      "path": "path-of-exile-1/encounters/common-maps/conservatory/the-forgotten-soldier"
+    },
+    {
+      "label": "Coral Ruins",
+      "path": "path-of-exile-1/encounters/common-maps/coral-ruins/captain-tanner-lightfoot"
+    },
+    {
+      "label": "Courthouse",
+      "path": "path-of-exile-1/encounters/common-maps/courthouse/bolt-brownfur-earth-churner"
+    },
+    {
+      "label": "Courtyard",
+      "path": "path-of-exile-1/encounters/common-maps/courtyard/oriaths-vengeance"
+    },
+    {
+      "label": "Coves",
+      "path": "path-of-exile-1/encounters/common-maps/coves/telvar-the-inebriated"
+    },
+    {
+      "label": "Crater",
+      "path": "path-of-exile-1/encounters/common-maps/crater/megaera"
+    },
+    {
+      "label": "Crimson Township",
+      "path": "path-of-exile-1/encounters/common-maps/crimson-township/kadaris-crimson-mayor"
+    },
+    {
+      "label": "Crystal Ore",
+      "path": "path-of-exile-1/encounters/common-maps/crystal-ore/messenger-of-the-hollows"
+    },
+    {
+      "label": "Cursed Crypt",
+      "path": "path-of-exile-1/encounters/common-maps/cursed-crypt/pagan-bishop-of-agony"
+    },
+    {
+      "label": "Defiled Cathedral",
+      "path": "path-of-exile-1/encounters/common-maps/defiled-cathedral/woad-mockery-of-man"
+    },
+    {
+      "label": "Desert Spring",
+      "path": "path-of-exile-1/encounters/common-maps/desert-spring/terror-of-the-infinite-drifts"
+    },
+    {
+      "label": "Desert",
+      "path": "path-of-exile-1/encounters/common-maps/desert/preethi-eye-pecker"
+    },
+    {
+      "label": "Dig",
+      "path": "path-of-exile-1/encounters/common-maps/dig/stalker-of-the-endless-dunes"
+    },
+    {
+      "label": "Dry Sea",
+      "path": "path-of-exile-1/encounters/common-maps/dry-sea/gazuul-droughtspawn"
+    },
+    {
+      "label": "Dunes",
+      "path": "path-of-exile-1/encounters/common-maps/dunes/the-blacksmith"
+    },
+    {
+      "label": "Estuary",
+      "path": "path-of-exile-1/encounters/common-maps/estuary/sumter-the-twisted"
+    },
+    {
+      "label": "Excavation",
+      "path": "path-of-exile-1/encounters/common-maps/excavation/shrieker-eihal"
+    },
+    {
+      "label": "Factory",
+      "path": "path-of-exile-1/encounters/common-maps/factory/pesquin-the-mad-baron"
+    },
+    {
+      "label": "Fields",
+      "path": "path-of-exile-1/encounters/common-maps/fields/drek-apex-hunter"
+    },
+    {
+      "label": "Forbidden Woods",
+      "path": "path-of-exile-1/encounters/common-maps/forbidden-woods/corruptor-eedaiak"
+    },
+    {
+      "label": "Forking River",
+      "path": "path-of-exile-1/encounters/common-maps/forking-river/ormud-fiend-of-the-flood"
+    },
+    {
+      "label": "Frozen Cabins",
+      "path": "path-of-exile-1/encounters/common-maps/frozen-cabins/captain-clayborne-the-accursed"
+    },
+    {
+      "label": "Fungal Hollow",
+      "path": "path-of-exile-1/encounters/common-maps/fungal-hollow/aulen-greychain"
+    },
+    {
+      "label": "Gardens",
+      "path": "path-of-exile-1/encounters/common-maps/gardens/sallazzang"
+    },
+    {
+      "label": "Geode",
+      "path": "path-of-exile-1/encounters/common-maps/geode/avatar-of-undoing"
+    },
+    {
+      "label": "Ghetto",
+      "path": "path-of-exile-1/encounters/common-maps/ghetto/lady-stormflay"
+    },
+    {
+      "label": "Glacier",
+      "path": "path-of-exile-1/encounters/common-maps/glacier/rektar-the-breaker"
+    },
+    {
+      "label": "Grave Through",
+      "path": "path-of-exile-1/encounters/common-maps/grave-through/the-restless-shade"
+    },
+    {
+      "label": "Grotto",
+      "path": "path-of-exile-1/encounters/common-maps/grotto/void-anomaly"
+    },
+    {
+      "label": "Haunted Mansion",
+      "path": "path-of-exile-1/encounters/common-maps/haunted-mansion/barthol-the-pure"
+    },
+    {
+      "label": "Iceberg",
+      "path": "path-of-exile-1/encounters/common-maps/iceberg/yorishi-aurora-sage"
+    },
+    {
+      "label": "Infested Valley",
+      "path": "path-of-exile-1/encounters/common-maps/infested-valley/gorulis-will-thief"
+    },
+    {
+      "label": "Jungle Valley",
+      "path": "path-of-exile-1/encounters/common-maps/jungle-valley/queen-of-the-great-tangle"
+    },
+    {
+      "label": "Laboratory",
+      "path": "path-of-exile-1/encounters/common-maps/laboratory/riftwalker"
+    },
+    {
+      "label": "Lair",
+      "path": "path-of-exile-1/encounters/common-maps/lair/lycius-midnights-howl"
+    },
+    {
+      "label": "Lava Chamber",
+      "path": "path-of-exile-1/encounters/common-maps/lava-chamber/fire-and-fury"
+    },
+    {
+      "label": "Leyline",
+      "path": "path-of-exile-1/encounters/common-maps/leyline/mirage-of-bones"
+    },
+    {
+      "label": "Lighthouse",
+      "path": "path-of-exile-1/encounters/common-maps/lighthouse/binaia-crimson-rain"
+    },
+    {
+      "label": "Lookout",
+      "path": "path-of-exile-1/encounters/common-maps/lookout/the-grey-plague"
+    },
+    {
+      "label": "Malformation",
+      "path": "path-of-exile-1/encounters/common-maps/malformation/nightmare-manifest"
+    },
+    {
+      "label": "Maze",
+      "path": "path-of-exile-1/encounters/common-maps/maze/shadow-of-the-vaal"
+    },
+    {
+      "label": "Mineral Pools",
+      "path": "path-of-exile-1/encounters/common-maps/mineral-pools/shock-and-horror"
+    },
+    {
+      "label": "Moon Temple",
+      "path": "path-of-exile-1/encounters/common-maps/moon-temple/sebbert-crescents-point"
+    },
+    {
+      "label": "Mud Geyser",
+      "path": "path-of-exile-1/encounters/common-maps/mud-geyser/tunneltrap"
+    },
+    {
+      "label": "Museum",
+      "path": "path-of-exile-1/encounters/common-maps/museum/he-of-many-pieces"
+    },
+    {
+      "label": "Orchard",
+      "path": "path-of-exile-1/encounters/common-maps/orchard/vision-of-justice"
+    },
+    {
+      "label": "Overgrown Ruin",
+      "path": "path-of-exile-1/encounters/common-maps/overgrown-ruin/visceris"
+    },
+    {
+      "label": "Overgrown Shrine",
+      "path": "path-of-exile-1/encounters/common-maps/overgrown-shrine/maligaro-the-mutilator"
+    },
+    {
+      "label": "Palace",
+      "path": "path-of-exile-1/encounters/common-maps/palace/gods-chosen"
+    },
+    {
+      "label": "Park",
+      "path": "path-of-exile-1/encounters/common-maps/park/suncaller-asha"
+    },
+    {
+      "label": "Pen",
+      "path": "path-of-exile-1/encounters/common-maps/pen/arwyn-the-houndmaster"
+    },
+    {
+      "label": "Peninsula",
+      "path": "path-of-exile-1/encounters/common-maps/peninsula/titan-of-the-grove"
+    },
+    {
+      "label": "Phantasmagoria",
+      "path": "path-of-exile-1/encounters/common-maps/phantasmagoria/erythrophagia"
+    },
+    {
+      "label": "Pier",
+      "path": "path-of-exile-1/encounters/common-maps/pier/ancient-architect"
+    },
+    {
+      "label": "Plateau",
+      "path": "path-of-exile-1/encounters/common-maps/plateau/poporo-the-highest-spire"
+    },
+    {
+      "label": "Plaza",
+      "path": "path-of-exile-1/encounters/common-maps/plaza/the-goddess"
+    },
+    {
+      "label": "Port",
+      "path": "path-of-exile-1/encounters/common-maps/port/unravelling-horror"
+    },
+    {
+      "label": "Precinct",
+      "path": "path-of-exile-1/encounters/common-maps/precinct/augustina-solaria"
+    },
+    {
+      "label": "Primordial Blocks",
+      "path": "path-of-exile-1/encounters/common-maps/primordial-blocks/high-lithomancer"
+    },
+    {
+      "label": "Primordial Pool",
+      "path": "path-of-exile-1/encounters/common-maps/primordial-pool/nightmares-omen"
+    },
+    {
+      "label": "Promenade",
+      "path": "path-of-exile-1/encounters/common-maps/promenade/blackguard-avenger"
+    },
+    {
+      "label": "Ramparts",
+      "path": "path-of-exile-1/encounters/common-maps/ramparts/the-reaver"
+    },
+    {
+      "label": "Reef",
+      "path": "path-of-exile-1/encounters/common-maps/reef/nassar-lion-of-the-seas"
+    },
+    {
+      "label": "Residence",
+      "path": "path-of-exile-1/encounters/common-maps/residence/excellis-aurafix"
+    },
+    {
+      "label": "Scriptorium",
+      "path": "path-of-exile-1/encounters/common-maps/scriptorium/gisale-thought-thief"
+    },
+    {
+      "label": "Shore",
+      "path": "path-of-exile-1/encounters/common-maps/shore/belcer-the-pirate-lord"
+    },
+    {
+      "label": "Shrine",
+      "path": "path-of-exile-1/encounters/common-maps/shrine/piety-the-empyrean"
+    },
+    {
+      "label": "Siege",
+      "path": "path-of-exile-1/encounters/common-maps/siege/tahsin-warmaker"
+    },
+    {
+      "label": "Silo",
+      "path": "path-of-exile-1/encounters/common-maps/silo/renkarr-the-kiln-keeper"
+    },
+    {
+      "label": "Spider Forest",
+      "path": "path-of-exile-1/encounters/common-maps/spider-forest/enticer-of-rot"
+    },
+    {
+      "label": "Strand",
+      "path": "path-of-exile-1/encounters/common-maps/strand/master-of-the-blade"
+    },
+    {
+      "label": "Sulphur Vents",
+      "path": "path-of-exile-1/encounters/common-maps/sulphur-vents/the-gorgon"
+    },
+    {
+      "label": "Summit",
+      "path": "path-of-exile-1/encounters/common-maps/summit/mephod-the-earth-schorcher"
+    },
+    {
+      "label": "Sunken City",
+      "path": "path-of-exile-1/encounters/common-maps/sunken-city/armala-the-widow"
+    },
+    {
+      "label": "Temple",
+      "path": "path-of-exile-1/encounters/common-maps/temple/jorus-skys-edge"
+    },
+    {
+      "label": "Terrace",
+      "path": "path-of-exile-1/encounters/common-maps/terrace/varhesh-shimmering-abberation"
+    },
+    {
+      "label": "Thicket",
+      "path": "path-of-exile-1/encounters/common-maps/thicket/the-primal-one"
+    },
+    {
+      "label": "Tower",
+      "path": "path-of-exile-1/encounters/common-maps/tower/bazur"
+    },
+    {
+      "label": "Tropical Island",
+      "path": "path-of-exile-1/encounters/common-maps/tropical-island/blood-progenitor"
+    },
+    {
+      "label": "Underground River",
+      "path": "path-of-exile-1/encounters/common-maps/underground-river/it-that-fell"
+    },
+    {
+      "label": "Underground Sea",
+      "path": "path-of-exile-1/encounters/common-maps/underground-sea/merveil-the-reflection"
+    },
+    {
+      "label": "Vaal Pyramid",
+      "path": "path-of-exile-1/encounters/common-maps/vaal-pyramid/the-fallen-queen"
+    },
+    {
+      "label": "Vaal Temple",
+      "path": "path-of-exile-1/encounters/common-maps/vaal-temple/kaj-qura"
+    },
+    {
+      "label": "Vault",
+      "path": "path-of-exile-1/encounters/common-maps/vault/guardian-of-the-vault"
+    },
+    {
+      "label": "Villa",
+      "path": "path-of-exile-1/encounters/common-maps/villa/the-high-templar"
+    },
+    {
+      "label": "Volcano",
+      "path": "path-of-exile-1/encounters/common-maps/volcano/forest-of-flames"
+    },
+    {
+      "label": "Waste Pool",
+      "path": "path-of-exile-1/encounters/common-maps/waste-pool/portentia-the-foul"
+    },
+    {
+      "label": "Wasteland",
+      "path": "path-of-exile-1/encounters/common-maps/wasteland/the-brittle-emperor"
+    },
+    {
+      "label": "Waterways",
+      "path": "path-of-exile-1/encounters/common-maps/waterways/fragment-of-winter"
+    },
+    {
+      "label": "Wharf",
+      "path": "path-of-exile-1/encounters/common-maps/wharf/stone-of-the-currents"
+    }
+  ],
+  "conquerors": [
+    {
+      "label": "Al'Hezmin, the Hunter",
+      "path": "path-of-exile-1/encounters/conquerors/al-hezmin-the-hunter"
+    },
+    {
+      "label": "Baran, the Crusader",
+      "path": "path-of-exile-1/encounters/conquerors/baran-the-crusader"
+    },
+    {
+      "label": "Drox, the Warlord",
+      "path": "path-of-exile-1/encounters/conquerors/drox-the-warlord"
+    },
+    {
+      "label": "Veritania, the Redeemer",
+      "path": "path-of-exile-1/encounters/conquerors/veritania-the-redeemer"
+    }
+  ],
+  "elder-guardians": [
+    {
+      "label": "The Constrictor",
+      "path": "path-of-exile-1/encounters/elder-guardians/the-constrictor"
+    },
+    {
+      "label": "The Enslaver",
+      "path": "path-of-exile-1/encounters/elder-guardians/the-enslaver"
+    },
+    {
+      "label": "The Eradicator",
+      "path": "path-of-exile-1/encounters/elder-guardians/the-eradicator"
+    },
+    {
+      "label": "The Purifier",
+      "path": "path-of-exile-1/encounters/elder-guardians/the-purifier"
+    }
+  ],
+  "endgame-bosses": [
+    {
+      "label": "Catarina, Master of Undeath",
+      "path": "path-of-exile-1/encounters/endgame-bosses/catarina-master-of-undeath"
+    },
+    {
+      "label": "Cortex",
+      "path": "path-of-exile-1/encounters/endgame-bosses/cortex/fractal-gargantuan"
+    },
+    {
+      "label": "Oshabi, Avatar of the Grove",
+      "path": "path-of-exile-1/encounters/endgame-bosses/oshabi-avatar-of-the-grove"
+    },
+    {
+      "label": "Simulacrum",
+      "path": "path-of-exile-1/encounters/endgame-bosses/simulacrum/omniphobia-fear-manifest"
+    },
+    {
+      "label": "Sirus, Awakener of Worlds",
+      "path": "path-of-exile-1/encounters/endgame-bosses/sirus-awakener-of-worlds"
+    },
+    {
+      "label": "The Alluring Abyss",
+      "path": "path-of-exile-1/encounters/endgame-bosses/the-alluring-abyss/atziri-queen-of-the-vaal"
+    },
+    {
+      "label": "The Apex of Sacrifice",
+      "path": "path-of-exile-1/encounters/endgame-bosses/the-apex-of-sacrifice/atziri-queen-of-the-vaal"
+    },
+    {
+      "label": "The Elder",
+      "path": "path-of-exile-1/encounters/endgame-bosses/the-elder"
+    },
+    {
+      "label": "The Shaper's Realm",
+      "path": "path-of-exile-1/encounters/endgame-bosses/the-shapers-realm/the-shaper"
+    }
+  ],
+  "shaper-guardians": [
+    {
+      "label": "Guardian of the Chimera",
+      "path": "path-of-exile-1/encounters/shaper-guardians/guardian-of-the-chimera"
+    },
+    {
+      "label": "Guardian of the Hydra",
+      "path": "path-of-exile-1/encounters/shaper-guardians/guardian-of-the-hydra"
+    },
+    {
+      "label": "Guardian of the Minotaur",
+      "path": "path-of-exile-1/encounters/shaper-guardians/guardian-of-the-minotaur"
+    },
+    {
+      "label": "Guardian of the Phoenix",
+      "path": "path-of-exile-1/encounters/shaper-guardians/guardian-of-the-phoenix"
+    }
+  ]
+}
