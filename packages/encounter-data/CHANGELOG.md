@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.11.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.10.0...@exile-watch/encounter-data@0.11.0) (2024-03-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* structure files to support poe 1 and poe 2 encounters
+
+### ✨ Features
+
+* structure files to support poe 1 and poe 2 encounters ([6d3b15a](https://github.com/exile-watch/nucleus/commit/6d3b15a90dffc9947b1fe7d3d519c8b960b21540))
+
+
+### 🐞 Bug Fixes
+
+* add missed leading slash to indexed search and path jsons ([c2fc500](https://github.com/exile-watch/nucleus/commit/c2fc500f783a64920a99f24410a33b30a356e65a))
+* add missing leading slash to paths ([383726a](https://github.com/exile-watch/nucleus/commit/383726a3ecad4e8513ed015213c7e3ddf63f787f))
+
+
+
 ## [0.10.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.11...@exile-watch/encounter-data@0.10.0) (2024-03-11)
 
 
