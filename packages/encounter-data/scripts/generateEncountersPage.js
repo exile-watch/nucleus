@@ -37,7 +37,7 @@ const prepareEncountersPageData = (data) =>
       [d.category]: {
         ...acc[d.category],
         name: startCase(d.category),
-        path: `${d.dir}/encounters/${d.category}`,
+        path: `/${d.dir}/encounters/${d.category}`,
         gif: !acc[d.category]?.gif ? [extractedGif].filter(Boolean) : acc[d.category]?.gif.concat(extractedGif).filter(Boolean).slice(0, 4)
       }
     }

@@ -11,8 +11,8 @@ const prepareCategoriesData = (data) =>
     const {gif} = abilities.pop()
 
     const path = d.map
-      ? `${d.dir}/encounters/${d.category}/${kebabCase(d.map)}/${kebabCase(encounterName)}`
-      : `${d.dir}/encounters/${d.category}/${kebabCase(encounterName)}`;
+      ? `/${d.dir}/encounters/${d.category}/${kebabCase(d.map)}/${kebabCase(encounterName)}`
+      : `/${d.dir}/encounters/${d.category}/${kebabCase(encounterName)}`;
 
     return {
       ...acc,

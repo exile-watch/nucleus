@@ -34,8 +34,8 @@ const prepareHomepageData = (data) =>
     }).filter(Boolean)
 
     const path = d.map
-      ? `${d.dir}/encounters/${d.category}/${kebabCase(d.map)}/${kebabCase(encounterName)}`
-      : `${d.dir}/encounters/${d.category}/${kebabCase(encounterName)}`;
+      ? `/${d.dir}/encounters/${d.category}/${kebabCase(d.map)}/${kebabCase(encounterName)}`
+      : `/${d.dir}/encounters/${d.category}/${kebabCase(encounterName)}`;
 
     switch(d.category){
       case 'breachlords':
@@ -48,7 +48,7 @@ const prepareHomepageData = (data) =>
           [d.category]: {
             ...acc[d.category],
             name: startCase(d.category),
-            path: `${d.dir}/encounters/${d.category}`,
+            path: `/${d.dir}/encounters/${d.category}`,
             thumbnail:!acc[d.category]?.thumbnail ? [d.thumbnail].filter(Boolean) : acc[d.category]?.thumbnail.concat(d.thumbnail).filter(Boolean).slice(0, 4),
             gif: !acc[d.category]?.gif ? [extractedGif].filter(Boolean) : acc[d.category]?.gif.concat(extractedGif).filter(Boolean).slice(0, 4)
           }

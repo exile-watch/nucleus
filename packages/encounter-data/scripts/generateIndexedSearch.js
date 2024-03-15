@@ -25,8 +25,8 @@ const prepareIndexedSearchData = (data) =>
     if (d.bosses) {
       d.bosses.map(({name: encounterName, abilities}) => {
         const encounterPath = d.map
-          ? `${mapPath}/${kebabCase(encounterName)}`
-          : `${d.dir}/encounters/${d.category}/${kebabCase(encounterName)}`;
+          ? `/${mapPath}/${kebabCase(encounterName)}`
+          : `/${d.dir}/encounters/${d.category}/${kebabCase(encounterName)}`;
         const newEncounterIndexedSearch = {
           ...(d.map && {
             mapPath,

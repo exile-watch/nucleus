@@ -1,22 +1,22 @@
 [
   {
     "name": "Al Hezmin The Hunter",
-    "path": "path-of-exile-1/encounters/conquerors/al-hezmin-the-hunter",
+    "path": "/path-of-exile-1/encounters/conquerors/al-hezmin-the-hunter",
     "gif": "https://i.gyazo.com/c9348458020c8fe72289f40054d68aa8.mp4"
   },
   {
     "name": "Baran The Crusader",
-    "path": "path-of-exile-1/encounters/conquerors/baran-the-crusader",
+    "path": "/path-of-exile-1/encounters/conquerors/baran-the-crusader",
     "gif": "https://i.gyazo.com/b46214aeee5ced0b01866fdcfea91623.mp4"
   },
   {
     "name": "Drox The Warlord",
-    "path": "path-of-exile-1/encounters/conquerors/drox-the-warlord",
+    "path": "/path-of-exile-1/encounters/conquerors/drox-the-warlord",
     "gif": "https://i.gyazo.com/e6ad7cc1b9e0eb3e8cbddaba7fe0586e.mp4"
   },
   {
     "name": "Veritania The Redeemer",
-    "path": "path-of-exile-1/encounters/conquerors/veritania-the-redeemer",
+    "path": "/path-of-exile-1/encounters/conquerors/veritania-the-redeemer",
     "gif": "https://i.gyazo.com/392698207a24aabf19504974e43acf2f.mp4"
   }
 ]
