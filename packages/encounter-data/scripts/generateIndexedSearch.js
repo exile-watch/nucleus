@@ -1,11 +1,11 @@
 const fs = require('fs');
-const { kebabCase, camelCase} = require('lodash');
-const {getDirectories, colorifyConsole, writeFiles} = require("./utils");
-const {tokensPath, extractedDataPath, typesOutputFile} = require("./paths");
+const { kebabCase} = require('lodash');
+const {colorifyConsole, writeFiles} = require("./utils");
+const { extractedDataPath} = require("./paths");
 
 const prepareIndexedSearchData = (data) =>
   data.reduce((acc, d) => {
-    const mapPath = d.map && `${d.dir}/encounters/${d.category}/${kebabCase(d.map)}`;
+    const mapPath = d.map && `/${d.dir}/encounters/${d.category}/${kebabCase(d.map)}`;
     let searchObj = [];
 
     /**
@@ -25,7 +25,7 @@ const prepareIndexedSearchData = (data) =>
     if (d.bosses) {
       d.bosses.map(({name: encounterName, abilities}) => {
         const encounterPath = d.map
-          ? `/${mapPath}/${kebabCase(encounterName)}`
+          ? `${mapPath}/${kebabCase(encounterName)}`
           : `/${d.dir}/encounters/${d.category}/${kebabCase(encounterName)}`;
         const newEncounterIndexedSearch = {
           ...(d.map && {

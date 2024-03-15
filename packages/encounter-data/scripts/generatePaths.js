@@ -2,15 +2,15 @@ const { kebabCase } = require('lodash');
 const _ = require('lodash');
 const fs = require('fs');
 
-const {tokensPath, extractedDataPath} = require("./paths");
-const {getDirectories, colorifyConsole, writeFiles} = require("./utils");
+const {extractedDataPath} = require("./paths");
+const {colorifyConsole, writeFiles} = require("./utils");
 
 const preparePathsData = (data) =>
   data.reduce((acc, d) => {
     const {name: encounterName} = d.bosses[0];
     const path = d.map
-      ? `${d.dir}/encounters/${d.category}/${kebabCase(d.map)}/${kebabCase(encounterName)}`
-      : `${d.dir}/encounters/${d.category}/${kebabCase(encounterName)}`;
+      ? `/${d.dir}/encounters/${d.category}/${kebabCase(d.map)}/${kebabCase(encounterName)}`
+      : `/${d.dir}/encounters/${d.category}/${kebabCase(encounterName)}`;
 
     return acc.concat({
       [d.category]: [
