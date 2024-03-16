@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.1.1...@exile-watch/seo@0.1.2) (2024-03-16)
+
+
+### ⚙️ Internal
+
+* add nx and export prepareXml() ([6fab85c](https://github.com/exile-watch/nucleus/commit/6fab85c99a2276c97f7bb9deda35527a4eecf1f5))
+
+
+
 ## [0.1.1](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.1.0...@exile-watch/seo@0.1.1) (2024-03-16)
 
 
