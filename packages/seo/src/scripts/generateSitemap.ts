@@ -1,15 +1,15 @@
-const {pathOfExile1IndexedSearch, pathOfExile2IndexedSearch, pathOfExile1Paths, pathOfExile2Paths} = require("@exile-watch/encounter-data");
-const {format} = require("date-fns");
-const fs = require('fs');
-const {extractedDataPath} = require("@exile-watch/encounter-data/scripts/paths");
+import {pathOfExile1IndexedSearch, pathOfExile2IndexedSearch, pathOfExile1Paths, pathOfExile2Paths} from "@exile-watch/encounter-data";
+import {format} from "date-fns";
+import fs from 'fs'
+import {trim} from "lodash"
+
 const lastmod = format(new Date(), `yyyy-MM-dd'T'HH:mmxxx`);
-const {trim} = require("lodash")
 
 const domain = "https://exile.watch"
 
-const generateXmlUrl = ({ loc, priority }) => trim(`
+const generateXmlUrl = ({ loc, priority, withDomain = true }) => trim(`
     <url>
-      <loc>${domain}${loc}</loc>
+      <loc>${withDomain ? domain : ''}${loc}</loc>
       <priority>${priority}</priority>
       <lastmod>${lastmod}</lastmod>
       <changefreq>monthly</changefreq>
@@ -38,10 +38,10 @@ const categories = directories.map(((d, i) => {
 const maps = [...poe1maps, ...poe2maps ];
 const encounters = [...poe1encounters, ...poe2encounters]
 
-function prepareXml() {
+function generateXml() {
   const indent = "\n    ";
   const header = `<?xml version="1.0" encoding="UTF-8"?>`;
-  const subDomainsXml = subDomains.map(loc => generateXmlUrl({loc, priority: 1.0})).join(indent)
+  const subDomainsXml = subDomains.map(loc => generateXmlUrl({loc, priority: 1.0, withDomain: false})).join(indent)
   const rootPagesXml = rootPages.map(loc => generateXmlUrl({loc, priority: 1.0})).join(indent)
   const directoriesXml = directories.map(d => generateXmlUrl({loc: `/${d}`, priority: 0.9})).join(indent)
   const categoriesXml = categories.map(loc => generateXmlUrl({loc, priority: 0.8})).join(indent)
@@ -64,8 +64,10 @@ function prepareXml() {
 }
 
 async function generateSitemap() {
-  const xml = await prepareXml()
+  const xml = await generateXml()
   await fs.writeFileSync(`./sitemap.xml`, xml);
 }
 
 generateSitemap()
+
+export {generateXml}

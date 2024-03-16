@@ -20,7 +20,8 @@
     "@exile-watch/conventional-changelog-config": "^0.1.0",
     "@exile-watch/lefthook-config": "^0.3.8",
     "@exile-watch/typescript-config": "^0.2.0",
-    "lerna": "^8.0.2"
+    "lerna": "^8.0.2",
+    "nx": "18.1.1"
   },
   "workspaces": [
     "packages/*"

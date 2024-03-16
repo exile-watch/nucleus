@@ -1,0 +1,1 @@
+export {generateXml} from './scripts/generateSitemap'

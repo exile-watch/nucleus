@@ -8,11 +8,17 @@
     "url": "git+https://github.com/exile-watch/nucleus.git",
     "directory": "packages/seo"
   },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "files": [
     "sitemap.xml"
   ],
   "scripts": {
-    "generate:sitemap": "node scripts/generateSitemap.js"
+    "_clean": "del-cli dist",
+    "_build": "rollup -c",
+    "build": "npm run _build",
+    "generate:sitemap": "ts-node src/scripts/generateSitemap.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/",
@@ -22,12 +28,16 @@
     "packages/*"
   ],
   "peerDependencies": {
-    "next": ">=14"
+    "next": ">=14",
+    "@exile-watch/encounter-data": ">=0"
   },
   "devDependencies": {
     "@exile-watch/encounter-data": "^0.11.1",
+    "@exile-watch/rollup-config": "^0.2.5",
+    "@exile-watch/typescript-config": "^0.3.1",
     "date-fns": "^3.5.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "ts-node": "^10.9.2"
   },
   "dependencies": {
     "next-seo": "^6.5.0"
