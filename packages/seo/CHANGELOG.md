@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.1.2...@exile-watch/seo@0.1.3) (2024-03-16)
+
+
+### ⚙️ Internal
+
+* add missing dist files ([e85899e](https://github.com/exile-watch/nucleus/commit/e85899e221f2070d21cb3f669103041e80bfccda))
+
+
+
 ## [0.1.2](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.1.1...@exile-watch/seo@0.1.2) (2024-03-16)
 
 
