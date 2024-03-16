@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.2.0...@exile-watch/seo@0.3.0) (2024-03-16)
+
+
+### ✨ Features
+
+* add meta data ([aa71bba](https://github.com/exile-watch/nucleus/commit/aa71bbaf57e73b355979bb86d4348e6a1be07f3a))
+
+
+
 ## [0.2.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.1.3...@exile-watch/seo@0.2.0) (2024-03-16)
 
 
