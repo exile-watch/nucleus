@@ -6,9 +6,7 @@ type Description = {
   encounter: string
 }
 
-type Meta =
-  | Pick<DefaultSeoProps, 'title' | 'description'>
-  | ((props: Partial<Description>) => Pick<DefaultSeoProps, 'title' | 'description'>)
+type Meta = ((props: Partial<Description>) => Pick<DefaultSeoProps, 'title' | 'description'>)
 
 const meta: DefaultSeoProps = {
   openGraph: {
@@ -19,15 +17,15 @@ const meta: DefaultSeoProps = {
   },
 }
 
-const metaHomepage: Meta = {
+const metaHomepage: Meta = () => ({
   title: "exile.watch: Master Path of Exile with Visual Ability Insights - Quick, Informative GIFs",
   description: "Master Path of Exile with exile.watch: Streamline your game with our quick visual guides and GIFs."
-}
+})
 
-const metaWelcome: Meta = {
+const metaWelcome: Meta = () => ({
   title: `Welcome`,
   description: "Welcome to your Path of Exile edge with exile.watch: Dive into swift, visual ability insights and GIFs for smarter gameplay."
-}
+})
 
 const metaDirectory: Meta = ({directory}) => ({
   title: `Directory`,
