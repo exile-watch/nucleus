@@ -1,2 +1,2 @@
-export {generateXml} from './scripts/generateSitemap'
+export {generateXml} from './utils'
 export * from './meta'
