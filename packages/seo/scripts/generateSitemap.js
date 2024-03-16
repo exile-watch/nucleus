@@ -65,7 +65,7 @@ function prepareXml() {
 
 async function generateSitemap() {
   const xml = await prepareXml()
-  await fs.writeFileSync(`./src/sitemap.xml`, xml);
+  await fs.writeFileSync(`./sitemap.xml`, xml);
 }
 
 generateSitemap()

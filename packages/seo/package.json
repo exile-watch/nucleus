@@ -15,9 +15,6 @@
     "dist"
   ],
   "scripts": {
-    "_clean": "del-cli dist",
-    "_build": "rollup -c",
-    "build": "npm run _build",
     "generate:sitemap": "node scripts/generateSitemap.js"
   },
   "publishConfig": {
@@ -32,8 +29,6 @@
   },
   "devDependencies": {
     "@exile-watch/encounter-data": "^0.11.0",
-    "@exile-watch/rollup-config": "^0.2.0",
-    "@exile-watch/typescript-config": "^0.3.0",
     "date-fns": "^3.5.0",
     "lodash": "^4.17.21"
   },
