@@ -22,6 +22,7 @@ const {maps: poe2maps, encounters: poe2encounters } = pathOfExile2IndexedSearch;
 const subDomains = ['https://docs.exile.watch', 'https://engineering.exile.watch'];
 const rootPages = ['', '/welcome'];
 const directories = ['path-of-exile-1', 'path-of-exile-2'];
+const subDirectories = ['path-of-exile-1/encounters', 'path-of-exile-2/encounters']
 const categories = directories.map(((d, i) => {
   switch(i){
     // poe1
@@ -44,9 +45,10 @@ function generateXml() {
   const subDomainsXml = subDomains.map(loc => generateXmlUrl({loc, priority: 1.0, withDomain: false})).join(indent)
   const rootPagesXml = rootPages.map(loc => generateXmlUrl({loc, priority: 1.0})).join(indent)
   const directoriesXml = directories.map(d => generateXmlUrl({loc: `/${d}`, priority: 0.9})).join(indent)
-  const categoriesXml = categories.map(loc => generateXmlUrl({loc, priority: 0.8})).join(indent)
-  const mapsXml = maps.map(m => generateXmlUrl({loc: m.mapPath, priority: 0.7})).join(indent)
-  const encountersXml = encounters.map(m => generateXmlUrl({loc: m.encounterPath, priority: 0.6})).join(indent)
+  const subDirectoriesXml = subDirectories.map(d => generateXmlUrl({loc: `/${d}`, priority: 0.8})).join(indent)
+  const categoriesXml = categories.map(loc => generateXmlUrl({loc, priority: 0.7})).join(indent)
+  const mapsXml = maps.map(m => generateXmlUrl({loc: m.mapPath, priority: 0.6})).join(indent)
+  const encountersXml = encounters.map(m => generateXmlUrl({loc: m.encounterPath, priority: 0.5})).join(indent)
 
   const xml = trim(`
   ${header}
@@ -54,6 +56,7 @@ function generateXml() {
     ${subDomainsXml}
     ${rootPagesXml}
     ${directoriesXml}
+    ${subDirectoriesXml}
     ${categoriesXml}
     ${mapsXml}
     ${encountersXml}
