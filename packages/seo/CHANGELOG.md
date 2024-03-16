@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.4](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.3.3...@exile-watch/seo@0.3.4) (2024-03-16)
+
+
+### ⚙️ Internal
+
+* add titleCase util to handle url formatting ([84079e2](https://github.com/exile-watch/nucleus/commit/84079e27257301b404c5ec5dc396e52f4a364b04))
+
+
+
 ## [0.3.3](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.3.2...@exile-watch/seo@0.3.3) (2024-03-16)
 
 
