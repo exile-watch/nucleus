@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.1.0...@exile-watch/seo@0.1.1) (2024-03-16)
+
+
+### ⚙️ Internal
+
+* add missing sitemap xml ([50c1b27](https://github.com/exile-watch/nucleus/commit/50c1b27973a98554d6931f0729e37f3bc6b10927))
+
+
+
 ## 0.1.0 (2024-03-16)
 
 
