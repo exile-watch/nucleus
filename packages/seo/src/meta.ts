@@ -1,9 +1,10 @@
 import {DefaultSeoProps} from "next-seo";
 
 type Description = {
-  directory: string
-  category: string
-  encounter: string
+  directory: string | string[]
+  category: string | string []
+  map: string | string []
+  encounter: string | string []
 }
 
 type Meta = ((props: Partial<Description>) => Pick<DefaultSeoProps, 'title' | 'description'>)
@@ -37,9 +38,14 @@ const metaEncounters: Meta = ({directory}) => ({
   encounters: `Navigate ${directory} encounters with ease on exile.watch: Access a curated list of encounter categories for targeted visual ability insights.`
 })
 
-const metaEncounterCategories: Meta = ({directory, category}) => ({
+const metaEncountersCategories: Meta = ({directory, category}) => ({
   title: `${category} - ${directory} Encounters`,
   encounters: `Master the ${category} encounters in ${directory} with exile.watch: Visual ability insights and GIFs to conquer the Atlas's toughest foes.`
+})
+
+const metaEncountersCategoryMaps: Meta = ({directory, category, map}) => ({
+  title: `${map} - ${category}, ${directory} Encounters`,
+  encounters: `Master ${map} encounters in ${directory} with exile.watch: Visual ability insights and GIFs for all encounters.`
 })
 
 const metaEncounter: Meta = ({directory, category, encounter}) => ({
@@ -52,6 +58,8 @@ export {
   metaHomepage,
   metaWelcome,
   metaDirectory,
+  metaEncounter,
   metaEncounters,
-  metaEncounterCategories
+  metaEncountersCategories,
+  metaEncountersCategoryMaps
 }
