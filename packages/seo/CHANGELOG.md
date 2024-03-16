@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.1.3...@exile-watch/seo@0.2.0) (2024-03-16)
+
+
+### ✨ Features
+
+* add encounters subdirectories ([d616463](https://github.com/exile-watch/nucleus/commit/d61646319c303227ebc607bbcf62a8cc5a2d26d5))
+
+
+
 ## [0.1.3](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.1.2...@exile-watch/seo@0.1.3) (2024-03-16)
 
 
