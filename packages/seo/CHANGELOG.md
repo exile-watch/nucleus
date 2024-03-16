@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.5](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.3.4...@exile-watch/seo@0.3.5) (2024-03-16)
+
+
+### 🐞 Bug Fixes
+
+* add safecheck for input ([df25fd1](https://github.com/exile-watch/nucleus/commit/df25fd1fb1826788cad03f12dd05e531bffe1565))
+
+
+
 ## [0.3.4](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.3.3...@exile-watch/seo@0.3.4) (2024-03-16)
 
 
