@@ -1,6 +1,6 @@
 {
   "name": "@exile-watch/seo",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "exile.watch seo",
   "homepage": "https://github.com/exile-watch/nucleus/pkgs/npm/seo",
   "repository": {
@@ -28,7 +28,7 @@
     "next": ">=14"
   },
   "devDependencies": {
-    "@exile-watch/encounter-data": "^0.11.0",
+    "@exile-watch/encounter-data": "^0.11.1",
     "date-fns": "^3.5.0",
     "lodash": "^4.17.21"
   },

@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.11.1](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.0...@exile-watch/encounter-data@0.11.1) (2024-03-16)
+
+
+### ⚙️ Internal
+
+* remove unused date-fns and seo generateUrl util ([809a67c](https://github.com/exile-watch/nucleus/commit/809a67c1a3b3dea27e4ecb3a7c26ff59f613f027))
+
+
+
 ## [0.11.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.10.0...@exile-watch/encounter-data@0.11.0) (2024-03-15)
 
 
