@@ -8,11 +8,8 @@
     "url": "git+https://github.com/exile-watch/nucleus.git",
     "directory": "packages/seo"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "sitemap.xml"
   ],
   "scripts": {
     "generate:sitemap": "node scripts/generateSitemap.js"
