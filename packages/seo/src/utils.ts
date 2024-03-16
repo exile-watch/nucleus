@@ -47,6 +47,8 @@ function generateXml() {
 }
 
 function titleCase(str) {
+  if(!str) return;
+
   const lowerCaseWords = ['of'];
   return str
     .split('-') // Split the string into an array by dashes.
