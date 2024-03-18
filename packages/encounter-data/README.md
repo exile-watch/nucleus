@@ -1,16 +1,20 @@
-# Scripts
+<div align="center">
+  <a href="https://exile.watch">
+    <img alt="exile.watch logo" src="https://avatars.githubusercontent.com/u/158840748?s=400&u=4c73ba2a9a2ebc70b01c6303d41e8571df84ec37&v=4" width="300" />
+  </a>
 
-Every script is taking a part of auto-generating data content on the website.
+## [`@exile-watch/encounter-data`](https://docs.exile.watch/projects/nucleus/exile-watch-encounter-data)
 
-There are 3 rules:
-1. `extract-*-tokens.js` scripts always goes first.
-2. Order of other scripts when they fire don't matter after that step.
-3. `clean-invalid-data-files.js` always goes last. 
+Encounter data that powers exile.watch
 
+| Want to contribute?                                  | 📖 [Check the docs](https://docs.exile.watch/projects/nucleus/contributing-scripts)                |
+|:-----------------------------------------------------|:---------------------------------------------------------------------------------------------------|
+| Encountered a bug?                                   | 🐞 [Check issues or create a new one](https://github.com/exile-watch/hideout/issues)               |
+| Have an idea for a new feature?                      | 💡 [Check the discussions or create a new one](https://github.com/exile-watch/hideout/discussions) |
+| exile.watch projects                                 | 📦 [Read about them here](https://docs.exile.watch/projects/hideout#links-to-projects)             | 
+| Anything else is on your mind?                       | 💬 [Head over to exile.watch's hideout](https://github.com/exile-watch/hideout)                    |
+| Curious about exile.watch architecture decisions?    | 🛠️ [Read exile.watch engineering blog](https://engineering.exile.watch/)                          | 
 
-| script                        | description                                                                  |
-| ----------------------------- | ---------------------------------------------------------------------------- |
-| `extract-*-tokens.js`         | Converts `.yml` token file to `.json` format                                 |
-| `build-indexed-search.js`     | Squeezes all extracted data only to what we need in the `search input`       |
-| `build-paths.js`              | Squeezes all extracted data only to what we need in the `sidebar navigation` |
-| `clean-invalid-data-files.js` | Removes files have updated `file name`                                       |
+##### [Why project setup is not part of README?](https://engineering.exile.watch/march-2024/why-projects-local-setup-instructions-are-not-part-of-readme)
+
+</div>

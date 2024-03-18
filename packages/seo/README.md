@@ -3,11 +3,11 @@
     <img alt="exile.watch logo" src="https://avatars.githubusercontent.com/u/158840748?s=400&u=4c73ba2a9a2ebc70b01c6303d41e8571df84ec37&v=4" width="300" />
   </a>
 
-## [`@exile-watch/nucleus`](https://docs.exile.watch/projects/nucleus)
+## [`@exile-watch/seo`](https://docs.exile.watch/projects/nucleus/exile-watch-seo)
 
-Encounter data that powers exile.watch and SEO-related dependencies
+Search Optimization Engine tooling that powers exile.watch
 
-| Want to contribute?                                  | 📖 [Check the docs](https://docs.exile.watch/projects/nucleus)                                     |
+| Want to contribute?                                  | 📖 [Check the docs](https://docs.exile.watch/projects/nucleus/contributing-scripts)                |
 |:-----------------------------------------------------|:---------------------------------------------------------------------------------------------------|
 | Encountered a bug?                                   | 🐞 [Check issues or create a new one](https://github.com/exile-watch/hideout/issues)               |
 | Have an idea for a new feature?                      | 💡 [Check the discussions or create a new one](https://github.com/exile-watch/hideout/discussions) |
@@ -18,8 +18,3 @@ Encounter data that powers exile.watch and SEO-related dependencies
 ##### [Why project setup is not part of README?](https://engineering.exile.watch/march-2024/why-projects-local-setup-instructions-are-not-part-of-readme)
 
 </div>
-
-### Packages
-
-- [@exile-watch/encounter-data](https://github.com/exile-watch/nucleus/tree/main/packages/encounter-data)
-- [@exile-watch/seo](https://github.com/exile-watch/nucleus/tree/main/packages/seo)
