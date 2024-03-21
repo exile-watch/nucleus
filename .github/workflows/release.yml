@@ -36,8 +36,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
-        run: npm run build
+      - name: Code Quality Assurance
+        uses: exile-watch/doryani/code-quality-assurance@main
+        with:
+          GH_ACTOR: ${{ github.actor }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Lerna publish
         if: success()

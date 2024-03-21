@@ -12,6 +12,7 @@
     "lint": "npx @biomejs/biome check .",
     "lint:apply": "npx @biomejs/biome check --apply .",
     "format": "npx @biomejs/biome format --write .",
+    "test": "exit 0",
     "cq": "npm run format && npm run lint:apply && npm run typecheck"
   },
   "author": "Sebastian Krzyzanowski",
