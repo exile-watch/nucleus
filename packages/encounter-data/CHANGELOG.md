@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.11.3](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.2...@exile-watch/encounter-data@0.11.3) (2024-03-21)
+
+
+### ⚙️ Internal
+
+* add code quality ([1846dcb](https://github.com/exile-watch/nucleus/commit/1846dcbf16a2a69db883e4d68ba0f974b8540e92))
+* add format step after content generation ([e28cb81](https://github.com/exile-watch/nucleus/commit/e28cb81e93c19d8ba1e32b3f65ffa84067938a49))
+
+
+
 ## [0.11.2](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.1...@exile-watch/encounter-data@0.11.2) (2024-03-18)
 
 
