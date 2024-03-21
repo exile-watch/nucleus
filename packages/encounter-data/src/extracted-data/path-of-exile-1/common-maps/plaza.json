@@ -4,73 +4,41 @@
   "bosses": [
     {
       "name": "The Goddess",
-      "damageTypes": [
-        "physical",
-        "cold",
-        "lightning"
-      ],
+      "damageTypes": ["physical", "cold", "lightning"],
       "abilities": [
         {
           "name": "Beam",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/6dd152ad265853727d959b4d81ddafba.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Warp",
-          "type": [
-            "cold"
-          ],
-          "tip": [
-            "avoid traps"
-          ],
+          "type": ["cold"],
+          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/675cc5e91b2a31fbe9c7b53cdc0d819a.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Summon Skeleton",
-          "type": [
-            "lightning"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["lightning"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/67abab48e059939a1e9ce6a1888de3c9.mp4"
         },
         {
           "name": "Offering of Judgement",
-          "type": [
-            "lightning"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["lightning"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/aa01afefaeac188ed263cbf6756c6976.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Mortar",
-          "type": [
-            "lightning"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["lightning"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/0378b626aefcc5ed0627992ae81dd332.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     }

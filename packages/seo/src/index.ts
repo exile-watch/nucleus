@@ -1,2 +1,2 @@
-export {generateXml} from './utils'
-export * from './meta'
+export { generateXml } from "./utils";
+export * from "./meta";

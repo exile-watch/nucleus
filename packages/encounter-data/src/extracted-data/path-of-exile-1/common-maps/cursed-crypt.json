@@ -4,28 +4,18 @@
   "bosses": [
     {
       "name": "Pagan Bishop of Agony",
-      "damageTypes": [
-        "fire"
-      ],
+      "damageTypes": ["fire"],
       "abilities": [
         {
           "name": "Slam",
-          "tip": [
-            "Get Curse Immunity"
-          ],
+          "tip": ["Get Curse Immunity"],
           "gif": "https://i.gyazo.com/48052ecd7ba000c171f72dcc1f359512.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Summonk Ink Spinners",
-          "type": [
-            "fire"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["fire"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/a141030eff7081e32fa7e963c55056b4.mp4"
         }
       ]

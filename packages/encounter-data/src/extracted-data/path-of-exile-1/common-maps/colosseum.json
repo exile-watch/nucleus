@@ -8,60 +8,38 @@
       "abilities": [
         {
           "name": "Summon Clones",
-          "tip": [
-            "Get Curse Immunity"
-          ],
+          "tip": ["Get Curse Immunity"],
           "gif": "https://i.gyazo.com/a77e32c91ea2a780392d4e18252ff8a0.mp4"
         },
         {
           "name": "Enrage",
-          "tip": [
-            "Get Curse Immunity"
-          ],
+          "tip": ["Get Curse Immunity"],
           "gif": "https://i.gyazo.com/fd6400f274a6a7ff313ebdd9a9b18638.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Slash",
-          "tip": [
-            "Get Curse Immunity"
-          ],
+          "tip": ["Get Curse Immunity"],
           "gif": "https://i.gyazo.com/07eaaedc845bce5b4a4ec7d6cf85c002.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Reave",
-          "tip": [
-            "Get Curse Immunity"
-          ],
+          "tip": ["Get Curse Immunity"],
           "gif": "https://i.gyazo.com/7ff753511a6ed2819e5a6786c6581c86.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Charge",
-          "tip": [
-            "Get Curse Immunity"
-          ],
+          "tip": ["Get Curse Immunity"],
           "gif": "https://i.gyazo.com/87309ffd25fe7e57b4154348d8cd5fe4.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Sword Storms",
-          "tip": [
-            "Get Curse Immunity"
-          ],
+          "tip": ["Get Curse Immunity"],
           "gif": "https://i.gyazo.com/6a82db7fc7f107ab4156f63436aecbf6.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     }

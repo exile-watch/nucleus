@@ -4,32 +4,20 @@
   "bosses": [
     {
       "name": "Pileah, Burning Corpse",
-      "damageTypes": [
-        "fire"
-      ],
+      "damageTypes": ["fire"],
       "abilities": [
         {
           "name": "Mortar",
-          "tip": [
-            "Get Curse Immunity"
-          ],
+          "tip": ["Get Curse Immunity"],
           "gif": "https://i.gyazo.com/ee57fc291f64bcfea24883c255d26e09.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Reflective Mortar",
-          "type": [
-            "fire"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["fire"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/0c257bcbdf31ebfcd1979c6e6c15fdbe.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     },
@@ -39,13 +27,9 @@
       "abilities": [
         {
           "name": "Mortar",
-          "tip": [
-            "Get Curse Immunity"
-          ],
+          "tip": ["Get Curse Immunity"],
           "gif": "https://i.gyazo.com/b66beb2f97331fb0b299f3fea0aa8a19.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     },
@@ -55,13 +39,9 @@
       "abilities": [
         {
           "name": "Earthquake Cascade",
-          "tip": [
-            "Get Curse Immunity"
-          ],
+          "tip": ["Get Curse Immunity"],
           "gif": "https://i.gyazo.com/f59a6b2edac467c301368b474e00c0da.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     }

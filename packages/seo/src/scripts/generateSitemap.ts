@@ -1,11 +1,11 @@
-import fs from 'fs'
-import { generateXml } from '../../src/utils';
+import fs from "node:fs";
+import { generateXml } from "../../src/utils";
 
 function generateSitemap() {
-  const xml = generateXml()
-  fs.writeFileSync(`./sitemap.xml`, xml);
+  const xml = generateXml();
+  fs.writeFileSync("./sitemap.xml", xml);
 }
 
-generateSitemap()
+generateSitemap();
 
-export {generateXml}
+export { generateXml };

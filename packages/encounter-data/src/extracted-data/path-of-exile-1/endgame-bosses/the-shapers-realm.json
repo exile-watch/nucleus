@@ -5,196 +5,110 @@
   "bosses": [
     {
       "name": "The Shaper",
-      "damageTypes": [
-        "physical"
-      ],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Default Attack",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/59f07ff808c1fcf8e81c8a4c141099bf.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Teleport Slam",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/c5dd2a13a6421b424d6751acfe0f7fb2.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Beam",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/5bbc70bbdf79418e7bec6fbf17e96f19.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Golden Orbs",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/6eef25bc21ba58047a6087f2061f0f12.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Volatile Anomaly",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/620663a4577494130a52d700290d6c82.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Bullet Hell",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/133891e728790ee87a2ff63574ba9146.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Monster Portal",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/eda0d9e05495a713b5269ab7de80de47.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     },
     {
       "name": "The Uncreated",
-      "damageTypes": [
-        "physical",
-        "cold"
-      ],
+      "damageTypes": ["physical", "cold"],
       "abilities": [
         {
           "name": "Spectral Throw",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/a184591698de7faf580ccf3909d20a84.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Slam Vortex",
-          "type": [
-            "cold"
-          ],
-          "tip": [
-            "avoid traps"
-          ],
+          "type": ["cold"],
+          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/8ccf337bbaf746dedf0e975c1ada32de.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Frostball Vortex",
-          "type": [
-            "cold"
-          ],
-          "tip": [
-            "avoid traps"
-          ],
+          "type": ["cold"],
+          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/0ab44fabc2e7c25d2ba7666d151292a3.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     },
     {
       "name": "The Unshaped",
-      "damageTypes": [
-        "physical",
-        "cold"
-      ],
+      "damageTypes": ["physical", "cold"],
       "abilities": [
         {
           "name": "Spectral Throw",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/a184591698de7faf580ccf3909d20a84.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Slam Vortex",
-          "type": [
-            "cold"
-          ],
-          "tip": [
-            "avoid traps"
-          ],
+          "type": ["cold"],
+          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/8ccf337bbaf746dedf0e975c1ada32de.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Frostball Vortex",
-          "type": [
-            "cold"
-          ],
-          "tip": [
-            "avoid traps"
-          ],
+          "type": ["cold"],
+          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/0ab44fabc2e7c25d2ba7666d151292a3.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     }

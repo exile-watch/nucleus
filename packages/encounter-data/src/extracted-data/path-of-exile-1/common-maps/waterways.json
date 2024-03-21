@@ -4,60 +4,34 @@
   "bosses": [
     {
       "name": "Fragment of Winter",
-      "damageTypes": [
-        "physical",
-        "cold",
-        "lightning"
-      ],
+      "damageTypes": ["physical", "cold", "lightning"],
       "abilities": [
         {
           "name": "Summon Elementals",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/97dfa783146034734ff654c468a65db8.mp4"
         },
         {
           "name": "Spear",
-          "type": [
-            "cold"
-          ],
-          "tip": [
-            "avoid traps"
-          ],
+          "type": ["cold"],
+          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/560561cd90a4e467d2ff5f3c697bb60a.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Cold Thorns",
-          "type": [
-            "lightning"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["lightning"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/40e09bd230664b4bdca4725a6e9e89fa.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Ice Trap",
-          "type": [
-            "lightning"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["lightning"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/6d8ccd51808decbc30bec11221efd2d1.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     }

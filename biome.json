@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/@biomejs/biome/configuration_schema.json",
+  "extends": ["@exile-watch/biome-config"],
+  "linter": {
+    "rules": {
+      "performance": {
+        "noAccumulatingSpread": "off"
+      },
+      "style": {
+        "noParameterAssign": "off"
+      }
+    }
+  }
+}

@@ -4,43 +4,27 @@
   "bosses": [
     {
       "name": "Master of the Blade",
-      "damageTypes": [
-        "chaos"
-      ],
+      "damageTypes": ["chaos"],
       "abilities": [
         {
           "name": "Charged Attack",
-          "type": [
-            "chaos"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["chaos"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/fdb43bf99a16cae776aa2141840400ab.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     },
     {
       "name": "Massier",
-      "damageTypes": [
-        "physical"
-      ],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Heavy Strike",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/d15fa9fa8a0956fd7b384814b29b62d4.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     }

@@ -4,50 +4,28 @@
   "bosses": [
     {
       "name": "The Brittle Emperor",
-      "damageTypes": [
-        "physical",
-        "cold",
-        "lightning"
-      ],
+      "damageTypes": ["physical", "cold", "lightning"],
       "abilities": [
         {
           "name": "Slam",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/7d32a5bdc1c6506ad025de80b08c6ef7.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Charge",
-          "type": [
-            "cold"
-          ],
-          "tip": [
-            "avoid traps"
-          ],
+          "type": ["cold"],
+          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/9088937c8374067fca3afa4582f9c1a3.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Revive Undead",
-          "type": [
-            "lightning"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["lightning"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/100081ca5a0b682ccefa04f4bcae9e7d.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     }

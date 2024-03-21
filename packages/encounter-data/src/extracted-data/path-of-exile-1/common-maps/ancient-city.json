@@ -4,19 +4,12 @@
   "bosses": [
     {
       "name": "Legius Garhall",
-      "damageTypes": [
-        "physical",
-        "fire"
-      ],
+      "damageTypes": ["physical", "fire"],
       "abilities": [
         {
           "name": "Cleave",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "Stand behind Legius Garhall"
-          ],
+          "type": ["physical"],
+          "tip": ["Stand behind Legius Garhall"],
           "gif": "https://i.gyazo.com/372baac7a552fbcd16273eefabc49715.mp4",
           "about": [
             "Swings weapon (or both weapons if dual wielding) in an arc, damaging enemies in an area in front of them"
@@ -24,13 +17,8 @@
         },
         {
           "name": "Leap Slam",
-          "type": [
-            "physical",
-            "fire"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical", "fire"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/73962c858cf31b4c5278f4741dd403ca.mp4",
           "about": [
             "Jumps into the air, damaging and knocking back enemies with their weapon where they land. Enemies they would land on are pushed out of the way",

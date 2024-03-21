@@ -4,45 +4,26 @@
   "bosses": [
     {
       "name": "Megaera",
-      "damageTypes": [
-        "fire",
-        "physical"
-      ],
+      "damageTypes": ["fire", "physical"],
       "abilities": [
         {
           "name": "Firestorm",
-          "type": [
-            "fire"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["fire"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/ed4a2e49ea4f17334dcdb55e30946f5a.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Fire Trap",
-          "type": [
-            "fire"
-          ],
-          "tip": [
-            "avoid traps"
-          ],
+          "type": ["fire"],
+          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/77230c2757825eabed7e9c9fe2763e96.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Summon Skeletons",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/adcaba5f915028c5a61866b665e13027.mp4"
         }
       ]

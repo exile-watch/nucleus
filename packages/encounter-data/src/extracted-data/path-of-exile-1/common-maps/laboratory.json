@@ -4,50 +4,28 @@
   "bosses": [
     {
       "name": "Riftwalker",
-      "damageTypes": [
-        "physical",
-        "cold",
-        "lightning"
-      ],
+      "damageTypes": ["physical", "cold", "lightning"],
       "abilities": [
         {
           "name": "Spectral Throw",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/28a8fa972cccd205ae7346b62843a584.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Frostbolt Vortex",
-          "type": [
-            "cold"
-          ],
-          "tip": [
-            "avoid traps"
-          ],
+          "type": ["cold"],
+          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/ca3e8344165dee2fb73b670892c861b8.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Slam",
-          "type": [
-            "lightning"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["lightning"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/4a788a7e22965cab4388c63e3361d6c8.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     }

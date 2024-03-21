@@ -4,65 +4,35 @@
   "bosses": [
     {
       "name": "Uul-Netol, Unburdened Flesh",
-      "damageTypes": [
-        "physical",
-        "chaos"
-      ],
+      "damageTypes": ["physical", "chaos"],
       "abilities": [
         {
           "name": "Spike Eruption",
-          "type": [
-            "physical",
-            "chaos"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical", "chaos"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/befe70ce3325a6c8e0b7b86f4d3c7bda.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Degen Zone",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/ffe903d28095845274291ece6978c04b.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Cleave",
-          "type": [
-            "physical",
-            "chaos"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical", "chaos"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/813ac7d159efe163ba197cad61f7023d.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Uul-Netol's Pet",
-          "type": [
-            "physical",
-            "chaos"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical", "chaos"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/eb05d3b07bf59bb900b2ff0949537898.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     }

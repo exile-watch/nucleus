@@ -5,71 +5,40 @@
   "bosses": [
     {
       "name": "Kadaris, Crimson Mayor",
-      "damageTypes": [
-        "physical",
-        "cold"
-      ],
+      "damageTypes": ["physical", "cold"],
       "abilities": [
         {
           "name": "Single Rune Blast",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/ce210780fec5e031abd0965ca6806285.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Quadruple Rune Blast",
-          "type": [
-            "cold"
-          ],
-          "tip": [
-            "avoid traps"
-          ],
+          "type": ["cold"],
+          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/60722159548cc1160fcfb5feadc8c1fb.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Linear Rune Blast",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/a6a83bf3d605947795d99cc7ddf840e2.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Cascade Rune Blast",
-          "type": [
-            "cold"
-          ],
-          "tip": [
-            "avoid traps"
-          ],
+          "type": ["cold"],
+          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/b47c255f50b1ee46c9775f5d065fd73b.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Summon Shadow Councillor",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/b2f428691b43422dce9252afd40bc2ae.mp4"
         }
       ]

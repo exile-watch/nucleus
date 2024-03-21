@@ -4,18 +4,12 @@
   "bosses": [
     {
       "name": "Forest of Flames",
-      "damageTypes": [
-        "physical"
-      ],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Summon Totems",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/c81ec2f2ca09bc78fc11defc1885c099.mp4"
         }
       ]

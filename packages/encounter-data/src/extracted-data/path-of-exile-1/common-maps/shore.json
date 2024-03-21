@@ -4,42 +4,25 @@
   "bosses": [
     {
       "name": "Belcer, the Pirate Lord",
-      "damageTypes": [
-        "physical",
-        "cold"
-      ],
+      "damageTypes": ["physical", "cold"],
       "abilities": [
         {
           "name": "Spectral Throw",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/b80e9b8a0c9d95885fee0c6f3814d09b.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Summon Raging Spirit",
-          "type": [
-            "cold"
-          ],
-          "tip": [
-            "avoid traps"
-          ],
+          "type": ["cold"],
+          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/abe595a970e81857944ea9ff521942dc.mp4"
         },
         {
           "name": "Summon Tormented Minion",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/8b4501c8ede2c730fbf66dfebe11d498.mp4"
         }
       ]

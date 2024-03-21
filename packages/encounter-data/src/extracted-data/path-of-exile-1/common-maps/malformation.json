@@ -4,50 +4,28 @@
   "bosses": [
     {
       "name": "Nightmare Manifest",
-      "damageTypes": [
-        "physical",
-        "cold",
-        "lightning"
-      ],
+      "damageTypes": ["physical", "cold", "lightning"],
       "abilities": [
         {
           "name": "Lightning Beam",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/c8e25df6a2b634b599052c3e9f6e0ac5.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Eye Spawner",
-          "type": [
-            "cold"
-          ],
-          "tip": [
-            "avoid traps"
-          ],
+          "type": ["cold"],
+          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/6d0e9640838b8f4bdfe41725a8bbcbe0.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Ball Lightning",
-          "type": [
-            "lightning"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["lightning"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/a49ca93338c0f56ef0b68923ffe4425a.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     }

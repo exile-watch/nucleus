@@ -4,16 +4,11 @@
   "bosses": [
     {
       "name": "Telvar, the Inebriated",
-      "damageTypes": [
-        "physical",
-        "fire"
-      ],
+      "damageTypes": ["physical", "fire"],
       "abilities": [
         {
           "name": "Spawn Barrel",
-          "tip": [
-            "destroy"
-          ],
+          "tip": ["destroy"],
           "gif": "https://i.gyazo.com/20b4ddbade91f264d18ba8c304d9a19a.mp4",
           "about": [
             "Every couple seconds Telvar spawns a Barrel at random position",
@@ -22,22 +17,14 @@
         },
         {
           "name": "Tar",
-          "tip": [
-            "move out"
-          ],
+          "tip": ["move out"],
           "gif": "https://i.gyazo.com/22602b30cc9cf622a91f1a0c371477d6.mp4",
-          "about": [
-            "Being in Tar slows your movement"
-          ]
+          "about": ["Being in Tar slows your movement"]
         },
         {
           "name": "Throw Barrel",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/279f86d6f8652e9708cde4a80276223c.mp4",
           "about": [
             "Every couple seconds Telvar throws Barrel at player's position"
@@ -45,12 +32,8 @@
         },
         {
           "name": "Alchemy Orb",
-          "type": [
-            "fire"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["fire"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/22602b30cc9cf622a91f1a0c371477d6.mp4",
           "about": [
             "Every couple seconds Telvar throws Alchemy Orb at player's position",
@@ -61,18 +44,12 @@
     },
     {
       "name": "Pirate Treasure",
-      "damageTypes": [
-        "physical"
-      ],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Slam",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "destroy"
-          ],
+          "type": ["physical"],
+          "tip": ["destroy"],
           "gif": "https://i.gyazo.com/20b4ddbade91f264d18ba8c304d9a19a.mp4",
           "about": [
             "Performs a deadly slam",
@@ -81,9 +58,7 @@
         },
         {
           "name": "Whirling Blades",
-          "tip": [
-            "dodge"
-          ],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/de274bac97aeea2ad5e7726b7c1250ab.mp4",
           "about": [
             "Rolls towards player linearly",

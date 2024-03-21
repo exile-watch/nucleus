@@ -4,35 +4,21 @@
   "bosses": [
     {
       "name": "Arwyn, the Houndmaster",
-      "damageTypes": [
-        "lightning"
-      ],
+      "damageTypes": ["lightning"],
       "abilities": [
         {
           "name": "Orb of Storms",
-          "type": [
-            "lightning"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["lightning"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/3b3d40e3073b35f8324e13cd677cb7e1.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Storm Whip",
-          "type": [
-            "lightning"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["lightning"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/f15e6495d834cd9bc6e9676df9e09f90.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     }

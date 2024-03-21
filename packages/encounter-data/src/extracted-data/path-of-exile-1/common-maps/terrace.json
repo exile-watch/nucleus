@@ -4,85 +4,48 @@
   "bosses": [
     {
       "name": "Varhesh, Shimmering Abberation",
-      "damageTypes": [
-        "physical",
-        "cold"
-      ],
+      "damageTypes": ["physical", "cold"],
       "abilities": [
         {
           "name": "Leap Slam",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/b475c83a179bcd549a8304d260d65d8c.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Frozen Orbs",
-          "type": [
-            "cold"
-          ],
-          "tip": [
-            "avoid traps"
-          ],
+          "type": ["cold"],
+          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/44d42a248ee8ca121b8e5c44c5c37c54.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Slam",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/9fa3fdecd78b6824a9cde371a15c518c.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Charge",
-          "type": [
-            "cold"
-          ],
-          "tip": [
-            "avoid traps"
-          ],
+          "type": ["cold"],
+          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/aabdd197919c9bc28b3b2f8a934efab7.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Summon Reflection of Varhesh",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/c992f8c44a6db9d62820637257093f37.mp4"
         },
         {
           "name": "Tar Orbs",
-          "type": [
-            "cold"
-          ],
-          "tip": [
-            "avoid traps"
-          ],
+          "type": ["cold"],
+          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/25e969fca1ea912353147002ae2e2823.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     }

@@ -1,40 +1,46 @@
-type Categories = 'abyssal-liches' | 'breachlords' | 'common-maps' | 'conquerors' | 'elder-guardians' | 'shaper-guardians'
+type Categories =
+  | "abyssal-liches"
+  | "breachlords"
+  | "common-maps"
+  | "conquerors"
+  | "elder-guardians"
+  | "shaper-guardians";
 
 type BossAbilityType = {
   name: string;
-  type: string[]
-  tip: string[]
-  gif: string
-  about: string[]
-}
+  type: string[];
+  tip: string[];
+  gif: string;
+  about: string[];
+};
 
 type BossType = {
   name: string;
-  abilities: BossAbilityType[]
-}
+  abilities: BossAbilityType[];
+};
 
 type MapType = {
-  map?: string
-  thumbnail?: string
-  bosses: BossType[]
-}
+  map?: string;
+  thumbnail?: string;
+  bosses: BossType[];
+};
 
 type CategoryPageType = {
   name: string;
   path: string;
   gif: string;
-}[]
+}[];
 
 type HomepageObjType = {
   name: string;
   path: string;
   thumbnail: string | string[];
-  gif: string | string[]
-}
+  gif: string | string[];
+};
 
 type HomepageType = {
-  main: HomepageObjType[]
-} & Record<Categories, HomepageObjType>
+  main: HomepageObjType[];
+} & Record<Categories, HomepageObjType>;
 
 type IndexedSearchTypeItem = {
   mapPath?: string;
@@ -43,28 +49,31 @@ type IndexedSearchTypeItem = {
   encounterName?: string;
   encounterAbilityPath?: string;
   encounterAbilityName?: string;
-}
+};
 
 type IndexedSearchType = {
   maps: IndexedSearchTypeItem[];
-  encounters: IndexedSearchTypeItem[]
+  encounters: IndexedSearchTypeItem[];
   encounterAbilities: IndexedSearchTypeItem[];
-}
+};
 
 type EncountersIndexPageObjType = {
   name: string;
   path: string;
-  gif: string[]
-}
+  gif: string[];
+};
 
-type EncountersIndexPageType = Record<Categories, EncountersIndexPageObjType>
+type EncountersIndexPageType = Record<Categories, EncountersIndexPageObjType>;
 
 type SidebarNavigationPathsObjType = {
   label: string;
   path: string;
-}
+};
 
-type SidebarNavigationPathsType = Record<Categories, SidebarNavigationPathsObjType[]>
+type SidebarNavigationPathsType = Record<
+  Categories,
+  SidebarNavigationPathsObjType[]
+>;
 
 export type {
   BossAbilityType,
@@ -78,7 +87,7 @@ export type {
   EncountersIndexPageObjType,
   EncountersIndexPageType,
   SidebarNavigationPathsObjType,
-  SidebarNavigationPathsType
-}
+  SidebarNavigationPathsType,
+};
 
-export * from './extracted-data'
+export * from "./extracted-data";

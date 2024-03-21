@@ -4,19 +4,12 @@
   "bosses": [
     {
       "name": "Guardian of the Hydra",
-      "damageTypes": [
-        "physical",
-        "cold"
-      ],
+      "damageTypes": ["physical", "cold"],
       "abilities": [
         {
           "name": "Doom Arrow",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/c5c9dfbbd008153f68f5aa22424f9010.mp4",
           "about": [
             "Deals 220% of Damage",
@@ -26,13 +19,8 @@
         },
         {
           "name": "Barrage",
-          "type": [
-            "cold",
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["cold", "physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/2c76d24d9dd7ca11178e3a2e3ea92fea.mp4",
           "about": [
             "Deals 66% of Damage",
@@ -42,13 +30,8 @@
         },
         {
           "name": "Fork Arrow",
-          "type": [
-            "cold",
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["cold", "physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/a385f72908270c7d8871767e08b60545.mp4",
           "about": [
             "Deals 300% of Damage",
@@ -58,23 +41,14 @@
         },
         {
           "name": "Summon Minions",
-          "type": [
-            "cold",
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["cold", "physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/7eab6079027b3ae0d30cc1d73ddf1e33.mp4"
         },
         {
           "name": "Cannons",
-          "type": [
-            "cold"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["cold"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/c16638307360dc72b27e5dabbacc783a.mp4",
           "about": [
             "Sides of the room are filled with cannons",

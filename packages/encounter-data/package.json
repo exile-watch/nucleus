@@ -11,9 +11,7 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "_clean": "del-cli dist",
     "_build": "rollup -c",
@@ -34,9 +32,7 @@
     "registry": "https://npm.pkg.github.com/",
     "access": "public"
   },
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": ["packages/*"],
   "devDependencies": {
     "@exile-watch/rollup-config": "^0.2.0",
     "@exile-watch/typescript-config": "^0.3.0",

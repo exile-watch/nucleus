@@ -4,36 +4,21 @@
   "bosses": [
     {
       "name": "Preethi, Eye-Pecker",
-      "damageTypes": [
-        "physical",
-        "cold"
-      ],
+      "damageTypes": ["physical", "cold"],
       "abilities": [
         {
           "name": "Teleport",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/910bae5be476d133139a3f91417f2fae.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Tornado Spawn",
-          "type": [
-            "cold"
-          ],
-          "tip": [
-            "avoid traps"
-          ],
+          "type": ["cold"],
+          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/6c04a7be31cd7dcf10a17c729c209f9d.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     }

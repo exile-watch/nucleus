@@ -4,58 +4,33 @@
   "bosses": [
     {
       "name": "Guardian of the Chimera",
-      "damageTypes": [
-        "physical",
-        "cold"
-      ],
+      "damageTypes": ["physical", "cold"],
       "abilities": [
         {
           "name": "Combo Attack",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/643010290fa05de046fda32754159868.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Charged Attack",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/8c706fca4a79dbcb9e03cb73aa332a21.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         },
         {
           "name": "Double Strike",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/f3c0eb740d89dc6355f51252dfe16e1e.mp4",
-          "about": [
-            "Two frontal slashes"
-          ]
+          "about": ["Two frontal slashes"]
         },
         {
           "name": "Red Circle",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/31159789701c63177baa59c6bb15ebcd.mp4",
           "about": [
             "Red Circle appears around the Guardian, and a flurry of hits are dealt to anything in this zone"
@@ -63,13 +38,8 @@
         },
         {
           "name": "Minions Phase",
-          "type": [
-            "cold",
-            "physical"
-          ],
-          "tip": [
-            "kill new spawns"
-          ],
+          "type": ["cold", "physical"],
+          "tip": ["kill new spawns"],
           "gif": "https://i.gyazo.com/9ac4e89a4c3fbbb05525482c8880fd9f.mp4",
           "about": [
             "The Guardian disappears and Monsters enter the arena",
@@ -79,12 +49,8 @@
         },
         {
           "name": "Smoke",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "run through smokes"
-          ],
+          "type": ["physical"],
+          "tip": ["run through smokes"],
           "gif": "https://i.gyazo.com/102a0a68778550809d40da99a5933a25.mp4",
           "about": [
             "The Guardian disappears and patches of smoke appear in the arena",

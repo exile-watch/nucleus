@@ -5,7 +5,7 @@
     // Required for Typescript resolution to work within the NPM Workspace
     // This `paths` info is inherited by all per-package tsconfigs
     "paths": {
-      "@exile-watch/": ["./packages/*/"],
-    },
-  },
+      "@exile-watch/": ["./packages/*/"]
+    }
+  }
 }

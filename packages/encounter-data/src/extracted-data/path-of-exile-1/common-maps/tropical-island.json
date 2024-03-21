@@ -4,22 +4,14 @@
   "bosses": [
     {
       "name": "Blood Progenitor",
-      "damageTypes": [
-        "physical"
-      ],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Mass Frenzy",
-          "type": [
-            "physical"
-          ],
-          "tip": [
-            "dodge"
-          ],
+          "type": ["physical"],
+          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/56e0fae7075672a0acf30a5108b259ec.mp4",
-          "about": [
-            ""
-          ]
+          "about": [""]
         }
       ]
     }
