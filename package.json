@@ -7,11 +7,12 @@
     "url": "git+https://github.com/exile-watch/nucleus.git"
   },
   "scripts": {
+    "postinstall": "npx lefthook install",
     "build": "lerna run build",
     "typecheck": "lerna run typecheck",
-    "lint": "npx @biomejs/biome check .",
-    "lint:apply": "npx @biomejs/biome check --apply .",
-    "format": "npx @biomejs/biome format --write .",
+    "lint": "npm run format && lerna run lint",
+    "lint:apply": "lerna run lint:apply",
+    "format": "lerna run format",
     "test": "exit 0",
     "cq": "npm run format && npm run lint:apply && npm run typecheck"
   },
@@ -19,14 +20,15 @@
   "license": "ISC",
   "homepage": "https://github.com/exile-watch/nucleus#readme",
   "devDependencies": {
-    "@exile-watch/biome-config": "^0.3.3",
     "@exile-watch/conventional-changelog-config": "^0.1.0",
-    "@exile-watch/lefthook-config": "^0.3.8",
+    "@exile-watch/lefthook-config": "^0.5.6",
     "@exile-watch/typescript-config": "^0.2.0",
     "lerna": "^8.0.2",
     "nx": "18.1.1"
   },
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
