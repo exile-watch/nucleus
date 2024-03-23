@@ -20,7 +20,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
   publish-package:
-    needs: [cqa]
+    needs: [code-quality-assurance]
     name: Publish to NPM
     runs-on: ubuntu-latest
     steps:
