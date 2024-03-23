@@ -11,6 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     name: Code quality assurance
     steps:
+      - uses: exile-watch/doryani/install-npm-dependencies@main
+        with:
+          GH_ACTOR: ${{ github.actor }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
       - uses: exile-watch/doryani/code-quality-assurance@main
         with:
           GH_ACTOR: ${{ github.actor }}
@@ -23,8 +28,8 @@ jobs:
     steps:
       - uses: exile-watch/doryani/install-npm-dependencies@main
         with:
-          GH_ACTOR: ${{ inputs.actor }}
-          GH_TOKEN: ${{ inputs.GH_TOKEN }}
+          GH_ACTOR: ${{ github.actor }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - uses: exile-watch/doryani/publish-package@main
         with:
