@@ -12,7 +12,7 @@
     "typecheck": "lerna run typecheck",
     "ci:typecheck": "lerna run ci:typecheck",
     "ci:lint": "lerna run ci:lint",
-    "lint": "npm run format && lerna run lint",
+    "lint": "lerna run lint",
     "lint:apply": "lerna run lint:apply",
     "format": "lerna run format",
     "test": "exit 0",
