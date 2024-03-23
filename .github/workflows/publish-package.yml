@@ -1,4 +1,4 @@
-name: Release
+name: "Publish package: @exile-watch / doryani"
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  cqa:
+  code-quality-assurance:
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     runs-on: ubuntu-latest
     name: Code quality assurance
@@ -19,7 +19,7 @@ jobs:
           GH_ACTOR: ${{ github.actor }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
-  publish:
+  publish-package:
     needs: [cqa]
     name: Publish to NPM
     runs-on: ubuntu-latest
