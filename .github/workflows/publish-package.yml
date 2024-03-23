@@ -6,20 +6,10 @@ on:
       - main
 
 jobs:
-  auth:
+  cqa:
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     runs-on: ubuntu-latest
-    name: Authenticate to GitHub Registry
-    steps:
-      - uses: exile-watch/doryani/auth-github-registry@main
-        with:
-          GH_ACTOR: ${{ github.actor }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-
-  cqa:
-    needs: [auth]
-    runs-on: ubuntu-latest
-    name: Code Quality Assurance
+    name: Code quality assurance
     steps:
       - uses: exile-watch/doryani/code-quality-assurance@main
         with:
@@ -31,15 +21,29 @@ jobs:
     name: Publish to NPM
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: exile-watch/doryani/auth-github-registry@main
         with:
-          token: ${{ secrets.GH_TOKEN }}
-          fetch-depth: 0 # Fetch-depth 0 necessary to get full commit history for checking changes
+          GH_ACTOR: ${{ github.actor }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
-      - uses: actions/setup-node@v4
+      - name: Cache node modules
+        id: cache-npm
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-node-modules
         with:
-          node-version-file: '.nvmrc'
-          cache: 'npm'
+          # npm cache files are stored in `~/.npm` on Linux/macOS
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
+        name: List the state of node modules
+        continue-on-error: true
+        run: npm list
 
       - name: Install dependencies
         run: npm ci
