@@ -46,8 +46,12 @@ jobs:
     name: Publish to NPM
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          fetch-depth: 0 # Fetch-depth 0 necessary to get full commit history for checking changes
+
       - name: Lerna publish
-        if: success()
         env:
           CI: true
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
