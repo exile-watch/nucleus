@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.11](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.3.10...@exile-watch/seo@0.3.11) (2024-03-23)
+
+
+### ⚙️ Internal
+
+* remove format script from lint ([f2ce2b7](https://github.com/exile-watch/nucleus/commit/f2ce2b71142d0fc865530729778cf9d3e210f4b7))
+
+
+
 ## [0.3.10](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.3.9...@exile-watch/seo@0.3.10) (2024-03-23)
 
 
