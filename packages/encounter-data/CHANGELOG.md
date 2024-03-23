@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.11.6](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.3...@exile-watch/encounter-data@0.11.6) (2024-03-23)
+
+
+### ⚙️ Internal
+
+* add code quality ([008d632](https://github.com/exile-watch/nucleus/commit/008d632819e171b0fcd733a9717eb8d7b363951b))
+* bump biome config ([2035a61](https://github.com/exile-watch/nucleus/commit/2035a617bd7c9348355370669a8a5b3e1bbcfc29))
+* bump lefthook ([3bd992c](https://github.com/exile-watch/nucleus/commit/3bd992cfb60dda09080cf5916560e8a57c582100))
+* convert to lf ([3ef7133](https://github.com/exile-watch/nucleus/commit/3ef71335552acf5496ba13966f5408736ae06be3))
+* experiment with manual version change ([25b13b9](https://github.com/exile-watch/nucleus/commit/25b13b954bcc7813c6c4b63378ed9963bff5ba35))
+* improve release workflow ([37a5781](https://github.com/exile-watch/nucleus/commit/37a578153ef41af73e36ea01e2697fed4b4ddf7e))
+* lint ([7dffbb3](https://github.com/exile-watch/nucleus/commit/7dffbb31e3a8eccc6e08580c2d85af2c7fad3987))
+
+
+
 ## [0.11.3](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.2...@exile-watch/encounter-data@0.11.3) (2024-03-21)
 
 
