@@ -2,6 +2,9 @@ name: Release
 
 on:
   push:
+    paths:
+      - 'packages/**'
+      - '!packages/**/*.md'
     branches:
       - main
 
