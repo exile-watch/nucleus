@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.11.7](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.6...@exile-watch/encounter-data@0.11.7) (2024-03-23)
+
+
+### ⚙️ Internal
+
+* lint ([9a3288e](https://github.com/exile-watch/nucleus/commit/9a3288ef9aecad86a5f82d2523a25ddabbe60b70))
+
+
+
 ## [0.11.6](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.3...@exile-watch/encounter-data@0.11.6) (2024-03-23)
 
 
