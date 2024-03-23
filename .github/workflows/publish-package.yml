@@ -21,6 +21,11 @@ jobs:
     name: Publish to NPM
     runs-on: ubuntu-latest
     steps:
+      - uses: exile-watch/doryani/install-npm-dependencies@main
+        with:
+          GH_ACTOR: ${{ inputs.actor }}
+          GH_TOKEN: ${{ inputs.GH_TOKEN }}
+
       - uses: exile-watch/doryani/publish-package@main
         with:
           GH_ACTOR: ${{ github.actor }}
