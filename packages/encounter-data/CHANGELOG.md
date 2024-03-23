@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.11.5 (2024-03-23)
+
+
+### ⚙️ Internal
+
+* experiment with manual version change ([25b13b9](https://github.com/exile-watch/nucleus/commit/25b13b954bcc7813c6c4b63378ed9963bff5ba35))
+
+
+
 ## [0.11.3](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.2...@exile-watch/encounter-data@0.11.3) (2024-03-21)
 
 
