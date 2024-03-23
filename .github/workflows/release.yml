@@ -6,9 +6,9 @@ on:
       - main
 
 jobs:
-  publish:
-    name: Publish to NPM
+  checkout:
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    name: Checkout repo
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -21,27 +21,31 @@ jobs:
           node-version-file: '.nvmrc'
           cache: 'npm'
 
-      - name: Configure Git
-        run: |
-          git config --global user.name "${{ secrets.GIT_USER_NAME }}"
-          git config --global user.email "${{ secrets.GIT_USER_EMAIL }}"
-
-      - name: "GitHub Package Registry Identity"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN" > .npmrc
-          echo "@exile-watch:registry=https://npm.pkg.github.com/" >> .npmrc
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Code Quality Assurance
-        uses: exile-watch/doryani/code-quality-assurance@main
+  auth:
+    needs: [checkout]
+    runs-on: ubuntu-latest
+    name: Authenticate to GitHub Registry
+    steps:
+      - uses: exile-watch/doryani/auth-github-registry@main
         with:
           GH_ACTOR: ${{ github.actor }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
+  cqa:
+    needs: [auth]
+    runs-on: ubuntu-latest
+    name: Code Quality Assurance
+    steps:
+      - uses: exile-watch/doryani/code-quality-assurance@main
+        with:
+          GH_ACTOR: ${{ github.actor }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+  publish:
+    needs: [cqa]
+    name: Publish to NPM
+    runs-on: ubuntu-latest
+    steps:
       - name: Lerna publish
         if: success()
         env:

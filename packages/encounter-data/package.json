@@ -1,6 +1,6 @@
 {
   "name": "@exile-watch/encounter-data",
-  "version": "0.11.4",
+  "version": "0.11.5",
   "description": "Encounter data",
   "homepage": "https://github.com/exile-watch/nucleus/pkgs/npm/encounter-data",
   "repository": {
@@ -11,7 +11,9 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "_clean": "del-cli dist",
     "_build": "rollup -c",
@@ -37,11 +39,12 @@
     "registry": "https://npm.pkg.github.com/",
     "access": "public"
   },
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "@exile-watch/biome-config": "^0.3.4",
     "@exile-watch/rollup-config": "^0.2.0",
-    "@exile-watch/seo": "file:../seo",
     "@exile-watch/typescript-config": "^0.3.0",
     "lodash": "^4.17.21"
   }
