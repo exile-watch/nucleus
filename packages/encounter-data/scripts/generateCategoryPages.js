@@ -6,7 +6,7 @@ const { colorifyConsole, writeFiles } = require("./utils");
 
 const prepareCategoriesData = (data) =>
   data.reduce((acc, d) => {
-    const { name: encounterName, abilities } = d.bosses[0];
+    const { name: encounterName, abilities } = d.encounters[0];
     const { gif } = abilities.pop();
 
     const path = d.map

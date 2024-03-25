@@ -1,29 +1,28 @@
 {
   "category": "common-maps",
   "map": "Fields",
-  "bosses": [
+  "encounters": [
     {
       "name": "Drek, Apex Hunter",
-      "damageTypes": ["fire", "physical"],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Charge",
-          "type": ["fire"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/5fe76c110a9251c687502cdba7dbf76b.mp4",
-          "about": [""]
+          "about": [
+            "Charges at player's location. This knocks the encounter back and stuns it. Enemies in the way are pushed to the side. Damage and stun are proportional to distance travelled"
+          ]
         },
         {
           "name": "Spear Barrage",
-          "type": ["fire"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/ae59a5ac2990a91a83b73b7c3b3bd07e.mp4",
-          "about": [""]
+          "about": ["Fires multiple projectiles"]
         },
         {
           "name": "Aerial Barrage",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/51243eff3ffadede806e58555035bc02.mp4",
           "about": [""]
         }

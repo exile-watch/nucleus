@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Sulphur Vents",
-  "bosses": [
+  "encounters": [
     {
       "name": "The Gorgon",
       "damageTypes": ["fire", "physical"],

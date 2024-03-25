@@ -1,17 +1,15 @@
 map: Pier
-bosses:
+encounters:
   - name: Ancient Architect
     abilities:
       - name: Spectral Throw
-        type: [ cold ]
-        tip: [ dodge ]
+        type: [ physical ]
         gif: https://i.gyazo.com/ba3e811663833e37e21d406a42ea5e4c.mp4
         about:
-          - ""
+          - $SPECTRAL_THROW
 
       - name: Ground Spikes
-        type: [ cold ]
-        tip: [ dodge ]
+        type: [ physical ]
         gif: https://i.gyazo.com/ec9deb4ba1dffbcd76cc127f28c11e0e.mp4
         about:
-          - ""
+          - "Creates spikes around the encounter in random location"

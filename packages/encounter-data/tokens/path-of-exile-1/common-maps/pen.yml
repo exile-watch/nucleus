@@ -1,5 +1,5 @@
 map: Pen
-bosses:
+encounters:
   - name: Arwyn, the Houndmaster
     abilities:
       - name: Orb of Storms

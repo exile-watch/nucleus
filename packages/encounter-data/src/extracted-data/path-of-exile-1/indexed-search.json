@@ -1531,8 +1531,8 @@
     {
       "encounterPath": "/path-of-exile-1/encounters/abyssal-liches/stygian-spire",
       "encounterName": "Stygian Spire",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/abyssal-liches/stygian-spire?ability=meteor",
-      "encounterAbilityName": "Meteor"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/abyssal-liches/stygian-spire?ability=abyss-pillar-mortar",
+      "encounterAbilityName": "Abyss Pillar Mortar"
     },
     {
       "encounterPath": "/path-of-exile-1/encounters/breachlords/esh-forked-thought",
@@ -1543,14 +1543,14 @@
     {
       "encounterPath": "/path-of-exile-1/encounters/breachlords/esh-forked-thought",
       "encounterName": "Esh, Forked Thought",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/esh-forked-thought?ability=lightning-surge",
-      "encounterAbilityName": "Lightning Surge"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/esh-forked-thought?ability=lightning-whip",
+      "encounterAbilityName": "Lightning Whip"
     },
     {
       "encounterPath": "/path-of-exile-1/encounters/breachlords/esh-forked-thought",
       "encounterName": "Esh, Forked Thought",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/esh-forked-thought?ability=pullback",
-      "encounterAbilityName": "Pullback"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/esh-forked-thought?ability=lightning-orbs-pullback",
+      "encounterAbilityName": "Lightning Orbs Pullback"
     },
     {
       "encounterPath": "/path-of-exile-1/encounters/breachlords/esh-forked-thought",
@@ -1561,8 +1561,8 @@
     {
       "encounterPath": "/path-of-exile-1/encounters/breachlords/esh-forked-thought",
       "encounterName": "Esh, Forked Thought",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/esh-forked-thought?ability=scale-of-esh",
-      "encounterAbilityName": "Scale of Esh"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/esh-forked-thought?ability=breach-pillar",
+      "encounterAbilityName": "Breach Pillar"
     },
     {
       "encounterPath": "/path-of-exile-1/encounters/breachlords/tul-creeping-avalanche",
@@ -1579,8 +1579,8 @@
     {
       "encounterPath": "/path-of-exile-1/encounters/breachlords/tul-creeping-avalanche",
       "encounterName": "Tul, Creeping Avalanche",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/tul-creeping-avalanche?ability=ice-spear",
-      "encounterAbilityName": "Ice Spear"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/tul-creeping-avalanche?ability=ice-spear-totems",
+      "encounterAbilityName": "Ice Spear Totems"
     },
     {
       "encounterPath": "/path-of-exile-1/encounters/breachlords/tul-creeping-avalanche",
@@ -1591,20 +1591,20 @@
     {
       "encounterPath": "/path-of-exile-1/encounters/breachlords/tul-creeping-avalanche",
       "encounterName": "Tul, Creeping Avalanche",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/tul-creeping-avalanche?ability=breach-portal",
-      "encounterAbilityName": "Breach Portal"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/tul-creeping-avalanche?ability=breach-pillar",
+      "encounterAbilityName": "Breach Pillar"
     },
     {
       "encounterPath": "/path-of-exile-1/encounters/breachlords/uul-netol-unburdened-flesh",
       "encounterName": "Uul-Netol, Unburdened Flesh",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/uul-netol-unburdened-flesh?ability=spike-eruption",
-      "encounterAbilityName": "Spike Eruption"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/uul-netol-unburdened-flesh?ability=uul-netol-earthquake",
+      "encounterAbilityName": "Uul-Netol Earthquake"
     },
     {
       "encounterPath": "/path-of-exile-1/encounters/breachlords/uul-netol-unburdened-flesh",
       "encounterName": "Uul-Netol, Unburdened Flesh",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/uul-netol-unburdened-flesh?ability=degen-zone",
-      "encounterAbilityName": "Degen Zone"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/uul-netol-unburdened-flesh?ability=bone-nova",
+      "encounterAbilityName": "Bone Nova"
     },
     {
       "encounterPath": "/path-of-exile-1/encounters/breachlords/uul-netol-unburdened-flesh",
@@ -1615,8 +1615,8 @@
     {
       "encounterPath": "/path-of-exile-1/encounters/breachlords/uul-netol-unburdened-flesh",
       "encounterName": "Uul-Netol, Unburdened Flesh",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/uul-netol-unburdened-flesh?ability=uul-netols-pet",
-      "encounterAbilityName": "Uul-Netol's Pet"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/uul-netol-unburdened-flesh?ability=breach-pillar",
+      "encounterAbilityName": "Breach Pillar"
     },
     {
       "encounterPath": "/path-of-exile-1/encounters/breachlords/xoph-dark-embers",
@@ -1639,8 +1639,8 @@
     {
       "encounterPath": "/path-of-exile-1/encounters/breachlords/xoph-dark-embers",
       "encounterName": "Xoph, Dark Embers",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/xoph-dark-embers?ability=xophs-favoured",
-      "encounterAbilityName": "Xoph's Favoured"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/breachlords/xoph-dark-embers?ability=breach-pillar",
+      "encounterAbilityName": "Breach Pillar"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/ancient-city",
@@ -1679,8 +1679,8 @@
       "mapName": "Arachnid Tomb",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/arachnid-tomb/hybrid-widow",
       "encounterName": "Hybrid Widow",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/arachnid-tomb/hybrid-widow?ability=web",
-      "encounterAbilityName": "Web"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/arachnid-tomb/hybrid-widow?ability=spider-web",
+      "encounterAbilityName": "Spider Web"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/arachnid-tomb",
@@ -1807,16 +1807,16 @@
       "mapName": "Atoll",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/atoll/puruna-the-challenger",
       "encounterName": "Puruna, The Challenger",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/atoll/puruna-the-challenger?ability=water-cascade",
-      "encounterAbilityName": "Water Cascade"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/atoll/puruna-the-challenger?ability=water-wave",
+      "encounterAbilityName": "Water Wave"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/atoll",
       "mapName": "Atoll",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/atoll/puruna-the-challenger",
       "encounterName": "Puruna, The Challenger",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/atoll/puruna-the-challenger?ability=spawn-totem",
-      "encounterAbilityName": "Spawn Totem"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/atoll/puruna-the-challenger?ability=spawn-totems",
+      "encounterAbilityName": "Spawn Totems"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/atoll",
@@ -1887,8 +1887,8 @@
       "mapName": "Bramble Valley",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/bramble-valley/melur-thornmaul",
       "encounterName": "Melur Thornmaul",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/bramble-valley/melur-thornmaul?ability=slam",
-      "encounterAbilityName": "Slam"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/bramble-valley/melur-thornmaul?ability=ground-slam",
+      "encounterAbilityName": "Ground Slam"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/bramble-valley",
@@ -1919,8 +1919,8 @@
       "mapName": "Bramble Valley",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/bramble-valley/orvi-acidbeak",
       "encounterName": "Orvi Acidbeak",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/bramble-valley/orvi-acidbeak?ability=beam",
-      "encounterAbilityName": "Beam"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/bramble-valley/orvi-acidbeak?ability=screeching-beam",
+      "encounterAbilityName": "Screeching Beam"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/bramble-valley",
@@ -2295,8 +2295,8 @@
       "mapName": "Colonnade",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/colonnade/tyrant",
       "encounterName": "Tyrant",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/colonnade/tyrant?ability=fire-ground",
-      "encounterAbilityName": "Fire Ground"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/colonnade/tyrant?ability=burning-ground",
+      "encounterAbilityName": "Burning Ground"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/colonnade",
@@ -2383,16 +2383,16 @@
       "mapName": "Conservatory",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/conservatory/the-forgotten-soldier",
       "encounterName": "The Forgotten Soldier",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/conservatory/the-forgotten-soldier?ability=slam",
-      "encounterAbilityName": "Slam"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/conservatory/the-forgotten-soldier?ability=default-attack",
+      "encounterAbilityName": "Default attack"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/conservatory",
       "mapName": "Conservatory",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/conservatory/the-forgotten-soldier",
       "encounterName": "The Forgotten Soldier",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/conservatory/the-forgotten-soldier?ability=charge",
-      "encounterAbilityName": "Charge"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/conservatory/the-forgotten-soldier?ability=shield-charge",
+      "encounterAbilityName": "Shield Charge"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/conservatory",
@@ -2751,8 +2751,8 @@
       "mapName": "Desert Spring",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/desert-spring/terror-of-the-infinite-drifts",
       "encounterName": "Terror of the Infinite Drifts",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/desert-spring/terror-of-the-infinite-drifts?ability=strike",
-      "encounterAbilityName": "Strike"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/desert-spring/terror-of-the-infinite-drifts?ability=cleave",
+      "encounterAbilityName": "Cleave"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/desert-spring",
@@ -3047,8 +3047,8 @@
       "mapName": "Factory",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/factory/pesquin-the-mad-baron",
       "encounterName": "Pesquin, the Mad Baron",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/factory/pesquin-the-mad-baron?ability=lightning-walls",
-      "encounterAbilityName": "Lightning Walls"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/factory/pesquin-the-mad-baron?ability=lightning-pillars",
+      "encounterAbilityName": "Lightning Pillars"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/fields",
@@ -3239,8 +3239,8 @@
       "mapName": "Frozen Cabins",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/frozen-cabins/captain-clayborne-the-accursed",
       "encounterName": "Captain Clayborne, The Accursed",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/frozen-cabins/captain-clayborne-the-accursed?ability=burtal-melee",
-      "encounterAbilityName": "Burtal Melee"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/frozen-cabins/captain-clayborne-the-accursed?ability=brutal-melee",
+      "encounterAbilityName": "Brutal Melee"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/frozen-cabins",
@@ -3367,16 +3367,16 @@
       "mapName": "Geode",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/geode/avatar-of-undoing",
       "encounterName": "Avatar of Undoing",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/geode/avatar-of-undoing?ability=chaos-storm",
-      "encounterAbilityName": "Chaos Storm"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/geode/avatar-of-undoing?ability=storm",
+      "encounterAbilityName": "Storm"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/geode",
       "mapName": "Geode",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/geode/avatar-of-undoing",
       "encounterName": "Avatar of Undoing",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/geode/avatar-of-undoing?ability=chaos-sandstorm",
-      "encounterAbilityName": "Chaos Sandstorm"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/geode/avatar-of-undoing?ability=sandstorm",
+      "encounterAbilityName": "Sandstorm"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/geode",
@@ -3479,24 +3479,24 @@
       "mapName": "Grotto",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/grotto/void-anomaly",
       "encounterName": "Void Anomaly",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/grotto/void-anomaly?ability=chaos-storm",
-      "encounterAbilityName": "Chaos Storm"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/grotto/void-anomaly?ability=storm",
+      "encounterAbilityName": "Storm"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/grotto",
       "mapName": "Grotto",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/grotto/void-anomaly",
       "encounterName": "Void Anomaly",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/grotto/void-anomaly?ability=chaos-sandstorm",
-      "encounterAbilityName": "Chaos Sandstorm"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/grotto/void-anomaly?ability=sandstorm",
+      "encounterAbilityName": "Sandstorm"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/grotto",
       "mapName": "Grotto",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/grotto/void-anomaly",
       "encounterName": "Void Anomaly",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/grotto/void-anomaly?ability=chaos-cascade",
-      "encounterAbilityName": "Chaos Cascade"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/grotto/void-anomaly?ability=cascade",
+      "encounterAbilityName": "Cascade"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/grotto",
@@ -3623,8 +3623,8 @@
       "mapName": "Infested Valley",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/infested-valley/gorulis-will-thief",
       "encounterName": "Gorulis, Will-Thief",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/infested-valley/gorulis-will-thief?ability=slide",
-      "encounterAbilityName": "Slide"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/infested-valley/gorulis-will-thief?ability=burrow",
+      "encounterAbilityName": "Burrow"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/jungle-valley",
@@ -4191,8 +4191,8 @@
       "mapName": "Overgrown Shrine",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/overgrown-shrine/maligaro-the-mutilator",
       "encounterName": "Maligaro the Mutilator",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/overgrown-shrine/maligaro-the-mutilator?ability=bladefall-firestorm",
-      "encounterAbilityName": "Bladefall Firestorm"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/overgrown-shrine/maligaro-the-mutilator?ability=blade-blossom",
+      "encounterAbilityName": "Blade Blossom"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/overgrown-shrine",
@@ -4823,8 +4823,8 @@
       "mapName": "Reef",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/reef/nassar-lion-of-the-seas",
       "encounterName": "Nassar, Lion of the Seas",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/reef/nassar-lion-of-the-seas?ability=lightning-strike",
-      "encounterAbilityName": "Lightning Strike"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/reef/nassar-lion-of-the-seas?ability=storm-call",
+      "encounterAbilityName": "Storm Call"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/reef",
@@ -5031,8 +5031,8 @@
       "mapName": "Silo",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/silo/renkarr-the-kiln-keeper",
       "encounterName": "Renkarr, The Kiln Keeper",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/silo/renkarr-the-kiln-keeper?ability=sunder-wave",
-      "encounterAbilityName": "Sunder Wave"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/silo/renkarr-the-kiln-keeper?ability=ground-slam",
+      "encounterAbilityName": "Ground Slam"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/silo",
@@ -5239,8 +5239,8 @@
       "mapName": "Sunken City",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/sunken-city/armala-the-widow",
       "encounterName": "Armala, the Widow",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/sunken-city/armala-the-widow?ability=boss-lasers",
-      "encounterAbilityName": "Boss Lasers"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/sunken-city/armala-the-widow?ability=laser-barrage",
+      "encounterAbilityName": "Laser Barrage"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/sunken-city",
@@ -5359,8 +5359,8 @@
       "mapName": "Thicket",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/thicket/the-primal-one",
       "encounterName": "The Primal One",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/thicket/the-primal-one?ability=enraged-sunder",
-      "encounterAbilityName": "Enraged Sunder"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/thicket/the-primal-one?ability=enrage",
+      "encounterAbilityName": "Enrage"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/thicket",
@@ -5375,8 +5375,8 @@
       "mapName": "Tower",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/tower/bazur",
       "encounterName": "Bazur",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/tower/bazur?ability=slam",
-      "encounterAbilityName": "Slam"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/tower/bazur?ability=ground-slam",
+      "encounterAbilityName": "Ground Slam"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/tower",
@@ -5447,8 +5447,8 @@
       "mapName": "Tower",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/tower/liantra",
       "encounterName": "Liantra",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/tower/liantra?ability=lightning-ball",
-      "encounterAbilityName": "Lightning Ball"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/tower/liantra?ability=ball-lightning",
+      "encounterAbilityName": "Ball Lightning"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/tower",
@@ -5607,8 +5607,8 @@
       "mapName": "Vaal Temple",
       "encounterPath": "/path-of-exile-1/encounters/common-maps/vaal-temple/kaj-yaraaz",
       "encounterName": "K'aj Y'ara'az",
-      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/vaal-temple/kaj-yaraaz?ability=fire-enrage",
-      "encounterAbilityName": "Fire Enrage"
+      "encounterAbilityPath": "/path-of-exile-1/encounters/common-maps/vaal-temple/kaj-yaraaz?ability=enrage",
+      "encounterAbilityName": "Enrage"
     },
     {
       "mapPath": "/path-of-exile-1/encounters/common-maps/vaal-temple",

@@ -1,37 +1,38 @@
 {
   "category": "common-maps",
   "map": "Grotto",
-  "bosses": [
+  "encounters": [
     {
       "name": "Void Anomaly",
       "damageTypes": ["chaos", "physical"],
       "abilities": [
         {
-          "name": "Chaos Storm",
+          "name": "Storm",
           "type": ["chaos"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/cb6a3850c5519839283d1ecb7b25b424.mp4",
-          "about": [""]
+          "about": ["Cascade of projectiles"]
         },
         {
-          "name": "Chaos Sandstorm",
+          "name": "Sandstorm",
           "type": ["chaos"],
-          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/fa4dc605b5ebb324a0867928fe7de9ba.mp4",
-          "about": [""]
+          "about": [
+            "Creates a storm that grows over time and deals damage to enemies that stay inside it"
+          ]
         },
         {
-          "name": "Chaos Cascade",
+          "name": "Cascade",
           "type": ["chaos"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/864412782e587d4d532d6b58aca9f579.mp4",
-          "about": [""]
+          "about": [
+            "Creates a wave with unlimited range that moves towards player location"
+          ]
         },
         {
           "name": "Summon Miners",
           "type": ["physical"],
-          "tip": ["dodge"],
-          "gif": "https://i.gyazo.com/122eefac0ac05275720a335c41b698f8.mp4"
+          "gif": "https://i.gyazo.com/122eefac0ac05275720a335c41b698f8.mp4",
+          "about": ["Encounter creates new monsters to aid said encounter"]
         }
       ]
     }

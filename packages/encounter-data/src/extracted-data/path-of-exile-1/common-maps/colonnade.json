@@ -1,45 +1,40 @@
 {
   "category": "common-maps",
   "map": "Colonnade",
-  "bosses": [
+  "encounters": [
     {
       "name": "Tyrant",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["fire"],
       "abilities": [
         {
-          "name": "Fire Ground",
-          "type": ["physical"],
-          "tip": ["dodge"],
+          "name": "Burning Ground",
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/b1727cc5bac32aac9031eedbe2a0abcd.mp4",
-          "about": [""]
+          "about": ["Encounter leaves burning ground behind them"]
         },
         {
           "name": "Firestorm",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/94c70e41652de16b9cb4e3d8b2e40ccc.mp4",
-          "about": [""]
+          "about": ["Rains numerous fiery bolts in an area"]
         },
         {
           "name": "Teleport",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/2e7413aea02cbc0b29445f92d22bab22.mp4",
-          "about": [""]
+          "about": ["Teleports encounter to random location in an area"]
         },
         {
           "name": "Restore Energy Shield",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/4ab746cb87d39a93aa8fb4e36a75d0a6.mp4",
           "about": [""]
         },
         {
           "name": "Molten Shell",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/eb46b8fe254ca500b23fd0bfe9545b3e.mp4",
-          "about": [""]
+          "about": [
+            "Applies a buff that adds to encounter's armour, and can take some of the damage from hits for you before being depleted. When the buff expires or is depleted, the skill deals reflected damage to enemies around encounter based on the total damage that was taken from the buff."
+          ]
         }
       ]
     }

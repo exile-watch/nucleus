@@ -1,44 +1,48 @@
 {
   "category": "common-maps",
   "map": "Promenade",
-  "bosses": [
+  "encounters": [
     {
       "name": "Blackguard Avenger",
-      "damageTypes": ["fire"],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Cleave",
-          "type": ["fire"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/a05651b4bb42133ec1386f4484fe3e90.mp4",
-          "about": [""]
+          "about": [
+            "Swings weapon (or both weapons if dual wielding) in an arc, damaging enemies in an area in front of them"
+          ]
         }
       ]
     },
     {
       "name": "Blackguard Tempest",
-      "damageTypes": ["fire", "physical"],
+      "damageTypes": ["lightning"],
       "abilities": [
         {
           "name": "Spark",
-          "type": ["fire"],
-          "tip": ["dodge"],
+          "type": ["lightning"],
           "gif": "https://i.gyazo.com/1d2d295c0f713ec23f5e527be2c69896.mp4",
-          "about": [""]
+          "about": [
+            "Launches unpredictable sparks that move randomly until they hit an enemy or expire."
+          ]
         },
         {
           "name": "Ball Lightning",
-          "type": ["fire"],
-          "tip": ["avoid traps"],
+          "type": ["lightning"],
           "gif": "https://i.gyazo.com/5625413b1cae779c9dbdfac1bc80e1cf.mp4",
-          "about": [""]
+          "about": [
+            "Fires a slow-moving projectile that periodically damages enemies in an area around it with bolts of lightning"
+          ]
         },
         {
           "name": "Conductivity Zone",
-          "type": ["physical"],
-          "tip": ["dodge"],
+          "type": ["lightning"],
           "gif": "https://i.gyazo.com/11840d42c6d2acd7d1afdfec3a39aa22.mp4",
-          "about": [""]
+          "about": [
+            "Curses all targets in an area, making them less resistant to lightning damage and gives damage hit more chance to shock"
+          ]
         }
       ]
     }

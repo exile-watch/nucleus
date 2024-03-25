@@ -1,5 +1,5 @@
 map: Plateau
-bosses:
+encounters:
   - name: Poporo, the Highest Spire
     abilities:
       - name: Pulse Lightning

@@ -1,5 +1,5 @@
 thumbnail: 'sirus'
-bosses:
+encounters:
   - name: Sirus, Awakener of Worlds
     abilities:
       - name: Default Attack

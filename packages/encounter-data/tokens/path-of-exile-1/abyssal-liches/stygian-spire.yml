@@ -1,9 +1,8 @@
-bosses:
+encounters:
   - name: Stygian Spire
     abilities:
-      - name: Meteor
+      - name: Abyss Pillar Mortar
         type: [ physical ]
-        tip: [ dodge]
         gif: https://i.gyazo.com/c506e0d5050d878c6eac2e428655448f.mp4
         about:
-          - ""
+          - $ABYSS_PILLAR_MORTAR

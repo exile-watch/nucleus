@@ -1,31 +1,29 @@
 thumbnail: 'xoph'
-bosses:
+encounters:
   - name: Xoph, Dark Embers
+    ailments: [ignite]
     abilities:
       - name: Cleave
-        type: [ physical, chaos ]
-        tip: [ dodge ]
+        type: [ physical, fire ]
         gif: https://i.gyazo.com/e8ee1af39ac0c8e37629598899ee4c4e.mp4
         about:
-          - ""
+          - $CLEAVE
 
       - name: Flame Vortex
-        type: [ physical ]
-        tip: [ dodge ]
+        type: [ fire ]
         gif: https://i.gyazo.com/154044b3943c7900d8ff1f179f2afb2d.mp4
         about:
-          - ""
+          - $FLAME_VORTEX
+          - $BURNING_GROUND_EFFECT
 
       - name: Upheaval
-        type: [ physical, chaos ]
-        tip: [ dodge ]
+        type: [ fire ]
         gif: https://i.gyazo.com/da1fea337f53f65f408dd500ab90478a.mp4
         about:
-          - ""
+          - $UPHEAVAL
 
-      - name: Xoph's Favoured
-        type: [ physical, chaos ]
-        tip: [ dodge ]
+      - name: Breach Pillar
+        type: [ physical ]
         gif: https://i.gyazo.com/53e15967c21cbe953da5150d8b941691.mp4
         about:
-          - ""
+          - $BREACH_PILLAR

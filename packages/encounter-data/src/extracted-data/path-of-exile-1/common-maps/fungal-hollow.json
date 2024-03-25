@@ -1,48 +1,50 @@
 {
   "category": "common-maps",
   "map": "Fungal Hollow",
-  "bosses": [
+  "encounters": [
     {
       "name": "Aulen Greychain",
-      "damageTypes": ["cold"],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Sweep",
-          "type": ["cold"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/4f59a5bb754176309b8baad0dfd82ecd.mp4",
-          "about": [""]
+          "about": ["Swings a melee weapon in a circle"]
         },
         {
           "name": "Immortal Call",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/3283435d572d6ab0199b6e13e36c9051.mp4",
-          "about": [""]
+          "about": [
+            "Encounter takes less Physical and Elemental Damage for a short time"
+          ]
         },
         {
           "name": "Leap Slam",
-          "type": ["cold"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/8bdf5f32697ea53dac9e50f190d0abf2.mp4",
-          "about": [""]
+          "about": [
+            "Jumps into the air, damaging and knocking back enemies with their weapon where they land. Enemies they would land on are pushed out of the way"
+          ]
         },
         {
           "name": "Summon Ancestral Protector Totems",
-          "type": ["cold"],
-          "tip": ["dodge"],
-          "gif": "https://i.gyazo.com/0aad206d23dd23f38d2f25d614ad85f3.mp4"
+          "type": ["physical"],
+          "gif": "https://i.gyazo.com/0aad206d23dd23f38d2f25d614ad85f3.mp4",
+          "about": ["Encounter creates new monsters to aid said encounter"]
         },
         {
           "name": "Enduring Cry",
-          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/cfac5e6020f932ec4ed38967c8f96965.mp4",
-          "about": [""]
+          "about": [
+            "Performs a warcry, taunting all nearby enemies to attack the encounter and granting endurance charges. Gives a brief burst of life regeneration, as well as a buff which grants resistances and physical damage reduction"
+          ]
         },
         {
           "name": "Summon Guards",
-          "tip": ["avoid traps"],
-          "gif": "https://i.gyazo.com/8ea2de78618469e5e51becebbb5efaf7.mp4"
+          "type": ["physical"],
+          "gif": "https://i.gyazo.com/8ea2de78618469e5e51becebbb5efaf7.mp4",
+          "about": ["Encounter creates new monsters to aid said encounter"]
         }
       ]
     }

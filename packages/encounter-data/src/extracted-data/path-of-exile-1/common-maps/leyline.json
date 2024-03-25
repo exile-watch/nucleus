@@ -1,24 +1,26 @@
 {
   "category": "common-maps",
   "map": "Leyline",
-  "bosses": [
+  "encounters": [
     {
       "name": "Mirage of Bones",
-      "damageTypes": ["fire"],
+      "damageTypes": ["fire", "physical"],
       "abilities": [
         {
           "name": "Snipe",
           "type": ["fire"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/a0ec1da87b629eb80f601b01f3717029.mp4",
-          "about": [""]
+          "about": [
+            "Channels to charge up encounter's bow, gaining stages. Releases to trigger projectile for each stage gained"
+          ]
         },
         {
           "name": "Blink Arrow",
-          "type": ["fire"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/cc8baa3990784f603856a62c1761febd.mp4",
-          "about": [""]
+          "about": [
+            "Fires an arrow at the target destination. When the arrow lands, encounter is teleported to it and a clone is summoned at their old location"
+          ]
         }
       ]
     }

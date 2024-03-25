@@ -1,17 +1,15 @@
 map: Phantasmagoria
-bosses:
+encounters:
   - name: Erythrophagia
     abilities:
       - name: Blood Projectile
-        type: [ fire ]
-        tip: [ dodge]
+        type: [ physical ]
         gif: https://i.gyazo.com/5e78e444704e66f20647f910612b1534.mp4
         about:
-          - ""
+          - $MORTAR
 
       - name: Mortar
-        type: [ fire ]
-        tip: [ avoid traps ]
+        type: [ physical ]
         gif: https://i.gyazo.com/7b12708c58152853475f5e84d4b866e3.mp4
         about:
-          - ""
+          - $MORTAR

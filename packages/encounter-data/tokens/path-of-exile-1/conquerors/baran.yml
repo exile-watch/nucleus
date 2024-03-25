@@ -1,5 +1,5 @@
 thumbnail: "baran"
-bosses:
+encounters:
   - name: Baran, the Crusader
     abilities:
       - name: Default Attack

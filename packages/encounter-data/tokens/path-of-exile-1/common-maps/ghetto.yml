@@ -1,5 +1,5 @@
 map: Ghetto
-bosses:
+encounters:
   - name: Lady Stormflay
     abilities:
       - name: Ground Lightning

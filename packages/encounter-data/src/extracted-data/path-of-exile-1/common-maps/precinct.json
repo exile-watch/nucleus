@@ -1,201 +1,217 @@
 {
   "category": "common-maps",
   "map": "Precinct",
-  "bosses": [
+  "encounters": [
     {
       "name": "Augustina Solaria",
-      "damageTypes": ["cold"],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Spectral Throw",
-          "type": ["cold"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/a95b3cc11c38bef20a61f2874d4f1dcf.mp4",
-          "about": [""]
+          "about": [
+            "Throws a spectral copy of encounter's melee weapon. It flies out and then returns to the encounter, in a spinning attack that damages enemies in its path"
+          ]
         },
         {
           "name": "Sniper's Mark",
-          "type": ["cold"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/f24c602e80a955873cb153ccb51c354f.mp4",
-          "about": [""]
+          "about": [
+            "Curses player, increasing the damage they take from projectiles, and making projectiles split when hitting them, to hit other targets around them"
+          ]
         },
         {
           "name": "Leap Slam",
-          "type": ["cold"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/1f3f5fc6735011943ff770c524149285.mp4",
-          "about": [""]
+          "about": [
+            "Jumps into the air, damaging and knocking back enemies with their weapon where they land. Enemies they would land on are pushed out of the way"
+          ]
         },
         {
           "name": "Enduring Cry",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/62bc0b3f1db33c3b4ebf4a1daceb1912.mp4",
-          "about": [""]
+          "about": [
+            "Performs a warcry, taunting all nearby enemies to attack the encounter and granting endurance charges. Gives a brief burst of life regeneration, as well as a buff which grants resistances and physical damage reduction"
+          ]
         },
         {
           "name": "Immortal Call",
-          "type": ["cold"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/c090d86c27ca75d684a791413f6fd9b1.mp4",
-          "about": [""]
+          "about": [
+            "Encounter takes less Physical and Elemental Damage for a short time"
+          ]
         },
         {
           "name": "Vaal Spectral Throw",
-          "type": ["cold"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/cc6a3f2fa886cb7d5f5d8bb71bfef32b.mp4",
-          "about": [""]
+          "about": [
+            "Throws a spectral copy of encounter melee weapon. It spirals out in a spinning attack that strikes enemies in its path."
+          ]
         }
       ]
     },
     {
       "name": "Damoi Tui",
-      "damageTypes": ["cold"],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Cyclone",
-          "type": ["cold"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/331015c2562d912918f515a8ab51b901.mp4",
-          "about": [""]
+          "about": [
+            "Damages enemies around encounter, then performs a spinning series of attacks as it travels to a target location"
+          ]
         },
         {
           "name": "Cleave",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/9bbd22581ca749a859f561499c64d78f.mp4",
-          "about": [""]
+          "about": [
+            "Swings weapon (or both weapons if dual wielding) in an arc, damaging enemies in an area in front of them"
+          ]
         },
         {
           "name": "Leap Slam",
-          "type": ["cold"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https:/i.gyazo.com/4ce7826deb6e06331c1dee78960f75da.mp4",
-          "about": [""]
+          "about": [
+            "Jumps into the air, damaging and knocking back enemies with their weapon where they land. Enemies they would land on are pushed out of the way"
+          ]
         },
         {
           "name": "Warlords Mark",
-          "type": ["cold"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/e6d9cac1995d647eef6d6dacef934155.mp4",
-          "about": [""]
+          "about": [
+            "Curses player. Attacking the cursed player will leech life and mana"
+          ]
         }
       ]
     },
     {
       "name": "Eoin Greyfur",
-      "damageTypes": ["cold"],
+      "damageTypes": ["physical", "cold"],
       "abilities": [
         {
           "name": "Cyclone",
-          "type": ["cold"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/2c666046a6eeab03b8b3894cdc955b74.mp4",
-          "about": [""]
+          "about": [
+            "Damages enemies around encounter, then performs a spinning series of attacks as it travels to a target location"
+          ]
         },
         {
           "name": "Cold Snap",
           "type": ["cold"],
-          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/2b3fb893e953942e06725a9b74f4c31f.mp4",
-          "about": [""]
+          "about": [
+            "Creates a sudden burst of cold in a targeted area, damaging enemies. Also creates an expanding area which is filled with chilled ground, and deals cold damage over time to enemies"
+          ]
         },
         {
           "name": "Vaal Cold Snap",
           "type": ["cold"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/cf3e4883b08b49377b0db0d37fa521fe.mp4",
-          "about": [""]
+          "about": [
+            "Creates a sudden burst of cold around encounter, damaging enemies. This also creates a chilling area around encounter which expands and deals cold damage over time to surrounding enemies in addition to chilling them"
+          ]
         },
         {
           "name": "Vaal Glacial Hammer",
           "type": ["cold"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/e69ca6621256b863757eb16e08f25e36.mp4",
-          "about": [""]
+          "about": [
+            "Hits enemies, converting some of encounter's physical damage to cold damage. It traps enemies with encounter in a circle of ice so that they can't escape"
+          ]
         }
       ]
     },
     {
       "name": "Igna Phoenix",
-      "damageTypes": ["cold"],
+      "damageTypes": ["fre", "fire"],
       "abilities": [
         {
           "name": "Firestorm",
-          "type": ["cold"],
-          "tip": ["dodge"],
+          "type": ["fre"],
           "gif": "https://i.gyazo.com/caaf9c68a51d27bc3e10734b6c6390cb.mp4",
-          "about": [""]
+          "about": ["Rains numerous fiery bolts in an area"]
         },
         {
           "name": "Righteous Fire",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/2acc71fd98a96beec764325a8ec0399e.mp4",
-          "about": [""]
+          "about": [
+            "Engulfs encounter in magical fire that rapidly burns nearby enemies"
+          ]
         },
         {
           "name": "Fireball",
-          "type": ["cold"],
-          "tip": ["dodge"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/d5b34bc5ec397e3da056c23496736373.mp4",
-          "about": [""]
+          "about": [
+            "Unleashes a ball of fire towards a target which explodes, damaging nearby foes"
+          ]
         }
       ]
     },
     {
       "name": "Torr Olgosso",
-      "damageTypes": ["cold"],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Arctic Armour",
-          "type": ["cold"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/a37e2b37dbc247f01aa1ae5a8d6dc9aa.mp4",
-          "about": [""]
+          "about": [
+            "Conjures an icy barrier that chills enemies when encounter is hit. Encounter drop chilled ground while moving, and take less Fire and Physical damage while stationary"
+          ]
         },
         {
           "name": "Leap Slam",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/df00888832df7a8829232deb841766cd.mp4",
-          "about": [""]
+          "about": [
+            "Jumps into the air, damaging and knocking back enemies with their weapon where they land. Enemies they would land on are pushed out of the way"
+          ]
         }
       ]
     },
     {
       "name": "Wilorin Demontamer",
-      "damageTypes": ["cold"],
+      "damageTypes": ["lightning"],
       "abilities": [
         {
           "name": "Ball Lightning",
-          "type": ["cold"],
-          "tip": ["dodge"],
+          "type": ["lightning"],
           "gif": "https://i.gyazo.com/0c56a5d72400418ba0ea33335aec4ed5.mp4",
-          "about": [""]
+          "about": [
+            "Fires a slow-moving projectile that periodically damages enemies in an area around it with bolts of lightning"
+          ]
         },
         {
           "name": "Storm Call",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["lightning"],
           "gif": "https://i.gyazo.com/d04ca97f0a609af3b4fcd7f54d60264c.mp4",
-          "about": [""]
+          "about": [
+            "Sets a marker at a location. After a short duration, lightning strikes the marker, dealing damage around it. When this happens, it will also set off the lightning at any other markers encounter has cast"
+          ]
         },
         {
           "name": "Lightning Warp",
-          "type": ["cold"],
-          "tip": ["dodge"],
+          "type": ["lightning"],
           "gif": "https://i.gyazo.com/8d0baefb2d046f77dba430d127c0a38d.mp4",
-          "about": [""]
+          "about": [
+            "Waits for a duration before teleporting to a targeted destination, with the duration based on the distance and encounter's movement speed. When the teleport occurs, lightning damage is dealt to the area around both where the encounter was and where they teleported to"
+          ]
         },
         {
           "name": "Conductivity",
-          "type": ["cold"],
-          "tip": ["dodge"],
+          "type": ["lightning"],
           "gif": "https://i.gyazo.com/23a7b2b4f13bf8858ad339d1d1779be7.mp4",
-          "about": [""]
+          "about": [
+            "Curses all targets in an area, making them less resistant to lightning damage and gives damage hit more chance to shock"
+          ]
         }
       ]
     }

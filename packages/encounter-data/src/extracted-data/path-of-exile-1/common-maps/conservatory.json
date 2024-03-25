@@ -1,31 +1,30 @@
 {
   "category": "common-maps",
   "map": "Conservatory",
-  "bosses": [
+  "encounters": [
     {
       "name": "The Forgotten Soldier",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["physical", "fire"],
       "abilities": [
         {
-          "name": "Slam",
+          "name": "Default attack",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/9570e63b847e53f2faddd8333c2d6b64.mp4",
-          "about": [""]
+          "about": ["Strikes enemy foes down with a powerful blow"]
         },
         {
-          "name": "Charge",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "name": "Shield Charge",
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/ee823cbe30304ae1f40d53cf85277cf2.mp4",
-          "about": [""]
+          "about": [
+            "Charges at a targeted location based on player location, pushing away enemies in encounter's path and repeatedly dealing damage in a small area in front of encounter. The further encounter travels, the more damage encounter deals."
+          ]
         },
         {
           "name": "Fire Orbs",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical", "fire"],
           "gif": "https://i.gyazo.com/0e490702d85a88a8aa2fd8e79059b4b0.mp4",
-          "about": [""]
+          "about": ["Shoots projectiles in random directions"]
         }
       ]
     }

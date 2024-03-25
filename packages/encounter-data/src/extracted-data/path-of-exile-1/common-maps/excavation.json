@@ -1,37 +1,33 @@
 {
   "category": "common-maps",
   "map": "Excavation",
-  "bosses": [
+  "encounters": [
     {
       "name": "Shrieker Eihal",
-      "damageTypes": ["fire"],
+      "damageTypes": ["physical", "lightning"],
       "abilities": [
         {
           "name": "Slash",
-          "tip": ["Get Curse Immunity"],
           "gif": "https://i.gyazo.com/1d319623207605fb05becdae9d1f2955.mp4",
           "about": [""]
         },
         {
           "name": "Rain of Mine Bats",
-          "type": ["fire"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/3bf0324fb46eeb72939e52a5cf670a1c.mp4",
-          "about": [""]
+          "about": ["Encounter creates new monsters to aid said encounter"]
         },
         {
           "name": "Screech Nova",
-          "type": ["fire"],
-          "tip": ["dodge"],
+          "type": ["lightning"],
           "gif": "https://i.gyazo.com/acb33f95f07039e66ddf2b900e7e21f7.mp4",
           "about": [""]
         },
         {
           "name": "Sandstorm",
-          "type": ["fire"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/bbbc912bd2ec84eadb49ca6bc82d4b92.mp4",
-          "about": [""]
+          "about": [null]
         }
       ]
     },
@@ -41,16 +37,19 @@
       "abilities": [
         {
           "name": "Spectral Throw",
-          "tip": ["Get Curse Immunity"],
           "gif": "https://i.gyazo.com/55523ac914219e6b5ca243278fe8a2b8.mp4",
-          "about": [""]
+          "about": [
+            "Throws a spectral copy of encounter's melee weapon. It flies out and then returns to the encounter, in a spinning attack that damages enemies in its path"
+          ]
         },
         {
           "name": "Vaal Spectral Throw",
           "type": ["fire"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/00f125744f403d8208918e98989f7684.mp4",
-          "about": [""]
+          "about": [
+            "Throws a spectral copy of encounter melee weapon. It spirals out in a spinning attack that strikes enemies in its path.",
+            "Encounter leaves burning ground behind them"
+          ]
         }
       ]
     }

@@ -1,45 +1,44 @@
 {
   "category": "common-maps",
   "map": "Siege",
-  "bosses": [
+  "encounters": [
     {
       "name": "Tahsin, Warmaker",
-      "damageTypes": ["fire", "cold"],
+      "damageTypes": ["fire", "physical"],
       "abilities": [
         {
           "name": "Beam Totem",
           "type": ["fire"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/39f52b5eb62603ec561fed449328c3be.mp4",
-          "about": [""]
+          "about": ["Beam that damages enemies it touches"]
         },
         {
           "name": "Sunder",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/4f5e0dd7cec48c537057d7e2084c57c8.mp4",
-          "about": [""]
+          "about": [
+            "Slams the ground, creating a wave of broken ground that damages enemies in an area in front of player"
+          ]
         },
         {
           "name": "Slam",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/11e3aac08f88517a54ddfd1eaec99848.mp4",
-          "about": [""]
+          "about": ["Strikes enemy foes down with a powerful blow"]
         },
         {
           "name": "Magma Pool",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/053f3573117e8ecb30d09ed78a3ec9f3.mp4",
-          "about": [""]
+          "about": ["Creates a pool of magma"]
         },
         {
           "name": "Invlunerability",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/d632bd3226d09f4f7d58323500e3ed20.mp4",
-          "about": [""]
+          "about": [
+            "Becomes invulnerable when encounter reaches 30% hp",
+            "Creates 5 totems that need to be destroyed in order to make encounter vulnerable again"
+          ]
         }
       ]
     }

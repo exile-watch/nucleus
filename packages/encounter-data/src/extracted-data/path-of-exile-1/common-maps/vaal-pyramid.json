@@ -1,24 +1,26 @@
 {
   "category": "common-maps",
   "map": "Vaal Pyramid",
-  "bosses": [
+  "encounters": [
     {
       "name": "The Fallen Queen",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["physical", "chaos"],
       "abilities": [
         {
           "name": "Ethereal Knives",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/3c4edfdcd832acacffa134fd8f89e4ac.mp4",
-          "about": [""]
+          "about": [
+            "Fires an arc of knives in front of the encounter which deals physical damage"
+          ]
         },
         {
           "name": "Viper Strike",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["chaos"],
           "gif": "https://i.gyazo.com/2eb15feae530bf0b2e4eaf3bb850862f.mp4",
-          "about": [""]
+          "about": [
+            "Hits enemies, converting some of encounter's physical damage to chaos damage and inflicting poison"
+          ]
         }
       ]
     },
@@ -29,9 +31,8 @@
         {
           "name": "Barrage",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/aacfc42087fbe12cea510c394017a995.mp4",
-          "about": [""]
+          "about": ["Fires multiple projectiles"]
         }
       ]
     },
@@ -42,9 +43,8 @@
         {
           "name": "Reave",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/087e975c799ec667f1686709eb54bc43.mp4",
-          "about": [""]
+          "about": ["Attacks an area in front of encounter in sequence"]
         }
       ]
     }

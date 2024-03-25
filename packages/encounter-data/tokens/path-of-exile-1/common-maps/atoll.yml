@@ -1,38 +1,33 @@
 map: Atoll
-bosses:
+encounters:
   - name: Puruna, The Challenger
+    ailments: [chill]
     abilities:
-      - name: Water Cascade
+      - name: Water Wave
         type: [ cold ]
-        tip: [ dodge]
         gif: https://i.gyazo.com/8436143ab1c467bf38109ed0b0eda28e.mp4
         about:
-          - ""
+          - $SPELL_WAVE
 
-      - name: Spawn Totem
+      - name: Spawn Totems
         type: [ cold ]
-        tip: [ kill new spawns ]
         gif: https://i.gyazo.com/9847c268b777f11082455e67afc38801.mp4
         about:
-          - /SPAWN_TOTEM/
+          - $SUMMON_MONSTERS
 
       - name: Frostbolt
         type: [ cold ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/051b275bcf785170d209531838a7b406.mp4
         about:
-          - /FROSTBALL/
+          - $FROSTBALL
 
       - name: Ice Nova
         type: [ cold ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/8176d7017de8eddb51f4182805137729.mp4
         about:
-          - /ICE_NOVA/
+          - $ICE_NOVA
 
       - name: Ice Nova Chilled Ground
-        tip: [ move out, get chill immunity ]
-        applies_ailments: [ chill ]
         gif: https://i.gyazo.com/385e3e2c225f29b2653ce9b76fab1896.mp4
         about:
-          - /CHILLED_GROUND/
+          - $CHILLED_GROUND

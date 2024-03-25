@@ -1,5 +1,5 @@
 thumbnail: "purifier"
-bosses:
+encounters:
   - name: The Purifier
     abilities:
       - name: Double Slam

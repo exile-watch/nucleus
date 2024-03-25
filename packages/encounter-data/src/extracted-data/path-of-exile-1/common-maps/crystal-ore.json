@@ -1,58 +1,59 @@
 {
   "category": "common-maps",
   "map": "Crystal Ore",
-  "bosses": [
+  "encounters": [
     {
       "name": "Messenger of the Hollows",
-      "damageTypes": ["cold", "physical", "lightning"],
+      "damageTypes": ["fire"],
       "abilities": [
         {
           "name": "Righteous Fire",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/e801129b5eb6f86dda2bec0eaf52696a.mp4",
-          "about": [""]
+          "about": [
+            "Engulfs encounter in magical fire that rapidly burns nearby enemies"
+          ]
         },
         {
           "name": "Throw Fire",
-          "type": ["physical"],
-          "tip": ["dodge"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/5115b7ad310eb4ed4b015fca4b668430.mp4",
-          "about": [""]
+          "about": [
+            "Fires projectile that does damage on impact and when the projectile explodes"
+          ]
         },
         {
           "name": "Lantern Heal",
-          "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/a3cdd2ccb5cbaf03a4160e23c80f91f0.mp4",
-          "about": [""]
+          "about": ["Regenerates 50% of Life"]
         },
         {
           "name": "Death Explode",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/49264d7a89e276a34eff495fbd0ac157.mp4",
-          "about": [""]
+          "about": [
+            "Explosion deals base Fire Damage equal to 1% of the corpse's Maximum Life"
+          ]
         }
       ]
     },
     {
       "name": "Lord of the Hollows",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Beacon",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/15fd1b162d697d11b06c92e5bb22098d.mp4",
-          "about": [""]
+          "about": ["Spawns a fissure after a delay"]
         },
         {
           "name": "Glacial Cascade",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/831803d2435d26754a41cb97badc9297.mp4",
-          "about": [""]
+          "about": [
+            "Icicles emerge from the ground in a series of small bursts, each damaging enemies"
+          ]
         }
       ]
     },
@@ -63,14 +64,14 @@
         {
           "name": "Ground Slam",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/93f9583fc74d72e13f4760ab11bf7110.mp4",
-          "about": [""]
+          "about": [
+            "Slams the ground, creating wave that travel forwards and damage enemies"
+          ]
         },
         {
           "name": "Miner Throw Spawn",
           "type": ["cold"],
-          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/408529cc9151b0e44a43a1a6c26282dd.mp4",
           "about": [""]
         }

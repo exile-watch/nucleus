@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Cells",
-  "bosses": [
+  "encounters": [
     {
       "name": "Shavronne the Sickening",
       "damageTypes": ["lightning", "physical"],
@@ -9,7 +9,6 @@
         {
           "name": "Storm Burst",
           "type": ["lightning"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/8deddffacbb17feaf8209a280b963f7a.mp4",
           "about": [
             "Unleashes a stream of projectiles while encounter channels this spell, which pierce through enemies, dealing lightning damage. When encounter stops channelling, the projectiles explode, dealing significant damage in an area around them. Additional projectiles are added in sequence"
@@ -18,16 +17,14 @@
         {
           "name": "Books Discharge",
           "type": ["lightning"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/c4d3e23010ef06f9f4711f99bd451943.mp4",
           "about": [
-            "Sets a book marker at a location. After a short duration, lightning strikes the marker, dealing damage around it. When this happens, it will also set off the lightning at any other markers encounter has cast"
+            "Sets a marker at a location. After a short duration, lightning strikes the marker, dealing damage around it. When this happens, it will also set off the lightning at any other markers encounter has cast"
           ]
         },
         {
           "name": "Ball Lightning",
           "type": ["lightning"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/4c890e6f8a4917eb6779050b69889d0d.mp4",
           "about": [
             "Fires a slow-moving projectile that periodically damages enemies in an area around it with bolts of lightning"
@@ -36,15 +33,16 @@
         {
           "name": "Brutus Slam",
           "type": ["physical", "lightning"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/c2f5d131b9000fd63b5c9cfce7170288.mp4",
-          "about": [""]
+          "about": [
+            "Slams the ground, creating wave that travel forwards and damage enemies"
+          ]
         },
         {
           "name": "Summon Minions",
           "type": ["physical"],
-          "tip": ["kill new spawns"],
-          "gif": "https://i.gyazo.com/e6c158e49c034b45a2051fd86ced2b57.mp4"
+          "gif": "https://i.gyazo.com/e6c158e49c034b45a2051fd86ced2b57.mp4",
+          "about": ["Encounter creates new monsters to aid said encounter"]
         },
         {
           "name": "Teleport",

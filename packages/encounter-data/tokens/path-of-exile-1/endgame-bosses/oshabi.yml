@@ -1,5 +1,5 @@
 thumbnail: 'oshabi'
-bosses:
+encounters:
   - name: Oshabi, Avatar of the Grove
     abilities:
       - name: Single Fire Projectile

@@ -1,49 +1,45 @@
 map: Courthouse
-bosses:
+encounters:
   - name: Bolt Brownfur, Earth Churner
+    ailments: [bleed]
     abilities:
       - name: Sunder
         type: [ physical ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/2d5f27086af6dc9227d72043259e225c.mp4
         about:
-          - ""
+          - $SUNDER
 
       - name: Quake Slam
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ physical ]
         gif: https://i.gyazo.com/68f9204f13efcad977383df1fbef7746.mp4
         about:
-          - ""
+          - $EARTHQUAKE
 
       - name: Leap Slam
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ physical ]
         gif: https://i.gyazo.com/e89bd1b9d8b02b14073a0409c84ad224.mp4
         about:
-          - ""
+          - $LEAP_SLAM
 
   - name: Ion Darkshroud, the Hungering Blade
     abilities:
       - name: Flicker Strike
         type: [ physical ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/e808965591a0f94ce67257a7bd1a8873.mp4
         about:
-          - ""
+          - $FLICKER_STRIKE
 
       - name: Spectral Throw
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ physical ]
         gif: https://i.gyazo.com/c9691badb80a601d76a888b6df3c4d76.mp4
         about:
-          - ""
+          - $SPECTRAL_THROW
 
   - name: Thena Moga, the Crimson Storm
+    ailments: [ignite]
     abilities:
       - name: Shield Charge
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ physical, fire ]
         gif: https://i.gyazo.com/f247683bb5aed3738873cb135005a540.mp4
         about:
-          - ""
+          - $SHIELD_CHARGE

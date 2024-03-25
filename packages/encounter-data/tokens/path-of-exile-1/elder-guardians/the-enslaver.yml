@@ -1,5 +1,5 @@
 thumbnail: "enslaver"
-bosses:
+encounters:
   - name: The Enslaver
     abilities:
       - name: Knife Toss

@@ -1,45 +1,47 @@
 {
   "category": "breachlords",
   "thumbnail": "tul",
-  "bosses": [
+  "encounters": [
     {
       "name": "Tul, Creeping Avalanche",
-      "damageTypes": ["physical", "chaos"],
+      "damageTypes": ["cold", "physical"],
       "abilities": [
         {
           "name": "Frost Blades",
-          "type": ["physical", "chaos"],
-          "tip": ["dodge"],
+          "type": ["cold"],
           "gif": "https://i.gyazo.com/0f1a42f968579bfafdb98cd100dbca0f.mp4",
-          "about": [""]
+          "about": [
+            "Attacks enemies with increased range, releasing icy blades from the first enemy hit which fly at other enemies"
+          ]
         },
         {
           "name": "Blizzard",
-          "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/d75b72cc83e5f5ac0d34d5ea7f209f8d.mp4",
-          "about": [""]
+          "about": [
+            "The snowstorm protects encounter, giving a chance to avoid damage while encounter stands in it"
+          ]
         },
         {
-          "name": "Ice Spear",
-          "type": ["physical", "chaos"],
-          "tip": ["dodge"],
+          "name": "Ice Spear Totems",
+          "type": ["cold"],
           "gif": "https://i.gyazo.com/269c5862c512448b4a2741255d6c36f8.mp4",
-          "about": [""]
+          "about": [
+            "Spawns 3 totems in a triangular shape that cast Ice Spears between them"
+          ]
         },
         {
           "name": "Barrage",
-          "type": ["physical", "chaos"],
-          "tip": ["dodge"],
+          "type": ["cold"],
           "gif": "https://i.gyazo.com/aaad4e592dabc1b217db69a868ea6ec8.mp4",
-          "about": [""]
+          "about": ["Fires multiple projectiles"]
         },
         {
-          "name": "Breach Portal",
-          "type": ["physical", "chaos"],
-          "tip": ["dodge"],
+          "name": "Breach Pillar",
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/6a61815a3490ad0b8983c24b04e0c331.mp4",
-          "about": [""]
+          "about": [
+            "Spawns a breach pillar that once passed through spawns monsters"
+          ]
         }
       ]
     }

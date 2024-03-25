@@ -1,38 +1,40 @@
 {
   "category": "common-maps",
   "map": "Factory",
-  "bosses": [
+  "encounters": [
     {
       "name": "Pesquin, the Mad Baron",
-      "damageTypes": ["physical", "cold", "lightning"],
+      "damageTypes": ["physical", "lightning"],
       "abilities": [
         {
           "name": "Earthquake",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/af45f9ad151fa63e7ccbe9d882f1bfd0.mp4",
-          "about": [""]
+          "about": [
+            "Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a duration."
+          ]
         },
         {
           "name": "Quake Slam",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical", "lightning"],
           "gif": "https://i.gyazo.com/612847fd39e0ea6b9c8b1b6c686bf692.mp4",
-          "about": [""]
+          "about": [
+            "Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a duration"
+          ]
         },
         {
           "name": "Living Bomb",
           "type": ["lightning"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/42a0f03c9323ed7ae00ef5f57c96c6c9.mp4",
-          "about": [""]
+          "about": ["Charges up and detonates after short delay"]
         },
         {
-          "name": "Lightning Walls",
+          "name": "Lightning Pillars",
           "type": ["lightning"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/2957252267ed8967810b7086eb0e2c30.mp4",
-          "about": [""]
+          "about": [
+            "Creates a lightning wall between activated pillars that deal lightning damage over time, slow enemies and apply shock"
+          ]
         }
       ]
     }

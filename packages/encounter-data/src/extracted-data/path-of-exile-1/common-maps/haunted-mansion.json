@@ -1,22 +1,20 @@
 {
   "category": "common-maps",
   "map": "Haunted Mansion",
-  "bosses": [
+  "encounters": [
     {
       "name": "Barthol, the Pure",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["fire", "physical"],
       "abilities": [
         {
           "name": "Holy Cannon",
-          "type": ["physical"],
-          "tip": ["dodge"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/b38bb057dc16619a07e969107a74b69c.mp4",
-          "about": [""]
+          "about": ["Vertical beam that damages enemies it touches"]
         },
         {
           "name": "Fireball",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/e5203128ea94528bf6d5f736d6b4c2ee.mp4",
           "about": [
             "Unleashes a ball of fire towards a target which explodes, damaging nearby foes"
@@ -24,42 +22,39 @@
         },
         {
           "name": "Incinerate",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/d9e72915c1aa7c82d481469c5fc79fdd.mp4",
-          "about": [""]
+          "about": ["Launches a torrent of fire"]
         }
       ]
     },
     {
       "name": "Barthol, the Corruptor",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["physical", "fire"],
       "abilities": [
         {
           "name": "Corrupt Cannon",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/90c9fcee4c23d4ad8919fee1405f9c7e.mp4",
-          "about": [""]
+          "about": ["Vertical beam that damages enemies it touches"]
         },
         {
           "name": "Fireball",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/e94e10fa725359b1061350894bb8af9b.mp4",
-          "about": [""]
+          "about": [
+            "Unleashes a ball of fire towards a target which explodes, damaging nearby foes"
+          ]
         },
         {
           "name": "Incinerate",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/2fd0ddab520497fb960cc1b13782dac9.mp4",
-          "about": [""]
+          "about": ["Launches a torrent of fire"]
         },
         {
           "name": "Nova",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/9484c96832cbfa5ea94a216bab14e6b3.mp4",
           "about": [""]
         }

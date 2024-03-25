@@ -1,5 +1,5 @@
 thumbnail: "hydra"
-bosses:
+encounters:
   - name: Guardian of the Hydra
     abilities:
       - name: Doom Arrow

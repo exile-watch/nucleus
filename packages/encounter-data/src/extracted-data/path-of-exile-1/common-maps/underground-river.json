@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Underground River",
-  "bosses": [
+  "encounters": [
     {
       "name": "It That Fell",
       "damageTypes": ["physical"],
@@ -11,21 +11,25 @@
           "type": ["physical"],
           "tip": ["dodge"],
           "gif": "https://i.gyazo.com/d00a653646d1fc571d16cfd267ec318f.mp4",
-          "about": [""]
+          "about": ["Increases movement speed, damage, attack and cast speed"]
         },
         {
           "name": "Quake Slam",
           "type": ["physical"],
           "tip": ["dodge"],
           "gif": "https://i.gyazo.com/3d15ce257874a803d9384c9d63c8981c.mp4",
-          "about": [""]
+          "about": [
+            "Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a duration."
+          ]
         },
         {
           "name": "Bear Rain",
           "type": ["physical"],
           "tip": ["dodge"],
           "gif": "https://i.gyazo.com/885f5500f92f4e7904fefb5dc982cc0b.mp4",
-          "about": [""]
+          "about": [
+            "The minion attacks by falling to the ground, causing an impact that deals damage in an area and kills the minion"
+          ]
         }
       ]
     }

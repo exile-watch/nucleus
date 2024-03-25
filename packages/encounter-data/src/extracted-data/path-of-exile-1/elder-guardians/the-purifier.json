@@ -1,7 +1,7 @@
 {
   "category": "elder-guardians",
   "thumbnail": "purifier",
-  "bosses": [
+  "encounters": [
     {
       "name": "The Purifier",
       "damageTypes": ["physical"],

@@ -1,45 +1,50 @@
 {
   "category": "common-maps",
   "map": "Iceberg",
-  "bosses": [
+  "encounters": [
     {
       "name": "Yorishi, Aurora-sage",
-      "damageTypes": ["physical", "cold", "lightning"],
+      "damageTypes": ["physical", "cold"],
       "abilities": [
         {
           "name": "Ice Crash",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/22dad3bf0a321c07e5bcaac5332c42a1.mp4",
-          "about": [""]
+          "about": [
+            "Slams the ground, damaging enemies in an area around the impact in three stages of increasing size"
+          ]
         },
         {
           "name": "Creeping Frost",
           "type": ["cold"],
-          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/37b1e9f0a2e8983c43803665e332e3a5.mp4",
-          "about": [""]
+          "about": [
+            "Fires an icy projectile that bursts on impact or when reaching the targeted area, dealing area damage and creating a chilling area that deals cold damage over time"
+          ]
         },
         {
           "name": "Vaal Glacial Hammer",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["cold"],
           "gif": "https://i.gyazo.com/9f392d053df4d7e26c74ddb0f06a2e82.mp4",
-          "about": [""]
+          "about": [
+            "Hits enemies, converting some of encounter's physical damage to cold damage. It traps enemies with encounter in a circle of ice so that they can't escape"
+          ]
         },
         {
           "name": "Frost Call",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["cold"],
           "gif": "https://i.gyazo.com/86cf825d7ce29c3ddac845757323bafd.mp4",
-          "about": [""]
+          "about": [
+            "Sets a marker at a location. After a short duration, lightning strikes the marker, dealing damage around it. When this happens, it will also set off the lightning at any other markers encounter has cast"
+          ]
         },
         {
           "name": "Leap Slam",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/b1aba85bfc7306fd0893e9b4897cb74e.mp4",
-          "about": [""]
+          "about": [
+            "Jumps into the air, damaging and knocking back enemies with their weapon where they land. Enemies they would land on are pushed out of the way"
+          ]
         }
       ]
     }

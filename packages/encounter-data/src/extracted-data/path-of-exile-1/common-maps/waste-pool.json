@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Waste Pool",
-  "bosses": [
+  "encounters": [
     {
       "name": "Portentia, the Foul",
       "damageTypes": ["physical", "cold"],

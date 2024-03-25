@@ -1,7 +1,7 @@
 {
   "category": "shaper-guardians",
   "thumbnail": "minotaur",
-  "bosses": [
+  "encounters": [
     {
       "name": "Guardian of the Minotaur",
       "damageTypes": ["physical", "lightning"],

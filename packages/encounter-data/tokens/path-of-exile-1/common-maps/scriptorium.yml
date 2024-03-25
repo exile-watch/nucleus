@@ -1,24 +1,21 @@
 map: Scriptorium
-bosses:
+encounters:
   - name: Gisale, Thought Thief
     abilities:
       - name: Book Discharge
-        type: [ physical ]
-        tip: [ dodge]
+        type: [ lightning ]
         gif: https://i.gyazo.com/816a963cb08cf8fb848d38aff238bfd7.mp4
         about:
-          - ""
+          - $STORM_CALL
 
       - name: Lightning Tendrils
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ lightning ]
         gif: https://i.gyazo.com/26d54c0c251b2196b46a561ab4c7c245.mp4
         about:
-          - ""
+          - $LIGHTNING_TENDRILS
 
       - name: Lightning Balls
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ lightning ]
         gif: https://i.gyazo.com/ded561bd02afd2a22bc382d195460663.mp4
         about:
           - ""

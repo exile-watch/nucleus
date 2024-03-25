@@ -1,5 +1,5 @@
 map: Villa
-bosses:
+encounters:
   - name: The High Templar
     abilities:
       - name: Lightning Souls

@@ -2,7 +2,7 @@
   "category": "common-maps",
   "map": "Forbidden Woods",
   "thumbnail": "forbidden-woods",
-  "bosses": [
+  "encounters": [
     {
       "name": "Corruptor Eedaiak",
       "damageTypes": ["cold"],

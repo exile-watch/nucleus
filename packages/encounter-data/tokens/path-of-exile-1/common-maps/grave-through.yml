@@ -1,59 +1,51 @@
 map: Grave Through
-bosses:
+encounters:
   - name: The Restless Shade
     abilities:
       - name: Frontal Blast
-        type: [ fire ]
-        tip: [ dodge]
+        type: [ physical, chaos ]
         gif: https://i.gyazo.com/f173fcea2ae1a54699224bedd8de7a6a.mp4
         about:
           - ""
 
       - name: Wraith Charge
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ physical, chaos ]
         gif: https://i.gyazo.com/89a75037cd549e4176cc31c14fda8386.mp4
         about:
-          - ""
+          - $WHIRLING_BLADES
 
       - name: Charge Marker
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ physical, chaos ]
         gif: https://i.gyazo.com/2cf1c4f4e3141bc34759a2669fc5d75c.mp4
         about:
           - ""
 
       - name: Self Nova
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ physical, chaos ]
         gif: https://i.gyazo.com/73dd4d583958315c869729829c4d3197.mp4
         about:
           - ""
 
       - name: Chains
         type: [ cold ]
-        tip: [ avoid traps ]
         gif: https://i.gyazo.com/f3abd78f8e9c9b0a6dd826415068fa5b.mp4
         about:
           - ""
 
       - name: Summon Coffins
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ physical, chaos ]
         gif: https://i.gyazo.com/b8535a9497116f63ff406a7a50dec2b3.mp4
         about:
-          - ""
+          - "Summons untargettable coffins that slam the ground upon impact"
 
       - name: Coffin Explosion
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ physical, chaos ]
         gif: https://i.gyazo.com/83d1c2b03336116955c9bcf817e8788a.mp4
         about:
-          - ""
+          - "Coffin explodes after short delay after being ran through by a player"
 
       - name: Coffin Wall
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ physical, chaos ]
         gif: https://i.gyazo.com/925d87eaf6138fbbe8d24b88dc845fd3.mp4
         about:
-          - ""
+          - "Creates a set of coffins in wall fashion that smash opposite coffins after a short delay"

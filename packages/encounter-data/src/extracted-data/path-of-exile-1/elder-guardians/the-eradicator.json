@@ -1,7 +1,7 @@
 {
   "category": "elder-guardians",
   "thumbnail": "eradicator",
-  "bosses": [
+  "encounters": [
     {
       "name": "The Eradicator",
       "damageTypes": ["lightning"],

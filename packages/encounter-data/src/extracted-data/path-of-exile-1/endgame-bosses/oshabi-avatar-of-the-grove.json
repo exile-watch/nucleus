@@ -1,7 +1,7 @@
 {
   "category": "endgame-bosses",
   "thumbnail": "oshabi",
-  "bosses": [
+  "encounters": [
     {
       "name": "Oshabi, Avatar of the Grove",
       "damageTypes": ["physical"],

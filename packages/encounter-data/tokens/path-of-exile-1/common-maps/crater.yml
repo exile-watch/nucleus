@@ -1,22 +1,23 @@
 map: Crater
-bosses:
+encounters:
   - name: Megaera
+    ailments: [ignite]
     abilities:
       - name: Firestorm
         type: [ fire ]
-        tip: [ dodge]
         gif: https://i.gyazo.com/ed4a2e49ea4f17334dcdb55e30946f5a.mp4
         about:
-          - ""
+          - $FIRESTORM
 
       - name: Fire Trap
         type: [ fire ]
-        tip: [ avoid traps ]
         gif: https://i.gyazo.com/77230c2757825eabed7e9c9fe2763e96.mp4
         about:
-          - ""
+          - $FIRE_TRAP
+          - $BURNING_GROUND_EFFECT
 
       - name: Summon Skeletons
         type: [ physical ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/adcaba5f915028c5a61866b665e13027.mp4
+        about:
+          - $SUMMON_MONSTERS

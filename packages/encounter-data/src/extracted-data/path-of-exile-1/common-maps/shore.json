@@ -1,29 +1,30 @@
 {
   "category": "common-maps",
   "map": "Shore",
-  "bosses": [
+  "encounters": [
     {
       "name": "Belcer, the Pirate Lord",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["physical", "fire"],
       "abilities": [
         {
           "name": "Spectral Throw",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/b80e9b8a0c9d95885fee0c6f3814d09b.mp4",
-          "about": [""]
+          "about": [
+            "Throws a spectral copy of encounter's melee weapon. It flies out and then returns to the encounter, in a spinning attack that damages enemies in its path"
+          ]
         },
         {
           "name": "Summon Raging Spirit",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
-          "gif": "https://i.gyazo.com/abe595a970e81857944ea9ff521942dc.mp4"
+          "type": ["fire"],
+          "gif": "https://i.gyazo.com/abe595a970e81857944ea9ff521942dc.mp4",
+          "about": ["Encounter creates new monsters to aid said encounter"]
         },
         {
           "name": "Summon Tormented Minion",
           "type": ["physical"],
-          "tip": ["dodge"],
-          "gif": "https://i.gyazo.com/8b4501c8ede2c730fbf66dfebe11d498.mp4"
+          "gif": "https://i.gyazo.com/8b4501c8ede2c730fbf66dfebe11d498.mp4",
+          "about": ["Encounter creates new monsters to aid said encounter"]
         }
       ]
     }

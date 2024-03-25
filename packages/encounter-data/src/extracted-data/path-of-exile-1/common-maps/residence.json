@@ -1,31 +1,35 @@
 {
   "category": "common-maps",
   "map": "Residence",
-  "bosses": [
+  "encounters": [
     {
       "name": "Excellis Aurafix",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["lightning", "fire", "physical"],
       "abilities": [
         {
           "name": "Lightning Trap",
-          "type": ["physical"],
-          "tip": ["dodge"],
+          "type": ["lightning"],
           "gif": "https://i.gyazo.com/e5a66078f578ad7cda70f2e92f29f8fb.mp4",
-          "about": [""]
+          "about": [
+            "Throws a trap that launches a ring of projectiles through the enemy that set it off, dealing lightning damage to them and subsequent targets."
+          ]
         },
         {
           "name": "Fire Trap",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/1ff151f3526d51b1ff8b64548a150d62.mp4",
-          "about": [""]
+          "about": [
+            "Throws a trap that explodes when triggered, dealing fire damage to surrounding enemies",
+            "Encounter leaves burning ground behind them"
+          ]
         },
         {
           "name": "Bear Trap",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/751f31b39decd9798ae2b8334a644c32.mp4",
-          "about": [""]
+          "about": [
+            "Throws a trap that damages and immobilises a single enemy for a duration based on how much damage was dealt"
+          ]
         }
       ]
     }

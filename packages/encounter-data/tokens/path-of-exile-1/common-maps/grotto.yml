@@ -1,29 +1,27 @@
 map: Grotto
-bosses:
+encounters:
   - name: Void Anomaly
     abilities:
-      - name: Chaos Storm
+      - name: Storm
         type: [ chaos ]
-        tip: [ dodge]
         gif: https://i.gyazo.com/cb6a3850c5519839283d1ecb7b25b424.mp4
         about:
-          - ""
+          - $CASCADE
 
-      - name: Chaos Sandstorm
+      - name: Sandstorm
         type: [ chaos ]
-        tip: [ avoid traps ]
         gif: https://i.gyazo.com/fa4dc605b5ebb324a0867928fe7de9ba.mp4
         about:
-          - ""
+          - $GROWING_STORM
 
-      - name: Chaos Cascade
+      - name: Cascade
         type: [ chaos ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/864412782e587d4d532d6b58aca9f579.mp4
         about:
-          - ""
+          - $SPELL_WAVE
 
       - name: Summon Miners
         type: [ physical ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/122eefac0ac05275720a335c41b698f8.mp4
+        about:
+          - $SUMMON_MONSTERS

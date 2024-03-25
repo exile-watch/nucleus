@@ -2,7 +2,7 @@
   "category": "endgame-bosses",
   "map": "Cortex",
   "thumbnail": "cortex",
-  "bosses": [
+  "encounters": [
     {
       "name": "Fractal Gargantuan",
       "damageTypes": ["physical"],

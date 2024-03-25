@@ -1,5 +1,5 @@
 thumbnail: "chimera"
-bosses:
+encounters:
   - name: Guardian of the Chimera
     abilities:
       - name: Combo Attack

@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Volcano",
-  "bosses": [
+  "encounters": [
     {
       "name": "Forest of Flames",
       "damageTypes": ["physical"],
@@ -9,8 +9,8 @@
         {
           "name": "Summon Totems",
           "type": ["physical"],
-          "tip": ["dodge"],
-          "gif": "https://i.gyazo.com/c81ec2f2ca09bc78fc11defc1885c099.mp4"
+          "gif": "https://i.gyazo.com/c81ec2f2ca09bc78fc11defc1885c099.mp4",
+          "about": ["Encounter creates new monsters to aid said encounter"]
         }
       ]
     }

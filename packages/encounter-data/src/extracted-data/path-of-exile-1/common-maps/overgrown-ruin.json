@@ -1,65 +1,62 @@
 {
   "category": "common-maps",
   "map": "Overgrown Ruin",
-  "bosses": [
+  "encounters": [
     {
       "name": "Visceris",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Teleport Cleave",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/598f8a210ada57f91caf96d22e8d02e5.mp4",
-          "about": [""]
+          "about": [
+            "Teleports encounter to player location",
+            "Swings weapon (or both weapons if dual wielding) in an arc, damaging enemies in an area in front of them"
+          ]
         },
         {
           "name": "Melee Combo",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/121ccf94afe06a0d902829b6f1c1c3db.mp4",
-          "about": [""]
+          "about": ["Strikes enemy foes down with a powerful blow"]
         },
         {
           "name": "Spear Barrage",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/70e29fa70b778419a341409872bf3d4e.mp4",
-          "about": [""]
+          "about": ["Fires multiple projectiles"]
         },
         {
           "name": "Whirling Blades",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/a6e98d111dd75421724277c805b69e37.mp4",
-          "about": [""]
+          "about": ["Rolls towards player linearly"]
         }
       ]
     },
     {
       "name": "M'uneh",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["physical", "lightning", "cold"],
       "abilities": [
         {
           "name": "Proximity Shield",
-          "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/f3e243aeebf7224ae028bdf149500790.mp4",
-          "about": [""]
+          "about": [
+            "Causes shielded entities to take no direct damage from enemies outside the shield"
+          ]
         },
         {
           "name": "Lightning Orb Strike",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical", "lightning"],
           "gif": "https://i.gyazo.com/92e3f64c8546aeefff8cef315668e427.mp4",
           "about": [""]
         },
         {
           "name": "Slam",
           "type": ["cold"],
-          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/05a47cb759e7f386d7b1276b7f5164ff.mp4",
-          "about": [""]
+          "about": ["Strikes enemy foes down with a powerful blow"]
         }
       ]
     },
@@ -70,16 +67,14 @@
         {
           "name": "Chaos Ball",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/891d62c1d4fac4357b54439a2e65749f.mp4",
           "about": [""]
         },
         {
           "name": "Barrage",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/de1265c8753510a0e584d555012a9303.mp4",
-          "about": [""]
+          "about": ["Fires multiple projectiles"]
         }
       ]
     }

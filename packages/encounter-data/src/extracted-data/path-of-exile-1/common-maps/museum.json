@@ -1,31 +1,35 @@
 {
   "category": "common-maps",
   "map": "Museum",
-  "bosses": [
+  "encounters": [
     {
       "name": "He of Many Pieces",
-      "damageTypes": ["cold"],
+      "damageTypes": ["physical", "fire"],
       "abilities": [
         {
           "name": "Detonate Dead",
-          "type": ["cold"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/d5e0df6488652bce258573d2a47a60a4.mp4",
-          "about": [""]
+          "about": [
+            "Explosion deals base Fire Damage equal to 1% of the corpse's Maximum Life"
+          ]
         },
         {
           "name": "Ethereal Knives",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/3534507d2da3642c1ac20ca9c8586bc5.mp4",
-          "about": [""]
+          "about": [
+            "Fires an arc of knives in front of the encounter which deals physical damage"
+          ]
         },
         {
           "name": "Vaal Fire Trap",
-          "type": ["cold"],
-          "tip": ["dodge"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/3633274cfd3320121b6b3f535907d6a6.mp4",
-          "about": [""]
+          "about": [
+            "Throws a trap that explodes when triggered, dealing fire damage to surrounding enemies",
+            "Encounter leaves burning ground behind them"
+          ]
         }
       ]
     }

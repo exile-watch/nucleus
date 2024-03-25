@@ -1,5 +1,5 @@
 thumbnail: 'catarina'
-bosses:
+encounters:
   - name: Catarina, Master of Undeath
     abilities:
       - name: Default Attack

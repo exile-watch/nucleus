@@ -1,24 +1,23 @@
 map: Residence
-bosses:
+encounters:
   - name: Excellis Aurafix
+    ailments: [ignite, chill]
     abilities:
       - name: Lightning Trap
-        type: [ physical ]
-        tip: [ dodge]
+        type: [ lightning ]
         gif: https://i.gyazo.com/e5a66078f578ad7cda70f2e92f29f8fb.mp4
         about:
-          - ""
+          - $LIGHTNING_TRAP
 
       - name: Fire Trap
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ fire ]
         gif: https://i.gyazo.com/1ff151f3526d51b1ff8b64548a150d62.mp4
         about:
-          - ""
+          - $FIRE_TRAP
+          - $BURNING_GROUND_EFFECT
 
       - name: Bear Trap
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ physical ]
         gif: https://i.gyazo.com/751f31b39decd9798ae2b8334a644c32.mp4
         about:
-          - ""
+          - $BEAR_TRAP

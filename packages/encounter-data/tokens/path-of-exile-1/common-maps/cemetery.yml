@@ -1,24 +1,20 @@
 map: Cemetry
-bosses:
+encounters:
   - name: Erebix, Light's Bane
     abilities:
       - name: Roar
-        type: [ physical ]
-        tip: [ dodge]
         gif: https://i.gyazo.com/75f106046c656cdbb505b0d09a91d6bc.mp4
         about:
           - ""
 
       - name: Despair Nova
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ chaos ]
         gif: https://i.gyazo.com/eba0533a299082f6571e39c6b9a5dca2.mp4
         about:
           - ""
 
       - name: Slam
-        type: [ lightning ]
-        tip: [ dodge ]
+        type: [ physical ]
         gif: https://i.gyazo.com/56a5a3d79263a4bf672df77589f206e0.mp4
         about:
-          - ""
+          - $EARTHQUAKE

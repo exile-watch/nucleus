@@ -1,5 +1,5 @@
 map: Palace
-bosses:
+encounters:
   - name: God's Chosen
     abilities:
       - name: Lightning Souls

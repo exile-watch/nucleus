@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Silo",
-  "bosses": [
+  "encounters": [
     {
       "name": "Renkarr, The Kiln Keeper",
       "damageTypes": ["fire", "physical"],
@@ -9,51 +9,57 @@
         {
           "name": "Mortar",
           "type": ["fire"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/5aaf9e297e6c02f0b7225c82f130a818.mp4",
-          "about": [""]
+          "about": [
+            "Fires projectile that does damage on impact and when the projectile explodes"
+          ]
         },
         {
           "name": "Gas Mortar",
           "type": ["fire"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/f2e26cd6517f68b2b88e1c949b5da4f9.mp4",
-          "about": [""]
+          "about": [
+            "Fires projectile that does damage on impact and when the projectile explodes",
+            "Pulls existing or newly created orbs back to the encounter damaging anything in it's path"
+          ]
         },
         {
-          "name": "Sunder Wave",
+          "name": "Ground Slam",
           "type": ["fire"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/8044512e3ca24692f2e614926fc12126.mp4",
-          "about": [""]
+          "about": [
+            "Slams the ground, creating wave that travel forwards and damage enemies"
+          ]
         },
         {
           "name": "Enraged Gas Mortar",
           "type": ["fire"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/b10ffdab7fc1237c2c1f63ae72617159.mp4",
-          "about": [""]
+          "about": [
+            "Increases movement speed, damage, attack and cast speed",
+            "Slams the ground, creating a wave of broken ground that damages enemies in an area in front of player"
+          ]
         },
         {
           "name": "Aerial Mortar",
-          "type": ["physical"],
-          "tip": ["dodge"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/21bc1b9676b5a51fbe1b7bfa93f17b69.mp4",
           "about": [""]
         },
         {
           "name": "Reflection",
           "type": ["fire"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/f644ac493632ce96ac42d2c64e11aaa2.mp4",
-          "about": [""]
+          "about": [
+            "Shoots a burning beam that reflects when it's connected with a wall",
+            "5 connections"
+          ]
         },
         {
           "name": "Melee Combo",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/21bc1b9676b5a51fbe1b7bfa93f17b69.mp4",
-          "about": [""]
+          "about": ["Strikes enemy foes down with a powerful blow"]
         }
       ]
     }

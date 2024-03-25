@@ -1,17 +1,14 @@
 map: Desert
-bosses:
+encounters:
   - name: Preethi, Eye-Pecker
     abilities:
       - name: Teleport
-        type: [ physical ]
-        tip: [ dodge]
         gif: https://i.gyazo.com/910bae5be476d133139a3f91417f2fae.mp4
         about:
-          - ""
+          - $TELEPORT
 
       - name: Tornado Spawn
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ physical ]
         gif: https://i.gyazo.com/6c04a7be31cd7dcf10a17c729c209f9d.mp4
         about:
           - ""

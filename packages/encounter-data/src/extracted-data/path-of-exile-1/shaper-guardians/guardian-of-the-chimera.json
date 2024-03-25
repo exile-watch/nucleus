@@ -1,7 +1,7 @@
 {
   "category": "shaper-guardians",
   "thumbnail": "chimera",
-  "bosses": [
+  "encounters": [
     {
       "name": "Guardian of the Chimera",
       "damageTypes": ["physical", "cold"],

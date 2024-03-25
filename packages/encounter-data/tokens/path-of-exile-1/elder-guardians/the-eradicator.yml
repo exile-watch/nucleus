@@ -1,5 +1,5 @@
 thumbnail: "eradicator"
-bosses:
+encounters:
   - name: The Eradicator
     abilities:
       - name: Lightning blasts

@@ -1,5 +1,5 @@
 map: Moon Temple
-bosses:
+encounters:
   - name: Sebbert, Crescent's Point
     abilities:
       - name: Curve Projectile

@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Forking River",
-  "bosses": [
+  "encounters": [
     {
       "name": "Ormud, Fiend of the Flood",
       "damageTypes": ["physical", "cold", "lightning"],

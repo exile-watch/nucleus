@@ -1,44 +1,46 @@
 {
   "category": "common-maps",
   "map": "Overgrown Shrine",
-  "bosses": [
+  "encounters": [
     {
       "name": "Maligaro the Mutilator",
-      "damageTypes": ["fire", "physical"],
+      "damageTypes": ["fire", "physical", "chaos"],
       "abilities": [
         {
           "name": "Telepor Slam",
           "type": ["fire"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/f9a1043b6c86afd8755ebb372b0d7868.mp4",
-          "about": [""]
+          "about": [
+            "Teleports encounter to random location in an area",
+            "Strikes enemy foes down with a powerful blow"
+          ]
         },
         {
           "name": "Spectral Throw",
-          "type": ["fire"],
-          "tip": ["dodge"],
+          "type": ["physical", "chaos"],
           "gif": "https://i.gyazo.com/e45b19190197903392ee07244aeacb79.mp4",
-          "about": [""]
+          "about": [
+            "Throws a spectral copy of encounter's melee weapon. It flies out and then returns to the encounter, in a spinning attack that damages enemies in its path"
+          ]
         },
         {
           "name": "Dash",
-          "type": ["fire"],
-          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/9fc9325fa71e2cff2ad2e427852f3d2d.mp4",
-          "about": [""]
+          "about": ["Performs a quick teleport towards a targeted location"]
         },
         {
-          "name": "Bladefall Firestorm",
-          "type": ["physical"],
-          "tip": ["dodge"],
+          "name": "Blade Blossom",
+          "type": ["physical", "chaos"],
           "gif": "https://i.gyazo.com/43ae93d23aece9353255afcf88e32af1.mp4",
-          "about": [""]
+          "about": [
+            "Creates knives on the ground which fly upwards after a short delay"
+          ]
         },
         {
           "name": "Summon Clones",
-          "type": ["physical"],
-          "tip": ["dodge"],
-          "gif": "https://i.gyazo.com/6cd1471a1b8d0554ed1649ac2682193d.mp4"
+          "type": ["physical", "chaos"],
+          "gif": "https://i.gyazo.com/6cd1471a1b8d0554ed1649ac2682193d.mp4",
+          "about": ["Encounter creates new monsters to aid said encounter"]
         }
       ]
     }

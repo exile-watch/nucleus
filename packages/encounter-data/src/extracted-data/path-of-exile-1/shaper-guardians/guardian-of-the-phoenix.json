@@ -1,7 +1,7 @@
 {
   "category": "shaper-guardians",
   "thumbnail": "phoenix",
-  "bosses": [
+  "encounters": [
     {
       "name": "Guardian of the Phoenix",
       "damageTypes": ["physical", "fire"],

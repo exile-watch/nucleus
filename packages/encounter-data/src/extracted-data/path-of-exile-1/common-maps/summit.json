@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Summit",
-  "bosses": [
+  "encounters": [
     {
       "name": "Mephod, the Earth Schorcher",
       "damageTypes": ["fire"],

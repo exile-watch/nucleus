@@ -1,53 +1,51 @@
 map: Estuary
-bosses:
+encounters:
   - name: Sumter the Twisted
+    ailments: [ignite, chill]
     abilities:
       - name: Icefire
-        tip: [ Get Curse Immunity ]
         gif: https://i.gyazo.com/d2d0ed70066cc970d2c4072489473c99.mp4
         about:
-          - ""
+          - "Combination of Frostballs and Fireballs that explode on impact"
 
       - name: Firestorm Cascade
         type: [ fire ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/873a2bcee5cd740b7ecfcfad35a97d9c.mp4
         about:
-          - ""
+          - $CASCADE
 
       - name: Froststorm Cascade
-        type: [ fire ]
-        tip: [ run to bonfire ]
+        type: [ cold ]
         gif: https://i.gyazo.com/ef35014bebeb37cebfbe587d7f125612.mp4
         about:
-          - ""
+          - $CASCADE
 
   - name: Flarus
+    ailments: [ignite]
     abilities:
       - name: Storm Call
-        tip: [ Get Curse Immunity ]
+        type: [ fire ]
         gif: https://i.gyazo.com/ed580c810b7dcfe221a710cbe3eafa10.mp4
         about:
-          - ""
+          - $STORM_CALL
 
       - name: Fireball Projectiles
         type: [ fire ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/d727c7996f8c0c15cfdd7b1c482df65c.mp4
         about:
-          - ""
+          - $FIREBALL
 
   - name: Frosis
+    ailments: [chill]
     abilities:
       - name: Storm Call
-        tip: [ Get Curse Immunity ]
+        type: [cold]
         gif: https://i.gyazo.com/3cb92e2281ee26e86f648e12867f9cab.mp4
         about:
-          - ""
+          - $STORM_CALL
 
       - name: Ice Spear
-        type: [ fire ]
-        tip: [ dodge ]
+        type: [ cold ]
         gif: https://i.gyazo.com/84f753957fb8c325db18a4c89e7774f8.mp4
         about:
-          - ""
+          - $ICE_SPEAR

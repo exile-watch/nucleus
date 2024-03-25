@@ -1,44 +1,48 @@
 {
   "category": "common-maps",
   "map": "Courtyard",
-  "bosses": [
+  "encounters": [
     {
       "name": "Oriath's Vengeance",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["physical", "fire"],
       "abilities": [
         {
           "name": "Dragon Fireball Strike",
-          "type": ["physical"],
-          "tip": ["dodge"],
+          "type": ["physical", "fire"],
           "gif": "https://i.gyazo.com/e44cd9a72d0dc49bbee1c41b04211af9.mp4",
-          "about": [""]
+          "about": [
+            "Infuses your melee weapon with flame energies as you swing. The stored energy is released from the weapon as projectiles as encounter strikes, flying out to hit farther-away enemies"
+          ]
         },
         {
           "name": "Leap Slam",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/c7dd0a4958116ef63817a6dda13e524e.mp4",
-          "about": [""]
+          "about": [
+            "Jumps into the air, damaging and knocking back enemies with their weapon where they land. Enemies they would land on are pushed out of the way"
+          ]
         }
       ]
     },
     {
       "name": "Oriath's Virtue",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["lightning"],
       "abilities": [
         {
           "name": "Totem Spark",
-          "type": ["physical"],
-          "tip": ["dodge"],
+          "type": ["lightning"],
           "gif": "https://i.gyazo.com/b87b820f85ed1ec7fa328dd53ab822a1.mp4",
-          "about": [""]
+          "about": [
+            "Launches unpredictable sparks that move randomly until they hit an enemy or expire."
+          ]
         },
         {
           "name": "Lightning Warp",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["lightning"],
           "gif": "https://i.gyazo.com/9abb93175fe2f6e78e7c235ecf6fdb85.mp4",
-          "about": [""]
+          "about": [
+            "Waits for a duration before teleporting to a targeted destination, with the duration based on the distance and encounter's movement speed. When the teleport occurs, lightning damage is dealt to the area around both where the encounter was and where they teleported to"
+          ]
         }
       ]
     },
@@ -49,9 +53,10 @@
         {
           "name": "Cyclone",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/eb518d3f05efeac5aea4086a79fe4fe9.mp4",
-          "about": [""]
+          "about": [
+            "Damages enemies around encounter, then performs a spinning series of attacks as it travels to a target location"
+          ]
         }
       ]
     }

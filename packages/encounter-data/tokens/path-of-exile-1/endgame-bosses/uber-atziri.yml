@@ -1,6 +1,6 @@
 map: The Alluring Abyss
 thumbnail: "atziri"
-bosses:
+encounters:
   - name: Atziri, Queen of the Vaal
     abilities:
       - name: Spear Throw

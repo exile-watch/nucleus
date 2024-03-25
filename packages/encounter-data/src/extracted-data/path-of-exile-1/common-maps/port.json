@@ -1,24 +1,26 @@
 {
   "category": "common-maps",
   "map": "Port",
-  "bosses": [
+  "encounters": [
     {
       "name": "Unravelling Horror",
-      "damageTypes": ["fire"],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Tornado Shot",
-          "type": ["fire"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/572cbee9511eb9ab9457c2d82429261e.mp4",
-          "about": [""]
+          "about": [
+            "Fires a piercing shot that travels until it reaches the targeted location"
+          ]
         },
         {
           "name": "Blast Rain",
-          "type": ["fire"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/d47ee1fb7a94736c08a3e8915f5909ca.mp4",
-          "about": [""]
+          "about": [
+            "Fires arrows up in the air, to rain down in an area. Each arrow deals area damage around where it lands, and they will all overlap on the targeted location"
+          ]
         }
       ]
     }

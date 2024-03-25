@@ -1,27 +1,28 @@
 map: Mineral Pools
-bosses:
+encounters:
   - name: Shock and Horror
+    ailments: [shock]
     abilities:
       - name: Lightning Beam
-        tip: [ Get Curse Immunity ]
+        type: [ lightning ]
         gif: https://i.gyazo.com/3d69a106ae262a3af5ed42569a205b1f.mp4
         about:
-          - ""
+          - $LOCKED_BEAM
 
       - name: Storm Call
-        type: [ fire ]
-        tip: [ dodge ]
+        type: [ lightning ]
         gif: https://i.gyazo.com/f2c25a4d6fe035710f4b58d89df3c01e.mp4
         about:
-          - ""
+          - $STORM_CALL
 
       - name: Summon Lightning Warp Totem
-        tip: [ Get Curse Immunity ]
+        type: [ lightning ]
         gif: https://i.gyazo.com/56d3a283469b5452ef608ee48461365f.mp4
+        about:
+          - $SUMMON_MONSTERS
 
       - name: Spark
-        type: [ fire ]
-        tip: [ dodge ]
+        type: [ lightning ]
         gif: https://i.gyazo.com/29d53c6c0c7ab6a3f086b87ef9145c98.mp4
         about:
-          - ""
+          - $SPARK

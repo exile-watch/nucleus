@@ -1,5 +1,5 @@
 map: Waste Pool
-bosses:
+encounters:
   - name: Portentia, the Foul
     abilities:
       - name: Warp

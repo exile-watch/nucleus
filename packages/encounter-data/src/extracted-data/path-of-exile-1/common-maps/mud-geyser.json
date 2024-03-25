@@ -1,29 +1,29 @@
 {
   "category": "common-maps",
   "map": "Mud Geyser",
-  "bosses": [
+  "encounters": [
     {
       "name": "Tunneltrap",
       "damageTypes": ["fire"],
       "abilities": [
         {
           "name": "Ambush",
-          "tip": ["Get Curse Immunity"],
           "gif": "https://i.gyazo.com/f8481eaed6da890e3499aab34188e940.mp4",
           "about": [""]
         },
         {
           "name": "Single Projectile",
           "type": ["fire"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/3fe74b91a49ba56bc20359b1f7232051.mp4",
-          "about": [""]
+          "about": [
+            "Fires a slow-moving projectile that periodically damages enemies in an area around it with bolts of lightning"
+          ]
         },
         {
           "name": "Multiple Projectiles",
-          "tip": ["Get Curse Immunity"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/b6c0153740a68b872a47f24ec85a412f.mp4",
-          "about": [""]
+          "about": ["Fires multiple projectiles"]
         }
       ]
     }

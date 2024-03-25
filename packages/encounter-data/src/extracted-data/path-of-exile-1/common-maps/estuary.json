@@ -1,30 +1,29 @@
 {
   "category": "common-maps",
   "map": "Estuary",
-  "bosses": [
+  "encounters": [
     {
       "name": "Sumter the Twisted",
-      "damageTypes": ["fire"],
+      "damageTypes": ["fire", "cold"],
       "abilities": [
         {
           "name": "Icefire",
-          "tip": ["Get Curse Immunity"],
           "gif": "https://i.gyazo.com/d2d0ed70066cc970d2c4072489473c99.mp4",
-          "about": [""]
+          "about": [
+            "Combination of Frostballs and Fireballs that explode on impact"
+          ]
         },
         {
           "name": "Firestorm Cascade",
           "type": ["fire"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/873a2bcee5cd740b7ecfcfad35a97d9c.mp4",
-          "about": [""]
+          "about": ["Cascade of projectiles"]
         },
         {
           "name": "Froststorm Cascade",
-          "type": ["fire"],
-          "tip": ["run to bonfire"],
+          "type": ["cold"],
           "gif": "https://i.gyazo.com/ef35014bebeb37cebfbe587d7f125612.mp4",
-          "about": [""]
+          "about": ["Cascade of projectiles"]
         }
       ]
     },
@@ -34,35 +33,41 @@
       "abilities": [
         {
           "name": "Storm Call",
-          "tip": ["Get Curse Immunity"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/ed580c810b7dcfe221a710cbe3eafa10.mp4",
-          "about": [""]
+          "about": [
+            "Sets a marker at a location. After a short duration, lightning strikes the marker, dealing damage around it. When this happens, it will also set off the lightning at any other markers encounter has cast"
+          ]
         },
         {
           "name": "Fireball Projectiles",
           "type": ["fire"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/d727c7996f8c0c15cfdd7b1c482df65c.mp4",
-          "about": [""]
+          "about": [
+            "Unleashes a ball of fire towards a target which explodes, damaging nearby foes"
+          ]
         }
       ]
     },
     {
       "name": "Frosis",
-      "damageTypes": ["fire"],
+      "damageTypes": ["cold"],
       "abilities": [
         {
           "name": "Storm Call",
-          "tip": ["Get Curse Immunity"],
+          "type": ["cold"],
           "gif": "https://i.gyazo.com/3cb92e2281ee26e86f648e12867f9cab.mp4",
-          "about": [""]
+          "about": [
+            "Sets a marker at a location. After a short duration, lightning strikes the marker, dealing damage around it. When this happens, it will also set off the lightning at any other markers encounter has cast"
+          ]
         },
         {
           "name": "Ice Spear",
-          "type": ["fire"],
-          "tip": ["dodge"],
+          "type": ["cold"],
           "gif": "https://i.gyazo.com/84f753957fb8c325db18a4c89e7774f8.mp4",
-          "about": [""]
+          "about": [
+            "Launches shards of ice in rapid succession. After travelling a short distance they change to a second form, which moves much faster and pierces through enemies"
+          ]
         }
       ]
     }

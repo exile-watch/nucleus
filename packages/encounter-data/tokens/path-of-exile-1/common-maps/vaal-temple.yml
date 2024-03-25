@@ -1,49 +1,42 @@
 map: Vaal Temple
-bosses:
+encounters:
   - name: K'aj Q'ura
     abilities:
       - name: Cyclone
         type: [ physical ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/8ca8301c680bc251619f83e172c56b1e.mp4
         about:
-          - "Deals 150% of Damage"
-          - "Base duration is 35 seconds"
+          - $CYCLONE
 
       - name: Demon Cleave
         type: [ physical ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/a203e24bc2119bd6a7ed8c70d47ee372.mp4
         about:
-          - "Deals 160% of Damage"
+          - $CLEAVE
 
       - name: Enraged Demon Cleave
-        type: [ physical ]
-        tip: [ dodge ]
+        type: [ physical, lightning ]
         gif: https://i.gyazo.com/2d0d5fcb0a656c1785362e41873c3637.mp4
         about:
-          - "30% of Physical Damage Converted to Lightning Damage"
+          - $ENRAGED
+          - $CLEAVE
 
   - name: K'aj Y'ara'az
     abilities:
       - name: Dual Strike
         type: [ physical ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/043f2895f6b55f7a496dc4935edd1e2c.mp4
         about:
-          - "Deals 150% of Damage"
-          - "Base duration is 35 seconds"
+          - $DUAL_STRIKE
 
-      - name: Fire Enrage
+      - name: Enrage
         type: [ physical ]
-        tip: [ dodge ]
         gif: ""
         about:
-          - "Deals 160% of Damage"
+          - $ENRAGE
 
       - name: Empowered Fire Enrage
-        type: [ physical ]
-        tip: [ dodge ]
+        type: [ physical, lightning ]
         gif: https://i.gyazo.com/b425fdc6985ff180ae1d10288f4a9a17.mp4
         about:
-          - "30% of Physical Damage Converted to Lightning Damage"
+          - $ENRAGE

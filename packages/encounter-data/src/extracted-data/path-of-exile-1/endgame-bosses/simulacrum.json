@@ -1,7 +1,7 @@
 {
   "category": "endgame-bosses",
   "map": "Simulacrum",
-  "bosses": [
+  "encounters": [
     {
       "name": "Omniphobia, Fear Manifest",
       "damageTypes": ["fire", "cold"],

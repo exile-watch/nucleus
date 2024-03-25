@@ -1,5 +1,5 @@
 map: Forking River
-bosses:
+encounters:
   - name: Ormud, Fiend of the Flood
     abilities:
       - name: Water Sprout

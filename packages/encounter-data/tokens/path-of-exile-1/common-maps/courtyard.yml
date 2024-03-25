@@ -1,42 +1,39 @@
 map: Courtyard
-bosses:
+encounters:
   - name: Oriath's Vengeance
+    ailments: [ignite]
     abilities:
       - name: Dragon Fireball Strike
-        type: [ physical ]
-        tip: [ dodge ]
+        type: [ physical, fire ]
         gif: https://i.gyazo.com/e44cd9a72d0dc49bbee1c41b04211af9.mp4
         about:
-          - ""
+          - $FIREBALL_STRIKE
 
       - name: Leap Slam
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ physical ]
         gif: https://i.gyazo.com/c7dd0a4958116ef63817a6dda13e524e.mp4
         about:
-          - ""
+          - $LEAP_SLAM
 
   - name: Oriath's Virtue
+    ailments: [shock]
     abilities:
       - name: Totem Spark
-        type: [ physical ]
-        tip: [ dodge ]
+        type: [ lightning ]
         gif: https://i.gyazo.com/b87b820f85ed1ec7fa328dd53ab822a1.mp4
         about:
-          - ""
+          - $SPARK
 
       - name: Lightning Warp
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ lightning ]
         gif: https://i.gyazo.com/9abb93175fe2f6e78e7c235ecf6fdb85.mp4
         about:
-          - ""
+          - $LIGHTNING_WARP
 
   - name: Oriath's Vigil
     abilities:
       - name: Cyclone
         type: [ physical ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/eb518d3f05efeac5aea4086a79fe4fe9.mp4
         about:
-          - ""
+          - $CYCLONE

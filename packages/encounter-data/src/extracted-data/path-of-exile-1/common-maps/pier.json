@@ -1,24 +1,24 @@
 {
   "category": "common-maps",
   "map": "Pier",
-  "bosses": [
+  "encounters": [
     {
       "name": "Ancient Architect",
-      "damageTypes": ["cold"],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Spectral Throw",
-          "type": ["cold"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/ba3e811663833e37e21d406a42ea5e4c.mp4",
-          "about": [""]
+          "about": [
+            "Throws a spectral copy of encounter's melee weapon. It flies out and then returns to the encounter, in a spinning attack that damages enemies in its path"
+          ]
         },
         {
           "name": "Ground Spikes",
-          "type": ["cold"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/ec9deb4ba1dffbcd76cc127f28c11e0e.mp4",
-          "about": [""]
+          "about": ["Creates spikes around the encounter in random location"]
         }
       ]
     }

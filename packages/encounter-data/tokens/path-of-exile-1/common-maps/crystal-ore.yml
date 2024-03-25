@@ -1,63 +1,55 @@
 map: Crystal Ore
-bosses:
+encounters:
   - name: Messenger of the Hollows
+    ailments: [ignite]
     abilities:
       - name: Righteous Fire
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ fire ]
         gif: https://i.gyazo.com/e801129b5eb6f86dda2bec0eaf52696a.mp4
         about:
-          - ""
+          - $RIGHTEOUS_FIRE
 
       - name: Throw Fire
-        type: [ physical ]
-        tip: [ dodge]
+        type: [ fire ]
         gif: https://i.gyazo.com/5115b7ad310eb4ed4b015fca4b668430.mp4
         about:
-          - ""
+          - $MORTAR
 
       - name: Lantern Heal
-        type: [ physical ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/a3cdd2ccb5cbaf03a4160e23c80f91f0.mp4
         about:
-          - ""
+          - $LANTERN_HEAL
 
       - name: Death Explode
-        type: [ lightning ]
-        tip: [ dodge ]
+        type: [ fire ]
         gif: https://i.gyazo.com/49264d7a89e276a34eff495fbd0ac157.mp4
         about:
-          - ""
+          - $DETONATE_DEAD
 
   - name: Lord of the Hollows
     abilities:
       - name: Beacon
         type: [ physical ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/15fd1b162d697d11b06c92e5bb22098d.mp4
         about:
-          - ""
+          - $FISSURE
 
       - name: Glacial Cascade
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ physical ]
         gif: https://i.gyazo.com/831803d2435d26754a41cb97badc9297.mp4
         about:
-          - ""
+          - $GLACIAL_CASCADE
 
   - name: Champion of the Hollows
     abilities:
       - name: Ground Slam
         type: [ physical ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/93f9583fc74d72e13f4760ab11bf7110.mp4
         about:
-          - ""
+          - $GROUND_SLAM
 
       - name: Miner Throw Spawn
         type: [ cold ]
-        tip: [ avoid traps ]
         gif: https://i.gyazo.com/408529cc9151b0e44a43a1a6c26282dd.mp4
         about:
           - ""

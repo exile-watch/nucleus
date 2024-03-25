@@ -1,31 +1,30 @@
 {
   "category": "common-maps",
   "map": "Bramble Valley",
-  "bosses": [
+  "encounters": [
     {
       "name": "Melur Thornmaul",
       "damageTypes": ["physical"],
       "abilities": [
         {
-          "name": "Slam",
+          "name": "Ground Slam",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/2c9a7f5dc517f7b7d15be5801e5dad51.mp4",
-          "about": [""]
+          "about": [
+            "Slams the ground, creating 5 waves that travel forwards and damage enemies"
+          ]
         },
         {
           "name": "Exploding Pod",
           "type": ["physical"],
-          "tip": ["run through but do not soak"],
           "gif": "https://i.gyazo.com/5538266cdce76762e92831cadc129e3a.mp4",
           "about": [
-            "Spawns multiple pods. When ran through pods explode after a short delay"
+            "Spawns multiple pods. When ran through, pods explode after a short delay"
           ]
         },
         {
           "name": "Cleave",
           "type": ["physical"],
-          "tip": ["stand behind boss"],
           "gif": "https://i.gyazo.com/2f7e921637a25f4b3f83f8921a14f5c1.mp4",
           "about": [
             "Swings weapon (or both weapons if dual wielding) in an arc, damaging enemies in an area in front of them"
@@ -33,11 +32,10 @@
         },
         {
           "name": "Invulnerability",
-          "tip": ["kill other bosses to make it targetable again"],
           "gif": "https://i.gyazo.com/0edbe136b144febadf769235b221b6f2.mp4",
           "about": [
-            "Becomes untargettable when encounter reaches 30% hp",
-            "Becomes targetable once all 3 bosses are present",
+            "Becomes invulnerable when encounter reaches 30% hp",
+            "Becomes vulnerable once all 3 bosses are present",
             "Spawns Orvi Acidbeak"
           ]
         }
@@ -45,28 +43,30 @@
     },
     {
       "name": "Orvi Acidbeak",
-      "damageTypes": ["lightning", "physical"],
+      "damageTypes": ["lightning"],
       "abilities": [
         {
-          "name": "Beam",
+          "name": "Screeching Beam",
           "type": ["lightning"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/00cd2fbb8f897935d5c48fa6d7a162b5.mp4",
-          "about": [""]
+          "about": [
+            "Creates a channeling beam that does constant damage at player location"
+          ]
         },
         {
           "name": "Dash of Destruction",
           "type": ["lightning"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/e35184bbdad16ac6b0a394c3d713f456.mp4",
-          "about": [""]
+          "about": ["Charges briefly following up with dash"]
         },
         {
           "name": "Invulnerability",
-          "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/954cf2b6b74917e9a7fb225c442118f7.mp4",
-          "about": ["Becomes untargettable when encounter reaches 30% hp"]
+          "about": [
+            "Becomes invulnerable when encounter reaches 30% hp",
+            "Becomes vulnerable once all 3 bosses are present",
+            "Spawns Elida Blisterclaw"
+          ]
         }
       ]
     },
@@ -77,29 +77,25 @@
         {
           "name": "Vine Trap",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/c81d99f82cbd7d107d2d79eaafa05003.mp4",
           "about": [""]
         },
         {
           "name": "Prowl",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/4d5092405e7e263edc4e0367aa44edb0.mp4",
           "about": [""]
         },
         {
           "name": "Stealth Attack",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/7a8a237554eee9129d042a55c517ccc4.mp4",
           "about": [""]
         },
         {
           "name": "Invulnerability",
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/c46dbecb8e695163363606990365561c.mp4",
-          "about": ["INVULNERABILITY_AT_30"]
+          "about": ["Becomes invulnerable when encounter reaches 30% hp"]
         }
       ]
     }

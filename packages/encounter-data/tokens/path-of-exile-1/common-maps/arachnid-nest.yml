@@ -1,18 +1,16 @@
 map: Arachnid Nest
-bosses:
+encounters:
   - name: Spinner of False Hope
     abilities:
       - name: Ethereal Knives
         type: [physical]
-        tip: [stand behind boss]
         gif: https://i.gyazo.com/341e4c2e3705b4e495bf7c00169e9dae.mp4
         about:
-          - /ETHEREAL_KNIVES/
+          - $ETHEREAL_KNIVES
 
       - name: Web Mortar
         type: [physical]
-        tip: [dodge, move out when on web]
         gif: https://i.gyazo.com/f488ef4d6e80e6f9bdd2c098527c2c6f.mp4
         about:
-          - /WEB_MORTAR/
-          - /WEB_MORTAR_GROUND_EFFECT/
+          - $WEB_MORTAR
+          - $WEB_MORTAR_GROUND_EFFECT

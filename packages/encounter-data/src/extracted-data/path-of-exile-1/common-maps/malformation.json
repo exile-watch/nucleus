@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Malformation",
-  "bosses": [
+  "encounters": [
     {
       "name": "Nightmare Manifest",
       "damageTypes": ["physical", "cold", "lightning"],

@@ -1,29 +1,30 @@
 {
   "category": "common-maps",
   "map": "Scriptorium",
-  "bosses": [
+  "encounters": [
     {
       "name": "Gisale, Thought Thief",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["lightning"],
       "abilities": [
         {
           "name": "Book Discharge",
-          "type": ["physical"],
-          "tip": ["dodge"],
+          "type": ["lightning"],
           "gif": "https://i.gyazo.com/816a963cb08cf8fb848d38aff238bfd7.mp4",
-          "about": [""]
+          "about": [
+            "Sets a marker at a location. After a short duration, lightning strikes the marker, dealing damage around it. When this happens, it will also set off the lightning at any other markers encounter has cast"
+          ]
         },
         {
           "name": "Lightning Tendrils",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["lightning"],
           "gif": "https://i.gyazo.com/26d54c0c251b2196b46a561ab4c7c245.mp4",
-          "about": [""]
+          "about": [
+            "While encounter channels this skill, it releases pulses of electrical energy, dealing lightning damage in a semicircular area in front of encounter"
+          ]
         },
         {
           "name": "Lightning Balls",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["lightning"],
           "gif": "https://i.gyazo.com/ded561bd02afd2a22bc382d195460663.mp4",
           "about": [""]
         }

@@ -1,6 +1,6 @@
 map: Forbidden Woods
 thumbnail: "forbidden-woods"
-bosses:
+encounters:
   - name: Corruptor Eedaiak
     abilities:
       - name: Rune Explosion

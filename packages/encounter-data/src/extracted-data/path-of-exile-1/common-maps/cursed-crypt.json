@@ -1,22 +1,22 @@
 {
   "category": "common-maps",
   "map": "Cursed Crypt",
-  "bosses": [
+  "encounters": [
     {
       "name": "Pagan Bishop of Agony",
-      "damageTypes": ["fire"],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Slam",
-          "tip": ["Get Curse Immunity"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/48052ecd7ba000c171f72dcc1f359512.mp4",
-          "about": [""]
+          "about": ["Strikes enemy foes down with a powerful blow"]
         },
         {
           "name": "Summonk Ink Spinners",
-          "type": ["fire"],
-          "tip": ["dodge"],
-          "gif": "https://i.gyazo.com/a141030eff7081e32fa7e963c55056b4.mp4"
+          "type": ["physical"],
+          "gif": "https://i.gyazo.com/a141030eff7081e32fa7e963c55056b4.mp4",
+          "about": ["Encounter creates new monsters to aid said encounter"]
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Crater",
-  "bosses": [
+  "encounters": [
     {
       "name": "Megaera",
       "damageTypes": ["fire", "physical"],
@@ -9,22 +9,23 @@
         {
           "name": "Firestorm",
           "type": ["fire"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/ed4a2e49ea4f17334dcdb55e30946f5a.mp4",
-          "about": [""]
+          "about": ["Rains numerous fiery bolts in an area"]
         },
         {
           "name": "Fire Trap",
           "type": ["fire"],
-          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/77230c2757825eabed7e9c9fe2763e96.mp4",
-          "about": [""]
+          "about": [
+            "Throws a trap that explodes when triggered, dealing fire damage to surrounding enemies",
+            "Encounter leaves burning ground behind them"
+          ]
         },
         {
           "name": "Summon Skeletons",
           "type": ["physical"],
-          "tip": ["dodge"],
-          "gif": "https://i.gyazo.com/adcaba5f915028c5a61866b665e13027.mp4"
+          "gif": "https://i.gyazo.com/adcaba5f915028c5a61866b665e13027.mp4",
+          "about": ["Encounter creates new monsters to aid said encounter"]
         }
       ]
     }

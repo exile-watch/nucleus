@@ -1,43 +1,44 @@
 {
   "category": "common-maps",
   "map": "Dunes",
-  "bosses": [
+  "encounters": [
     {
       "name": "The Blacksmith",
-      "damageTypes": ["fire"],
+      "damageTypes": ["physical", "chaos"],
       "abilities": [
         {
           "name": "Melee",
-          "tip": ["Get Curse Immunity"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/6ecdf0aad5ba170733c8d50200c401e3.mp4",
-          "about": [""]
+          "about": ["Strikes enemy foes down with a powerful blow"]
         },
         {
           "name": "Enrage",
-          "type": ["fire"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/4655c40b8431422ca883fad0aac22a6d.mp4",
-          "about": [""]
+          "about": ["Increases movement speed, damage, attack and cast speed"]
         },
         {
           "name": "Leap Slam",
-          "tip": ["Get Curse Immunity"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/cab8cbdb1c1e4d5be27367729d4aeedd.mp4",
-          "about": [""]
+          "about": [
+            "Jumps into the air, damaging and knocking back enemies with their weapon where they land. Enemies they would land on are pushed out of the way"
+          ]
         },
         {
           "name": "Heavy Strike",
-          "type": ["fire"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/ea5e01797d3303848efbe2a0805fa2a4.mp4",
-          "about": [""]
+          "about": ["Attacks enemies with a forceful blow"]
         },
         {
           "name": "Unstable Aberration",
-          "type": ["fire"],
-          "tip": ["dodge"],
+          "type": ["physical", "chaos"],
           "gif": "https://i.gyazo.com/90b13895d519254459ac4816eb4a6b31.mp4",
-          "about": [""]
+          "about": [
+            "Encounter creates new monsters to aid said encounter",
+            "Encounter leaves poisonous ground behind them"
+          ]
         }
       ]
     }

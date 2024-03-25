@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Moon Temple",
-  "bosses": [
+  "encounters": [
     {
       "name": "Sebbert, Crescent's Point",
       "damageTypes": ["physical", "cold", "lightning"],

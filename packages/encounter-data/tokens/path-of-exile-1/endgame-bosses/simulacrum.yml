@@ -1,5 +1,5 @@
 map: Simulacrum
-bosses:
+encounters:
   - name: Omniphobia, Fear Manifest
     abilities:
       - name: Cleave

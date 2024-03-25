@@ -1,5 +1,5 @@
 map: Summit
-bosses:
+encounters:
   - name: Mephod, the Earth Schorcher
     abilities:
       - name: Fireball Combo

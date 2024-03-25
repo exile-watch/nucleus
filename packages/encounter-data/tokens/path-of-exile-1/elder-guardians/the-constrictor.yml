@@ -1,5 +1,5 @@
 thumbnail: "constrictor"
-bosses:
+encounters:
   - name: The Constrictor
     abilities:
       - name: Dash

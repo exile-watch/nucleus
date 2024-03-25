@@ -1,45 +1,46 @@
 {
   "category": "common-maps",
   "map": "Reef",
-  "bosses": [
+  "encounters": [
     {
       "name": "Nassar, Lion of the Seas",
-      "damageTypes": ["physical", "cold", "lightning"],
+      "damageTypes": ["physical", "lightning", "cold"],
       "abilities": [
         {
           "name": "Slam",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/d385261beffb132241d713e77965e196.mp4",
-          "about": [""]
+          "about": ["Strikes enemy foes down with a powerful blow"]
         },
         {
-          "name": "Lightning Strike",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "name": "Storm Call",
+          "type": ["lightning"],
           "gif": "https://i.gyazo.com/ff165c285d1470b812f981688894b131.mp4",
-          "about": [""]
+          "about": [
+            "Sets a marker at a location. After a short duration, lightning strikes the marker, dealing damage around it. When this happens, it will also set off the lightning at any other markers encounter has cast"
+          ]
         },
         {
           "name": "Tidal Rush",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["cold"],
           "gif": "https://i.gyazo.com/e260484e443375765c8e3b8470e5cb4b.mp4",
           "about": [""]
         },
         {
           "name": "Tidal Wave",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["cold"],
           "gif": "https://i.gyazo.com/13ca4139cc2a0b5c36c0284154a6c41b.mp4",
-          "about": [""]
+          "about": [
+            "Creates a wave with unlimited range that moves towards player location"
+          ]
         },
         {
           "name": "Cleave",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/7291434227ed51f90c5f63f83bb89fd4.mp4",
-          "about": [""]
+          "about": [
+            "Swings weapon (or both weapons if dual wielding) in an arc, damaging enemies in an area in front of them"
+          ]
         }
       ]
     }

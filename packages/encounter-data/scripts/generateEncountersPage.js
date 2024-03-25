@@ -5,9 +5,9 @@ const { extractedDataPath } = require("./paths");
 const { colorifyConsole, writeFiles } = require("./utils");
 
 const BREACHLORDS_SHOWCASE_ABILITIES = [
-  "Pullback",
+  "Lightning Orbs Pullback",
   "Barrage",
-  "Spike Eruption",
+  "Uul-Netol Earthquake",
   "Upheaval",
 ];
 const COMMON_MAPS_SHOWCASE_ABILITIES = [
@@ -52,7 +52,7 @@ const SHOWCASE_ABILITIES = [
 
 const prepareEncountersPageData = (data) =>
   data.reduce((acc, d) => {
-    const { abilities } = d.bosses[0];
+    const { abilities } = d.encounters[0];
 
     const [extractedGif] = abilities
       .map(({ name: abilityName, gif }) => {

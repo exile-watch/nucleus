@@ -1,30 +1,35 @@
 {
   "category": "common-maps",
   "map": "Infested Valley",
-  "bosses": [
+  "encounters": [
     {
       "name": "Gorulis, Will-Thief",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["physical", "chaos"],
       "abilities": [
         {
           "name": "Acid Mortar",
-          "type": ["physical"],
-          "tip": ["dodge"],
+          "type": ["physical", "chaos"],
           "gif": "https://i.gyazo.com/8e2ceb191f6554250f918e83aa5b786f.mp4",
-          "about": [""]
+          "about": [
+            "Fires projectile that does damage on impact and when the projectile explodes",
+            "Encounter leaves poisonous ground behind them"
+          ]
         },
         {
           "name": "Summon Egg",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
-          "gif": "https://i.gyazo.com/d013d59098e32d981e13241a9ec868f4.mp4"
+          "type": ["chaos"],
+          "gif": "https://i.gyazo.com/d013d59098e32d981e13241a9ec868f4.mp4",
+          "about": [
+            "Spawns multiple pods. When ran through, pods explode after a short delay"
+          ]
         },
         {
-          "name": "Slide",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "name": "Burrow",
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/290190ef0bc09294716b3e390c23cd83.mp4",
-          "about": [""]
+          "about": [
+            "Becomes untargettable by burrowing into the ground and charging to targeted location"
+          ]
         }
       ]
     }

@@ -2,38 +2,38 @@
   "category": "common-maps",
   "map": "Desert Spring",
   "thumbnail": "desert-spring",
-  "bosses": [
+  "encounters": [
     {
       "name": "Terror of the Infinite Drifts",
-      "damageTypes": ["physical", "cold", "lightning"],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Slam",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/c2663d385d50ac0e2506dcb806fd55d5.mp4",
-          "about": [""]
+          "about": ["Strikes enemy foes down with a powerful blow"]
         },
         {
-          "name": "Strike",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "name": "Cleave",
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/25e83fe8a36edcbc7ffcac93c92e8499.mp4",
-          "about": [""]
+          "about": [
+            "Swings weapon (or both weapons if dual wielding) in an arc, damaging enemies in an area in front of them"
+          ]
         },
         {
           "name": "Trail Burrow",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/a501066446d15628599b7ee2e9060276.mp4",
           "about": [""]
         },
         {
           "name": "Upheaval",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/610a8ee5f5b01eef888af1e87c556bbd.mp4",
-          "about": [""]
+          "about": [
+            "Slams the ground creating Flame Pillars in a forking fashion"
+          ]
         }
       ]
     }

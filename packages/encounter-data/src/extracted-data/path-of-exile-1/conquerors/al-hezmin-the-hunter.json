@@ -1,7 +1,7 @@
 {
   "category": "conquerors",
   "thumbnail": "alhezmin",
-  "bosses": [
+  "encounters": [
     {
       "name": "Al'Hezmin, the Hunter",
       "damageTypes": ["physical", "chaos"],

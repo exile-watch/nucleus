@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Plateau",
-  "bosses": [
+  "encounters": [
     {
       "name": "Poporo, the Highest Spire",
       "damageTypes": ["fire", "physical"],

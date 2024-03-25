@@ -1,38 +1,40 @@
 {
   "category": "breachlords",
   "thumbnail": "uul",
-  "bosses": [
+  "encounters": [
     {
       "name": "Uul-Netol, Unburdened Flesh",
-      "damageTypes": ["physical", "chaos"],
+      "damageTypes": ["physical"],
       "abilities": [
         {
-          "name": "Spike Eruption",
-          "type": ["physical", "chaos"],
-          "tip": ["dodge"],
+          "name": "Uul-Netol Earthquake",
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/befe70ce3325a6c8e0b7b86f4d3c7bda.mp4",
-          "about": [""]
+          "about": [
+            "Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a duration."
+          ]
         },
         {
-          "name": "Degen Zone",
+          "name": "Bone Nova",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/ffe903d28095845274291ece6978c04b.mp4",
-          "about": [""]
+          "about": ["Creates a barrage of projectiles in a circle"]
         },
         {
           "name": "Cleave",
-          "type": ["physical", "chaos"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/813ac7d159efe163ba197cad61f7023d.mp4",
-          "about": [""]
+          "about": [
+            "Swings weapon (or both weapons if dual wielding) in an arc, damaging enemies in an area in front of them"
+          ]
         },
         {
-          "name": "Uul-Netol's Pet",
-          "type": ["physical", "chaos"],
-          "tip": ["dodge"],
+          "name": "Breach Pillar",
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/eb05d3b07bf59bb900b2ff0949537898.mp4",
-          "about": [""]
+          "about": [
+            "Spawns a breach pillar that once passed through spawns monsters"
+          ]
         }
       ]
     }

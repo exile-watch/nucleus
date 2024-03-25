@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Pen",
-  "bosses": [
+  "encounters": [
     {
       "name": "Arwyn, the Houndmaster",
       "damageTypes": ["lightning"],

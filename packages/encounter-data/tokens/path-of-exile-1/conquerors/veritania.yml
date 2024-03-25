@@ -1,5 +1,5 @@
 thumbnail: "veritania"
-bosses:
+encounters:
   - name: Veritania, the Redeemer
     abilities:
       - name: Cleave

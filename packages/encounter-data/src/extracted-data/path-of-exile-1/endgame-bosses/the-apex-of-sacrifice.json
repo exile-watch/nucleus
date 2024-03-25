@@ -1,7 +1,7 @@
 {
   "category": "endgame-bosses",
   "map": "The Apex of Sacrifice",
-  "bosses": [
+  "encounters": [
     {
       "name": "Atziri, Queen of the Vaal",
       "damageTypes": ["physical"],

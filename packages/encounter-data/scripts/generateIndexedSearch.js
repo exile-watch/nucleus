@@ -23,8 +23,8 @@ const prepareIndexedSearchData = (data) =>
     /**
      * Add boss name as a separate entity and path to redirect for indexed search
      */
-    if (d.bosses) {
-      d.bosses.map(({ name: encounterName, abilities }) => {
+    if (d.encounters) {
+      d.encounters.map(({ name: encounterName, abilities }) => {
         const encounterPath = d.map
           ? `${mapPath}/${kebabCase(encounterName)}`
           : `/${d.dir}/encounters/${d.category}/${kebabCase(encounterName)}`;

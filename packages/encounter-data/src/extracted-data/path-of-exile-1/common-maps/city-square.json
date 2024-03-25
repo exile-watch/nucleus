@@ -1,47 +1,52 @@
 {
   "category": "common-maps",
   "map": "City Square",
-  "bosses": [
+  "encounters": [
     {
       "name": "Pileah, Burning Corpse",
       "damageTypes": ["fire"],
       "abilities": [
         {
           "name": "Mortar",
-          "tip": ["Get Curse Immunity"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/ee57fc291f64bcfea24883c255d26e09.mp4",
-          "about": [""]
+          "about": [
+            "Fires projectile that does damage on impact and when the projectile explodes"
+          ]
         },
         {
           "name": "Reflective Mortar",
           "type": ["fire"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/0c257bcbdf31ebfcd1979c6e6c15fdbe.mp4",
-          "about": [""]
+          "about": [
+            "Player is affected with a debuff that whenever encounter fires a mortar projectile, a new (unfriendly) projectile also fires mortar projectile that does damage on impact and when the projectile explodes"
+          ]
         }
       ]
     },
     {
       "name": "Pileah, Corpse Burner",
-      "damageTypes": [],
+      "damageTypes": ["fire"],
       "abilities": [
         {
           "name": "Mortar",
-          "tip": ["Get Curse Immunity"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/b66beb2f97331fb0b299f3fea0aa8a19.mp4",
-          "about": [""]
+          "about": [
+            "Fires projectile that does damage on impact and when the projectile explodes"
+          ]
         }
       ]
     },
     {
       "name": "Carius, the Unnatural",
-      "damageTypes": [],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Earthquake Cascade",
-          "tip": ["Get Curse Immunity"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/f59a6b2edac467c301368b474e00c0da.mp4",
-          "about": [""]
+          "about": ["Smashes the ground creating fissures in line"]
         }
       ]
     }

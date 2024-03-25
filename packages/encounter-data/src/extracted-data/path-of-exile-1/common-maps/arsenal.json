@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Arsenal",
-  "bosses": [
+  "encounters": [
     {
       "name": "The Steel Soul",
       "damageTypes": ["physical"],
@@ -9,7 +9,6 @@
         {
           "name": "Cyclone",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/eee4f4cf13f8755eedd11b08d0084ced.mp4",
           "about": [
             "Damages enemies around encounter, then performs a spinning series of attacks as it travels to a target location"
@@ -18,14 +17,12 @@
         {
           "name": "Sword Storm Cascade",
           "type": ["physical"],
-          "tip": ["don't stand in cascade"],
           "gif": "https://i.gyazo.com/ef995c23efcb84404207a949575bd851.mp4",
-          "about": [""]
+          "about": ["Cascade of projectiles"]
         },
         {
           "name": "Double Slash",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/ddfa548a5a920e69c2d3b6dc1422f5a3.mp4",
           "about": [
             "Slashes twice, releasing waves of force that damage enemies they hit. Enemies in the middle of the slashes can be hit by both slashes",

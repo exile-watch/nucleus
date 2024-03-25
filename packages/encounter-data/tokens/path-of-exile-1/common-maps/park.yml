@@ -1,30 +1,26 @@
 map: Park
-bosses:
+encounters:
   - name: Suncaller Asha
     abilities:
       - name: Holy Cannons
-        tip: [ Get Curse Immunity ]
         gif: https://i.gyazo.com/b9895f03876f87eb8d7c87cb19c6083b.mp4
         about:
-          - ""
+          - $ION_CANNON
 
       - name: Holy Bombs
         type: [ fire ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/f19eadf85c68b1069a628674000fb9ff.mp4
         about:
-          - ""
+          - $DELAYED_BOMBS
 
       - name: Molten Strike
         type: [ fire ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/94f14b163d3c3de3c19aee3ba774258b.mp4
         about:
-          - ""
+          - $MOLTEN_STRIKE
 
       - name: Leap Slam
-        type: [ fire ]
-        tip: [ dodge ]
+        type: [ physical ]
         gif: https://i.gyazo.com/9931be9c942a141a7789c1a35db7350b.mp4
         about:
-          - ""
+          - $LEAP_SLAM

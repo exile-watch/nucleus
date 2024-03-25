@@ -1,7 +1,7 @@
 {
   "category": "elder-guardians",
   "thumbnail": "constrictor",
-  "bosses": [
+  "encounters": [
     {
       "name": "The Constrictor",
       "damageTypes": ["physical"],

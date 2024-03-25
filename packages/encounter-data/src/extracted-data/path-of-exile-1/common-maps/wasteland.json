@@ -1,31 +1,33 @@
 {
   "category": "common-maps",
   "map": "Wasteland",
-  "bosses": [
+  "encounters": [
     {
       "name": "The Brittle Emperor",
-      "damageTypes": ["physical", "cold", "lightning"],
+      "damageTypes": ["physical", "chaos"],
       "abilities": [
         {
           "name": "Slam",
-          "type": ["physical"],
-          "tip": ["dodge"],
+          "type": ["physical", "chaos"],
           "gif": "https://i.gyazo.com/7d32a5bdc1c6506ad025de80b08c6ef7.mp4",
-          "about": [""]
+          "about": [
+            "Strikes enemy foes down with a powerful blow",
+            "Desecrates the ground with corpses and dealing chaos damage to all enemies in the area"
+          ]
         },
         {
           "name": "Charge",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/9088937c8374067fca3afa4582f9c1a3.mp4",
-          "about": [""]
+          "about": [
+            "Charges at player's location. This knocks the encounter back and stuns it. Enemies in the way are pushed to the side. Damage and stun are proportional to distance travelled"
+          ]
         },
         {
           "name": "Revive Undead",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/100081ca5a0b682ccefa04f4bcae9e7d.mp4",
-          "about": [""]
+          "about": ["Revives minions"]
         }
       ]
     }

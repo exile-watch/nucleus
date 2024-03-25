@@ -29,9 +29,9 @@ const replaceTokenWithValue = ({ dir, arr }) => {
   const skills = require(`../src/extracted-data/${dir}/skills.json`);
   return arr.map((about) => {
     // See more at https://github.com/sbsrnt/poe-watch/tree/main/tokens/README.md
-    const IS_SKILL_TOKEN = about?.charAt && about.charAt(0) === "/";
+    const IS_SKILL_TOKEN = about?.charAt && about.charAt(0) === "$";
     if (IS_SKILL_TOKEN) {
-      const [, skill] = about.split("/");
+      const [, skill] = about.split("$");
       about = skills[skill];
     }
     return about;
@@ -39,7 +39,7 @@ const replaceTokenWithValue = ({ dir, arr }) => {
 };
 
 const injectAllAbilityDamageTypesToBoss = ({ dir, data }) => {
-  const bosses = data.bosses.map(({ name, abilities }) => {
+  const encounters = data.encounters.map(({ name, abilities }) => {
     const damageTypes = [];
     abilities.map((ability) => {
       if (ability.type) {
@@ -60,7 +60,7 @@ const injectAllAbilityDamageTypesToBoss = ({ dir, data }) => {
 
   return {
     ...data,
-    bosses,
+    encounters,
   };
 };
 
@@ -73,7 +73,7 @@ const getNames = ({ dir, subDir, file }) => {
     ...injectAllAbilityDamageTypesToBoss({ dir, data: convertedDataToJson }),
   };
 
-  const { name } = data.bosses[0];
+  const { name } = data.encounters[0];
   const fileName = data.map
     ? `${toLower(kebabCase(data.map))}.json`
     : `${toLower(kebabCase(name))}.json`;

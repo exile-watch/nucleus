@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Shrine",
-  "bosses": [
+  "encounters": [
     {
       "name": "Piety the Empyrean",
       "damageTypes": ["physical", "cold"],

@@ -1,7 +1,7 @@
 {
   "category": "endgame-bosses",
   "thumbnail": "catarina",
-  "bosses": [
+  "encounters": [
     {
       "name": "Catarina, Master of Undeath",
       "damageTypes": ["physical"],

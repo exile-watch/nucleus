@@ -1,5 +1,5 @@
 thumbnail: "alhezmin"
-bosses:
+encounters:
   - name: "Al'Hezmin, the Hunter"
     abilities:
       - name: Strike Combo

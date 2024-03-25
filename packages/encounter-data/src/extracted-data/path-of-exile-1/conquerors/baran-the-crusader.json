@@ -1,7 +1,7 @@
 {
   "category": "conquerors",
   "thumbnail": "baran",
-  "bosses": [
+  "encounters": [
     {
       "name": "Baran, the Crusader",
       "damageTypes": ["physical", "chaos"],

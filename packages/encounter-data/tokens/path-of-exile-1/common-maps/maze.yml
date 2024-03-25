@@ -1,5 +1,5 @@
 map: Maze
-bosses:
+encounters:
   - name: Shadow of the Vaal
     abilities:
       - name: Cold Snap

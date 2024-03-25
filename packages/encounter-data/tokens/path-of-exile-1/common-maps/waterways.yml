@@ -1,5 +1,5 @@
 map: Waterways
-bosses:
+encounters:
   - name: Fragment of Winter
     abilities:
       - name: Summon Elementals

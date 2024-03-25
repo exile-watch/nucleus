@@ -1,6 +1,6 @@
 map: The Shaper's Realm
 thumbnail: 'shaper'
-bosses:
+encounters:
   - name: The Shaper
     abilities:
       - name: Default Attack

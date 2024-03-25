@@ -1,37 +1,38 @@
 {
   "category": "common-maps",
   "map": "Vault",
-  "bosses": [
+  "encounters": [
     {
       "name": "Guardian of the Vault",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["physical", "fire"],
       "abilities": [
         {
           "name": "Leap Slam",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/cd7d5e0a6d44753d2a15017e8c777fe7.mp4",
-          "about": [""]
+          "about": [
+            "Jumps into the air, damaging and knocking back enemies with their weapon where they land. Enemies they would land on are pushed out of the way"
+          ]
         },
         {
           "name": "Delayed Blast",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/63d0daa2b82f054c634ac500b37d6e61.mp4",
-          "about": [""]
+          "about": [
+            "Sets a marker at a location. After a short duration, lightning strikes the marker, dealing damage around it. When this happens, it will also set off the lightning at any other markers encounter has cast"
+          ]
         },
         {
           "name": "Slam",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/1190737eac43187b726018e180e49067.mp4",
-          "about": [""]
+          "about": ["Strikes enemy foes down with a powerful blow"]
         },
         {
           "name": "Summon Animated Guardian",
           "type": ["physical"],
-          "tip": ["dodge"],
-          "gif": "https://i.gyazo.com/f9e0bfdea4f46746bbd64f49ed4f45ca.mp4"
+          "gif": "https://i.gyazo.com/f9e0bfdea4f46746bbd64f49ed4f45ca.mp4",
+          "about": ["Encounter creates new monsters to aid said encounter"]
         }
       ]
     }

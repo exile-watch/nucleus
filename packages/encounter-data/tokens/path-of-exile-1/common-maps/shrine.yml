@@ -1,5 +1,5 @@
 map: Shrine
-bosses:
+encounters:
   - name: Piety the Empyrean
     abilities:
       - name: Lightning Storm

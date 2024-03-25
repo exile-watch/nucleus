@@ -1,35 +1,31 @@
 map: Vaal Pyramid
-bosses:
+encounters:
   - name: The Fallen Queen
     abilities:
       - name: Ethereal Knives
         type: [ physical ]
-        tip: [ dodge]
         gif: https://i.gyazo.com/3c4edfdcd832acacffa134fd8f89e4ac.mp4
         about:
-          - ""
+          - $ETHEREAL_KNIVES
 
       - name: Viper Strike
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ chaos ]
         gif: https://i.gyazo.com/2eb15feae530bf0b2e4eaf3bb850862f.mp4
         about:
-          - ""
+          - $VIPER_STRIKE
 
   - name: The Hollow Lady
     abilities:
       - name: Barrage
         type: [ physical ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/aacfc42087fbe12cea510c394017a995.mp4
         about:
-          - ""
+          - $BARRAGE
 
   - name: The Broken Prince
     abilities:
       - name: Reave
         type: [ physical ]
-        tip: [ dodge ]
         gif: https://i.gyazo.com/087e975c799ec667f1686709eb54bc43.mp4
         about:
-          - ""
+          - $REAVE

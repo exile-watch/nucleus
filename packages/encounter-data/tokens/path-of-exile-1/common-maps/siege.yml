@@ -1,38 +1,33 @@
 map: Siege
-bosses:
+encounters:
   - name: Tahsin, Warmaker
     abilities:
       - name: Beam Totem
         type: [ fire ]
-        tip: [ dodge]
         gif: https://i.gyazo.com/39f52b5eb62603ec561fed449328c3be.mp4
         about:
-          - ""
+          - $HORIZONTAL_BEAM
 
       - name: Sunder
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ physical ]
         gif: https://i.gyazo.com/4f5e0dd7cec48c537057d7e2084c57c8.mp4
         about:
-          - ""
+          - $SUNDER
 
       - name: Slam
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ fire ]
         gif: https://i.gyazo.com/11e3aac08f88517a54ddfd1eaec99848.mp4
         about:
-          - ""
+          - $SLAM
 
       - name: Magma Pool
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ fire ]
         gif: https://i.gyazo.com/053f3573117e8ecb30d09ed78a3ec9f3.mp4
         about:
-          - ""
+          - Creates a pool of magma
 
       - name: Invlunerability
-        type: [ cold ]
-        tip: [ avoid traps ]
         gif: https://i.gyazo.com/d632bd3226d09f4f7d58323500e3ed20.mp4
         about:
-          - ""
+          - $INVULNERABILITY_AT_30
+          - Creates 5 totems that need to be destroyed in order to make encounter vulnerable again

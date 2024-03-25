@@ -1,24 +1,21 @@
 map: Ramparts
-bosses:
+encounters:
   - name: The Reaver
     abilities:
       - name: Ethereal Knives
         type: [ physical ]
-        tip: [ dodge]
         gif: https://i.gyazo.com/aa75fb4f6af43c39fea997ce2a2cd21c.mp4
         about:
-          - ""
+          - $ETHEREAL_KNIVES
 
       - name: Bear Trap
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ physical ]
         gif: https://i.gyazo.com/c322ea956c539e849296f862f1daa434.mp4
         about:
-          - ""
+          - $BEAR_TRAP
 
       - name: Whirling Blades
-        type: [ cold ]
-        tip: [ avoid traps ]
+        type: [ physical ]
         gif: https://i.gyazo.com/1b208a63d3ede3eb48722a07e2acc6de.mp4
         about:
-          - ""
+          - $WHIRLING_BLADES

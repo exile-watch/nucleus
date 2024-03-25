@@ -7,7 +7,7 @@ const { colorifyConsole, writeFiles } = require("./utils");
 
 const preparePathsData = (data) =>
   data.reduce((acc, d) => {
-    const { name: encounterName } = d.bosses[0];
+    const { name: encounterName } = d.encounters[0];
     const path = d.map
       ? `/${d.dir}/encounters/${d.category}/${kebabCase(d.map)}/${kebabCase(
           encounterName,

@@ -1,45 +1,46 @@
 {
   "category": "common-maps",
   "map": "Dry Sea",
-  "bosses": [
+  "encounters": [
     {
       "name": "Gazuul, Droughtspawn",
-      "damageTypes": ["physical", "cold", "lightning"],
+      "damageTypes": ["physical", "fire"],
       "abilities": [
         {
           "name": "Charge",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/257dbd29ff76e589899a73f67a77eea5.mp4",
-          "about": [""]
+          "about": [
+            "Charges at player's location. This knocks the encounter back and stuns it. Enemies in the way are pushed to the side. Damage and stun are proportional to distance travelled"
+          ]
         },
         {
           "name": "Fireball",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/da90b37627b974c6e424fb36b84466e6.mp4",
-          "about": [""]
+          "about": [
+            "Unleashes a ball of fire towards a target which explodes, damaging nearby foes"
+          ]
         },
         {
           "name": "Trigger Spikes",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/dc744a41ad4179b1a696974acd17fe98.mp4",
-          "about": [""]
+          "about": ["Fires projectile in circle"]
         },
         {
           "name": "Slam",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/380aca8b297625033a90307039fc12ca.mp4",
-          "about": [""]
+          "about": ["Strikes enemy foes down with a powerful blow"]
         },
         {
           "name": "Leap Slam",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/e67c92b4dece11536eca0c25db6a7758.mp4",
-          "about": [""]
+          "about": [
+            "Jumps into the air, damaging and knocking back enemies with their weapon where they land. Enemies they would land on are pushed out of the way"
+          ]
         }
       ]
     }

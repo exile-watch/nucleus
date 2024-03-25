@@ -1,5 +1,5 @@
 map: The Apex of Sacrifice
-bosses:
+encounters:
   - name: Atziri, Queen of the Vaal
     abilities:
       - name: Spear Throw

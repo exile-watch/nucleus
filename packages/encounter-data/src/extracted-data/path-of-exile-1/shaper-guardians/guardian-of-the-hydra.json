@@ -1,7 +1,7 @@
 {
   "category": "shaper-guardians",
   "thumbnail": "hydra",
-  "bosses": [
+  "encounters": [
     {
       "name": "Guardian of the Hydra",
       "damageTypes": ["physical", "cold"],

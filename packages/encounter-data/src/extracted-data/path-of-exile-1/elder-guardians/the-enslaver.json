@@ -1,7 +1,7 @@
 {
   "category": "elder-guardians",
   "thumbnail": "enslaver",
-  "bosses": [
+  "encounters": [
     {
       "name": "The Enslaver",
       "damageTypes": ["physical"],

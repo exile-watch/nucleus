@@ -1,45 +1,43 @@
 map: Underground Sea
-bosses:
+encounters:
   - name: Merveil, the Reflection
+    ailments: [chill]
     abilities:
       - name: Summon Resplendent Constructs
         type: [ physical ]
-        tip: [ dodge]
         gif: https://i.gyazo.com/bfa9e2f366b91133267080a0bb99efc5.mp4
+        about:
+          - $SUMMON_MONSTERS
 
       - name: Ice Spear
         type: [ cold ]
-        tip: [ avoid traps ]
         gif: https://i.gyazo.com/fb1e97cb68cf1d78d6c39bc152a8b6ca.mp4
         about:
-          - ""
+          - $ICE_SPEAR
 
       - name: Icestorm
-        type: [ lightning ]
-        tip: [ dodge ]
+        type: [ cold ]
         gif: https://i.gyazo.com/1ee6df830a7cb9b220eb8fe4c25e056d.mp4
         about:
-          - ""
+          - $CASCADE
 
   - name: Merveil, the Returned
+    ailments: [chill]
     abilities:
       - name: Multi Geyser
-        type: [ physical ]
-        tip: [ dodge ]
+        type: [ cold ]
         gif: https://i.gyazo.com/fd8c02a0ec0b711224fea307dde43d9f.mp4
         about:
-          - ""
+          - $SUMMON_STATIONARY_VORTEXES
 
       - name: Wave
         type: [ cold ]
-        tip: [ avoid traps ]
         gif: https://i.gyazo.com/54e714b2bcad2f4f1ff8c94df3537526.mp4
         about:
-          - ""
+          - $SPELL_WAVE
 
       - name: Screech
-        type: [ lightning ]
-        tip: [ dodge ]
+        type: [ cold ]
         gif: https://i.gyazo.com/159405cd21b070db540f9b7f8216f203.mp4
         about:
           - ""

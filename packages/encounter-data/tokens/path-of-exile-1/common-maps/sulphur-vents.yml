@@ -1,5 +1,5 @@
 map: Sulphur Vents
-bosses:
+encounters:
   - name: The Gorgon
     abilities:
       - name: Barrage Waves

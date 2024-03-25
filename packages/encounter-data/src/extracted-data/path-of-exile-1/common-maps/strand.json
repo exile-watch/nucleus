@@ -1,17 +1,18 @@
 {
   "category": "common-maps",
   "map": "Strand",
-  "bosses": [
+  "encounters": [
     {
       "name": "Master of the Blade",
-      "damageTypes": ["chaos"],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Charged Attack",
-          "type": ["chaos"],
-          "tip": ["dodge"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/fdb43bf99a16cae776aa2141840400ab.mp4",
-          "about": [""]
+          "about": [
+            "Repeatedly hit enemies in a circle in front of encounter while channelling, dealing damage to and around the enemy. The damage is continually boosted while channelling. Encounter unleashes an additional hit for each stage reached once the channelling ends"
+          ]
         }
       ]
     },
@@ -22,9 +23,8 @@
         {
           "name": "Heavy Strike",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/d15fa9fa8a0956fd7b384814b29b62d4.mp4",
-          "about": [""]
+          "about": ["Attacks enemies with a forceful blow"]
         }
       ]
     }

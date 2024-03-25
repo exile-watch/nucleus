@@ -1,37 +1,40 @@
 {
   "category": "common-maps",
   "map": "Lava Chamber",
-  "bosses": [
+  "encounters": [
     {
       "name": "Fire and Fury",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["fire"],
       "abilities": [
         {
           "name": "Lava Cascade",
-          "type": ["physical"],
-          "tip": ["dodge"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/e72efcc224b8eb674139e4bc313bebfc.mp4",
-          "about": [""]
+          "about": [
+            "Creates a wave with unlimited range that moves towards player location"
+          ]
         },
         {
           "name": "Fire Orbs",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/1caa1992dda9e838c79a81aae605c0ed.mp4",
-          "about": [""]
+          "about": [
+            "Spawns orbs around the area that move in a stright line in random direction"
+          ]
         },
         {
           "name": "Mortar",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/635d32ded356a8b5eb9afb299ac6adbf.mp4",
-          "about": [""]
+          "about": [
+            "Fires projectile that does damage on impact and when the projectile explodes"
+          ]
         },
         {
           "name": "Summon Seawitch",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
-          "gif": "https://i.gyazo.com/8bf239a372c2b048a704f2d52ab5f31e.mp4"
+          "type": ["fire"],
+          "gif": "https://i.gyazo.com/8bf239a372c2b048a704f2d52ab5f31e.mp4",
+          "about": ["Encounter creates new monsters to aid said encounter"]
         }
       ]
     }

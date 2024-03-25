@@ -1,6 +1,6 @@
 map: Cortex
 thumbnail: 'cortex'
-bosses:
+encounters:
   - name: Fractal Gargantuan
     abilities:
       - name: Slam

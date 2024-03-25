@@ -1,7 +1,7 @@
 {
   "category": "endgame-bosses",
   "thumbnail": "sirus",
-  "bosses": [
+  "encounters": [
     {
       "name": "Sirus, Awakener of Worlds",
       "damageTypes": ["physical"],

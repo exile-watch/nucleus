@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Lair",
-  "bosses": [
+  "encounters": [
     {
       "name": "Lycius, Midnight's Howl",
       "damageTypes": ["physical"],
@@ -9,29 +9,26 @@
         {
           "name": "Wolf Barrage",
           "type": ["physical"],
-          "tip": ["line of sight"],
           "gif": "https://i.gyazo.com/3e8bd09e386fff32198f57b6696c50c7.mp4",
-          "about": [""]
+          "about": ["Fires multiple projectiles"]
         },
         {
           "name": "Summon Wolfs",
           "type": ["physical"],
-          "tip": ["kill new spawns"],
-          "gif": "https://i.gyazo.com/03e2539d1098154a7ed392b0f5feb797.mp4"
+          "gif": "https://i.gyazo.com/03e2539d1098154a7ed392b0f5feb797.mp4",
+          "about": ["Encounter creates new monsters to aid said encounter"]
         },
         {
           "name": "Barrage",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/6306f2ea0b2d69238af8d2358c4821ec.mp4",
-          "about": [""]
+          "about": ["Fires multiple projectiles"]
         },
         {
           "name": "Wolf Form",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/945740b35f4ce546ed5981696ab9061a.mp4",
-          "about": [""]
+          "about": ["Becomes invulnerable"]
         }
       ]
     }

@@ -1,5 +1,5 @@
 map: Malformation
-bosses:
+encounters:
   - name: Nightmare Manifest
     abilities:
       - name: Lightning Beam

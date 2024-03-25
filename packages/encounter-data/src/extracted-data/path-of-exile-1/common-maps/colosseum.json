@@ -1,45 +1,51 @@
 {
   "category": "common-maps",
   "map": "Colosseum",
-  "bosses": [
+  "encounters": [
     {
       "name": "Ambrius, Legion Slayer",
-      "damageTypes": [],
+      "damageTypes": ["cold", "physical"],
       "abilities": [
         {
           "name": "Summon Clones",
-          "tip": ["Get Curse Immunity"],
-          "gif": "https://i.gyazo.com/a77e32c91ea2a780392d4e18252ff8a0.mp4"
+          "type": ["cold"],
+          "gif": "https://i.gyazo.com/a77e32c91ea2a780392d4e18252ff8a0.mp4",
+          "about": [
+            "Encounter creates a circle of untargetable clones everywhere besides his location, that after a short time dash forward in opposite direction"
+          ]
         },
         {
           "name": "Enrage",
-          "tip": ["Get Curse Immunity"],
           "gif": "https://i.gyazo.com/fd6400f274a6a7ff313ebdd9a9b18638.mp4",
-          "about": [""]
+          "about": ["Increases movement speed, damage, attack and cast speed"]
         },
         {
           "name": "Slash",
-          "tip": ["Get Curse Immunity"],
+          "type": ["cold"],
           "gif": "https://i.gyazo.com/07eaaedc845bce5b4a4ec7d6cf85c002.mp4",
-          "about": [""]
+          "about": [
+            "Slashes twice, releasing waves of force that damage enemies they hit. Enemies in the middle of the slashes can be hit by both slashes"
+          ]
         },
         {
           "name": "Reave",
-          "tip": ["Get Curse Immunity"],
+          "type": ["cold"],
           "gif": "https://i.gyazo.com/7ff753511a6ed2819e5a6786c6581c86.mp4",
-          "about": [""]
+          "about": ["Attacks an area in front of encounter in sequence"]
         },
         {
           "name": "Charge",
-          "tip": ["Get Curse Immunity"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/87309ffd25fe7e57b4154348d8cd5fe4.mp4",
-          "about": [""]
+          "about": [
+            "Charges at player's location. This knocks the encounter back and stuns it. Enemies in the way are pushed to the side. Damage and stun are proportional to distance travelled"
+          ]
         },
         {
           "name": "Sword Storms",
-          "tip": ["Get Curse Immunity"],
+          "type": ["cold"],
           "gif": "https://i.gyazo.com/6a82db7fc7f107ab4156f63436aecbf6.mp4",
-          "about": [""]
+          "about": ["Creates a barrage of projectiles in a circle"]
         }
       ]
     }

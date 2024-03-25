@@ -1,29 +1,29 @@
 {
   "category": "common-maps",
   "map": "Arachnid Tomb",
-  "bosses": [
+  "encounters": [
     {
       "name": "Hybrid Widow",
       "damageTypes": ["physical", "fire"],
       "abilities": [
         {
-          "name": "Web",
-          "tip": ["Get Curse Immunity"],
+          "name": "Spider Web",
           "gif": "https://i.gyazo.com/de32a71b6ac778f1f9c2c2211d86c5f9.mp4",
-          "about": [""]
+          "about": ["Increases encounters' velocity"]
         },
         {
           "name": "Summon Spiders",
           "type": ["physical"],
-          "tip": ["kill new spawns"],
-          "gif": "https://i.gyazo.com/f501b54696cc83a53d4113aec857ce7d.mp4"
+          "gif": "https://i.gyazo.com/f501b54696cc83a53d4113aec857ce7d.mp4",
+          "about": ["Encounter creates new monsters to aid said encounter"]
         },
         {
           "name": "Cover in Spiders",
-          "type": ["fire"],
-          "tip": ["run to bonfire"],
+          "type": ["physical", "fire"],
           "gif": "https://i.gyazo.com/e199da98a3fd4d772e3a28ab18fa50fd.mp4",
-          "about": [""]
+          "about": [
+            "Encounter covers player in spiders giving them velocity when inside spider web - self ignite or move to bonfire to clear the debuff"
+          ]
         }
       ]
     }

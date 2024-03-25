@@ -1,64 +1,70 @@
 {
   "category": "common-maps",
   "map": "Courthouse",
-  "bosses": [
+  "encounters": [
     {
       "name": "Bolt Brownfur, Earth Churner",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Sunder",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/2d5f27086af6dc9227d72043259e225c.mp4",
-          "about": [""]
+          "about": [
+            "Slams the ground, creating a wave of broken ground that damages enemies in an area in front of player"
+          ]
         },
         {
           "name": "Quake Slam",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/68f9204f13efcad977383df1fbef7746.mp4",
-          "about": [""]
+          "about": [
+            "Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a duration."
+          ]
         },
         {
           "name": "Leap Slam",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/e89bd1b9d8b02b14073a0409c84ad224.mp4",
-          "about": [""]
+          "about": [
+            "Jumps into the air, damaging and knocking back enemies with their weapon where they land. Enemies they would land on are pushed out of the way"
+          ]
         }
       ]
     },
     {
       "name": "Ion Darkshroud, the Hungering Blade",
-      "damageTypes": ["physical", "cold"],
+      "damageTypes": ["physical"],
       "abilities": [
         {
           "name": "Flicker Strike",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/e808965591a0f94ce67257a7bd1a8873.mp4",
-          "about": [""]
+          "about": [
+            "Teleports the character to a nearby monster and attacks with a melee weapon"
+          ]
         },
         {
           "name": "Spectral Throw",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical"],
           "gif": "https://i.gyazo.com/c9691badb80a601d76a888b6df3c4d76.mp4",
-          "about": [""]
+          "about": [
+            "Throws a spectral copy of encounter's melee weapon. It flies out and then returns to the encounter, in a spinning attack that damages enemies in its path"
+          ]
         }
       ]
     },
     {
       "name": "Thena Moga, the Crimson Storm",
-      "damageTypes": ["cold"],
+      "damageTypes": ["physical", "fire"],
       "abilities": [
         {
           "name": "Shield Charge",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["physical", "fire"],
           "gif": "https://i.gyazo.com/f247683bb5aed3738873cb135005a540.mp4",
-          "about": [""]
+          "about": [
+            "Charges at a targeted location based on player location, pushing away enemies in encounter's path and repeatedly dealing damage in a small area in front of encounter. The further encounter travels, the more damage encounter deals."
+          ]
         }
       ]
     }

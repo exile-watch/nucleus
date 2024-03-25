@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Spider Forest",
-  "bosses": [
+  "encounters": [
     {
       "name": "Enticer of Rot",
       "damageTypes": ["fire", "physical"],
@@ -9,22 +9,24 @@
         {
           "name": "Desecrate",
           "type": ["fire"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/4eb33979b0816c8f25e25b3929689723.mp4",
-          "about": [""]
+          "about": [
+            "Desecrates the ground with corpses and dealing chaos damage to all enemies in the area"
+          ]
         },
         {
           "name": "Detonate Dead",
           "type": ["fire"],
-          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/6cc1350f6cdfd49fb7092dcc66b37f05.mp4",
-          "about": [""]
+          "about": [
+            "Explosion deals base Fire Damage equal to 1% of the corpse's Maximum Life"
+          ]
         },
         {
           "name": "Summon Altar of Rot",
           "type": ["physical"],
-          "tip": ["dodge"],
-          "gif": "https://i.gyazo.com/8c12f040c0a2c48d985543cda4906f8c.mp4"
+          "gif": "https://i.gyazo.com/8c12f040c0a2c48d985543cda4906f8c.mp4",
+          "about": ["Encounter creates new monsters to aid said encounter"]
         }
       ]
     }

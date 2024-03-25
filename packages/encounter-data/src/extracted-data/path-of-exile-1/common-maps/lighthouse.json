@@ -1,100 +1,104 @@
 {
   "category": "common-maps",
   "map": "Lighthouse",
-  "bosses": [
+  "encounters": [
     {
       "name": "Bin'aia, Crimson Rain",
-      "damageTypes": ["physical", "cold", "lightning"],
+      "damageTypes": ["physical", "cold", "lightning", "fire"],
       "abilities": [
         {
           "name": "Guard Firestorm",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/ac6e9eba42b57b78b77a2fa00d0ed188.mp4",
-          "about": [""]
+          "about": ["Rains numerous fiery bolts in an area"]
         },
         {
           "name": "Guard Flammability",
           "type": ["cold"],
-          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/33616cdaaabbd32a1deba34100f4ba2f.mp4",
-          "about": [""]
+          "about": [
+            "Curses all targets in an area, making them less resistant to fire damage and gives damage hit more chance to ignite"
+          ]
         },
         {
           "name": "Flameblast",
           "type": ["lightning"],
           "tip": ["dodge"],
           "gif": "https://i.gyazo.com/1c6ec3ee68bc10a9268f90181b02f5c3.mp4",
-          "about": [""]
+          "about": ["Channels to build up a large explosion"]
         },
         {
           "name": "Discharge",
           "type": ["lightning"],
           "tip": ["dodge"],
           "gif": "https://i.gyazo.com/7bd46ff1681453252b04084eb1d1c9ef.mp4",
-          "about": [""]
+          "about": [
+            "Discharges all the encounter's charges to deal lightning damage to all nearby enemies"
+          ]
         },
         {
           "name": "Flame Golem",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/dcbcde35009f7bff04fbe96116354302.mp4",
-          "about": [""]
+          "about": ["Encounter creates new monsters to aid said encounter"]
         },
         {
           "name": "Enduring Cry",
-          "type": ["lightning"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/fe12f02da8afdbd6e43f12faf8bc2fca.mp4",
-          "about": [""]
+          "about": [
+            "Performs a warcry, taunting all nearby enemies to attack the encounter and granting endurance charges. Gives a brief burst of life regeneration, as well as a buff which grants resistances and physical damage reduction"
+          ]
         },
         {
           "name": "Flame Dash",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/48aeaeba0d4d291db394246c13207f23.mp4",
-          "about": [""]
+          "about": [
+            "Teleports encounter to random location in an area",
+            "Encounter leaves burning ground behind them"
+          ]
         }
       ]
     },
     {
       "name": "Uruk Baleh",
-      "damageTypes": ["physical", "cold", "lightning"],
+      "damageTypes": ["fire", "physical"],
       "abilities": [
         {
           "name": "Fire Bombs",
-          "type": ["physical"],
-          "tip": ["dodge"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/129362bb030cd8f6357a71a6dbe31ca6.mp4",
-          "about": [""]
+          "about": [
+            "Spawns multiple Bombs around the arena that explode after a delay"
+          ]
         },
         {
           "name": "Living Bomb",
-          "type": ["cold"],
-          "tip": ["avoid traps"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/a82c1418f8de82d99da0eaefadf73092.mp4",
-          "about": [""]
+          "about": ["Charges up and detonates after short delay"]
         },
         {
           "name": "Firestorm",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/95a2ab35424679c6e1ad9d1bb983a7af.mp4",
-          "about": [""]
+          "about": ["Rains numerous fiery bolts in an area"]
         },
         {
           "name": "Cyclone",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["physical", "fire"],
           "gif": "https://i.gyazo.com/23b7b6c8ff3722657167df8d5679fda1.mp4",
-          "about": [""]
+          "about": [
+            "Damages enemies around encounter, then performs a spinning series of attacks as it travels to a target location"
+          ]
         },
         {
           "name": "Molten Strike",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["fire"],
           "gif": "https://i.gyazo.com/d6f0e03dbf3ed018436381600e6ff8b8.mp4",
-          "about": [""]
+          "about": [
+            "Attack causes balls of molten magma to launch forth from the enemies encounter hits"
+          ]
         }
       ]
     }

@@ -1,55 +1,54 @@
 {
   "category": "common-maps",
   "map": "Underground Sea",
-  "bosses": [
+  "encounters": [
     {
       "name": "Merveil, the Reflection",
-      "damageTypes": ["physical", "cold", "lightning"],
+      "damageTypes": ["physical", "cold"],
       "abilities": [
         {
           "name": "Summon Resplendent Constructs",
           "type": ["physical"],
-          "tip": ["dodge"],
-          "gif": "https://i.gyazo.com/bfa9e2f366b91133267080a0bb99efc5.mp4"
+          "gif": "https://i.gyazo.com/bfa9e2f366b91133267080a0bb99efc5.mp4",
+          "about": ["Encounter creates new monsters to aid said encounter"]
         },
         {
           "name": "Ice Spear",
           "type": ["cold"],
-          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/fb1e97cb68cf1d78d6c39bc152a8b6ca.mp4",
-          "about": [""]
+          "about": [
+            "Launches shards of ice in rapid succession. After travelling a short distance they change to a second form, which moves much faster and pierces through enemies"
+          ]
         },
         {
           "name": "Icestorm",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["cold"],
           "gif": "https://i.gyazo.com/1ee6df830a7cb9b220eb8fe4c25e056d.mp4",
-          "about": [""]
+          "about": ["Cascade of projectiles"]
         }
       ]
     },
     {
       "name": "Merveil, the Returned",
-      "damageTypes": ["physical", "cold", "lightning"],
+      "damageTypes": ["cold"],
       "abilities": [
         {
           "name": "Multi Geyser",
-          "type": ["physical"],
-          "tip": ["dodge"],
+          "type": ["cold"],
           "gif": "https://i.gyazo.com/fd8c02a0ec0b711224fea307dde43d9f.mp4",
-          "about": [""]
+          "about": ["Encounter creates multiple vortexes that stay still"]
         },
         {
           "name": "Wave",
           "type": ["cold"],
-          "tip": ["avoid traps"],
           "gif": "https://i.gyazo.com/54e714b2bcad2f4f1ff8c94df3537526.mp4",
-          "about": [""]
+          "about": [
+            "Creates a wave with unlimited range that moves towards player location"
+          ]
         },
         {
           "name": "Screech",
-          "type": ["lightning"],
-          "tip": ["dodge"],
+          "type": ["cold"],
           "gif": "https://i.gyazo.com/159405cd21b070db540f9b7f8216f203.mp4",
           "about": [""]
         }

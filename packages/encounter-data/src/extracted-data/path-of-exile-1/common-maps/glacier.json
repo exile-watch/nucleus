@@ -1,7 +1,7 @@
 {
   "category": "common-maps",
   "map": "Glacier",
-  "bosses": [
+  "encounters": [
     {
       "name": "Rek'tar, the Breaker",
       "damageTypes": ["physical"],
@@ -9,9 +9,10 @@
         {
           "name": "Leap Slam",
           "type": ["physical"],
-          "tip": ["dodge"],
           "gif": "https://i.gyazo.com/553916a0af72823f8dcfd4e62fc3063f.mp4",
-          "about": [""]
+          "about": [
+            "Jumps into the air, damaging and knocking back enemies with their weapon where they land. Enemies they would land on are pushed out of the way"
+          ]
         }
       ]
     }
