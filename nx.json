@@ -53,15 +53,6 @@
     "typecheck": {
       "cache": true
     },
-    "lint": {
-      "cache": true
-    },
-    "lint:apply": {
-      "cache": true
-    },
-    "format": {
-      "cache": true
-    },
     "_clean": {
       "cache": true
     },
