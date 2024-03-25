@@ -1,6 +1,6 @@
 {
   "name": "@exile-watch/seo",
-  "version": "0.3.11",
+  "version": "0.3.12",
   "description": "exile.watch seo",
   "homepage": "https://github.com/exile-watch/nucleus/pkgs/npm/seo",
   "repository": {
@@ -11,7 +11,10 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
-  "files": ["dist", "sitemap.xml"],
+  "files": [
+    "dist",
+    "sitemap.xml"
+  ],
   "scripts": {
     "_clean": "del-cli dist",
     "_build": "rollup -c",
@@ -27,14 +30,16 @@
     "registry": "https://npm.pkg.github.com/",
     "access": "public"
   },
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "peerDependencies": {
     "@exile-watch/encounter-data": ">=0",
     "next": ">=14"
   },
   "devDependencies": {
     "@exile-watch/biome-config": "^0.3.4",
-    "@exile-watch/encounter-data": "^0.11.8",
+    "@exile-watch/encounter-data": "^0.12.0",
     "@exile-watch/rollup-config": "^0.2.5",
     "@exile-watch/typescript-config": "^0.3.1",
     "date-fns": "^3.5.0",

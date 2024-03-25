@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.8...@exile-watch/encounter-data@0.12.0) (2024-03-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* breaking - change bosses key to encounters and update data
+
+### ✨ Features
+
+* breaking - change bosses key to encounters and update data ([03095f4](https://github.com/exile-watch/nucleus/commit/03095f4d6829fa7a7985192736ba78c8bebbbd27))
+
+
+
 ## [0.11.8](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.7...@exile-watch/encounter-data@0.11.8) (2024-03-23)
 
 

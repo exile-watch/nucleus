@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.12](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.3.11...@exile-watch/seo@0.3.12) (2024-03-25)
+
+
+### ⚙️ Internal
+
+* lint ([4d07613](https://github.com/exile-watch/nucleus/commit/4d076138773cbc947d00f84cfe213249a1c4e933))
+
+
+
 ## [0.3.11](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.3.10...@exile-watch/seo@0.3.11) (2024-03-23)
 
 
