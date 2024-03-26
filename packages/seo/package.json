@@ -1,51 +1,51 @@
 {
-  "name": "@exile-watch/seo",
-  "version": "0.3.13",
-  "description": "exile.watch seo",
-  "homepage": "https://github.com/exile-watch/nucleus/pkgs/npm/seo",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/exile-watch/nucleus.git",
-    "directory": "packages/seo"
-  },
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "sitemap.xml"
-  ],
-  "scripts": {
-    "_clean": "del-cli dist",
-    "_build": "rollup -c",
-    "build": "npm run _build",
-    "ci:lint": "npx @biomejs/biome ci .",
-    "lint": "npx @biomejs/biome check .",
-    "lint:apply": "npx @biomejs/biome check --apply .",
-    "format": "npx @biomejs/biome format --write .",
-    "cq": "npm run format && npm run lint:apply",
-    "generate:sitemap": "ts-node src/scripts/generateSitemap.ts"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
-    "access": "public"
-  },
-  "workspaces": [
-    "packages/*"
-  ],
-  "peerDependencies": {
-    "@exile-watch/encounter-data": ">=0",
-    "next": ">=14"
-  },
-  "devDependencies": {
-    "@exile-watch/biome-config": "^0.3.5",
-    "@exile-watch/encounter-data": "^0.12.1",
-    "@exile-watch/rollup-config": "^0.2.5",
-    "@exile-watch/typescript-config": "^0.3.1",
-    "date-fns": "^3.5.0",
-    "ts-node": "^10.9.2"
-  },
-  "dependencies": {
-    "next-seo": "^6.5.0"
-  }
+	"name": "@exile-watch/seo",
+	"version": "0.3.13",
+	"description": "exile.watch seo",
+	"homepage": "https://github.com/exile-watch/nucleus/pkgs/npm/seo",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/exile-watch/nucleus.git",
+		"directory": "packages/seo"
+	},
+	"main": "dist/index.js",
+	"module": "dist/index.esm.js",
+	"types": "dist/index.d.ts",
+	"files": ["dist", "sitemap.xml"],
+	"scripts": {
+		"_clean": "del-cli dist",
+		"_build": "rollup -c",
+		"build": "npm run _build",
+		"ci:lint": "npx @biomejs/biome ci .",
+		"lint": "npx @biomejs/biome check .",
+		"lint:apply": "npx @biomejs/biome check --apply .",
+		"format": "npx @biomejs/biome format --write .",
+		"cq": "npm run format && npm run lint:apply",
+		"generate:sitemap": "ts-node scripts/generateSitemap.ts"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/",
+		"access": "public"
+	},
+	"workspaces": ["packages/*"],
+	"peerDependencies": {
+		"@exile-watch/encounter-data": "> 0",
+		"next": ">=14"
+	},
+	"peerDependenciesMeta": {
+		"@exile-watch/encounter-data": {
+			"optional": true
+		}
+	},
+	"devDependencies": {
+		"@exile-watch/biome-config": "^0.3.5",
+		"@exile-watch/encounter-data": "^0.12.1",
+		"@exile-watch/rollup-config": "0.2.7",
+		"@exile-watch/typescript-config": "^0.3.2",
+		"date-fns": "^3.5.0",
+		"ts-node": "^10.9.2"
+	},
+	"dependencies": {
+		"next-seo": "^6.5.0"
+	}
 }

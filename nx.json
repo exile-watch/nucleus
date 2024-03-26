@@ -1,64 +1,55 @@
 {
-  "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "targetDefaults": {
-    "build": {
-      "dependsOn": ["^build"],
-      "outputs": ["{projectRoot}/dist"],
-      "cache": true
-    },
-    "extract:encounter-skills": {
-      "outputs": ["{projectRoot}/src"],
-      "cache": true
-    },
-    "extract:encounter-tokens": {
-      "outputs": ["{projectRoot}/src"],
-      "cache": true
-    },
-    "extract:all": {
-      "outputs": ["{projectRoot}/src"],
-      "cache": true
-    },
-    "generate:indexed-search": {
-      "outputs": ["{projectRoot}/src"],
-      "cache": true
-    },
-    "generate:paths": {
-      "outputs": ["{projectRoot}/src"],
-      "cache": true
-    },
-    "generate:homepage": {
-      "outputs": ["{projectRoot}/src"],
-      "cache": true
-    },
-    "generate:category-pages": {
-      "outputs": ["{projectRoot}/src"],
-      "cache": true
-    },
-    "generate:encounters-page": {
-      "outputs": ["{projectRoot}/src"],
-      "cache": true
-    },
-    "generate": {
-      "outputs": ["{projectRoot}/src"],
-      "cache": true
-    },
-    "update-content": {
-      "outputs": ["{projectRoot}/src"],
-      "cache": true
-    },
-    "generate:sitemap": {
-      "outputs": ["{projectRoot}/src"],
-      "cache": true
-    },
-    "typecheck": {
-      "cache": true
-    },
-    "_clean": {
-      "cache": true
-    },
-    "_build": {
-      "cache": true
-    }
-  },
-  "defaultBase": "main"
+	"$schema": "./node_modules/nx/schemas/nx-schema.json",
+	"targetDefaults": {
+		"build": {
+			"dependsOn": ["^build"],
+			"outputs": ["{projectRoot}/dist"],
+			"cache": true
+		},
+		"extract:encounter-skills": {
+			"outputs": ["{projectRoot}/src"],
+			"cache": true
+		},
+		"extract:encounter-tokens": {
+			"outputs": ["{projectRoot}/src"],
+			"cache": true
+		},
+		"extract:all": {
+			"outputs": ["{projectRoot}/src"],
+			"cache": true
+		},
+		"generate:indexed-search": {
+			"outputs": ["{projectRoot}/src"],
+			"cache": true
+		},
+		"generate:paths": {
+			"outputs": ["{projectRoot}/src"],
+			"cache": true
+		},
+		"generate:homepage": {
+			"outputs": ["{projectRoot}/src"],
+			"cache": true
+		},
+		"generate:category-pages": {
+			"outputs": ["{projectRoot}/src"],
+			"cache": true
+		},
+		"generate:encounters-page": {
+			"outputs": ["{projectRoot}/src"],
+			"cache": true
+		},
+		"generate": {
+			"outputs": ["{projectRoot}/src"],
+			"cache": true
+		},
+		"update-content": {
+			"outputs": ["{projectRoot}/src"],
+			"cache": true
+		},
+		"generate:sitemap": {
+			"outputs": ["{projectRoot}/src"],
+			"cache": true
+		}
+	},
+	"defaultBase": "main"
 }

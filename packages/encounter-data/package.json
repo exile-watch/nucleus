@@ -1,51 +1,47 @@
 {
-  "name": "@exile-watch/encounter-data",
-  "version": "0.12.1",
-  "description": "Encounter data",
-  "homepage": "https://github.com/exile-watch/nucleus/pkgs/npm/encounter-data",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/exile-watch/nucleus.git",
-    "directory": "packages/encounter-data"
-  },
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "_clean": "del-cli dist",
-    "_build": "rollup -c",
-    "build": "npm run _build",
-    "ci:lint": "npx @biomejs/biome ci .",
-    "lint": "npx @biomejs/biome check .",
-    "lint:apply": "npx @biomejs/biome check --apply .",
-    "format": "npx @biomejs/biome format --write .",
-    "cq": "npm run format && npm run lint:apply",
-    "clean-invalid-data-files": "node scripts/clean-invalid-data-files.js",
-    "extract:encounter-skills": "node scripts/extract-skill-tokens.js",
-    "extract:encounter-tokens": "node scripts/extract-tokens-and-build-imports-exports.js",
-    "extract:all": "npm run extract:encounter-skills && npm run extract:encounter-tokens",
-    "generate:indexed-search": "node scripts/generateIndexedSearch.js",
-    "generate:paths": "node scripts/generatePaths.js",
-    "generate:homepage": "node scripts/generateHomepage.js",
-    "generate:category-pages": "node scripts/generateCategoryPages.js",
-    "generate:encounters-page": "node scripts/generateEncountersPage.js",
-    "generate": "npm run generate:indexed-search && npm run generate:paths && npm run generate:homepage && npm run generate:category-pages && npm run generate:encounters-page",
-    "update-content": "npm run extract:all && npm run generate && npm run format"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
-    "access": "public"
-  },
-  "workspaces": [
-    "packages/*"
-  ],
-  "devDependencies": {
-    "@exile-watch/biome-config": "^0.3.5",
-    "@exile-watch/rollup-config": "^0.2.0",
-    "@exile-watch/typescript-config": "^0.3.0",
-    "lodash": "^4.17.21"
-  }
+	"name": "@exile-watch/encounter-data",
+	"version": "0.12.1",
+	"description": "Encounter data",
+	"homepage": "https://github.com/exile-watch/nucleus/pkgs/npm/encounter-data",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/exile-watch/nucleus.git",
+		"directory": "packages/encounter-data"
+	},
+	"main": "dist/index.js",
+	"module": "dist/index.esm.js",
+	"types": "dist/index.d.ts",
+	"files": ["dist"],
+	"scripts": {
+		"_clean": "del-cli dist",
+		"_build": "rollup -c",
+		"build": "npm run _build",
+		"ci:lint": "npx @biomejs/biome ci .",
+		"lint": "npx @biomejs/biome check .",
+		"lint:apply": "npx @biomejs/biome check --apply .",
+		"format": "npx @biomejs/biome format --write .",
+		"cq": "npm run format && npm run lint:apply",
+		"clean-invalid-data-files": "node scripts/clean-invalid-data-files.js",
+		"extract:encounter-skills": "node scripts/extract-skill-tokens.js",
+		"extract:encounter-tokens": "node scripts/extract-tokens-and-build-imports-exports.js",
+		"extract:all": "npm run extract:encounter-skills && npm run extract:encounter-tokens",
+		"generate:indexed-search": "node scripts/generateIndexedSearch.js",
+		"generate:paths": "node scripts/generatePaths.js",
+		"generate:homepage": "node scripts/generateHomepage.js",
+		"generate:category-pages": "node scripts/generateCategoryPages.js",
+		"generate:encounters-page": "node scripts/generateEncountersPage.js",
+		"generate": "npm run generate:indexed-search && npm run generate:paths && npm run generate:homepage && npm run generate:category-pages && npm run generate:encounters-page",
+		"update-content": "npm run extract:all && npm run generate && npm run format"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/",
+		"access": "public"
+	},
+	"workspaces": ["packages/*"],
+	"devDependencies": {
+		"@exile-watch/biome-config": "^0.3.5",
+		"@exile-watch/rollup-config": "0.2.7",
+		"@exile-watch/typescript-config": "^0.3.2",
+		"lodash": "^4.17.21"
+	}
 }
