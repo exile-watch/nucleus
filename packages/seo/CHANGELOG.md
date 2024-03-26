@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.13](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.3.12...@exile-watch/seo@0.3.13) (2024-03-26)
+
+
+### ⚙️ Internal
+
+* bump biome ([89081d4](https://github.com/exile-watch/nucleus/commit/89081d478aa532871e1092a9889f265f8cac912d))
+
+
+
 ## [0.3.12](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.3.11...@exile-watch/seo@0.3.12) (2024-03-25)
 
 

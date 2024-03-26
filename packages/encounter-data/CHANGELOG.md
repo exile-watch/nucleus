@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.1](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.12.0...@exile-watch/encounter-data@0.12.1) (2024-03-26)
+
+
+### ⚙️ Internal
+
+* bump biome ([89081d4](https://github.com/exile-watch/nucleus/commit/89081d478aa532871e1092a9889f265f8cac912d))
+* update types ([5a4a60e](https://github.com/exile-watch/nucleus/commit/5a4a60e057a0c8b4ee62a9653c2e30e368ade4f4))
+
+
+
 ## [0.12.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.8...@exile-watch/encounter-data@0.12.0) (2024-03-25)
 
 
