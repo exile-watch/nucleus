@@ -22,7 +22,7 @@ type BossType = {
 type MapType = {
   map?: string;
   thumbnail?: string;
-  bosses: BossType[];
+  encounters: BossType[];
 };
 
 type CategoryPageType = {
