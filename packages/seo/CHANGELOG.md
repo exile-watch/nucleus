@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.14](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.3.13...@exile-watch/seo@0.3.14) (2024-03-27)
+
+
+### ⚙️ Internal
+
+* bump deps ([744fc41](https://github.com/exile-watch/nucleus/commit/744fc419164de7c3b3f894e467427783dac259df))
+* format ([d6ba161](https://github.com/exile-watch/nucleus/commit/d6ba16157940e546f7d28eaf40cd4829cb6819ef))
+
+
+
 ## [0.3.13](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.3.12...@exile-watch/seo@0.3.13) (2024-03-26)
 
 
