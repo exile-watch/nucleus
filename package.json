@@ -1,37 +1,38 @@
 {
-	"name": "nucleus",
-	"private": true,
-	"description": "Encounter data, sitemap",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/exile-watch/nucleus.git"
-	},
-	"scripts": {
-		"postinstall": "npx lefthook install",
-		"build": "lerna run build",
-		"typecheck": "lerna run typecheck",
-		"ci:typecheck": "lerna run ci:typecheck",
-		"ci:lint": "lerna run ci:lint",
-		"lint": "lerna run lint",
-		"lint:apply": "lerna run lint:apply",
-		"format": "lerna run format",
-		"test": "exit 0",
-		"cq": "lerna run cq"
-	},
-	"author": "Sebastian Krzyzanowski",
-	"license": "ISC",
-	"homepage": "https://github.com/exile-watch/nucleus#readme",
-	"devDependencies": {
-		"@exile-watch/conventional-changelog-config": "^0.2.3",
-		"@exile-watch/lefthook-config": "^0.5.11",
-		"@exile-watch/typescript-config": "^0.3.2",
-		"lerna": "^8.0.2",
-		"nx": "18.1.2"
-	},
-	"workspaces": ["packages/*"],
-	"config": {
-		"commitizen": {
-			"path": "./node_modules/cz-conventional-changelog"
-		}
-	}
+  "name": "nucleus",
+  "private": true,
+  "description": "Encounter data, sitemap",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exile-watch/nucleus.git"
+  },
+  "scripts": {
+    "postinstall": "npx lefthook install",
+    "build": "lerna run build",
+    "typecheck": "lerna run typecheck",
+    "ci:typecheck": "lerna run ci:typecheck",
+    "ci:lint": "lerna run ci:lint",
+    "lint": "lerna run lint",
+    "lint:apply": "lerna run lint:apply",
+    "format": "lerna run format",
+    "test": "exit 0",
+    "cq": "lerna run cq"
+  },
+  "author": "Sebastian Krzyzanowski",
+  "license": "ISC",
+  "homepage": "https://github.com/exile-watch/nucleus#readme",
+  "devDependencies": {
+    "@exile-watch/biome-config": "^0.3.5",
+    "@exile-watch/conventional-changelog-config": "^0.2.3",
+    "@exile-watch/lefthook-config": "^0.5.11",
+    "@exile-watch/typescript-config": "^0.3.2",
+    "lerna": "^8.0.2",
+    "nx": "18.1.2"
+  },
+  "workspaces": ["packages/*"],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
