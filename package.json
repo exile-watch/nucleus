@@ -28,7 +28,9 @@
 		"lerna": "^8.0.2",
 		"nx": "18.1.2"
 	},
-	"workspaces": ["packages/*"],
+	"workspaces": [
+		"packages/*"
+	],
 	"config": {
 		"commitizen": {
 			"path": "./node_modules/cz-conventional-changelog"
