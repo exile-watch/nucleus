@@ -27,7 +27,7 @@
     "@exile-watch/lefthook-config": "^0.5.11",
     "@exile-watch/typescript-config": "^0.3.2",
     "lerna": "^8.0.2",
-    "nx": "18.2.1"
+    "nx": "18.2.3"
   },
   "workspaces": ["packages/*"],
   "config": {
