@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.3.15...@exile-watch/seo@2.0.0) (2024-04-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* update package json peer deps
+
+### ⚙️ Internal
+
+* manually bump to 1.0.0 ([10b43ea](https://github.com/exile-watch/nucleus/commit/10b43ea5171a22239f4bfc97a2f32957bedb5b6e))
+* update package json peer deps ([040f69b](https://github.com/exile-watch/nucleus/commit/040f69b2f20b32cf0e6a11119e7fa3db4e9a0008))
+
+
+
 ## [0.3.15](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.3.14...@exile-watch/seo@0.3.15) (2024-03-27)
 
 
