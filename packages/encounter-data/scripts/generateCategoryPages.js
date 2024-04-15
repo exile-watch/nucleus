@@ -20,7 +20,7 @@ const prepareCategoriesData = (data) =>
       [d.category]: [
         ...(acc[d.category] ?? []),
         {
-          name: d.map ? startCase(d.map) : startCase(encounterName),
+          name: d.map ?? encounterName,
           path,
           gif,
         },
