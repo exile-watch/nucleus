@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@1.0.1...@exile-watch/encounter-data@1.0.2) (2024-04-15)
+
+
+### 🐞 Bug Fixes
+
+* add missing special characters to certain encounter names ([253d25d](https://github.com/exile-watch/nucleus/commit/253d25deb657b3c178b74016d2fafdb3826a0f89))
+
+
+
 ## [1.0.1](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.12.3...@exile-watch/encounter-data@1.0.1) (2024-04-13)
 
 

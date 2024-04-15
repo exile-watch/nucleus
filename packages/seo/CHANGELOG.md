@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@2.0.0...@exile-watch/seo@2.0.1) (2024-04-15)
+
+
+### 🐞 Bug Fixes
+
+* add missing special characters to certain encounter names ([253d25d](https://github.com/exile-watch/nucleus/commit/253d25deb657b3c178b74016d2fafdb3826a0f89))
+
+
+
 ## [2.0.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/seo@0.3.15...@exile-watch/seo@2.0.0) (2024-04-13)
 
 
