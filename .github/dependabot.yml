@@ -6,6 +6,7 @@ registries:
     token: ${{ secrets.GH_TOKEN }}
 updates:
   - package-ecosystem: "npm"
+    versioning-strategy: increase
     directory: "/"
     registries: [github]
     schedule:
