@@ -39,8 +39,8 @@
   },
   "devDependencies": {
     "@exile-watch/encounter-data": "^0.12.3",
-    "@exile-watch/rollup-config": "0.2.7",
-    "@exile-watch/typescript-config": "^0.3.2",
+    "@exile-watch/rollup-config": "1.1.1",
+    "@exile-watch/typescript-config": "^1.1.0",
     "date-fns": "^3.5.0",
     "ts-node": "^10.9.2"
   },
