@@ -43,8 +43,8 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@exile-watch/rollup-config": "0.2.7",
-    "@exile-watch/typescript-config": "^0.3.2",
+    "@exile-watch/rollup-config": "1.1.1",
+    "@exile-watch/typescript-config": "^1.1.0",
     "lodash": "^4.17.21"
   }
 }
