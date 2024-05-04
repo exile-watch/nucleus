@@ -22,9 +22,9 @@
   "license": "ISC",
   "homepage": "https://github.com/exile-watch/nucleus#readme",
   "devDependencies": {
-    "@exile-watch/biome-config": "^1.1.1",
+    "@exile-watch/biome-config": "^1.1.2",
     "@exile-watch/conventional-changelog-config": "^1.1.0",
-    "@exile-watch/lefthook-config": "^1.1.0",
+    "@exile-watch/lefthook-config": "^1.1.1",
     "@exile-watch/typescript-config": "^1.1.0",
     "lerna": "^8.0.2",
     "nx": "18.3.4"
