@@ -8,15 +8,16 @@
   },
   "scripts": {
     "postinstall": "npx lefthook install",
-    "build": "lerna run build",
-    "typecheck": "lerna run typecheck",
-    "ci:typecheck": "lerna run ci:typecheck",
-    "ci:lint": "lerna run ci:lint",
-    "lint": "lerna run lint",
-    "lint:apply": "lerna run lint:apply",
-    "format": "lerna run format",
+    "build": "nx run-many -t build",
+    "typecheck": "nx run-many -t typecheck",
+    "ci:typecheck": "nx run-many -t ci:typecheck",
+    "ci:lint": "nx run-many -t ci:lint",
+    "lint": "nx run-many -t lint",
+    "lint:apply": "nx run-many -t lint:apply",
+    "format": "nx run-many -t format",
     "test": "exit 0",
-    "cq": "lerna run cq"
+    "cq": "nx run-many -t cq",
+    "release": "voidstone"
   },
   "author": "Sebastian Krzyzanowski",
   "license": "ISC",
@@ -26,7 +27,6 @@
     "@exile-watch/conventional-changelog-config": "^1.1.0",
     "@exile-watch/lefthook-config": "^1.1.1",
     "@exile-watch/typescript-config": "^1.1.0",
-    "lerna": "^8.1.8",
     "nx": "20.0.3"
   },
   "workspaces": ["packages/*"],
@@ -34,5 +34,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "@exile-watch/voidstone": "^1.0.27"
   }
 }

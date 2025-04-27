@@ -9,6 +9,10 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+  packages: write
 
 jobs:
   code-quality-assurance:
@@ -18,16 +22,25 @@ jobs:
     steps:
       - uses: exile-watch/doryani/code-quality-assurance@main
         with:
-          GH_ACTOR: ${{ github.actor }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
   publish-package:
     needs: [code-quality-assurance]
-    name: Publish to NPM
+    name: Publish to Github Registry
     runs-on: ubuntu-latest
     steps:
-      - uses: exile-watch/doryani/publish-package@main
+      - name: Authenticate to GitHub Registry
+        uses: exile-watch/doryani/auth-github-registry@main
         with:
-          GH_ACTOR: ${{ github.actor }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Install deps
+        uses: exile-watch/doryani/install-npm-dependencies@main
+        with:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - run: npm run release
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
