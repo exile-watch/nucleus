@@ -1,398 +1,403 @@
-# Change Log
+##  (2025-04-27)
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+* chore: format ([6e6e422](https://github.com/exile-watch/nucleus/commit/6e6e422))
+* chore: update dependabot versioning strategy ([8466b50](https://github.com/exile-watch/nucleus/commit/8466b50))
+* chore: update GitHub Actions workflow and package scripts for improved publishing and dependency man ([09510ec](https://github.com/exile-watch/nucleus/commit/09510ec))
+* chore(deps-dev): bump @exile-watch/biome-config ([ce0b298](https://github.com/exile-watch/nucleus/commit/ce0b298))
+* chore(deps-dev): bump date-fns from 3.6.0 to 4.1.0 ([cfa305c](https://github.com/exile-watch/nucleus/commit/cfa305c))
+* chore(deps-dev): bump ejs from 3.1.9 to 3.1.10 ([869d838](https://github.com/exile-watch/nucleus/commit/869d838))
+* chore(deps-dev): bump nx from 18.2.4 to 18.3.3 in the lerna group ([3a97e23](https://github.com/exile-watch/nucleus/commit/3a97e23))
+* chore(deps-dev): bump nx from 18.3.3 to 18.3.4 in the lerna group ([6256196](https://github.com/exile-watch/nucleus/commit/6256196))
+* chore(deps-dev): bump nx from 19.3.0 to 19.3.1 in the lerna group ([1c28363](https://github.com/exile-watch/nucleus/commit/1c28363))
+* chore(deps-dev): bump the exile-watch-build-tools group with 2 updates ([7476b5f](https://github.com/exile-watch/nucleus/commit/7476b5f))
+* chore(deps-dev): bump the exile-watch-build-tools group with 5 updates ([1e25e7a](https://github.com/exile-watch/nucleus/commit/1e25e7a))
+* chore(deps-dev): bump the lerna group across 1 directory with 2 updates ([1643190](https://github.com/exile-watch/nucleus/commit/1643190))
+* chore(deps-dev): bump the lerna group across 1 directory with 2 updates ([ec2b977](https://github.com/exile-watch/nucleus/commit/ec2b977))
+* chore(deps-dev): bump the lerna group across 1 directory with 2 updates ([173deec](https://github.com/exile-watch/nucleus/commit/173deec))
+* chore(deps): bump braces from 3.0.2 to 3.0.3 ([5c72c01](https://github.com/exile-watch/nucleus/commit/5c72c01))
+* chore(deps): bump next-seo from 6.5.0 to 6.6.0 ([a03e14b](https://github.com/exile-watch/nucleus/commit/a03e14b))
 
-## [1.0.2](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@1.0.1...@exile-watch/encounter-data@1.0.2) (2024-04-15)
 
 
-### 🐞 Bug Fixes
+## <small>1.0.2 (2024-04-15)</small>
 
-* add missing special characters to certain encounter names ([253d25d](https://github.com/exile-watch/nucleus/commit/253d25deb657b3c178b74016d2fafdb3826a0f89))
+* chore(release): publish [skip ci] ([4e42736](https://github.com/exile-watch/nucleus/commit/4e42736))
+* fix: add missing special characters to certain encounter names ([253d25d](https://github.com/exile-watch/nucleus/commit/253d25d))
 
 
 
-## [1.0.1](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.12.3...@exile-watch/encounter-data@1.0.1) (2024-04-13)
+## <small>1.0.1 (2024-04-13)</small>
 
+* chore: manually bump to 1.0.0 ([10b43ea](https://github.com/exile-watch/nucleus/commit/10b43ea))
+* chore: sync lock ([550eefd](https://github.com/exile-watch/nucleus/commit/550eefd))
+* chore(deps-dev): bump nx from 18.2.1 to 18.2.3 in the lerna group ([76d0e96](https://github.com/exile-watch/nucleus/commit/76d0e96))
+* chore(deps-dev): bump nx from 18.2.3 to 18.2.4 in the lerna group ([4b016ab](https://github.com/exile-watch/nucleus/commit/4b016ab))
+* chore(deps-dev): bump the exile-watch-build-tools group with 1 update ([50eea12](https://github.com/exile-watch/nucleus/commit/50eea12))
+* chore(deps-dev): bump the lerna group with 1 update ([6189d42](https://github.com/exile-watch/nucleus/commit/6189d42))
+* chore(release): publish [skip ci] ([57f3116](https://github.com/exile-watch/nucleus/commit/57f3116))
+* chore!: update package json peer deps ([040f69b](https://github.com/exile-watch/nucleus/commit/040f69b))
 
-### ⚙️ Internal
 
-* manually bump to 1.0.0 ([10b43ea](https://github.com/exile-watch/nucleus/commit/10b43ea5171a22239f4bfc97a2f32957bedb5b6e))
 
+## <small>0.12.3 (2024-03-27)</small>
 
+* chore: experiment with biome check pre-commit hook ([fb6be94](https://github.com/exile-watch/nucleus/commit/fb6be94))
+* chore: format ([7220eda](https://github.com/exile-watch/nucleus/commit/7220eda))
+* chore: format ([2906070](https://github.com/exile-watch/nucleus/commit/2906070))
+* chore(release): publish [skip ci] ([a3aaf11](https://github.com/exile-watch/nucleus/commit/a3aaf11))
 
-## [0.12.3](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.12.2...@exile-watch/encounter-data@0.12.3) (2024-03-27)
 
 
-### ⚙️ Internal
+## <small>0.12.2 (2024-03-27)</small>
 
-* format ([7220eda](https://github.com/exile-watch/nucleus/commit/7220edabf1af0ea44f2580d231f47c994d8c7434))
-* format ([2906070](https://github.com/exile-watch/nucleus/commit/2906070a3596880399e9afe2d589492d3dcd9f31))
+* chore: bump deps ([744fc41](https://github.com/exile-watch/nucleus/commit/744fc41))
+* chore: format ([d6ba161](https://github.com/exile-watch/nucleus/commit/d6ba161))
+* chore: format ([b028b3f](https://github.com/exile-watch/nucleus/commit/b028b3f))
+* chore: lint ([fc4fc14](https://github.com/exile-watch/nucleus/commit/fc4fc14))
+* chore: lint ([4206d39](https://github.com/exile-watch/nucleus/commit/4206d39))
+* chore(release): publish [skip ci] ([9540ca5](https://github.com/exile-watch/nucleus/commit/9540ca5))
 
 
 
-## [0.12.2](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.12.1...@exile-watch/encounter-data@0.12.2) (2024-03-27)
+## <small>0.12.1 (2024-03-26)</small>
 
+* chore: bump biome ([89081d4](https://github.com/exile-watch/nucleus/commit/89081d4))
+* chore: update types ([5a4a60e](https://github.com/exile-watch/nucleus/commit/5a4a60e))
+* chore(release): publish [skip ci] ([c7a4224](https://github.com/exile-watch/nucleus/commit/c7a4224))
 
-### ⚙️ Internal
 
-* bump deps ([744fc41](https://github.com/exile-watch/nucleus/commit/744fc419164de7c3b3f894e467427783dac259df))
-* format ([d6ba161](https://github.com/exile-watch/nucleus/commit/d6ba16157940e546f7d28eaf40cd4829cb6819ef))
 
+## 0.12.0 (2024-03-25)
 
+* chore: lint ([4d07613](https://github.com/exile-watch/nucleus/commit/4d07613))
+* chore(release): publish [skip ci] ([7734927](https://github.com/exile-watch/nucleus/commit/7734927))
+* feat!: breaking - change bosses key to encounters and update data ([03095f4](https://github.com/exile-watch/nucleus/commit/03095f4))
 
-## [0.12.1](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.12.0...@exile-watch/encounter-data@0.12.1) (2024-03-26)
 
 
-### ⚙️ Internal
+## <small>0.11.8 (2024-03-23)</small>
 
-* bump biome ([89081d4](https://github.com/exile-watch/nucleus/commit/89081d478aa532871e1092a9889f265f8cac912d))
-* update types ([5a4a60e](https://github.com/exile-watch/nucleus/commit/5a4a60e057a0c8b4ee62a9653c2e30e368ade4f4))
+* chore: add dependabot ([1e58bd9](https://github.com/exile-watch/nucleus/commit/1e58bd9))
+* chore: add manual workflow publish trigger ([7a9b48c](https://github.com/exile-watch/nucleus/commit/7a9b48c))
+* chore: remove format script from lint ([f2ce2b7](https://github.com/exile-watch/nucleus/commit/f2ce2b7))
+* chore: update needs step with correct key ([fbf548b](https://github.com/exile-watch/nucleus/commit/fbf548b))
+* chore: update workflow trigger rules ([405bc07](https://github.com/exile-watch/nucleus/commit/405bc07))
+* chore(deps-dev): bump date-fns from 3.5.0 to 3.6.0 ([596f04f](https://github.com/exile-watch/nucleus/commit/596f04f))
+* chore(deps-dev): bump the exile-watch-build-tools group with 3 updates ([78921c0](https://github.com/exile-watch/nucleus/commit/78921c0))
+* chore(deps-dev): bump the lerna group with 1 update ([01a1cca](https://github.com/exile-watch/nucleus/commit/01a1cca))
+* chore(release): publish [skip ci] ([98fc786](https://github.com/exile-watch/nucleus/commit/98fc786))
+* refactor: update jobs naming ([956e994](https://github.com/exile-watch/nucleus/commit/956e994))
 
 
 
-## [0.12.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.8...@exile-watch/encounter-data@0.12.0) (2024-03-25)
+## <small>0.11.7 (2024-03-23)</small>
 
+* chore: add install dependency step ([3a3efe8](https://github.com/exile-watch/nucleus/commit/3a3efe8))
+* chore: experiment with correct gh actor ([7723aca](https://github.com/exile-watch/nucleus/commit/7723aca))
+* chore: lint ([9a3288e](https://github.com/exile-watch/nucleus/commit/9a3288e))
+* chore: use actual values instead of inputs ([952a306](https://github.com/exile-watch/nucleus/commit/952a306))
+* chore: use publish-package composite action ([f044dc5](https://github.com/exile-watch/nucleus/commit/f044dc5))
+* chore(release): publish [skip ci] ([ce5c3ae](https://github.com/exile-watch/nucleus/commit/ce5c3ae))
 
-### ⚠ BREAKING CHANGES
 
-* breaking - change bosses key to encounters and update data
 
-### ✨ Features
+## <small>0.11.6 (2024-03-23)</small>
 
-* breaking - change bosses key to encounters and update data ([03095f4](https://github.com/exile-watch/nucleus/commit/03095f4d6829fa7a7985192736ba78c8bebbbd27))
+* chore: add checkout step to publish job ([4267e7e](https://github.com/exile-watch/nucleus/commit/4267e7e))
+* chore: add code quality ([008d632](https://github.com/exile-watch/nucleus/commit/008d632))
+* chore: add missing dep install step ([e94b3bc](https://github.com/exile-watch/nucleus/commit/e94b3bc))
+* chore: add missing test script ([0ff2fa1](https://github.com/exile-watch/nucleus/commit/0ff2fa1))
+* chore: bump biome config ([2035a61](https://github.com/exile-watch/nucleus/commit/2035a61))
+* chore: bump lefthook ([3bd992c](https://github.com/exile-watch/nucleus/commit/3bd992c))
+* chore: convert to lf ([3ef7133](https://github.com/exile-watch/nucleus/commit/3ef7133))
+* chore: experiment with latest lefthook precommit changes ([4011907](https://github.com/exile-watch/nucleus/commit/4011907))
+* chore: experiment with manual version change ([25b13b9](https://github.com/exile-watch/nucleus/commit/25b13b9))
+* chore: improve release workflow ([37a5781](https://github.com/exile-watch/nucleus/commit/37a5781))
+* chore: improve workflow ([a8e25ac](https://github.com/exile-watch/nucleus/commit/a8e25ac))
+* chore: lint ([7dffbb3](https://github.com/exile-watch/nucleus/commit/7dffbb3))
+* chore: move biome to package level ([db38b32](https://github.com/exile-watch/nucleus/commit/db38b32))
+* chore(release): publish [skip ci] ([224c59b](https://github.com/exile-watch/nucleus/commit/224c59b))
 
 
 
-## [0.11.8](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.7...@exile-watch/encounter-data@0.11.8) (2024-03-23)
+## <small>0.11.3 (2024-03-21)</small>
 
+* chore: add code quality ([1846dcb](https://github.com/exile-watch/nucleus/commit/1846dcb))
+* chore: add format step after content generation ([e28cb81](https://github.com/exile-watch/nucleus/commit/e28cb81))
+* chore(release): publish [skip ci] ([c853d8d](https://github.com/exile-watch/nucleus/commit/c853d8d))
 
-### ⚙️ Internal
 
-* remove format script from lint ([f2ce2b7](https://github.com/exile-watch/nucleus/commit/f2ce2b71142d0fc865530729778cf9d3e210f4b7))
 
+## <small>0.11.2 (2024-03-18)</small>
 
+* chore: add missing dist files ([e85899e](https://github.com/exile-watch/nucleus/commit/e85899e))
+* chore: add missing sitemap xml ([50c1b27](https://github.com/exile-watch/nucleus/commit/50c1b27))
+* chore: add nx and export prepareXml() ([6fab85c](https://github.com/exile-watch/nucleus/commit/6fab85c))
+* chore: add titleCase util to handle url formatting ([84079e2](https://github.com/exile-watch/nucleus/commit/84079e2))
+* chore: sync lock ([5849b73](https://github.com/exile-watch/nucleus/commit/5849b73))
+* chore(release): publish [skip ci] ([7216f7a](https://github.com/exile-watch/nucleus/commit/7216f7a))
+* chore(release): publish [skip ci] ([39b34d4](https://github.com/exile-watch/nucleus/commit/39b34d4))
+* chore(release): publish [skip ci] ([7c3ca4e](https://github.com/exile-watch/nucleus/commit/7c3ca4e))
+* chore(release): publish [skip ci] ([454e0fc](https://github.com/exile-watch/nucleus/commit/454e0fc))
+* chore(release): publish [skip ci] ([18b83d1](https://github.com/exile-watch/nucleus/commit/18b83d1))
+* chore(release): publish [skip ci] ([bc02ed5](https://github.com/exile-watch/nucleus/commit/bc02ed5))
+* chore(release): publish [skip ci] ([914f76a](https://github.com/exile-watch/nucleus/commit/914f76a))
+* chore(release): publish [skip ci] ([cf590b4](https://github.com/exile-watch/nucleus/commit/cf590b4))
+* chore(release): publish [skip ci] ([414879e](https://github.com/exile-watch/nucleus/commit/414879e))
+* chore(release): publish [skip ci] ([386c839](https://github.com/exile-watch/nucleus/commit/386c839))
+* chore(release): publish [skip ci] ([621f5aa](https://github.com/exile-watch/nucleus/commit/621f5aa))
+* docs: update readme ([00301bd](https://github.com/exile-watch/nucleus/commit/00301bd))
+* fix: add safecheck for input ([df25fd1](https://github.com/exile-watch/nucleus/commit/df25fd1))
+* fix: export omitted metas and fix meta type ([8468fa8](https://github.com/exile-watch/nucleus/commit/8468fa8))
+* fix: fix types ([e4b9c6b](https://github.com/exile-watch/nucleus/commit/e4b9c6b))
+* refactor: cleanup ([2e82f2f](https://github.com/exile-watch/nucleus/commit/2e82f2f))
+* feat: add encounters subdirectories ([d616463](https://github.com/exile-watch/nucleus/commit/d616463))
+* feat: add meta data ([aa71bba](https://github.com/exile-watch/nucleus/commit/aa71bba))
 
-## [0.11.7](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.6...@exile-watch/encounter-data@0.11.7) (2024-03-23)
 
 
-### ⚙️ Internal
+## <small>0.11.1 (2024-03-16)</small>
 
-* lint ([9a3288e](https://github.com/exile-watch/nucleus/commit/9a3288ef9aecad86a5f82d2523a25ddabbe60b70))
+* chore: remove unnecessary deps ([0187dda](https://github.com/exile-watch/nucleus/commit/0187dda))
+* chore: remove unused date-fns and seo generateUrl util ([809a67c](https://github.com/exile-watch/nucleus/commit/809a67c))
+* chore(release): publish [skip ci] ([2811b2a](https://github.com/exile-watch/nucleus/commit/2811b2a))
+* feat: init seo package ([56b73c8](https://github.com/exile-watch/nucleus/commit/56b73c8))
 
 
 
-## [0.11.6](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.3...@exile-watch/encounter-data@0.11.6) (2024-03-23)
+## 0.11.0 (2024-03-15)
 
+* chore(deps-dev): bump follow-redirects from 1.15.5 to 1.15.6 ([9a3a823](https://github.com/exile-watch/nucleus/commit/9a3a823))
+* chore(release): publish [skip ci] ([c905c25](https://github.com/exile-watch/nucleus/commit/c905c25))
+* fix: add missed leading slash to indexed search and path jsons ([c2fc500](https://github.com/exile-watch/nucleus/commit/c2fc500))
+* fix: add missing leading slash to paths ([383726a](https://github.com/exile-watch/nucleus/commit/383726a))
+* feat: add preview-publish-package workflow ([dc1f0bb](https://github.com/exile-watch/nucleus/commit/dc1f0bb))
+* feat!: structure files to support poe 1 and poe 2 encounters ([6d3b15a](https://github.com/exile-watch/nucleus/commit/6d3b15a))
 
-### ⚙️ Internal
 
-* add code quality ([008d632](https://github.com/exile-watch/nucleus/commit/008d632819e171b0fcd733a9717eb8d7b363951b))
-* bump biome config ([2035a61](https://github.com/exile-watch/nucleus/commit/2035a617bd7c9348355370669a8a5b3e1bbcfc29))
-* bump lefthook ([3bd992c](https://github.com/exile-watch/nucleus/commit/3bd992cfb60dda09080cf5916560e8a57c582100))
-* convert to lf ([3ef7133](https://github.com/exile-watch/nucleus/commit/3ef71335552acf5496ba13966f5408736ae06be3))
-* experiment with manual version change ([25b13b9](https://github.com/exile-watch/nucleus/commit/25b13b954bcc7813c6c4b63378ed9963bff5ba35))
-* improve release workflow ([37a5781](https://github.com/exile-watch/nucleus/commit/37a578153ef41af73e36ea01e2697fed4b4ddf7e))
-* lint ([7dffbb3](https://github.com/exile-watch/nucleus/commit/7dffbb31e3a8eccc6e08580c2d85af2c7fad3987))
 
+## 0.10.0 (2024-03-11)
 
+* chore(release): publish [skip ci] ([0625580](https://github.com/exile-watch/nucleus/commit/0625580))
+* feat: update content with ommitted tokens ([3721c76](https://github.com/exile-watch/nucleus/commit/3721c76))
 
-## [0.11.3](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.2...@exile-watch/encounter-data@0.11.3) (2024-03-21)
 
 
-### ⚙️ Internal
+## <small>0.9.11 (2024-03-06)</small>
 
-* add code quality ([1846dcb](https://github.com/exile-watch/nucleus/commit/1846dcbf16a2a69db883e4d68ba0f974b8540e92))
-* add format step after content generation ([e28cb81](https://github.com/exile-watch/nucleus/commit/e28cb81e93c19d8ba1e32b3f65ffa84067938a49))
+* chore(release): publish [skip ci] ([c9ea75d](https://github.com/exile-watch/nucleus/commit/c9ea75d))
+* fix: encounter typo ([c6a5922](https://github.com/exile-watch/nucleus/commit/c6a5922))
 
 
 
-## [0.11.2](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.1...@exile-watch/encounter-data@0.11.2) (2024-03-18)
+## <small>0.9.10 (2024-03-03)</small>
 
+* chore(release): publish [skip ci] ([0f9b57a](https://github.com/exile-watch/nucleus/commit/0f9b57a))
+* fix(types): fix encounters index page type ([faa88e0](https://github.com/exile-watch/nucleus/commit/faa88e0))
 
-### 📄 Documentation
 
-* update readme ([00301bd](https://github.com/exile-watch/nucleus/commit/00301bdff64bc2af654c7930a92b41eed722f6cc))
 
+## <small>0.9.9 (2024-03-03)</small>
 
+* chore(release): publish [skip ci] ([3f29a09](https://github.com/exile-watch/nucleus/commit/3f29a09))
+* fix(types): fix indexed search type ([718f336](https://github.com/exile-watch/nucleus/commit/718f336))
 
-## [0.11.1](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.11.0...@exile-watch/encounter-data@0.11.1) (2024-03-16)
 
 
-### ⚙️ Internal
+## <small>0.9.8 (2024-03-03)</small>
 
-* remove unused date-fns and seo generateUrl util ([809a67c](https://github.com/exile-watch/nucleus/commit/809a67c1a3b3dea27e4ecb3a7c26ff59f613f027))
+* chore(release): publish [skip ci] ([a49cba8](https://github.com/exile-watch/nucleus/commit/a49cba8))
+* fix(types): homepage type ([c881f56](https://github.com/exile-watch/nucleus/commit/c881f56))
 
 
 
-## [0.11.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.10.0...@exile-watch/encounter-data@0.11.0) (2024-03-15)
+## <small>0.9.7 (2024-03-03)</small>
 
+* chore(release): publish [skip ci] ([ff44572](https://github.com/exile-watch/nucleus/commit/ff44572))
+* refactor: minor cleanup ([99099a8](https://github.com/exile-watch/nucleus/commit/99099a8))
 
-### ⚠ BREAKING CHANGES
 
-* structure files to support poe 1 and poe 2 encounters
 
-### ✨ Features
+## <small>0.9.6 (2024-03-03)</small>
 
-* structure files to support poe 1 and poe 2 encounters ([6d3b15a](https://github.com/exile-watch/nucleus/commit/6d3b15a90dffc9947b1fe7d3d519c8b960b21540))
+* chore(release): publish [skip ci] ([172aeff](https://github.com/exile-watch/nucleus/commit/172aeff))
+* fix: add BossAbilityType ([8443c26](https://github.com/exile-watch/nucleus/commit/8443c26))
 
 
-### 🐞 Bug Fixes
 
-* add missed leading slash to indexed search and path jsons ([c2fc500](https://github.com/exile-watch/nucleus/commit/c2fc500f783a64920a99f24410a33b30a356e65a))
-* add missing leading slash to paths ([383726a](https://github.com/exile-watch/nucleus/commit/383726a3ecad4e8513ed015213c7e3ddf63f787f))
+## <small>0.9.5 (2024-03-03)</small>
 
+* chore(release): publish [skip ci] ([341bb25](https://github.com/exile-watch/nucleus/commit/341bb25))
+* refactor: remove separate json imports in index file ([65ab2fb](https://github.com/exile-watch/nucleus/commit/65ab2fb))
 
 
-## [0.10.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.11...@exile-watch/encounter-data@0.10.0) (2024-03-11)
 
+## <small>0.9.4 (2024-03-03)</small>
 
-### ✨ Features
+* chore(release): publish [skip ci] ([1007df9](https://github.com/exile-watch/nucleus/commit/1007df9))
+* fix: export last set of omitted types ([e03b208](https://github.com/exile-watch/nucleus/commit/e03b208))
 
-* update content with ommitted tokens ([3721c76](https://github.com/exile-watch/nucleus/commit/3721c76ab23c7ecdd1c6a4a7a1f50002c9319fda))
 
 
+## <small>0.9.3 (2024-03-03)</small>
 
-## [0.9.11](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.10...@exile-watch/encounter-data@0.9.11) (2024-03-06)
+* chore(release): publish [skip ci] ([77af537](https://github.com/exile-watch/nucleus/commit/77af537))
+* fix: types ([58054ea](https://github.com/exile-watch/nucleus/commit/58054ea))
 
 
-### 🐞 Bug Fixes
 
-* encounter typo ([c6a5922](https://github.com/exile-watch/nucleus/commit/c6a5922e897fb3cf791ba089c6b1bfee8365cd10))
+## <small>0.9.2 (2024-03-03)</small>
 
+* chore(release): publish [skip ci] ([ee492fc](https://github.com/exile-watch/nucleus/commit/ee492fc))
+* fix: export types ([b141f36](https://github.com/exile-watch/nucleus/commit/b141f36))
 
 
-## [0.9.10](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.9...@exile-watch/encounter-data@0.9.10) (2024-03-03)
 
+## <small>0.9.1 (2024-03-03)</small>
 
-### 🐞 Bug Fixes
+* chore(release): publish [skip ci] ([ae8fcc1](https://github.com/exile-watch/nucleus/commit/ae8fcc1))
+* refactor: simplify tokens thus the data ([41ce965](https://github.com/exile-watch/nucleus/commit/41ce965))
 
-* **types:** fix encounters index page type ([faa88e0](https://github.com/exile-watch/nucleus/commit/faa88e0b33bbac25a18bbd248de56ae74772aca8))
 
 
+## 0.9.0 (2024-03-01)
 
-## [0.9.9](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.8...@exile-watch/encounter-data@0.9.9) (2024-03-03)
+* chore(release): publish [skip ci] ([7a56850](https://github.com/exile-watch/nucleus/commit/7a56850))
+* feat: add conqueror, elder and shaper guardian and common maps thumbnails ([b444521](https://github.com/exile-watch/nucleus/commit/b444521))
 
 
-### 🐞 Bug Fixes
 
-* **types:** fix indexed search type ([718f336](https://github.com/exile-watch/nucleus/commit/718f336285dba8367ccf2554cc3552b1d024c445))
+## 0.8.0 (2024-03-01)
 
+* chore(release): publish [skip ci] ([ab3209b](https://github.com/exile-watch/nucleus/commit/ab3209b))
+* feat: add common maps thumbnails ([e890e91](https://github.com/exile-watch/nucleus/commit/e890e91))
+* fix: add missing thumbnail references in data ([1e24881](https://github.com/exile-watch/nucleus/commit/1e24881))
+* fix: add missing thumbnail references in extracted data ([d19abe4](https://github.com/exile-watch/nucleus/commit/d19abe4))
 
 
-## [0.9.8](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.7...@exile-watch/encounter-data@0.9.8) (2024-03-03)
 
+## 0.7.0 (2024-03-01)
 
-### 🐞 Bug Fixes
+* chore(release): publish [skip ci] ([8fdda19](https://github.com/exile-watch/nucleus/commit/8fdda19))
+* feat: add first set of experimental thumbnails to showcased encounters ([96db4b3](https://github.com/exile-watch/nucleus/commit/96db4b3))
 
-* **types:** homepage type ([c881f56](https://github.com/exile-watch/nucleus/commit/c881f56c95e93920fdde9181f9fc3b6643e7c42c))
 
 
+## <small>0.6.1 (2024-02-28)</small>
 
-## [0.9.7](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.6...@exile-watch/encounter-data@0.9.7) (2024-03-03)
+* chore(release): publish [skip ci] ([019b384](https://github.com/exile-watch/nucleus/commit/019b384))
+* refactor: beautify json outputs ([2a2e27a](https://github.com/exile-watch/nucleus/commit/2a2e27a))
 
 
-### ⚙️ Code Quality
 
-* minor cleanup ([99099a8](https://github.com/exile-watch/nucleus/commit/99099a8afe18c4a6fb504b3f0cfd13a1a34b7495))
+## 0.6.0 (2024-02-28)
 
+* chore(release): publish [skip ci] ([3ae97a2](https://github.com/exile-watch/nucleus/commit/3ae97a2))
+* feat: add encounters dir page data ([98b39cb](https://github.com/exile-watch/nucleus/commit/98b39cb))
 
 
-## [0.9.6](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.5...@exile-watch/encounter-data@0.9.6) (2024-03-03)
 
+## 0.5.0 (2024-02-28)
 
-### 🐞 Bug Fixes
+* chore(release): publish [skip ci] ([61a4a46](https://github.com/exile-watch/nucleus/commit/61a4a46))
+* feat: add category data ([fa08363](https://github.com/exile-watch/nucleus/commit/fa08363))
 
-* add BossAbilityType ([8443c26](https://github.com/exile-watch/nucleus/commit/8443c2617624926e98cd4d597a0ff48df680927e))
 
 
+## <small>0.4.1 (2024-02-28)</small>
 
-## [0.9.5](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.4...@exile-watch/encounter-data@0.9.5) (2024-03-03)
+* chore(release): publish [skip ci] ([9c37222](https://github.com/exile-watch/nucleus/commit/9c37222))
+* fix: add name key for each generated homepage category ([3d5834b](https://github.com/exile-watch/nucleus/commit/3d5834b))
 
 
-### ⚙️ Code Quality
 
-* remove separate json imports in index file ([65ab2fb](https://github.com/exile-watch/nucleus/commit/65ab2fbfd1dba93a533224c4b0414e17ee4f855a))
+## 0.4.0 (2024-02-28)
 
+* chore(release): publish [skip ci] ([232b6d2](https://github.com/exile-watch/nucleus/commit/232b6d2))
+* feat: add categories to homepage json ([db39816](https://github.com/exile-watch/nucleus/commit/db39816))
 
 
-## [0.9.4](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.3...@exile-watch/encounter-data@0.9.4) (2024-03-03)
 
+## 0.3.0 (2024-02-27)
 
-### 🐞 Bug Fixes
+* chore: rename package json ([c7e33df](https://github.com/exile-watch/nucleus/commit/c7e33df))
+* chore(release): publish [skip ci] ([dfa80cf](https://github.com/exile-watch/nucleus/commit/dfa80cf))
+* feat: add experimental generated homepage json ([ac8051b](https://github.com/exile-watch/nucleus/commit/ac8051b))
+* bricked commit ([04950f7](https://github.com/exile-watch/nucleus/commit/04950f7))
+* bricked commit ([1335b64](https://github.com/exile-watch/nucleus/commit/1335b64))
+* bricked commit ([f3bf9d8](https://github.com/exile-watch/nucleus/commit/f3bf9d8))
+* bricked commit ([028ac6e](https://github.com/exile-watch/nucleus/commit/028ac6e))
+* bricked commit ([d3af1a8](https://github.com/exile-watch/nucleus/commit/d3af1a8))
+* bricked commit ([b9be895](https://github.com/exile-watch/nucleus/commit/b9be895))
+* bricked commit ([fbd4d1d](https://github.com/exile-watch/nucleus/commit/fbd4d1d))
+* bricked commit ([8e0229b](https://github.com/exile-watch/nucleus/commit/8e0229b))
+* bricked commit ([2b3ee2c](https://github.com/exile-watch/nucleus/commit/2b3ee2c))
+* bricked commit ([4f30959](https://github.com/exile-watch/nucleus/commit/4f30959))
+* bricked commit ([5ea3460](https://github.com/exile-watch/nucleus/commit/5ea3460))
+* bricked commit ([f3408fe](https://github.com/exile-watch/nucleus/commit/f3408fe))
+* bricked commit ([ab89f16](https://github.com/exile-watch/nucleus/commit/ab89f16))
+* bricked commit ([a4b4f2e](https://github.com/exile-watch/nucleus/commit/a4b4f2e))
+* bricked commit ([7ca7a43](https://github.com/exile-watch/nucleus/commit/7ca7a43))
+* bricked commit ([bfd8785](https://github.com/exile-watch/nucleus/commit/bfd8785))
+* bricked commit ([0e491b2](https://github.com/exile-watch/nucleus/commit/0e491b2))
+* bricked commit ([96430e1](https://github.com/exile-watch/nucleus/commit/96430e1))
+* bricked commit ([0bc1f51](https://github.com/exile-watch/nucleus/commit/0bc1f51))
+* bricked commit ([ddb56e1](https://github.com/exile-watch/nucleus/commit/ddb56e1))
+* bricked commit ([cc12fb1](https://github.com/exile-watch/nucleus/commit/cc12fb1))
+* bricked commit ([6427fa2](https://github.com/exile-watch/nucleus/commit/6427fa2))
+* bricked commit ([c720e87](https://github.com/exile-watch/nucleus/commit/c720e87))
+* bricked commit ([9b1d3c5](https://github.com/exile-watch/nucleus/commit/9b1d3c5))
+* bricked commit ([0e192ad](https://github.com/exile-watch/nucleus/commit/0e192ad))
+* refactor: remove .lefthook dir due to doubled commit-msg output ([0c94847](https://github.com/exile-watch/nucleus/commit/0c94847))
+* docs: update readme ([152cbe9](https://github.com/exile-watch/nucleus/commit/152cbe9))
 
-* export last set of omitted types ([e03b208](https://github.com/exile-watch/nucleus/commit/e03b2081f43913bf3537019ca76ca9bb03cc9028))
 
 
+## <small>0.2.2 (2024-02-24)</small>
 
-## [0.9.3](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.2...@exile-watch/encounter-data@0.9.3) (2024-03-03)
+* chore(deps-dev): bump ip from 2.0.0 to 2.0.1 ([1ab0787](https://github.com/exile-watch/nucleus/commit/1ab0787))
+* chore(deps): general style improvements and minor fixes after first deploy ([abdcbc9](https://github.com/exile-watch/nucleus/commit/abdcbc9))
+* chore(release): publish [skip ci] ([cd6b725](https://github.com/exile-watch/nucleus/commit/cd6b725))
 
 
-### 🐞 Bug Fixes
 
-* types ([58054ea](https://github.com/exile-watch/nucleus/commit/58054eaa98f63c6c9537d363fb6246568782f3ed))
+## <small>0.2.1 (2024-02-19)</small>
 
+* chore(deps): bump deps ([55105da](https://github.com/exile-watch/nucleus/commit/55105da))
+* chore(deps): change package access to public ([529978d](https://github.com/exile-watch/nucleus/commit/529978d))
+* chore(release): publish [skip ci] ([81195de](https://github.com/exile-watch/nucleus/commit/81195de))
+* chore(workflows): remove gh auth from release workflows ([72282e4](https://github.com/exile-watch/nucleus/commit/72282e4))
+* chore(workflows): revert remove gh auth from release workflows ([850c36c](https://github.com/exile-watch/nucleus/commit/850c36c))
+* refactor(index): remove invalid exports and imports ([6b3b3f0](https://github.com/exile-watch/nucleus/commit/6b3b3f0))
 
 
-## [0.9.2](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.1...@exile-watch/encounter-data@0.9.2) (2024-03-03)
 
+## 0.2.0 (2024-02-14)
 
-### 🐞 Bug Fixes
+* chore(release): publish [skip ci] ([1821929](https://github.com/exile-watch/nucleus/commit/1821929))
+* feat(data): categorize data ([6332437](https://github.com/exile-watch/nucleus/commit/6332437))
 
-* export types ([b141f36](https://github.com/exile-watch/nucleus/commit/b141f36851f018475238d3a2fa91346794d98e94))
 
 
+## <small>0.1.2 (2024-02-12)</small>
 
-## [0.9.1](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.9.0...@exile-watch/encounter-data@0.9.1) (2024-03-03)
+* chore(release): publish [skip ci] ([ebccfc3](https://github.com/exile-watch/nucleus/commit/ebccfc3))
+* fix(data): add missing indexed-search.json and paths.json ([a6e022d](https://github.com/exile-watch/nucleus/commit/a6e022d))
 
 
-### ⚙️ Code Quality
 
-* simplify tokens thus the data ([41ce965](https://github.com/exile-watch/nucleus/commit/41ce965694a8bf735ad0ac7d70adef7df8878c75))
+## <small>0.1.1 (2024-02-12)</small>
 
-
-
-## [0.9.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.8.0...@exile-watch/encounter-data@0.9.0) (2024-03-01)
-
-
-### ✨ Features
-
-* add conqueror, elder and shaper guardian and common maps thumbnails ([b444521](https://github.com/exile-watch/nucleus/commit/b444521862fdde821da7d3766519fda41655beed))
-
-
-
-## [0.8.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.7.0...@exile-watch/encounter-data@0.8.0) (2024-03-01)
-
-
-### ✨ Features
-
-* add common maps thumbnails ([e890e91](https://github.com/exile-watch/nucleus/commit/e890e91da9d303fc11fd5d3927037c02691c4f53))
-
-
-### 🐞 Bug Fixes
-
-* add missing thumbnail references in data ([1e24881](https://github.com/exile-watch/nucleus/commit/1e24881fc938479a076a655d1a2573ab4e3fc61d))
-* add missing thumbnail references in extracted data ([d19abe4](https://github.com/exile-watch/nucleus/commit/d19abe496ad455c14811605b59e601a9e936a2dc))
-
-
-
-## [0.7.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.6.1...@exile-watch/encounter-data@0.7.0) (2024-03-01)
-
-
-### ✨ Features
-
-* add first set of experimental thumbnails to showcased encounters ([96db4b3](https://github.com/exile-watch/nucleus/commit/96db4b3a6f61cf2c7f2891b13faa7d5535157f13))
-
-
-
-## [0.6.1](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.6.0...@exile-watch/encounter-data@0.6.1) (2024-02-28)
-
-
-### ⚙️ Code Quality
-
-* beautify json outputs ([2a2e27a](https://github.com/exile-watch/nucleus/commit/2a2e27aebab8f7293a1d0c52259be82f9f2b32ad))
-
-
-
-## [0.6.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.5.0...@exile-watch/encounter-data@0.6.0) (2024-02-28)
-
-
-### ✨ Features
-
-* add encounters dir page data ([98b39cb](https://github.com/exile-watch/nucleus/commit/98b39cb95657dffe7e6e1d873f8db55eb45c1a90))
-
-
-
-## [0.5.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.4.1...@exile-watch/encounter-data@0.5.0) (2024-02-28)
-
-
-### ✨ Features
-
-* add category data ([fa08363](https://github.com/exile-watch/nucleus/commit/fa08363235f4a665f5c48da21c36788356057032))
-
-
-
-## [0.4.1](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.4.0...@exile-watch/encounter-data@0.4.1) (2024-02-28)
-
-
-### 🐞 Bug Fixes
-
-* add name key for each generated homepage category ([3d5834b](https://github.com/exile-watch/nucleus/commit/3d5834b806b064cf34fd8b1454c36ac7dfb38956))
-
-
-
-## [0.4.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.3.0...@exile-watch/encounter-data@0.4.0) (2024-02-28)
-
-
-### ✨ Features
-
-* add categories to homepage json ([db39816](https://github.com/exile-watch/nucleus/commit/db39816322c284f6a28f1423aa837067adc36271))
-
-
-
-## [0.3.0](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.2.2...@exile-watch/encounter-data@0.3.0) (2024-02-27)
-
-
-### ✨ Features
-
-* add experimental generated homepage json ([ac8051b](https://github.com/exile-watch/nucleus/commit/ac8051b6586e8b283549e05573298b5c3378b2e6))
-
-
-
-## [0.2.2](https://github.com/exile-watch/nucleus/compare/@exile-watch/encounter-data@0.2.1...@exile-watch/encounter-data@0.2.2) (2024-02-24)
-
-
-### ⚙️ Internal
-
-* **deps:** general style improvements and minor fixes after first deploy ([abdcbc9](https://github.com/exile-watch/nucleus/commit/abdcbc9c24d89283ea98f846b6502167c07c4251))
-
-
-
-## [0.2.1](https://github.com/exile-watch/splinters/compare/@exile-watch/encounter-data@0.2.0...@exile-watch/encounter-data@0.2.1) (2024-02-19)
-
-
-### ⚙️ Internal
-
-* **deps:** bump deps ([55105da](https://github.com/exile-watch/splinters/commit/55105da46a19104ba3f4f64f5112d05f56bffc2c))
-* **deps:** change package access to public ([529978d](https://github.com/exile-watch/splinters/commit/529978d94cb0c0d62f18209662e3ae9ecd1516e2))
-
-
-### ⚙️ Code Quality
-
-* **index:** remove invalid exports and imports ([6b3b3f0](https://github.com/exile-watch/splinters/commit/6b3b3f080c6cf824e711acaf9047ff5db51cbf02))
-
-
-
-## [0.2.0](https://github.com/exile-watch/splinters/compare/@exile-watch/encounter-data@0.1.2...@exile-watch/encounter-data@0.2.0) (2024-02-14)
-
-
-### ✨ Features
-
-* **data:** categorize data ([6332437](https://github.com/exile-watch/splinters/commit/63324373ae24003c659892b1e5dbcc798894e246))
-
-
-
-## [0.1.2](https://github.com/exile-watch/splinters/compare/@exile-watch/encounter-data@0.1.1...@exile-watch/encounter-data@0.1.2) (2024-02-12)
-
-
-### 🐞 Bug Fixes
-
-* **data:** add missing indexed-search.json and paths.json ([a6e022d](https://github.com/exile-watch/splinters/commit/a6e022d3ec172784d91b2cc7f703d07adb705f83))
-
-
-
-## [0.1.1](https://github.com/exile-watch/splinters/compare/@exile-watch/encounter-data@0.1.0...@exile-watch/encounter-data@0.1.1) (2024-02-12)
-
-
-### 🐞 Bug Fixes
-
-* **data:** improve json exports ([013a881](https://github.com/exile-watch/splinters/commit/013a881876180ac25be6c9780ecc44b28a823d98))
+* chore(release): publish [skip ci] ([544de4e](https://github.com/exile-watch/nucleus/commit/544de4e))
+* fix(data): improve json exports ([013a881](https://github.com/exile-watch/nucleus/commit/013a881))
 
 
 
 ## 0.1.0 (2024-02-12)
 
+* chore(release): publish [skip ci] ([1006c87](https://github.com/exile-watch/nucleus/commit/1006c87))
+* feat(packages): add encounter data ([72e66bb](https://github.com/exile-watch/nucleus/commit/72e66bb))
+* Initial commit ([48235a1](https://github.com/exile-watch/nucleus/commit/48235a1))
 
-### ✨ Features
 
-* **packages:** add encounter data ([72e66bb](https://github.com/exile-watch/splinters/commit/72e66bb5c853d9f3865c78d66b69befe66559b5f))
+
