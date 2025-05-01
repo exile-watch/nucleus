@@ -23,19 +23,21 @@
   "license": "ISC",
   "homepage": "https://github.com/exile-watch/nucleus#readme",
   "devDependencies": {
-    "@exile-watch/biome-config": "^1.1.2",
+    "@exile-watch/biome-config": "^1.3.0",
     "@exile-watch/conventional-changelog-config": "^1.1.0",
     "@exile-watch/lefthook-config": "^1.1.1",
     "@exile-watch/typescript-config": "^1.1.0",
     "nx": "20.0.3"
   },
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
   "dependencies": {
-    "@exile-watch/voidstone": "^1.0.27"
+    "@exile-watch/voidstone": "^1.1.3"
   }
 }
