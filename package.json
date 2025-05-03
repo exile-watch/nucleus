@@ -27,7 +27,7 @@
     "@exile-watch/conventional-changelog-config": "^1.2.9",
     "@exile-watch/lefthook-config": "^1.2.10",
     "@exile-watch/typescript-config": "^1.2.10",
-    "nx": "20.0.3"
+    "nx": "20.8.1"
   },
   "workspaces": [
     "packages/*"
