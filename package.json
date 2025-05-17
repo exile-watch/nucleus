@@ -38,6 +38,6 @@
     }
   },
   "dependencies": {
-    "@exile-watch/voidstone": "^1.2.0"
+    "@exile-watch/voidstone": "^1.2.3"
   }
 }
