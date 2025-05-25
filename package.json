@@ -27,6 +27,7 @@
     "@exile-watch/conventional-changelog-config": "^1.2.9",
     "@exile-watch/lefthook-config": "^1.2.10",
     "@exile-watch/typescript-config": "^1.2.10",
+    "@exile-watch/voidstone": "^1.3.0",
     "nx": "20.0.3"
   },
   "workspaces": [
@@ -36,8 +37,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "dependencies": {
-    "@exile-watch/voidstone": "^1.3.0"
   }
 }
