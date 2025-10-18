@@ -45,6 +45,6 @@
     "ts-node": "^10.9.2"
   },
   "dependencies": {
-    "next-seo": "^6.8.0"
+    "next-seo": "^7.0.1"
   }
 }
