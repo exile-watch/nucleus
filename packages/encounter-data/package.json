@@ -45,6 +45,6 @@
   "devDependencies": {
     "@exile-watch/rollup-config": "1.1.1",
     "@exile-watch/typescript-config": "^1.2.10",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.23"
   }
 }
